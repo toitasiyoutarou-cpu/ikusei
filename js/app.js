@@ -159,6 +159,286 @@
     const arr = PET_COMMENTS[kind] || PET_COMMENTS.start;
     return arr[Math.floor(Math.random() * arr.length)];
   }
+
+  const MEMORY_ITEMS = [
+    { id:"atom_memory", icon:"⚛️", name:"原子のカケラ", desc:"原子・周期表・結合の土台に触れた証。", test:(q)=>hasCategory(q,"theory_a") },
+    { id:"mol_memory", icon:"🧪", name:"モルのカケラ", desc:"物質量・濃度・量的関係を進めた証。", test:(q)=>/mol|物質量|濃度|質量|体積|反応式/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"rxn_memory", icon:"⚖️", name:"反応式のカケラ", desc:"化学反応式の係数や量的関係を扱った証。", test:(q)=>/化学反応式|係数|過不足|反応式/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"acid_memory", icon:"💧", name:"酸塩基のカケラ", desc:"酸・塩基・pH・中和を学んだ証。", test:(q)=>/酸|塩基|pH|中和|滴定/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"redox_memory", icon:"⚡", name:"酸化還元のカケラ", desc:"電子や酸化数の動きを追った証。", test:(q)=>/酸化|還元|酸化数|電子/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"battery_memory", icon:"🔋", name:"電池のカケラ", desc:"電池・電気分解に取り組んだ証。", test:(q)=>/電池|電気分解|陰極|陽極|ファラデー/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"crystal_memory", icon:"💎", name:"結晶のカケラ", desc:"結晶・状態・気体・溶液の見方を使った証。", test:(q)=>/結晶|気体|状態|溶液|蒸気圧|凝固点/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"inorganic_memory", icon:"🧲", name:"無機のカケラ", desc:"元素・沈殿・イオン分析を攻略した証。", test:(q)=>hasCategory(q,"inorganic") },
+    { id:"organic_memory", icon:"🌿", name:"有機のカケラ", desc:"官能基や有機反応を学んだ証。", test:(q)=>hasCategory(q,"organic") },
+    { id:"structure_memory", icon:"🔍", name:"構造決定のカケラ", desc:"実験結果から構造を推理した証。", test:(q)=>/構造決定|構造推定|未知物質|官能基|異性体/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"life_memory", icon:"🧬", name:"生命化学のカケラ", desc:"糖・アミノ酸・タンパク質・核酸を学んだ証。", test:(q)=>/糖|グルコース|アミノ酸|タンパク質|核酸|DNA|RNA/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"polymer_memory", icon:"🧵", name:"高分子のカケラ", desc:"繊維・樹脂・ゴム・重合を学んだ証。", test:(q)=>hasCategory(q,"polymer") || /高分子|重合|繊維|樹脂|ゴム|ポリ/.test(q.prompt+" "+(q.explanation||"")) },
+    { id:"retry_memory", icon:"🎓", name:"克服のカケラ", desc:"誤答ラボから問題を卒業させた証。", test:(q,correct,result)=>correct && result?.status === "graduated" },
+    { id:"perfect_memory", icon:"👑", name:"完全理解のカケラ", desc:"セッションで全問正解した証。", sessionTest:(sess)=>sess.items?.length>=3 && sess.correct===sess.items.length }
+  ];
+  function hasCategory(q, cid) { return (q.unitWeights||[]).some(w => categoryIdForUnit(w.id) === cid); }
+  function memoryMap() { return save.chemMemories || {}; }
+  function earnedMemories() { const m=memoryMap(); return MEMORY_ITEMS.filter(x=>m[x.id]).map(x=>({ ...x, ...m[x.id] })); }
+  function earnMemory(item, source="") {
+    if (!save.chemMemories) save.chemMemories = {};
+    if (save.chemMemories[item.id]) return false;
+    save.chemMemories[item.id] = { id:item.id, earnedAt:new Date().toISOString(), source };
+    return true;
+  }
+  function evaluateMemoryUnlocks(q, correct, retryResult) {
+    const gained=[];
+    MEMORY_ITEMS.forEach(item => {
+      if (item.test && item.test(q, correct, retryResult) && earnMemory(item, q.id)) gained.push(item);
+    });
+    if (gained.length) showToast(`研究のカケラを発見：${gained.map(x=>x.icon).join("")}`);
+    return gained;
+  }
+  function evaluateSessionMemoryUnlocks() {
+    if (!session) return [];
+    const gained=[];
+    MEMORY_ITEMS.forEach(item => {
+      if (item.sessionTest && item.sessionTest(session) && earnMemory(item, "session")) gained.push(item);
+    });
+    if (gained.length) persist();
+    return gained;
+  }
+  function memoryDiscoveryMarkup(items=[]) {
+    if (!items.length) return "";
+    return `<div class="memory-discovery"><strong>研究のカケラを発見！</strong><div>${items.map(i=>`<span><b>${i.icon}</b>${escapeHtml(i.name)}</span>`).join("")}</div></div>`;
+  }
+
+  const CHEM_PATH_AREAS = [
+    { id:"organic", name:"脂肪族", icon:"🌿", desc:"アルコール・アルデヒド・カルボン酸・エステルのつながり" },
+    { id:"aromatic", name:"芳香族", icon:"⌬", desc:"ベンゼン環の置換反応とフェノール・サリチル酸の流れ" },
+    { id:"inorganic", name:"無機", icon:"🧲", desc:"非金属・典型金属・錯イオン・気体発生の反応" },
+    { id:"polymer", name:"高分子", icon:"🧵", desc:"重合・加水分解・天然高分子のつながり" }
+  ];
+  const CHEM_PATH_NODES = {
+    ethanol:{label:"エタノール",formula:"C₂H₅OH",area:"organic",kind:"material"},
+    ethene:{label:"エチレン",formula:"CH₂=CH₂",area:"organic",kind:"material"},
+    acetaldehyde:{label:"アセトアルデヒド",formula:"CH₃CHO",area:"organic",kind:"material"},
+    acetic_acid:{label:"酢酸",formula:"CH₃COOH",area:"organic",kind:"material"},
+    ethyl_acetate:{label:"酢酸エチル",formula:"CH₃COOC₂H₅",area:"organic",kind:"material"},
+    diethyl_ether:{label:"ジエチルエーテル",formula:"C₂H₅OC₂H₅",area:"organic",kind:"material"},
+    acetylene:{label:"アセチレン",formula:"CH≡CH",area:"organic",kind:"material"},
+    vinyl_chloride:{label:"塩化ビニル",formula:"CH₂=CHCl",area:"organic",kind:"material"},
+    propene:{label:"プロペン",formula:"CH₂=CHCH₃",area:"organic",kind:"material"},
+    propanol1:{label:"1-プロパノール",formula:"CH₃CH₂CH₂OH",area:"organic",kind:"material"},
+    propanal:{label:"プロピオンアルデヒド",formula:"CH₃CH₂CHO",area:"organic",kind:"material"},
+    propionic_acid:{label:"プロピオン酸",formula:"CH₃CH₂COOH",area:"organic",kind:"material"},
+    benzene:{label:"ベンゼン",formula:"C₆H₆",area:"aromatic",kind:"material"},
+    chlorobenzene:{label:"クロロベンゼン",formula:"C₆H₅Cl",area:"aromatic",kind:"material"},
+    nitrobenzene:{label:"ニトロベンゼン",formula:"C₆H₅NO₂",area:"aromatic",kind:"material"},
+    benzenesulfonic:{label:"ベンゼンスルホン酸",formula:"C₆H₅SO₃H",area:"aromatic",kind:"material"},
+    phenol:{label:"フェノール",formula:"C₆H₅OH",area:"aromatic",kind:"material"},
+    sodium_phenoxide:{label:"ナトリウムフェノキシド",formula:"C₆H₅ONa",area:"aromatic",kind:"material"},
+    salicylic_acid:{label:"サリチル酸",formula:"HOC₆H₄COOH",area:"aromatic",kind:"material"},
+    acetylsalicylic:{label:"アセチルサリチル酸",formula:"",area:"aromatic",kind:"material"},
+    aniline:{label:"アニリン",formula:"C₆H₅NH₂",area:"aromatic",kind:"material"},
+    chlorine:{label:"塩素",formula:"Cl₂",area:"inorganic",kind:"material"},
+    hydrogen_chloride:{label:"塩化水素",formula:"HCl",area:"inorganic",kind:"material"},
+    sulfur_dioxide:{label:"二酸化硫黄",formula:"SO₂",area:"inorganic",kind:"material"},
+    sulfuric_acid:{label:"硫酸",formula:"H₂SO₄",area:"inorganic",kind:"material"},
+    ammonia:{label:"アンモニア",formula:"NH₃",area:"inorganic",kind:"material"},
+    ammonium_chloride:{label:"塩化アンモニウム",formula:"NH₄Cl",area:"inorganic",kind:"material"},
+    aluminum_hydroxide:{label:"水酸化アルミニウム",formula:"Al(OH)₃",area:"inorganic",kind:"material"},
+    aluminate:{label:"テトラヒドロキシドアルミン酸イオン",formula:"[Al(OH)₄]⁻",area:"inorganic",kind:"material"},
+    copper_hydroxide:{label:"水酸化銅(Ⅱ)",formula:"Cu(OH)₂",area:"inorganic",kind:"material"},
+    tetraammine_copper:{label:"テトラアンミン銅(Ⅱ)イオン",formula:"[Cu(NH₃)₄]²⁺",area:"inorganic",kind:"material"},
+    ethylene:{label:"エチレン",formula:"CH₂=CH₂",area:"polymer",kind:"material"},
+    polyethylene:{label:"ポリエチレン",formula:"[-CH₂-CH₂-]ₙ",area:"polymer",kind:"material"},
+    vinyl_chloride_poly:{label:"塩化ビニル",formula:"CH₂=CHCl",area:"polymer",kind:"material"},
+    pvc:{label:"ポリ塩化ビニル",formula:"[-CH₂-CHCl-]ₙ",area:"polymer",kind:"material"},
+    glucose:{label:"グルコース",formula:"C₆H₁₂O₆",area:"polymer",kind:"material"},
+    starch:{label:"デンプン",formula:"(C₆H₁₀O₅)ₙ",area:"polymer",kind:"material"},
+    amino_acid:{label:"α-アミノ酸",formula:"R-CH(NH₂)COOH",area:"polymer",kind:"material"},
+    peptide:{label:"ペプチド",formula:"-CO-NH-",area:"polymer",kind:"material"},
+    pet:{label:"PET",formula:"ポリエチレンテレフタラート",area:"polymer",kind:"material"}
+  };
+  const CHEM_PATH_SKILLS = {
+    heat:{icon:"🔥",name:"加熱",cat:"theory_b",lv:2,desc:"温度条件で反応を進める力"},
+    oxidation:{icon:"◌",name:"酸化",cat:"theory_b",lv:4,desc:"酸化剤や酸化数の変化を見抜く力"},
+    reduction:{icon:"↩",name:"還元",cat:"theory_b",lv:4,desc:"電子を受け取る変化を見抜く力"},
+    dehydration:{icon:"〰",name:"脱水",cat:"organic",lv:4,desc:"水が抜けて不飽和結合やエーテルを生む流れ"},
+    addition:{icon:"＋",name:"付加",cat:"organic",lv:3,desc:"二重結合・三重結合に小分子が加わる反応"},
+    esterification:{icon:"◇",name:"エステル化",cat:"organic",lv:6,desc:"カルボン酸とアルコールからエステルをつくる力"},
+    hydrolysis:{icon:"💧",name:"加水分解",cat:"organic",lv:5,desc:"水で結合を切り、もとの構成要素を見抜く力"},
+    saponification:{icon:"✂",name:"けん化",cat:"organic",lv:7,desc:"塩基でエステルを分解する力"},
+    substitution:{icon:"⇄",name:"置換",cat:"organic",lv:5,desc:"芳香族やアルカンで原子団が入れ替わる反応"},
+    nitration:{icon:"N",name:"ニトロ化",cat:"organic",lv:6,desc:"混酸でニトロ基を導入する力"},
+    sulfonation:{icon:"S",name:"スルホン化",cat:"organic",lv:7,desc:"スルホ基を導入し、次の合成へつなげる力"},
+    diazo:{icon:"N≡",name:"ジアゾ化",cat:"organic",lv:8,desc:"アニリンからアゾ色素へつなげる力"},
+    precipitation:{icon:"▣",name:"沈殿生成",cat:"inorganic",lv:3,desc:"沈殿色や溶解性からイオンを見抜く力"},
+    complex:{icon:"◎",name:"錯イオン形成",cat:"inorganic",lv:6,desc:"過剰試薬で沈殿が溶ける流れを読む力"},
+    gas:{icon:"↑",name:"気体発生",cat:"inorganic",lv:3,desc:"気体の発生条件と捕集法を結びつける力"},
+    amphoteric:{icon:"±",name:"両性反応",cat:"inorganic",lv:5,desc:"酸にも塩基にも反応する物質を扱う力"},
+    polymerization:{icon:"⛓",name:"重合",cat:"polymer",lv:4,desc:"単量体から高分子へつなげる力"},
+    condensation:{icon:"⊕",name:"縮合",cat:"polymer",lv:5,desc:"水などを外して高分子をつくる力"},
+    structure:{icon:"🔍",name:"構造決定",cat:"organic",lv:8,desc:"実験結果から候補を絞る推理力"}
+  };
+  const CHEM_PATH_EDGES = [
+    {area:"organic",from:"ethanol",to:"ethene",skill:"dehydration",label:"160〜170℃・濃硫酸",keywords:["エタノール","脱水","エチレン"]},
+    {area:"organic",from:"ethanol",to:"diethyl_ether",skill:"dehydration",label:"130〜140℃・濃硫酸",keywords:["ジエチルエーテル","分子間脱水"]},
+    {area:"organic",from:"ethanol",to:"acetaldehyde",skill:"oxidation",label:"酸化",keywords:["エタノール","アセトアルデヒド","酸化"]},
+    {area:"organic",from:"acetaldehyde",to:"acetic_acid",skill:"oxidation",label:"さらに酸化",keywords:["アセトアルデヒド","酢酸","酸化"]},
+    {area:"organic",from:"acetic_acid",to:"ethyl_acetate",skill:"esterification",label:"＋エタノール",keywords:["酢酸エチル","エステル化","酢酸"]},
+    {area:"organic",from:"ethyl_acetate",to:"acetic_acid",skill:"hydrolysis",label:"加水分解",keywords:["酢酸エチル","加水分解","けん化"]},
+    {area:"organic",from:"acetylene",to:"acetaldehyde",skill:"addition",label:"水付加→不安定→異性化",keywords:["アセチレン","水付加","アセトアルデヒド"]},
+    {area:"organic",from:"acetylene",to:"vinyl_chloride",skill:"addition",label:"HCl付加",keywords:["塩化ビニル","アセチレン","付加"]},
+    {area:"organic",from:"propene",to:"propanol1",skill:"addition",label:"水付加",keywords:["プロペン","プロパノール","付加"]},
+    {area:"organic",from:"propanol1",to:"propanal",skill:"oxidation",label:"酸化",keywords:["1-プロパノール","プロピオンアルデヒド","酸化"]},
+    {area:"organic",from:"propanal",to:"propionic_acid",skill:"oxidation",label:"さらに酸化",keywords:["プロピオン酸","プロピオンアルデヒド"]},
+    {area:"aromatic",from:"benzene",to:"chlorobenzene",skill:"substitution",label:"Cl₂・Fe",keywords:["ベンゼン","クロロベンゼン","置換"]},
+    {area:"aromatic",from:"benzene",to:"nitrobenzene",skill:"nitration",label:"混酸",keywords:["ニトロベンゼン","ニトロ化","混酸"]},
+    {area:"aromatic",from:"benzene",to:"benzenesulfonic",skill:"sulfonation",label:"濃硫酸",keywords:["ベンゼンスルホン酸","スルホン化"]},
+    {area:"aromatic",from:"benzenesulfonic",to:"phenol",skill:"substitution",label:"アルカリ融解→酸処理",keywords:["フェノール","ベンゼンスルホン酸","アルカリ融解"]},
+    {area:"aromatic",from:"phenol",to:"sodium_phenoxide",skill:"substitution",label:"NaOH",keywords:["フェノール","ナトリウムフェノキシド"]},
+    {area:"aromatic",from:"sodium_phenoxide",to:"salicylic_acid",skill:"substitution",label:"CO₂・高温高圧",keywords:["サリチル酸","ナトリウムフェノキシド"]},
+    {area:"aromatic",from:"salicylic_acid",to:"acetylsalicylic",skill:"esterification",label:"無水酢酸",keywords:["アセチルサリチル酸","サリチル酸","エステル化"]},
+    {area:"aromatic",from:"nitrobenzene",to:"aniline",skill:"reduction",label:"Sn/HCl",keywords:["アニリン","ニトロベンゼン","還元"]},
+    {area:"aromatic",from:"aniline",to:"phenol",skill:"diazo",label:"ジアゾ化→加水分解",keywords:["アニリン","ジアゾ","フェノール"]},
+    {area:"inorganic",from:"chlorine",to:"hydrogen_chloride",skill:"gas",label:"H₂と反応",keywords:["塩素","塩化水素","気体"]},
+    {area:"inorganic",from:"sulfur_dioxide",to:"sulfuric_acid",skill:"oxidation",label:"酸化→水和",keywords:["二酸化硫黄","硫酸","酸化"]},
+    {area:"inorganic",from:"ammonia",to:"ammonium_chloride",skill:"gas",label:"HClと白煙",keywords:["アンモニア","塩化水素","塩化アンモニウム"]},
+    {area:"inorganic",from:"aluminum_hydroxide",to:"aluminate",skill:"amphoteric",label:"過剰NaOH",keywords:["水酸化アルミニウム","両性","水酸化ナトリウム"]},
+    {area:"inorganic",from:"copper_hydroxide",to:"tetraammine_copper",skill:"complex",label:"過剰NH₃",keywords:["銅","アンモニア","錯イオン","深青色"]},
+    {area:"polymer",from:"ethylene",to:"polyethylene",skill:"polymerization",label:"付加重合",keywords:["ポリエチレン","エチレン","付加重合"]},
+    {area:"polymer",from:"vinyl_chloride_poly",to:"pvc",skill:"polymerization",label:"付加重合",keywords:["ポリ塩化ビニル","塩化ビニル"]},
+    {area:"polymer",from:"glucose",to:"starch",skill:"condensation",label:"脱水縮合",keywords:["グルコース","デンプン","多糖"]},
+    {area:"polymer",from:"starch",to:"glucose",skill:"hydrolysis",label:"加水分解",keywords:["デンプン","加水分解","グルコース"]},
+    {area:"polymer",from:"amino_acid",to:"peptide",skill:"condensation",label:"ペプチド結合",keywords:["アミノ酸","ペプチド","タンパク質"]},
+    {area:"polymer",from:"salicylic_acid",to:"pet",skill:"condensation",label:"高分子の原料へ",keywords:["PET","ポリエチレンテレフタラート","縮合"]}
+  ];
+  function skillUnlocked(skillId) {
+    const sk = CHEM_PATH_SKILLS[skillId];
+    if (!sk) return false;
+    if ((save.reactionSkills || {})[skillId]) return true;
+    return categoryStat(sk.cat).level >= sk.lv;
+  }
+  function skillNextXp(skillId) {
+    const sk = CHEM_PATH_SKILLS[skillId];
+    if (!sk) return 0;
+    const cat = categoryStat(sk.cat);
+    return Math.max(0, xpForLevel(sk.lv) - cat.avgXp);
+  }
+  function pathEdgesForArea(area) { return CHEM_PATH_EDGES.filter(e => e.area === area); }
+  function pathNodesForArea(area) {
+    const ids = new Set(); pathEdgesForArea(area).forEach(e=>{ ids.add(e.from); ids.add(e.to); });
+    return [...ids].map(id => ({ id, ...CHEM_PATH_NODES[id] })).filter(n=>n.label);
+  }
+  function pathDiscoveryCount(area = null) {
+    const edges = area ? pathEdgesForArea(area) : CHEM_PATH_EDGES;
+    const found = edges.filter(e => skillUnlocked(e.skill)).length;
+    return { found, total: edges.length };
+  }
+  function renderChemPath(params = {}) {
+    const area = params.area || currentPathArea || "organic";
+    currentPathArea = area;
+    const nodes = pathNodesForArea(area);
+    const focus = params.focus || save.chemPathFocus?.[area] || nodes[0]?.id || "ethanol";
+    if (!save.chemPathFocus) save.chemPathFocus = {};
+    save.chemPathFocus[area] = focus;
+    persist();
+    const node = CHEM_PATH_NODES[focus] || nodes[0];
+    const areaObj = CHEM_PATH_AREAS.find(a=>a.id===area) || CHEM_PATH_AREAS[0];
+    const related = pathEdgesForArea(area).filter(e => e.from === focus || e.to === focus);
+    const discovered = pathDiscoveryCount();
+    const areaDiscovered = pathDiscoveryCount(area);
+    const learnedSkills = Object.entries(CHEM_PATH_SKILLS).filter(([id])=>skillUnlocked(id));
+    main.innerHTML = `${backBar("CHEM PATH")}
+      <section class="panel chem-path-hero">
+        <div><p class="eyebrow">CHEM PATH</p><h1>化学のつながりを発見する</h1><p>レベルアップで「酸化」「加熱」「エステル化」などの反応スキルを覚え、マップの道が広がります。</p></div>
+        <strong>${discovered.found} / ${discovered.total}<small> DISCOVERED</small></strong>
+      </section>
+      <div class="path-tabs">${CHEM_PATH_AREAS.map(a=>`<button class="${a.id===area?'active':''}" data-action="chem-path-area" data-area="${a.id}">${a.icon} ${escapeHtml(a.name)}</button>`).join("")}</div>
+      <section class="chem-path-stage panel">
+        <div class="path-stage-head"><div><h2>${areaObj.icon} ${escapeHtml(areaObj.name)}</h2><p>${escapeHtml(areaObj.desc)}　発見 ${areaDiscovered.found}/${areaDiscovered.total}</p></div><button class="btn secondary" data-action="path-review-area" data-area="${area}">このエリアを3問</button></div>
+        <div class="path-focus-layout">
+          <div class="path-node-center"><span class="path-glow">✦</span><div class="path-node main"><small>CURRENT</small><strong>${escapeHtml(node.label)}</strong><em>${escapeHtml(node.formula || "")}</em></div><p>${related.length ? "周囲の反応をタップして復習できます。" : "この物質の反応は準備中です。"}</p></div>
+          <div class="path-orbits">${related.map((e,idx)=>pathEdgeCard(e, focus, idx)).join("")}</div>
+        </div>
+      </section>
+      <section class="panel path-skill-panel"><div><h2>習得した反応スキル</h2><p>スキルはレベル到達で自動的に有効になります。ロック中の道は、必要レベルまであと少し。</p></div><div class="skill-chip-grid">${Object.entries(CHEM_PATH_SKILLS).map(([id,sk])=>skillChip(id,sk)).join("")}</div></section>
+      <section class="panel path-node-list"><div><h2>発見済みノード</h2><p>大きな一枚マップにせず、選んだ物質を中心に表示するのでiPadでも見やすくしています。</p></div><div>${nodes.map(n=>`<button class="path-mini-node ${n.id===focus?'active':''}" data-action="chem-path-focus" data-area="${area}" data-focus="${n.id}"><strong>${escapeHtml(n.label)}</strong><small>${escapeHtml(n.formula || "")}</small></button>`).join("")}</div></section>`;
+  }
+  function pathEdgeCard(edge, focus, idx) {
+    const sk = CHEM_PATH_SKILLS[edge.skill];
+    const otherId = edge.from === focus ? edge.to : edge.from;
+    const other = CHEM_PATH_NODES[otherId] || { label:"？？？", formula:"" };
+    const from = CHEM_PATH_NODES[edge.from] || {};
+    const to = CHEM_PATH_NODES[edge.to] || {};
+    const unlocked = skillUnlocked(edge.skill);
+    const side = idx % 3;
+    return `<article class="path-edge-card pos-${side} ${unlocked?'unlocked':'locked'}">
+      <div class="path-skill-mark"><span>${unlocked ? sk.icon : "🔒"}</span><b>${escapeHtml(sk.name)}</b></div>
+      <button class="path-node small" data-action="chem-path-focus" data-area="${edge.area}" data-focus="${otherId}" ${unlocked?"":"disabled"}><strong>${unlocked?escapeHtml(other.label):"？？？"}</strong><em>${unlocked?escapeHtml(other.formula || ""):"Lvで解放"}</em></button>
+      <p>${escapeHtml(from.label)} → ${unlocked?escapeHtml(to.label):"？？？"}</p>
+      <small>${escapeHtml(edge.label)}${unlocked ? "" : ` / あと${skillNextXp(edge.skill)}XP`}</small>
+      <button class="btn small ${unlocked?'secondary':''}" data-action="path-review" data-edge="${CHEM_PATH_EDGES.indexOf(edge)}" ${unlocked?"":"disabled"}>関連3問</button>
+    </article>`;
+  }
+  function skillChip(id, sk) {
+    const unlocked = skillUnlocked(id);
+    return `<div class="skill-chip ${unlocked?'on':'off'}"><span>${unlocked?sk.icon:"🔒"}</span><strong>${escapeHtml(sk.name)}</strong><small>${unlocked?"習得済み":`Lv.${sk.lv} / あと${skillNextXp(id)}XP`}</small></div>`;
+  }
+  function pathQuestionPool(edge) {
+    const words = (edge?.keywords || []).filter(Boolean);
+    if (!words.length) return [];
+    return questions.filter(q => words.some(w => (q.prompt+" "+(q.explanation||"")+" "+(q.attackPoint||"")).includes(w)));
+  }
+  function startPathReview(edgeIndex) {
+    const edge = CHEM_PATH_EDGES[Number(edgeIndex)];
+    if (!edge || !skillUnlocked(edge.skill)) return showToast("この反応はまだロック中です");
+    const pool = pathQuestionPool(edge);
+    if (!pool.length) return showToast("関連問題は準備中です");
+    session = { mode:"path", requestedCount:3, items:takeRandom(pool,3), index:0, correct:0, xpByUnit:{}, currentAnswered:false, currentSelection:[], hintLevel:0 };
+    renderQuestion();
+  }
+  function startPathAreaReview(area) {
+    const edges = pathEdgesForArea(area).filter(e => skillUnlocked(e.skill));
+    const pool = [...new Set(edges.flatMap(e => pathQuestionPool(e)))];
+    if (!pool.length) return showToast("このエリアの関連問題は準備中です");
+    session = { mode:"path-area", requestedCount:3, items:takeRandom(pool,3), index:0, correct:0, xpByUnit:{}, currentAnswered:false, currentSelection:[], hintLevel:0 };
+    renderQuestion();
+  }
+
+  function renderMemoryBook() {
+    const mem=memoryMap();
+    main.innerHTML = `${backBar("研究図鑑")}<section class="panel memory-hero"><p class="eyebrow">CHEM MEMORY</p><h1>研究のカケラ</h1><p>装備やガチャではなく、学んだ軌跡を集める図鑑です。単元攻略・誤答克服・構造決定などで発見します。</p><strong>${Object.keys(mem).length} / ${MEMORY_ITEMS.length}</strong></section>
+      <section class="memory-grid">${MEMORY_ITEMS.map(item=>{ const got=mem[item.id]; return `<div class="memory-card ${got?'earned':'locked'}"><div class="memory-icon">${got?item.icon:"？"}</div><h3>${got?escapeHtml(item.name):"？？？"}</h3><p>${got?escapeHtml(item.desc):"ヒント：関連する学習や克服で発見できるかも。"}</p>${got?`<small>${new Date(got.earnedAt).toLocaleDateString("ja-JP")} 獲得</small>`:""}</div>`; }).join("")}</section>`;
+  }
+  function petAffinityValue() { return (save.petAffinity || {})[save.selectedPetId] || 0; }
+  function addPetAffinity(amount, reason="") {
+    if (!save.petAffinity) save.petAffinity = {};
+    save.petAffinity[save.selectedPetId] = petAffinityValue() + amount;
+    save.lastAffinityReason = reason;
+  }
+  function petRelation() {
+    const xp = petAffinityValue();
+    if (xp >= 260) return { stage:4, name:"最高のパートナー", progress:100, next:0, line:"最近の成長まで覚えてくれる関係。" };
+    if (xp >= 140) return { stage:3, name:"頼れる相棒", progress:Math.round((xp-140)/120*100), next:260-xp, line:"過去の苦手や克服に触れてくれる。" };
+    if (xp >= 60) return { stage:2, name:"研究仲間", progress:Math.round((xp-60)/80*100), next:140-xp, line:"学習の変化に気づいてくれる。" };
+    return { stage:1, name:"はじめまして", progress:Math.round(xp/60*100), next:60-xp, line:"まずは一緒に学習を始める段階。" };
+  }
+  const RELATION_COMMENTS = {
+    1:["一緒にやってみよう。ヒントが必要なら呼んでね。","まずは3問だけでも大丈夫。"],
+    2:["最近、少しずつ学習が安定してきたね。","この調子なら次のレベルも見えてきそう。"],
+    3:["前に苦戦した問題も、今ならいけるかも。","苦手に触れられているの、かなり強いよ。"],
+    4:["最初のころより、考え方がかなり育ってるよ。","今日は無理しすぎず、必要なら3問だけにしよ。"]
+  };
+  function petRelationComment() { const r=petRelation(); const arr=RELATION_COMMENTS[r.stage] || RELATION_COMMENTS[1]; return arr[Math.floor(Math.random()*arr.length)]; }
+  function unlockPlanMarkup(cat) {
+    const unlocks=[{lv:3,text:"プロフィール分析が詳しくなる"},{lv:5,text:"思考チャレンジ推奨"},{lv:7,text:"研究ミッション推奨"},{lv:10,text:"MASTER問題の目安"}];
+    return `<div class="unlock-plan"><strong>${cat.icon} ${escapeHtml(cat.name)} レベル解放</strong>${unlocks.map(u=>`<div class="unlock-row ${cat.level>=u.lv?'done':''}"><span>Lv.${u.lv}</span><p>${escapeHtml(u.text)}</p></div>`).join("")}</div>`;
+  }
+  function startAfterThree() {
+    const near = nearestLevelCategory();
+    const ids = new Set(categoryUnits(near.id).map(u => u.id));
+    const pool = questions.filter(q => q.unitWeights.some(w => ids.has(w.id)));
+    if (!pool.length) return showToast("あと3問の候補がありません");
+    session = { mode:"after3", requestedCount:3, items:takeRandom(pool,3), index:0, correct:0, xpByUnit:{}, currentAnswered:false, currentSelection:[], hintLevel:0 };
+    renderQuestion();
+  }
   function weakestCategory() {
     return categoryStats().sort((a,b)=>a.avgXp-b.avgXp)[0] || categoryStats()[0];
   }
@@ -200,6 +480,11 @@
     studySessions: 0,
     wrongBank: {},
     retryGraduated: 0,
+    chemMemories: {},
+    petAffinity: Object.fromEntries(chars.pets.map(c => [c.id, 0])),
+    reactionSkills: {},
+    chemPathFocus: { organic:"ethanol", aromatic:"benzene", inorganic:"chlorine", polymer:"ethylene" },
+    lastAffinityReason: "",
     lastPlayedAt: null
   });
 
@@ -216,7 +501,11 @@
         unitXp: { ...fresh.unitXp, ...(saved.unitXp || {}) },
         unitAttempts: { ...fresh.unitAttempts, ...(saved.unitAttempts || {}) },
         unitCorrect: { ...fresh.unitCorrect, ...(saved.unitCorrect || {}) },
-        wrongBank: { ...fresh.wrongBank, ...(saved.wrongBank || {}) }
+        wrongBank: { ...fresh.wrongBank, ...(saved.wrongBank || {}) },
+        chemMemories: { ...fresh.chemMemories, ...(saved.chemMemories || {}) },
+        petAffinity: { ...fresh.petAffinity, ...(saved.petAffinity || {}) },
+        reactionSkills: { ...fresh.reactionSkills, ...(saved.reactionSkills || {}) },
+        chemPathFocus: { ...fresh.chemPathFocus, ...(saved.chemPathFocus || {}) }
       };
     } catch (error) {
       console.warn("セーブデータを読み込めませんでした", error);
@@ -227,6 +516,7 @@
   let save = loadSave();
   let route = "home";
   let currentCourse = "basic";
+  let currentPathArea = "organic";
   let session = null;
 
   function persist() {
@@ -507,6 +797,8 @@
     else if (next === "status") renderStatus();
     else if (next === "records") renderRecords();
     else if (next === "retry") renderRetryLab();
+    else if (next === "memory") renderMemoryBook();
+    else if (next === "path") renderChemPath(params);
     else if (next === "settings") renderSettings();
     main.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -535,13 +827,15 @@
           <p class="home-lead">今日はまず${dailyCount || 0}問。短く解いて、ステータスを少しずつ育てます。</p>
           <div class="home-partner-line">
             ${pairMarkup(true)}
-            <div class="pet-home-bubble"><strong>${escapeHtml(p.name)}</strong><p>${escapeHtml(pickComment("start"))}</p></div>
+            <div class="pet-home-bubble"><strong>${escapeHtml(p.name)}｜${escapeHtml(petRelation().name)}</strong><p>${escapeHtml(petRelationComment())}</p><small>次の関係まで ${petRelation().next}pt</small></div>
           </div>
           <div class="home-actions">
             <button class="btn primary" data-action="daily-3">今日の3問</button>
             <button class="btn secondary" data-route="units">単元から学ぶ</button>
             <button class="btn secondary" data-route="status">ステータス</button>
             <button class="btn secondary" data-route="retry">誤答ラボ ${wrongCount ? `(${wrongCount})` : ""}</button>
+            <button class="btn secondary" data-route="memory">研究図鑑 ${Object.keys(memoryMap()).length}/${MEMORY_ITEMS.length}</button>
+            <button class="btn secondary" data-route="path">CHEM PATH</button>
           </div>
         </div>
         <div class="home-side-card panel">
@@ -550,11 +844,20 @@
           <div class="weak-card"><strong>おすすめ復習</strong><p>${weak.icon} ${escapeHtml(weak.name)}を少し触ると全体が安定しそう。</p></div>
           <button class="btn primary full" data-action="study-weak">おすすめ3問</button>
           <button class="btn secondary full" data-route="retry">誤答ラボ ${wrongCount ? `${wrongCount}問` : "空"}</button>
+          <button class="btn primary full" data-action="after-3">あと3問だけやる</button>
+          <button class="btn secondary full" data-route="memory">研究図鑑を見る</button>
+          <button class="btn secondary full" data-route="path">CHEM PATHを見る</button>
         </div>
       </section>
       <section class="home-status-grid">
         ${stats.map(categoryMiniCard).join("")}
       </section>
+      <section class="panel growth-loop-panel">
+        <div><h2>次に起こる成長</h2><p>レベルアップで、分析・思考チャレンジ・研究ミッションの目安が解放されます。</p></div>
+        ${unlockPlanMarkup(near)}
+      </section>
+      <section class="panel memory-home-panel"><div><h2>研究のカケラ</h2><p>学んだ証を集める図鑑。今は <strong>${Object.keys(memoryMap()).length}/${MEMORY_ITEMS.length}</strong> 個発見済み。</p></div><button class="btn" data-route="memory">図鑑を開く</button></section>
+      <section class="panel chem-path-home"><div><h2>CHEM PATH</h2><p>反応スキルを覚えると、化学のつながりが広がります。発見 <strong>${pathDiscoveryCount().found}/${pathDiscoveryCount().total}</strong></p></div><button class="btn primary" data-route="path">マップを開く</button></section>
       <section class="stat-strip compact-strip">
         <div class="metric"><span>学習セッション</span><strong>${save.studySessions}</strong><em>回</em></div>
         <div class="metric"><span>解答した問題</span><strong>${save.totalQuestions}</strong><em>問</em></div>
@@ -568,6 +871,7 @@
         <button class="quick-card" data-action="course" data-course="exam"><span class="icon">🎯</span><span><strong>共通テスト・総合対策</strong><small>実戦問題を選択</small></span></button>
         <button class="quick-card" data-action="open-character"><span class="icon">🐾</span><span><strong>主人公・ペット</strong><small>${escapeHtml(h.name)}＋${escapeHtml(p.name)}</small></span></button>
         <button class="quick-card" data-route="retry"><span class="icon">🧪</span><span><strong>誤答ラボ</strong><small>間違えた問題だけリトライ</small></span></button>
+        <button class="quick-card" data-route="path"><span class="icon">🗺️</span><span><strong>CHEM PATH</strong><small>反応マップから復習</small></span></button>
       </section>`;
   }
 
@@ -647,7 +951,8 @@
       <div class="status-hero panel">
         <div>${pairMarkup()}<div class="pair-meta"><div><strong>${escapeHtml(h.name)} ＋ ${escapeHtml(p.name)}</strong><small>現在の学習パートナー</small></div><button class="btn" data-action="open-character">変更</button></div></div>
         <div class="status-summary"><p class="eyebrow">LEARNING PROFILE</p><h1>${escapeHtml(save.profileName)}の学習プロフィール</h1><p>キャラクターの設定ではなく、実際に解いた問題の正答率・学習量・レベルから「強み」と「伸びしろ」を分析します。</p>
-          <div class="partner-mini"><div><span>主人公</span><strong>Lv.${levelFromXp(save.heroXp[h.id]||0)}</strong><small>${save.heroXp[h.id]||0} XP</small></div><div><span>ペット</span><strong>Lv.${levelFromXp(save.petXp[p.id]||0)}</strong><small>${save.petXp[p.id]||0} XP</small></div></div>
+          <div class="partner-mini"><div><span>主人公</span><strong>Lv.${levelFromXp(save.heroXp[h.id]||0)}</strong><small>${save.heroXp[h.id]||0} XP</small></div><div><span>ペット</span><strong>${escapeHtml(petRelation().name)}</strong><small>親密度 ${petAffinityValue()}pt</small></div></div>
+          <div class="relation-card"><strong>ペットとの関係</strong>${progressMarkup(petRelation().progress, petRelation().stage+2)}<p>${escapeHtml(petRelation().line)} ${escapeHtml(petRelationComment())}</p></div>
           <div class="strength-board learning-board"><div><strong>今の強み</strong><p>${escapeHtml(strongHeadline)}</p></div><div><strong>次の伸びしろ</strong><p>${escapeHtml(growthHeadline)}</p></div></div>
           <div class="partner-affinity-note"><strong>パートナー特性</strong><span>得意：${partnerStrongNames.map(escapeHtml).join("・") || "バランス型"}</span><span>苦手：${partnerWeakNames.map(escapeHtml).join("・") || "特になし"}</span></div>
         </div>
@@ -686,6 +991,7 @@
           <div class="xp-row"><span>正答数</span><span>${save.totalCorrect}問</span></div>
           <div class="xp-row"><span>正答率</span><span>${accuracy()}%</span></div>
         </div></div>
+        <div class="record-card"><h3>研究のカケラ</h3><div class="memory-mini-list">${earnedMemories().slice(0,8).map(m=>`<span>${m.icon} ${escapeHtml(m.name)}</span>`).join("") || "<p>まだ発見されていません。</p>"}</div><button class="btn secondary" data-route="memory">研究図鑑を開く</button></div>
       </section>`;
   }
 
@@ -818,60 +1124,46 @@
   function answerMarkup(q) {
     if (q.type === "single") return `<div class="choices">${q.choices.map((c,i)=>choiceButton(c,i,false)).join("")}</div>`;
     if (q.type === "multiple") return `<div class="choices">${q.choices.map((c,i)=>choiceButton(c,i,true)).join("")}</div>`;
-    if (q.type === "numeric") return `<div class="numeric-answer-block"><div class="number-entry"><label>答え</label><div class="number-display-row"><input class="answer-input number-display" id="answer-input" inputmode="none" placeholder="電卓で入力" readonly><span class="unit-chip">${escapeHtml(q.unitLabel||"")}</span></div><small>半角数値で入力されます。計算してから「答え欄へ」も使えます。</small></div>${numberPadMarkup()}${calculatorMarkup()}</div>`;
+    if (q.type === "numeric") return `<div class="numeric-answer-block compact-numeric"><div class="number-entry"><label>答え</label><div class="number-display-row"><input class="answer-input number-display" id="answer-input" inputmode="none" placeholder="電卓で入力" readonly><span class="unit-chip">${escapeHtml(q.unitLabel||"")}</span></div><small>半角数値で入力されます。数字キーは電卓と同じ固定配置です。計算式は「=」で答え欄に反映されます。</small></div>${calculatorMarkup()}</div>`;
     if (q.type === "short") return `<input class="answer-input" id="answer-input" placeholder="答えを入力" autocomplete="off">`;
     if (q.type === "written") return `<textarea class="written-area" id="written-answer" placeholder="理由が伝わるように文章で説明しよう"></textarea>`;
     return "";
   }
   function choiceButton(text,i,multiple){ return `<button class="choice" data-action="choice" data-index="${i}" data-multiple="${multiple?'1':'0'}"><span class="choice-letter">${String.fromCharCode(65+i)}</span><span>${escapeHtml(text)}</span></button>`; }
 
-  function numberPadMarkup() {
-    const keys = ["7","8","9","4","5","6","1","2","3","0",".","±"];
-    return `<div class="answer-keypad" aria-label="数値入力パネル">
-      <div class="calc-title">答え入力</div>
-      <div class="answer-keys">${keys.map(k=>`<button type="button" data-action="num-key" data-key="${k}">${k}</button>`).join("")}<button type="button" data-action="num-back">⌫</button><button type="button" data-action="num-clear">C</button></div>
-    </div>`;
-  }
+  function numberPadMarkup() { return ""; }
   function calculatorMarkup() {
-    const keys = ["7","8","9","÷","4","5","6","×","1","2","3","−","0",".","=","+"];
-    return `<div class="mini-calculator" aria-label="簡易電卓">
-      <div class="calc-title">計算メモ</div>
-      <input class="calc-display" id="calc-display" inputmode="decimal" placeholder="例：11.2÷22.4">
-      <div class="calc-keys">${keys.map(k=>`<button type="button" data-action="calc-key" data-key="${k}">${k}</button>`).join("")}<button type="button" data-action="calc-back">⌫</button><button type="button" data-action="calc-clear">C</button><button type="button" class="wide" data-action="calc-insert">答え欄へ</button></div>
+    const keys = ["7","8","9","÷","4","5","6","×","1","2","3","−","0",".","=","+","±","⌫","C"];
+    return `<div class="mini-calculator unified-calculator" aria-label="数値入力電卓">
+      <div class="calc-title">電卓入力</div>
+      <div class="calc-keys unified-keys">${keys.map(k=>{
+        const action = k === "⌫" ? "calc-back" : k === "C" ? "calc-clear" : "calc-key";
+        return `<button type="button" data-action="${action}" data-key="${k}">${k}</button>`;
+      }).join("")}</div>
     </div>`;
   }
-  function handleNumPad(action, key) {
-    const answer = document.getElementById("answer-input");
-    if (!answer) return;
-    if (action === "num-clear") answer.value = "";
-    else if (action === "num-back") answer.value = answer.value.slice(0, -1);
-    else if (action === "num-key") {
-      if (key === "±") answer.value = answer.value.startsWith("-") ? answer.value.slice(1) : (answer.value ? "-" + answer.value : "-");
-      else if (key === ".") { if (!answer.value.includes(".")) answer.value += "."; }
-      else answer.value += key;
-    }
-  }
+  function handleNumPad(action, key) { handleCalc(action.replace("num-","calc-"), key); }
   function safeCalc(expr) {
     const normalized = String(expr || "").replace(/×/g,"*").replace(/÷/g,"/").replace(/−/g,"-").replace(/,/g,".").replace(/\s+/g,"");
     if (!normalized || !/^[0-9+\-*/().]+$/.test(normalized)) return null;
     try {
       const val = Function(`"use strict"; return (${normalized})`)();
-      return Number.isFinite(val) ? Math.round(val * 1e10) / 1e10 : null;
+      return Number.isFinite(val) ? Math.round(val * 1e12) / 1e12 : null;
     } catch { return null; }
   }
   function handleCalc(action, key) {
-    const display = document.getElementById("calc-display");
-    const answer = document.getElementById("answer-input");
+    const display = document.getElementById("answer-input");
     if (!display) return;
     if (action === "calc-clear") display.value = "";
     else if (action === "calc-back") display.value = display.value.slice(0, -1);
-    else if (action === "calc-insert") { if (answer) answer.value = display.value; }
+    else if (action === "calc-insert") return;
     else if (action === "calc-key") {
       if (key === "=") {
         const val = safeCalc(display.value);
         if (val === null) return showToast("計算式を確認してください");
         display.value = String(val);
-        if (answer) answer.value = String(val);
+      } else if (key === "±") {
+        display.value = display.value.startsWith("-") ? display.value.slice(1) : (display.value ? "-" + display.value : "-");
       } else {
         display.value += key;
       }
@@ -949,6 +1241,8 @@
     });
     save.heroXp[save.selectedHeroId] = (save.heroXp[save.selectedHeroId] || 0) + totalXp;
     save.petXp[save.selectedPetId] = (save.petXp[save.selectedPetId] || 0) + Math.max(1,Math.round(totalXp*.8));
+    addPetAffinity(1 + (correct ? 1 : 0) + (session.mode === "wrong" && correct ? 2 : 0) + (retryResult?.status === "graduated" ? 3 : 0), correct ? "学習成功" : "挑戦");
+    const gainedMemories = evaluateMemoryUnlocks(q, correct, retryResult);
     persist();
     const afterCats = categoryStats();
     const gains = xpBreakdown(q,totalXp);
@@ -958,7 +1252,7 @@
     const support = questionSupport(q);
     const answerLine = support.answer ? `<div class="answer-line"><span>答え</span><strong>${escapeHtml(support.answer)}</strong></div>` : "";
     const supportBox = `<div class="learn-support"><strong>なるほど解説</strong>${answerLine}<p>${escapeHtml(support.explanation)}</p><div class="strategy-tip"><b>CHEM攻略ポイント</b><span>${escapeHtml(support.strategy)}</span></div></div>`;
-    document.getElementById("feedback-zone").innerHTML = `<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'正解！':'確認しよう'}</strong>${feedbackProgressMarkup(beforeCats, afterCats, gains, commentKind)}${retryStatusMarkup(retryResult)}${supportBox}${xpBreakdownMarkup(q,totalXp)}</div>`;
+    document.getElementById("feedback-zone").innerHTML = `<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'正解！':'確認しよう'}</strong>${feedbackProgressMarkup(beforeCats, afterCats, gains, commentKind)}${retryStatusMarkup(retryResult)}${memoryDiscoveryMarkup(gainedMemories)}${supportBox}${xpBreakdownMarkup(q,totalXp)}</div>`;
     document.getElementById("question-actions").innerHTML = `<button class="btn secondary" data-action="exit-session">ここで終了</button><button class="btn secondary" data-route="home">ホームで確認</button><button class="btn secondary" data-route="status">ステータスを見る</button><button class="btn primary" data-action="next-question">${session.index+1>=session.items.length?'結果を見る':'次の問題へ'}</button>`;
   }
   function markChoiceFeedback(q) {
@@ -986,11 +1280,15 @@
       if (u) catRows[cid].details.push(u.statName || u.name);
     });
     const xpRows=Object.values(catRows).sort((a,b)=>b.xp-a.xp);
+    const sessionMemories = evaluateSessionMemoryUnlocks();
+    const topGrowth = xpRows[0];
     main.innerHTML = `${backBar("結果")}<section class="panel result-card"><p class="eyebrow">SESSION COMPLETE</p><h1>学習おつかれさま！</h1>
       <div class="result-pair"><img src="${h.image}" alt="${escapeHtml(h.name)}"><img class="pet" src="${p.image}" alt="${escapeHtml(p.name)}"></div>
       <p>${escapeHtml(pickComment("finish"))}</p><p>${session.items.length}問中 ${session.correct}問を到達判定できました。能力値は問題ごとの関連度に応じて加算されています。</p>
+      <div class="session-growth-report"><strong>今回の成長</strong><p>${topGrowth ? `${topGrowth.icon} ${escapeHtml(topGrowth.name)} が +${topGrowth.xp}XP 伸びました。` : "今回の学習記録を保存しました。"}</p><p>ペットとの関係：${escapeHtml(petRelation().name)}（${petAffinityValue()}pt）</p></div>
+      ${memoryDiscoveryMarkup(sessionMemories)}
       <div class="xp-list">${xpRows.map(r=>`<div class="xp-row"><span>${r.icon} ${escapeHtml(r.name)}<small>（内訳：${escapeHtml([...new Set(r.details)].slice(0,4).join("・"))}）</small></span><span>+${r.xp} XP</span></div>`).join("")}</div>
-      <div class="welcome-actions" style="justify-content:center"><button class="btn primary" data-action="retry-session">もう一度</button><button class="btn secondary" data-route="status">ステータスを見る</button><button class="btn secondary" data-route="records">学習記録を見る</button><button class="btn secondary" data-route="retry">誤答ラボ</button><button class="btn secondary" data-route="units">別の単元へ</button></div>
+      <div class="welcome-actions" style="justify-content:center"><button class="btn primary" data-action="after-3">あと3問だけやる</button><button class="btn secondary" data-action="retry-session">もう一度</button><button class="btn secondary" data-route="status">ステータスを見る</button><button class="btn secondary" data-route="memory">研究図鑑</button><button class="btn secondary" data-route="retry">誤答ラボ</button><button class="btn secondary" data-route="units">別の単元へ</button></div>
     </section>`;
     session.finishedSubunit = session.subunitId;
     session.finishedGroup = session.groupId;
@@ -1047,6 +1345,11 @@
       session = { mode:"weak", requestedCount:3, items:takeRandom(pool,3), index:0, correct:0, xpByUnit:{}, currentAnswered:false, currentSelection:[], hintLevel:0 };
       renderQuestion();
     }
+    else if(action==="after-3") startAfterThree();
+    else if(action==="chem-path-area") go("path", {area:button.dataset.area, focus: save.chemPathFocus?.[button.dataset.area]});
+    else if(action==="chem-path-focus") go("path", {area:button.dataset.area, focus:button.dataset.focus});
+    else if(action==="path-review") startPathReview(button.dataset.edge);
+    else if(action==="path-review-area") startPathAreaReview(button.dataset.area);
     else if(action==="course")go("units",{course:button.dataset.course});
     else if(action==="open-group")go("group",{groupId:button.dataset.group});
     else if(action==="back-group")go("group",{groupId:button.dataset.group});

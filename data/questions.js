@@ -13022,155 +13022,191 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m06_kw_001",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lの水溶液の[OH⁻]は何 mol/Lか。指数の形ではなく 1e-11 のように答えてよい。",
-    "answer": 1e-11,
-    "tolerance": 1e-13,
-    "unitLabel": "mol/L",
-    "explanation": "Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴より、[OH⁻]=1.0×10⁻¹¹。",
+    "answer": 1,
+    "explanation": "Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴より、[OH⁻]=1.0×10⁻¹¹。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "1.0e-10 mol/L",
+      "1.0e-11 mol/L",
+      "1.0e-12 mol/L",
+      "1.0e-9 mol/L"
     ]
   },
   {
     "id": "m06_kw_002",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[OH⁻]=1.0×10⁻⁴ mol/Lの水溶液の[H⁺]は何 mol/Lか。",
-    "answer": 1e-10,
-    "tolerance": 1e-12,
-    "unitLabel": "mol/L",
-    "explanation": "[H⁺]=Kw/[OH⁻]=1.0×10⁻¹⁴/1.0×10⁻⁴=1.0×10⁻¹⁰。",
+    "answer": 1,
+    "explanation": "[H⁺]=Kw/[OH⁻]=1.0×10⁻¹⁴/1.0×10⁻⁴=1.0×10⁻¹⁰。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "1.0e-11 mol/L",
+      "1.0e-10 mol/L",
+      "1.0e-8 mol/L",
+      "1.0e-9 mol/L"
     ]
   },
   {
     "id": "m06_ph_001",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-01 mol/L の水溶液のpHを答えなさい。",
     "answer": 1,
-    "tolerance": 0.01,
-    "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻1 なので pH=1。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻1 なので pH=1。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "0",
+      "1",
+      "13",
+      "2"
     ]
   },
   {
     "id": "m06_ph_002",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-02 mol/L の水溶液のpHを答えなさい。",
-    "answer": 2,
-    "tolerance": 0.01,
-    "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻2 なので pH=2。",
+    "answer": 1,
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻2 なので pH=2。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "3",
+      "2",
+      "1",
+      "12"
     ]
   },
   {
     "id": "m06_ph_003",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-03 mol/L の水溶液のpHを答えなさい。",
     "answer": 3,
-    "tolerance": 0.01,
-    "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻3 なので pH=3。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻3 なので pH=3。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "2",
+      "11",
+      "4",
+      "3"
     ]
   },
   {
     "id": "m06_ph_004",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-04 mol/L の水溶液のpHを答えなさい。",
-    "answer": 4,
-    "tolerance": 0.01,
-    "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻4 なので pH=4。",
+    "answer": 1,
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻4 なので pH=4。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "10",
+      "4",
+      "5",
+      "3"
     ]
   },
   {
     "id": "m06_ph_005",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-07 mol/L の水溶液のpHを答えなさい。",
-    "answer": 7,
-    "tolerance": 0.01,
-    "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻7 なので pH=7。",
+    "answer": 2,
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻7 なので pH=7。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "8",
+      "1.0e-14",
+      "7",
+      "6"
     ]
   },
   {
     "id": "m06_ph_006",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-10 mol/L の水溶液のpHを答えなさい。",
-    "answer": 10,
-    "tolerance": 0.01,
-    "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻10 なので pH=10。",
+    "answer": 2,
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻10 なので pH=10。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "9",
+      "11",
+      "10",
+      "4"
     ]
   },
   {
     "id": "m06_ph_007",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-12 mol/L の水溶液のpHを答えなさい。",
-    "answer": 12,
-    "tolerance": 0.01,
-    "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻12 なので pH=12。",
+    "answer": 1,
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻12 なので pH=12。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
+    ],
+    "choices": [
+      "2",
+      "12",
+      "13",
+      "11"
     ]
   },
   {
@@ -17213,14 +17249,12 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "exam_c2_012",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 3,
     "baseXp": 18,
     "prompt": "2O₃＋C→CO₂＋2O₂で、Cが5.0×10⁻⁴mol反応すると、消費されるO₃は何molか。半角数値で答えよ。",
-    "answer": 0.001,
-    "tolerance": 1e-05,
-    "unitLabel": "mol",
-    "explanation": "係数比O₃:C=2:1。5.0×10⁻⁴molの2倍で1.0×10⁻³mol。",
+    "answer": 1,
+    "explanation": "係数比O₃:C=2:1。5.0×10⁻⁴molの2倍で1.0×10⁻³mol。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "exam_common_ch2",
@@ -17234,6 +17268,12 @@ window.CHEM_QUESTIONS = [
         "id": "basic_redox_definition",
         "weight": 0.325
       }
+    ],
+    "choices": [
+      "0.01 mol",
+      "0.001 mol",
+      "1.0e-4 mol",
+      "0.1 mol"
     ]
   },
   {
@@ -17761,14 +17801,12 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "exam_i2_006",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 3,
     "baseXp": 18,
     "prompt": "2O₃→3O₂でO₃が1.00×10⁻³mol分解するとO₂は何mol生じるか。",
-    "answer": 0.0015,
-    "tolerance": 1e-05,
-    "unitLabel": "mol",
-    "explanation": "係数比O₃:O₂=2:3。1.00×10⁻³×3/2=1.50×10⁻³mol。",
+    "answer": 2,
+    "explanation": "係数比O₃:O₂=2:3。1.00×10⁻³×3/2=1.50×10⁻³mol。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "exam_integrated_ch2",
@@ -17782,6 +17820,12 @@ window.CHEM_QUESTIONS = [
         "id": "basic_equation",
         "weight": 0.325
       }
+    ],
+    "choices": [
+      "0.15 mol",
+      "0.015 mol",
+      "0.0015 mol",
+      "1.5e-4 mol"
     ]
   },
   {
@@ -23227,23 +23271,27 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch4_eq_006",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 4,
     "baseXp": 22,
     "prompt": "H₂+I₂⇄2HIで、平衡時[H₂]=1.0×10⁻³、[I₂]=5.0×10⁻³、[HI]=1.8×10⁻² mol/L。Kを求めなさい。",
-    "answer": 64.8,
-    "tolerance": 0.2,
-    "unitLabel": "",
+    "answer": 2,
     "hints": [
       "反応式の係数2がHI濃度の指数になる。",
       "分子は[HI]²、分母は[H₂][I₂]。"
     ],
-    "explanation": "K=[HI]²/([H₂][I₂])=(1.8×10⁻²)²/(1.0×10⁻³×5.0×10⁻³)=64.8。",
+    "explanation": "K=[HI]²/([H₂][I₂])=(1.8×10⁻²)²/(1.0×10⁻³×5.0×10⁻³)=64.8。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "chem_equilibrium_constant",
         "weight": 1.0
       }
+    ],
+    "choices": [
+      "6.4799999999999995",
+      "6480",
+      "64.8",
+      "648"
     ]
   },
   {
@@ -23423,44 +23471,52 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch4_ion_eq_002",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "25℃で[H⁺]=1.0×10⁻⁵ mol/Lの水溶液のpHを求めなさい。",
-    "answer": 5,
-    "tolerance": 0.001,
-    "unitLabel": "",
+    "answer": 2,
     "hints": [
       "10の指数の絶対値を見る。",
       "[H⁺]=10⁻⁵ならpH=5。"
     ],
-    "explanation": "pH=-log₁₀[H⁺]=5。",
+    "explanation": "pH=-log₁₀[H⁺]=5。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
         "weight": 1.0
       }
+    ],
+    "choices": [
+      "6",
+      "4",
+      "5",
+      "9"
     ]
   },
   {
     "id": "ch4_ion_eq_003",
-    "type": "numeric",
+    "type": "single",
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lのとき[OH⁻]を求めなさい。",
-    "answer": 1e-11,
-    "tolerance": 1e-13,
-    "unitLabel": "mol/L",
+    "answer": 0,
     "hints": [
       "Kw=[H⁺][OH⁻]を変形。",
       "指数は-14-(-3)=-11。"
     ],
-    "explanation": "[OH⁻]=Kw/[H⁺]=10⁻¹⁴/10⁻³=10⁻¹¹ mol/L。",
+    "explanation": "[OH⁻]=Kw/[H⁺]=10⁻¹⁴/10⁻³=10⁻¹¹ mol/L。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
         "weight": 1.0
       }
+    ],
+    "choices": [
+      "1.0e-11 mol/L",
+      "1.0e-9 mol/L",
+      "1.0e-10 mol/L",
+      "1.0e-12 mol/L"
     ]
   },
   {

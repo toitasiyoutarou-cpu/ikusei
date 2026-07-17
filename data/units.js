@@ -223,16 +223,6 @@ window.CHEM_UNITS = [
         "id": "exam_common_ch5",
         "name": "第5章 共通テスト対策",
         "statName": "無機資料読解力"
-      },
-      {
-        "id": "exam_common_ch6",
-        "name": "第6章 共通テスト対策",
-        "statName": "有機資料読解力"
-      },
-      {
-        "id": "exam_common_ch7",
-        "name": "第7章 共通テスト対策",
-        "statName": "高分子資料読解力"
       }
     ]
   },
@@ -267,26 +257,6 @@ window.CHEM_UNITS = [
         "id": "exam_integrated_ch5",
         "name": "第5章 総合問題",
         "statName": "無機総合力"
-      },
-      {
-        "id": "exam_integrated_ch6",
-        "name": "第6章 総合問題",
-        "statName": "有機総合力"
-      },
-      {
-        "id": "exam_integrated_ch7",
-        "name": "第7章 総合問題",
-        "statName": "高分子総合力"
-      },
-      {
-        "id": "exam_orbital",
-        "name": "原子軌道・混成軌道",
-        "statName": "軌道構造力"
-      },
-      {
-        "id": "exam_total_practice",
-        "name": "総合演習",
-        "statName": "全分野統合力"
       }
     ]
   },
@@ -326,11 +296,6 @@ window.CHEM_UNITS = [
         "id": "exam_reading",
         "name": "長文読解問題",
         "statName": "長文読解力"
-      },
-      {
-        "id": "exam_reading_ch7",
-        "name": "第7章 長文読解問題",
-        "statName": "高分子長文読解力"
       }
     ]
   }

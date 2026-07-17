@@ -1,3 +1,9 @@
+/*
+  高校化学 学習問題データ
+  type: single / multiple / numeric / short / written
+  unitWeights: 複数小単元にまたがるときの経験値配分。
+  01〜09のアップロード資料をもとに収録。
+*/
 window.CHEM_QUESTIONS = [
   {
     "id": "mol_001",
@@ -126,10 +132,15 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "equation_001",
-    "type": "single",
+    "type": "short",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "炭酸カルシウムの化学式を選びなさい。",
+    "prompt": "炭酸カルシウムの化学式を入力しなさい。",
+    "acceptedAnswers": [
+      "CaCO3",
+      "CaCO₃",
+      "caco3"
+    ],
     "explanation": "Ca²⁺とCO₃²⁻が1:1で結びつくのでCaCO₃。",
     "unitWeights": [
       {
@@ -140,14 +151,7 @@ window.CHEM_QUESTIONS = [
         "id": "basic_equation",
         "weight": 0.5
       }
-    ],
-    "choices": [
-      "CaCO3",
-      "CaCO₄",
-      "CaCO₂",
-      "Ca₂CO₃"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "acid_001",
@@ -11111,24 +11115,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_001",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：H₂ + O₂ → H₂O",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：H₂ + O₂ → H₂O",
+    "acceptedAnswers": [
+      "2,1,2",
+      "2，1，2"
+    ],
     "explanation": "正しく係数をつけると 2H₂ + O₂ → 2H₂O。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "2,1,2",
-      "2,1,3",
-      "3,1,2",
-      "1,1,1"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "m05_balance_choice_001",
@@ -11153,24 +11154,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_002",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：N₂ + H₂ → NH₃",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：N₂ + H₂ → NH₃",
+    "acceptedAnswers": [
+      "1,3,2",
+      "1，3，2"
+    ],
     "explanation": "正しく係数をつけると N₂ + 3H₂ → 2NH₃。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1,1,1",
-      "2,3,2",
-      "1,2,1",
-      "1,3,2"
-    ],
-    "answer": 3
+    ]
   },
   {
     "id": "m05_balance_choice_002",
@@ -11195,24 +11193,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_003",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：CH₄ + O₂ → CO₂ + H₂O",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：CH₄ + O₂ → CO₂ + H₂O",
+    "acceptedAnswers": [
+      "1,2,1,2",
+      "1，2，1，2"
+    ],
     "explanation": "正しく係数をつけると CH₄ + 2O₂ → CO₂ + 2H₂O。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1,2,1,2",
-      "1,2,1,3",
-      "2,2,1,2",
-      "1,1,1,1"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "m05_balance_choice_003",
@@ -11237,24 +11232,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_004",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：C₂H₆ + O₂ → CO₂ + H₂O",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：C₂H₆ + O₂ → CO₂ + H₂O",
+    "acceptedAnswers": [
+      "2,7,4,6",
+      "2，7，4，6"
+    ],
     "explanation": "正しく係数をつけると 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "3,7,4,6",
-      "1,1,1,1",
-      "1,6,3,5",
-      "2,7,4,6"
-    ],
-    "answer": 3
+    ]
   },
   {
     "id": "m05_balance_choice_004",
@@ -11279,24 +11271,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_005",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：Al + O₂ → Al₂O₃",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：Al + O₂ → Al₂O₃",
+    "acceptedAnswers": [
+      "4,3,2",
+      "4，3，2"
+    ],
     "explanation": "正しく係数をつけると 4Al + 3O₂ → 2Al₂O₃。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "4,3,2",
-      "3,2,1",
-      "1,1,1",
-      "5,3,2"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "m05_balance_choice_005",
@@ -11321,24 +11310,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_006",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：Fe + S → FeS",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：Fe + S → FeS",
+    "acceptedAnswers": [
+      "1,1,1",
+      "1，1，1"
+    ],
     "explanation": "正しく係数をつけると Fe + S → FeS。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1,1,1",
-      "反応しない",
-      "2,1,1",
-      "1,1,2"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "m05_balance_choice_006",
@@ -11363,24 +11349,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_007",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：H₂O₂ → H₂O + O₂",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：H₂O₂ → H₂O + O₂",
+    "acceptedAnswers": [
+      "2,2,1",
+      "2，2，1"
+    ],
     "explanation": "正しく係数をつけると 2H₂O₂ → 2H₂O + O₂。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1,1,1",
-      "2,2,1",
-      "2,2,2",
-      "3,2,1"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "m05_balance_choice_007",
@@ -11405,24 +11388,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_008",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：CaCO₃ → CaO + CO₂",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：CaCO₃ → CaO + CO₂",
+    "acceptedAnswers": [
+      "1,1,1",
+      "1，1，1"
+    ],
     "explanation": "正しく係数をつけると CaCO₃ → CaO + CO₂。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1,1,2",
-      "反応しない",
-      "1,1,1",
-      "2,1,1"
-    ],
-    "answer": 2
+    ]
   },
   {
     "id": "m05_balance_choice_008",
@@ -11447,24 +11427,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_009",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：Na + Cl₂ → NaCl",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：Na + Cl₂ → NaCl",
+    "acceptedAnswers": [
+      "2,1,2",
+      "2，1，2"
+    ],
     "explanation": "正しく係数をつけると 2Na + Cl₂ → 2NaCl。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "2,1,3",
-      "2,1,2",
-      "1,1,1",
-      "3,1,2"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "m05_balance_choice_009",
@@ -11489,24 +11466,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_010",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：Mg + HCl → MgCl₂ + H₂",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：Mg + HCl → MgCl₂ + H₂",
+    "acceptedAnswers": [
+      "1,2,1,1",
+      "1，2，1，1"
+    ],
     "explanation": "正しく係数をつけると Mg + 2HCl → MgCl₂ + H₂。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1,1,1,1",
-      "1,2,1,1",
-      "2,2,1,1",
-      "1,2,1,2"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "m05_balance_choice_010",
@@ -11531,24 +11505,21 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m05_balance_short_011",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "次の反応式の係数を左から順にカンマ区切りで選びなさい：CaCO₃ + HCl → CaCl₂ + H₂O + CO₂",
+    "prompt": "次の反応式の係数を左から順にカンマ区切りで答えなさい：CaCO₃ + HCl → CaCl₂ + H₂O + CO₂",
+    "acceptedAnswers": [
+      "1,2,1,1,1",
+      "1，2，1，1，1"
+    ],
     "explanation": "正しく係数をつけると CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂。",
     "unitWeights": [
       {
         "id": "basic_equation",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1,2,1,1,2",
-      "1,1,1,1,1",
-      "2,2,1,1,1",
-      "1,2,1,1,1"
-    ],
-    "answer": 3
+    ]
   },
   {
     "id": "m05_balance_choice_011",
@@ -13022,191 +12993,155 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "m06_kw_001",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lの水溶液の[OH⁻]は何 mol/Lか。指数の形ではなく 1e-11 のように答えてよい。",
-    "answer": 1,
-    "explanation": "Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴より、[OH⁻]=1.0×10⁻¹¹。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 1e-11,
+    "tolerance": 1e-13,
+    "unitLabel": "mol/L",
+    "explanation": "Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴より、[OH⁻]=1.0×10⁻¹¹。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1.0e-10 mol/L",
-      "1.0e-11 mol/L",
-      "1.0e-12 mol/L",
-      "1.0e-9 mol/L"
     ]
   },
   {
     "id": "m06_kw_002",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[OH⁻]=1.0×10⁻⁴ mol/Lの水溶液の[H⁺]は何 mol/Lか。",
-    "answer": 1,
-    "explanation": "[H⁺]=Kw/[OH⁻]=1.0×10⁻¹⁴/1.0×10⁻⁴=1.0×10⁻¹⁰。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 1e-10,
+    "tolerance": 1e-12,
+    "unitLabel": "mol/L",
+    "explanation": "[H⁺]=Kw/[OH⁻]=1.0×10⁻¹⁴/1.0×10⁻⁴=1.0×10⁻¹⁰。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "1.0e-11 mol/L",
-      "1.0e-10 mol/L",
-      "1.0e-8 mol/L",
-      "1.0e-9 mol/L"
     ]
   },
   {
     "id": "m06_ph_001",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-01 mol/L の水溶液のpHを答えなさい。",
     "answer": 1,
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻1 なので pH=1。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "tolerance": 0.01,
+    "unitLabel": "",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻1 なので pH=1。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "0",
-      "1",
-      "13",
-      "2"
     ]
   },
   {
     "id": "m06_ph_002",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-02 mol/L の水溶液のpHを答えなさい。",
-    "answer": 1,
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻2 なので pH=2。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 2,
+    "tolerance": 0.01,
+    "unitLabel": "",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻2 なので pH=2。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "3",
-      "2",
-      "1",
-      "12"
     ]
   },
   {
     "id": "m06_ph_003",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-03 mol/L の水溶液のpHを答えなさい。",
     "answer": 3,
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻3 なので pH=3。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "tolerance": 0.01,
+    "unitLabel": "",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻3 なので pH=3。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "2",
-      "11",
-      "4",
-      "3"
     ]
   },
   {
     "id": "m06_ph_004",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-04 mol/L の水溶液のpHを答えなさい。",
-    "answer": 1,
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻4 なので pH=4。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 4,
+    "tolerance": 0.01,
+    "unitLabel": "",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻4 なので pH=4。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "10",
-      "4",
-      "5",
-      "3"
     ]
   },
   {
     "id": "m06_ph_005",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-07 mol/L の水溶液のpHを答えなさい。",
-    "answer": 2,
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻7 なので pH=7。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 7,
+    "tolerance": 0.01,
+    "unitLabel": "",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻7 なので pH=7。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "8",
-      "1.0e-14",
-      "7",
-      "6"
     ]
   },
   {
     "id": "m06_ph_006",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-10 mol/L の水溶液のpHを答えなさい。",
-    "answer": 2,
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻10 なので pH=10。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 10,
+    "tolerance": 0.01,
+    "unitLabel": "",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻10 なので pH=10。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "9",
-      "11",
-      "10",
-      "4"
     ]
   },
   {
     "id": "m06_ph_007",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "[H⁺]=1e-12 mol/L の水溶液のpHを答えなさい。",
-    "answer": 1,
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻12 なので pH=12。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 12,
+    "tolerance": 0.01,
+    "unitLabel": "",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻12 なので pH=12。",
     "unitWeights": [
       {
         "id": "basic_ph",
         "weight": 1
       }
-    ],
-    "choices": [
-      "2",
-      "12",
-      "13",
-      "11"
     ]
   },
   {
@@ -17249,12 +17184,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "exam_c2_012",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 3,
     "baseXp": 18,
     "prompt": "2O₃＋C→CO₂＋2O₂で、Cが5.0×10⁻⁴mol反応すると、消費されるO₃は何molか。半角数値で答えよ。",
-    "answer": 1,
-    "explanation": "係数比O₃:C=2:1。5.0×10⁻⁴molの2倍で1.0×10⁻³mol。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 0.001,
+    "tolerance": 1e-05,
+    "unitLabel": "mol",
+    "explanation": "係数比O₃:C=2:1。5.0×10⁻⁴molの2倍で1.0×10⁻³mol。",
     "unitWeights": [
       {
         "id": "exam_common_ch2",
@@ -17268,12 +17205,6 @@ window.CHEM_QUESTIONS = [
         "id": "basic_redox_definition",
         "weight": 0.325
       }
-    ],
-    "choices": [
-      "0.01 mol",
-      "0.001 mol",
-      "1.0e-4 mol",
-      "0.1 mol"
     ]
   },
   {
@@ -17377,10 +17308,15 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "exam_i1_005",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "常温で固体のハロゲン単体で、昇華性を示す物質を化学式で答えよ。",
+    "acceptedAnswers": [
+      "I2",
+      "I₂",
+      "ヨウ素"
+    ],
     "explanation": "ヨウ素I₂は黒紫色の固体で、加熱により紫色の気体へ昇華する。",
     "unitWeights": [
       {
@@ -17395,14 +17331,7 @@ window.CHEM_QUESTIONS = [
         "id": "basic_intro_separation",
         "weight": 0.325
       }
-    ],
-    "choices": [
-      "F₂",
-      "I2",
-      "Cl₂",
-      "Br₂"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "exam_i1_006",
@@ -17801,12 +17730,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "exam_i2_006",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 3,
     "baseXp": 18,
     "prompt": "2O₃→3O₂でO₃が1.00×10⁻³mol分解するとO₂は何mol生じるか。",
-    "answer": 2,
-    "explanation": "係数比O₃:O₂=2:3。1.00×10⁻³×3/2=1.50×10⁻³mol。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "answer": 0.0015,
+    "tolerance": 1e-05,
+    "unitLabel": "mol",
+    "explanation": "係数比O₃:O₂=2:3。1.00×10⁻³×3/2=1.50×10⁻³mol。",
     "unitWeights": [
       {
         "id": "exam_integrated_ch2",
@@ -17820,12 +17751,6 @@ window.CHEM_QUESTIONS = [
         "id": "basic_equation",
         "weight": 0.325
       }
-    ],
-    "choices": [
-      "0.15 mol",
-      "0.015 mol",
-      "0.0015 mol",
-      "1.5e-4 mol"
     ]
   },
   {
@@ -20127,10 +20052,17 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch3_solid_short_001",
-    "type": "single",
+    "type": "short",
     "difficulty": 3,
     "baseXp": 18,
     "prompt": "体心立方格子の原子半径rを、単位格子の一辺aで表す式を答えよ。",
+    "acceptedAnswers": [
+      "√3/4a",
+      "(√3/4)a",
+      "√3a/4",
+      "r=√3a/4",
+      "r=(√3/4)a"
+    ],
     "hints": [
       "まず、問題文のキーワードに印をつけよう。用語・条件・比較対象を分けると見やすいよ。",
       "選択肢の違いに注目しよう。正しい用語だけでなく、なぜ他が違うかも考えると定着するよ。"
@@ -20141,21 +20073,21 @@ window.CHEM_QUESTIONS = [
         "id": "chem_metal_lattice",
         "weight": 1
       }
-    ],
-    "choices": [
-      "√3/4a",
-      "a/√3",
-      "√2a/4",
-      "√3a/2"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "ch3_solid_short_002",
-    "type": "single",
+    "type": "short",
     "difficulty": 3,
     "baseXp": 18,
     "prompt": "面心立方格子の原子半径rを、単位格子の一辺aで表す式を答えよ。",
+    "acceptedAnswers": [
+      "√2/4a",
+      "(√2/4)a",
+      "√2a/4",
+      "r=√2a/4",
+      "r=(√2/4)a"
+    ],
     "hints": [
       "まず、問題文のキーワードに印をつけよう。用語・条件・比較対象を分けると見やすいよ。",
       "選択肢の違いに注目しよう。正しい用語だけでなく、なぜ他が違うかも考えると定着するよ。"
@@ -20166,14 +20098,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_metal_lattice",
         "weight": 1
       }
-    ],
-    "choices": [
-      "a/√2",
-      "√3a/4",
-      "√2a/2",
-      "√2/4a"
-    ],
-    "answer": 3
+    ]
   },
   {
     "id": "ch3_solid_written_001",
@@ -23271,27 +23196,23 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch4_eq_006",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 4,
     "baseXp": 22,
     "prompt": "H₂+I₂⇄2HIで、平衡時[H₂]=1.0×10⁻³、[I₂]=5.0×10⁻³、[HI]=1.8×10⁻² mol/L。Kを求めなさい。",
-    "answer": 2,
+    "answer": 64.8,
+    "tolerance": 0.2,
+    "unitLabel": "",
     "hints": [
       "反応式の係数2がHI濃度の指数になる。",
       "分子は[HI]²、分母は[H₂][I₂]。"
     ],
-    "explanation": "K=[HI]²/([H₂][I₂])=(1.8×10⁻²)²/(1.0×10⁻³×5.0×10⁻³)=64.8。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "explanation": "K=[HI]²/([H₂][I₂])=(1.8×10⁻²)²/(1.0×10⁻³×5.0×10⁻³)=64.8。",
     "unitWeights": [
       {
         "id": "chem_equilibrium_constant",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "6.4799999999999995",
-      "6480",
-      "64.8",
-      "648"
     ]
   },
   {
@@ -23471,52 +23392,44 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch4_ion_eq_002",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "25℃で[H⁺]=1.0×10⁻⁵ mol/Lの水溶液のpHを求めなさい。",
-    "answer": 2,
+    "answer": 5,
+    "tolerance": 0.001,
+    "unitLabel": "",
     "hints": [
       "10の指数の絶対値を見る。",
       "[H⁺]=10⁻⁵ならpH=5。"
     ],
-    "explanation": "pH=-log₁₀[H⁺]=5。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "explanation": "pH=-log₁₀[H⁺]=5。",
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "6",
-      "4",
-      "5",
-      "9"
     ]
   },
   {
     "id": "ch4_ion_eq_003",
-    "type": "single",
+    "type": "numeric",
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lのとき[OH⁻]を求めなさい。",
-    "answer": 0,
+    "answer": 1e-11,
+    "tolerance": 1e-13,
+    "unitLabel": "mol/L",
     "hints": [
       "Kw=[H⁺][OH⁻]を変形。",
       "指数は-14-(-3)=-11。"
     ],
-    "explanation": "[OH⁻]=Kw/[H⁺]=10⁻¹⁴/10⁻³=10⁻¹¹ mol/L。\n※この問題は表記ゆれを避けるため、選択式にしています。指数表記は 1.0e-10 の形でも確認できます。",
+    "explanation": "[OH⁻]=Kw/[H⁺]=10⁻¹⁴/10⁻³=10⁻¹¹ mol/L。",
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "1.0e-11 mol/L",
-      "1.0e-9 mol/L",
-      "1.0e-10 mol/L",
-      "1.0e-12 mol/L"
     ]
   },
   {
@@ -23982,10 +23895,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_nm_003",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "加熱したCuOをH₂で還元する反応式を選びなさい。",
+    "prompt": "加熱したCuOをH₂で還元する反応式を書きなさい。",
+    "acceptedAnswers": [
+      "CuO+H2→Cu+H2O",
+      "CuO＋H₂→Cu＋H₂O"
+    ],
     "hints": [
       "H₂がCuOから酸素を奪う。",
       "生成物は銅と水。"
@@ -23996,14 +23913,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_hydrogen_noble",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "CuO＋H2→Cu＋H2",
-      "CuO＋H2→Cu＋H2O",
-      "反応しない",
-      "CuO＋H2⇄Cu＋H2O"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "ch5_nm_004",
@@ -24182,10 +24092,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_hal_005",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "塩素水中で漂白作用を示す物質の化学式を選びなさい。",
+    "prompt": "塩素水中で漂白作用を示す物質の化学式を答えなさい。",
+    "acceptedAnswers": [
+      "HClO",
+      "hclo"
+    ],
     "hints": [
       "塩素と水の反応で生じる弱酸。",
       "名称は次亜塩素酸。"
@@ -24196,14 +24110,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_halogen",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "HClO",
-      "HCl",
-      "Cl₂O",
-      "HClO₃"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "ch5_hal_006",
@@ -24257,10 +24164,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_hal_008",
-    "type": "single",
+    "type": "short",
     "difficulty": 3,
     "baseXp": 17,
-    "prompt": "MnO₂に濃塩酸を加えて加熱するときの塩素発生反応式を選びなさい。",
+    "prompt": "MnO₂に濃塩酸を加えて加熱するときの塩素発生反応式を書きなさい。",
+    "acceptedAnswers": [
+      "MnO2+4HCl→MnCl2+2H2O+Cl2",
+      "MnO₂＋4HCl→MnCl₂＋2H₂O＋Cl₂"
+    ],
     "hints": [
       "生成物はMnCl₂、水、Cl₂。",
       "Clの一部が-1から0へ酸化される。"
@@ -24271,14 +24182,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_halogen",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "MnO2＋4HCl⇄MnCl2＋2H2O＋Cl2",
-      "MnO2＋HCl→MnCl2＋H2O＋Cl2",
-      "MnO2＋4HCl→MnCl2＋2H2O＋Cl2",
-      "MnO2＋4HCl→MnCl2＋2H2＋Cl2"
-    ],
-    "answer": 2
+    ]
   },
   {
     "id": "ch5_os_001",
@@ -24382,10 +24286,15 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_os_005",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "接触法でSO₂をSO₃に酸化する反応式を選びなさい。",
+    "prompt": "接触法でSO₂をSO₃に酸化する反応式を書きなさい。",
+    "acceptedAnswers": [
+      "2SO2+O2⇄2SO3",
+      "2SO₂＋O₂⇄2SO₃",
+      "2SO2+O2→2SO3"
+    ],
     "hints": [
       "SO₂に酸素を加えてSO₃にする。",
       "S原子数を2にそろえる。"
@@ -24396,14 +24305,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_oxygen_sulfur",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "2SO2＋O2→2SO3",
-      "2SO2＋O2⇄2SO3",
-      "2SO2＋O2⇄2SO2",
-      "SO2＋O2⇄SO3"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "ch5_os_006",
@@ -24482,10 +24384,15 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_np_003",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "アンモニア合成の反応式を選びなさい。",
+    "prompt": "アンモニア合成の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "N2+3H2⇄2NH3",
+      "N₂＋3H₂⇄2NH₃",
+      "N2+3H2→2NH3"
+    ],
     "hints": [
       "N原子を2個、H原子を6個そろえる。",
       "NH₃の係数を2にする。"
@@ -24496,14 +24403,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_nitrogen_phosphorus",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "N2＋3H2⇄2NH3",
-      "N2＋H2⇄NH3",
-      "N2＋3H2→2NH3",
-      "N2＋3H2⇄2NH4"
-    ],
-    "answer": 0
+    ]
   },
   {
     "id": "ch5_np_004",
@@ -24832,10 +24732,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_alk_006",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "Naと水の反応式を選びなさい。",
+    "prompt": "Naと水の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "2Na+2H2O→2NaOH+H2",
+      "2Na＋2H₂O→2NaOH＋H₂"
+    ],
     "hints": [
       "生成物はNaOHとH₂。",
       "NaとNaOHを2、H₂Oを2にそろえる。"
@@ -24846,14 +24750,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_alkali",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "2Na＋2H2→2NaOH＋H2",
-      "2Na＋2H2O→2NaOH＋H2",
-      "Na＋H2O→NaOH＋H2",
-      "2Na＋2H2O⇄2NaOH＋H2"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "ch5_alk_007",
@@ -24907,10 +24804,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_alk_009",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "NaHCO₃の熱分解反応式を選びなさい。",
+    "prompt": "NaHCO₃の熱分解反応式を書きなさい。",
+    "acceptedAnswers": [
+      "2NaHCO3→Na2CO3+H2O+CO2",
+      "2NaHCO₃→Na₂CO₃＋H₂O＋CO₂"
+    ],
     "hints": [
       "固体の炭酸塩と水、二酸化炭素ができる。",
       "Na原子を2個にそろえる。"
@@ -24921,14 +24822,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_alkali",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "2NaHCO3⇄Na2CO3＋H2O＋CO2",
-      "NaHCO3→Na2CO3＋H2O＋CO2",
-      "2NaHCO3→Na2CO3＋H2＋CO2",
-      "2NaHCO3→Na2CO3＋H2O＋CO2"
-    ],
-    "answer": 3
+    ]
   },
   {
     "id": "ch5_alk_010",
@@ -25207,10 +25101,15 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_alzn_005",
-    "type": "single",
+    "type": "short",
     "difficulty": 3,
     "baseXp": 17,
-    "prompt": "過剰のNaOH水溶液にZn(OH)₂が溶けて生じる錯イオンの化学式を選びなさい。",
+    "prompt": "過剰のNaOH水溶液にZn(OH)₂が溶けて生じる錯イオンの化学式を答えなさい。",
+    "acceptedAnswers": [
+      "[Zn(OH)4]2-",
+      "[Zn(OH)₄]²⁻",
+      "Zn(OH)4^2-"
+    ],
     "hints": [
       "Znの周囲にOH⁻が4個配位する。",
       "全体電荷は+2+4×(-1)=-2。"
@@ -25221,14 +25120,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_al_zn",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "反応しない",
-      "[Zn(OH)4]2-",
-      "[Zn(OH)4]3-",
-      "[Zn(OH)4]2-₂"
-    ],
-    "answer": 1
+    ]
   },
   {
     "id": "ch5_tr_001",
@@ -25532,10 +25424,14 @@ window.CHEM_QUESTIONS = [
   },
   {
     "id": "ch5_cx_001",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "ジアンミン銀(I)イオンの化学式を選びなさい。",
+    "prompt": "ジアンミン銀(I)イオンの化学式を答えなさい。",
+    "acceptedAnswers": [
+      "[Ag(NH3)2]+",
+      "[Ag(NH₃)₂]⁺"
+    ],
     "hints": [
       "「ジ」は配位子2個。",
       "Agの電荷+1、NH₃は中性。"
@@ -25546,21 +25442,18 @@ window.CHEM_QUESTIONS = [
         "id": "chem_complex",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "[Ag(NH4)2]＋",
-      "係数をすべて1にする",
-      "[Ag(NH3)2]＋",
-      "反応しない"
-    ],
-    "answer": 2
+    ]
   },
   {
     "id": "ch5_cx_002",
-    "type": "single",
+    "type": "short",
     "difficulty": 2,
     "baseXp": 13,
-    "prompt": "テトラアンミン銅(II)イオンの化学式を選びなさい。",
+    "prompt": "テトラアンミン銅(II)イオンの化学式を答えなさい。",
+    "acceptedAnswers": [
+      "[Cu(NH3)4]2+",
+      "[Cu(NH₃)₄]²⁺"
+    ],
     "hints": [
       "「テトラ」は4個。",
       "Cu²⁺に中性配位子NH₃が4個。"
@@ -25571,14 +25464,7 @@ window.CHEM_QUESTIONS = [
         "id": "chem_complex",
         "weight": 1.0
       }
-    ],
-    "choices": [
-      "反応しない",
-      "[Cu(NH4)4]2＋",
-      "[Cu(NH3)4]2＋",
-      "係数をすべて1にする"
-    ],
-    "answer": 2
+    ]
   },
   {
     "id": "ch5_cx_003",
@@ -26805,7150 +26691,6 @@ window.CHEM_QUESTIONS = [
       {
         "id": "chem_complex",
         "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org21_feature_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物の種類が非常に多い主な理由として最も適切なものはどれか。",
-    "choices": [
-      "すべてイオン結晶をつくるから",
-      "構成元素が非常に多いから",
-      "常に金属結合を含むから",
-      "炭素原子が多様な炭素骨格をつくれるから"
-    ],
-    "answer": 3,
-    "hints": [
-      "「骨格・官能基・分子間力」のどれを問う問題か見分けよう。",
-      "有機化合物では炭素の4価と共有結合による多様な骨格が重要。"
-    ],
-    "explanation": "炭素は4本の共有結合をつくり、鎖状・分岐状・環状など多様な骨格を形成できる。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_feature_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "芳香族化合物以外の有機化合物を何というか。",
-    "choices": [
-      "脂肪族化合物",
-      "高分子化合物",
-      "錯化合物",
-      "無機化合物"
-    ],
-    "answer": 0,
-    "hints": [
-      "「骨格・官能基・分子間力」のどれを問う問題か見分けよう。",
-      "有機化合物では炭素の4価と共有結合による多様な骨格が重要。"
-    ],
-    "explanation": "芳香族化合物以外の有機化合物は脂肪族化合物とよばれる。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_feature_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "炭素原子間に二重結合や三重結合を含む化合物の分類はどれか。",
-    "choices": [
-      "塩",
-      "飽和化合物",
-      "不飽和化合物",
-      "無機化合物"
-    ],
-    "answer": 2,
-    "hints": [
-      "「骨格・官能基・分子間力」のどれを問う問題か見分けよう。",
-      "有機化合物では炭素の4価と共有結合による多様な骨格が重要。"
-    ],
-    "explanation": "炭素原子間に多重結合を含むものを不飽和化合物という。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_feature_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物の特性を決める原子団を何というか。",
-    "choices": [
-      "同族体",
-      "配位子",
-      "官能基",
-      "単量体"
-    ],
-    "answer": 2,
-    "hints": [
-      "「骨格・官能基・分子間力」のどれを問う問題か見分けよう。",
-      "有機化合物では炭素の4価と共有結合による多様な骨格が重要。"
-    ],
-    "explanation": "ヒドロキシ基やカルボキシ基など、化学的性質を特徴づける原子団を官能基という。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_feature_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "多くの有機化合物が水に溶けにくい主な理由はどれか。",
-    "choices": [
-      "必ず高分子だから",
-      "水より密度が大きいから",
-      "すべて金属だから",
-      "無極性または極性が弱い分子が多いから"
-    ],
-    "answer": 3,
-    "hints": [
-      "「骨格・官能基・分子間力」のどれを問う問題か見分けよう。",
-      "有機化合物では炭素の4価と共有結合による多様な骨格が重要。"
-    ],
-    "explanation": "水は極性溶媒であり、無極性または極性の弱い有機分子は溶けにくい。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_feature_006",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "一般に分子からなる有機化合物の融点・沸点が比較的低い理由はどれか。",
-    "choices": [
-      "すべて気体だから",
-      "分子内の共有結合がないから",
-      "分子間力が共有結合より弱いから",
-      "炭素原子が電離するから"
-    ],
-    "answer": 2,
-    "hints": [
-      "「骨格・官能基・分子間力」のどれを問う問題か見分けよう。",
-      "有機化合物では炭素の4価と共有結合による多様な骨格が重要。"
-    ],
-    "explanation": "状態変化では分子間力を切るため、結晶全体が共有結合でつながる物質より融点・沸点が低いことが多い。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「－OH」の名称はどれか。",
-    "choices": [
-      "ニトロ基",
-      "ヒドロキシ基",
-      "アミノ基",
-      "カルボキシ基"
-    ],
-    "answer": 1,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "－OHを含む代表的な化合物群はアルコール・フェノール類。"
-    ],
-    "explanation": "－OHはヒドロキシ基で、アルコール・フェノール類の特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_001",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "ヒドロキシ基を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "－OH",
-      "－OH",
-      "－OH"
-    ],
-    "hints": [
-      "アルコール・フェノール類の一般式を思い出そう。",
-      "官能基の原子の並びは－OH。"
-    ],
-    "explanation": "ヒドロキシ基は－OHで表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「－CHO」の名称はどれか。",
-    "choices": [
-      "カルボキシ基",
-      "ホルミル基",
-      "ニトロ基",
-      "アミノ基"
-    ],
-    "answer": 1,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "－CHOを含む代表的な化合物群はアルデヒド。"
-    ],
-    "explanation": "－CHOはホルミル基で、アルデヒドの特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_002",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "ホルミル基を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "－CHO",
-      "－CHO",
-      "－CHO"
-    ],
-    "hints": [
-      "アルデヒドの一般式を思い出そう。",
-      "官能基の原子の並びは－CHO。"
-    ],
-    "explanation": "ホルミル基は－CHOで表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「＞CO」の名称はどれか。",
-    "choices": [
-      "カルボキシ基",
-      "ニトロ基",
-      "アミノ基",
-      "カルボニル基"
-    ],
-    "answer": 3,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "＞COを含む代表的な化合物群はケトン。"
-    ],
-    "explanation": "＞COはカルボニル基で、ケトンの特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_003",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "カルボニル基を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "＞CO",
-      "＞CO",
-      ">CO"
-    ],
-    "hints": [
-      "ケトンの一般式を思い出そう。",
-      "官能基の原子の並びは＞CO。"
-    ],
-    "explanation": "カルボニル基は＞COで表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「－COOH」の名称はどれか。",
-    "choices": [
-      "アミノ基",
-      "ヒドロキシ基",
-      "カルボキシ基",
-      "ニトロ基"
-    ],
-    "answer": 2,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "－COOHを含む代表的な化合物群はカルボン酸。"
-    ],
-    "explanation": "－COOHはカルボキシ基で、カルボン酸の特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_004",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "カルボキシ基を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "－COOH",
-      "－COOH",
-      "－COOH"
-    ],
-    "hints": [
-      "カルボン酸の一般式を思い出そう。",
-      "官能基の原子の並びは－COOH。"
-    ],
-    "explanation": "カルボキシ基は－COOHで表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「－NH₂」の名称はどれか。",
-    "choices": [
-      "カルボキシ基",
-      "ヒドロキシ基",
-      "アミノ基",
-      "ニトロ基"
-    ],
-    "answer": 2,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "－NH₂を含む代表的な化合物群はアミン。"
-    ],
-    "explanation": "－NH₂はアミノ基で、アミンの特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_005",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "アミノ基を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "－NH₂",
-      "－NH2",
-      "－NH₂"
-    ],
-    "hints": [
-      "アミンの一般式を思い出そう。",
-      "官能基の原子の並びは－NH₂。"
-    ],
-    "explanation": "アミノ基は－NH₂で表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_006",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「－NO₂」の名称はどれか。",
-    "choices": [
-      "ニトロ基",
-      "アミノ基",
-      "ヒドロキシ基",
-      "カルボキシ基"
-    ],
-    "answer": 0,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "－NO₂を含む代表的な化合物群はニトロ化合物。"
-    ],
-    "explanation": "－NO₂はニトロ基で、ニトロ化合物の特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_006",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "ニトロ基を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "－NO₂",
-      "－NO2",
-      "－NO₂"
-    ],
-    "hints": [
-      "ニトロ化合物の一般式を思い出そう。",
-      "官能基の原子の並びは－NO₂。"
-    ],
-    "explanation": "ニトロ基は－NO₂で表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_007",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「－O－」の名称はどれか。",
-    "choices": [
-      "ニトロ基",
-      "カルボキシ基",
-      "アミノ基",
-      "エーテル結合"
-    ],
-    "answer": 3,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "－O－を含む代表的な化合物群はエーテル。"
-    ],
-    "explanation": "－O－はエーテル結合で、エーテルの特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_007",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "エーテル結合を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "－O－",
-      "－O－",
-      "－O－"
-    ],
-    "hints": [
-      "エーテルの一般式を思い出そう。",
-      "官能基の原子の並びは－O－。"
-    ],
-    "explanation": "エーテル結合は－O－で表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fg_008",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "官能基「－COO－」の名称はどれか。",
-    "choices": [
-      "エステル結合",
-      "アミノ基",
-      "ニトロ基",
-      "カルボキシ基"
-    ],
-    "answer": 0,
-    "hints": [
-      "式の中でOやNのつながり方に注目しよう。",
-      "－COO－を含む代表的な化合物群はエステル。"
-    ],
-    "explanation": "－COO－はエステル結合で、エステルの特徴を決める。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_fgshort_008",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "エステル結合を表す官能基を入力しなさい。",
-    "acceptedAnswers": [
-      "－COO－",
-      "－COO－",
-      "－COO－"
-    ],
-    "hints": [
-      "エステルの一般式を思い出そう。",
-      "官能基の原子の並びは－COO－。"
-    ],
-    "explanation": "エステル結合は－COO－で表される。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_analysis_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物中の元素を確認する操作として「完全燃焼後の気体を石灰水に通す」を行い、二酸化炭素で石灰水が白濁することを確認した。含まれる元素はどれか。",
-    "choices": [
-      "ナトリウム",
-      "ケイ素",
-      "炭素",
-      "酸素"
-    ],
-    "answer": 2,
-    "hints": [
-      "操作で新たに生じる物質を考えよう。",
-      "二酸化炭素で石灰水が白濁する現象が炭素の手がかり。"
-    ],
-    "explanation": "この操作は炭素の確認法である。二酸化炭素で石灰水が白濁する。",
-    "strategy": "元素確認は「操作→生成物→観察」の3段階で覚える。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_analysis_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物中の元素を確認する操作として「完全燃焼で生じた液体を無水硫酸銅(Ⅱ)に触れさせる」を行い、水で無水硫酸銅(Ⅱ)が白色から青色になることを確認した。含まれる元素はどれか。",
-    "choices": [
-      "ケイ素",
-      "水素",
-      "酸素",
-      "ナトリウム"
-    ],
-    "answer": 1,
-    "hints": [
-      "操作で新たに生じる物質を考えよう。",
-      "水で無水硫酸銅(Ⅱ)が白色から青色になる現象が水素の手がかり。"
-    ],
-    "explanation": "この操作は水素の確認法である。水で無水硫酸銅(Ⅱ)が白色から青色になる。",
-    "strategy": "元素確認は「操作→生成物→観察」の3段階で覚える。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_analysis_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物中の元素を確認する操作として「NaOHを加えて加熱し、発生気体を濃塩酸に近づける」を行い、アンモニアが生じ、塩化アンモニウムの白煙を生じることを確認した。含まれる元素はどれか。",
-    "choices": [
-      "酸素",
-      "ケイ素",
-      "ナトリウム",
-      "窒素"
-    ],
-    "answer": 3,
-    "hints": [
-      "操作で新たに生じる物質を考えよう。",
-      "アンモニアが生じ、塩化アンモニウムの白煙を生じる現象が窒素の手がかり。"
-    ],
-    "explanation": "この操作は窒素の確認法である。アンモニアが生じ、塩化アンモニウムの白煙を生じる。",
-    "strategy": "元素確認は「操作→生成物→観察」の3段階で覚える。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_analysis_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物中の元素を確認する操作として「NaOHと加熱後、酢酸鉛(Ⅱ)水溶液を加える」を行い、硫化鉛(Ⅱ)の黒色沈殿を生じることを確認した。含まれる元素はどれか。",
-    "choices": [
-      "ケイ素",
-      "酸素",
-      "ナトリウム",
-      "硫黄"
-    ],
-    "answer": 3,
-    "hints": [
-      "操作で新たに生じる物質を考えよう。",
-      "硫化鉛(Ⅱ)の黒色沈殿を生じる現象が硫黄の手がかり。"
-    ],
-    "explanation": "この操作は硫黄の確認法である。硫化鉛(Ⅱ)の黒色沈殿を生じる。",
-    "strategy": "元素確認は「操作→生成物→観察」の3段階で覚える。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_analysis_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物中の元素を確認する操作として「加熱した銅線につけて炎に入れる」を行い、青緑色の炎を示すバイルシュタイン反応ことを確認した。含まれる元素はどれか。",
-    "choices": [
-      "ナトリウム",
-      "ケイ素",
-      "酸素",
-      "塩素"
-    ],
-    "answer": 3,
-    "hints": [
-      "操作で新たに生じる物質を考えよう。",
-      "青緑色の炎を示すバイルシュタイン反応現象が塩素の手がかり。"
-    ],
-    "explanation": "この操作は塩素の確認法である。青緑色の炎を示すバイルシュタイン反応。",
-    "strategy": "元素確認は「操作→生成物→観察」の3段階で覚える。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_isomer_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "分子式が同じで、構造や性質が異なる化合物を何というか。",
-    "choices": [
-      "同族体",
-      "同位体",
-      "異性体",
-      "同素体"
-    ],
-    "answer": 2,
-    "hints": [
-      "分子式が同じか、結合順序が違うか、立体配置だけが違うかを区別しよう。",
-      "構造異性体と立体異性体のどちらを問うかを確認。"
-    ],
-    "explanation": "異性体は分子式が同じで構造が異なる。",
-    "strategy": "異性体は「分子式は同じ」が出発点。",
-    "unitWeights": [
-      {
-        "id": "chem_isomer",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_isomer_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "炭素骨格や官能基の位置が異なる異性体はどれか。",
-    "choices": [
-      "鏡像異性体",
-      "構造異性体",
-      "同素体",
-      "同位体"
-    ],
-    "answer": 1,
-    "hints": [
-      "分子式が同じか、結合順序が違うか、立体配置だけが違うかを区別しよう。",
-      "構造異性体と立体異性体のどちらを問うかを確認。"
-    ],
-    "explanation": "結合順序や骨格が異なるものは構造異性体である。",
-    "strategy": "異性体は「分子式は同じ」が出発点。",
-    "unitWeights": [
-      {
-        "id": "chem_isomer",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_isomer_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "二重結合の自由回転ができないために生じる異性体はどれか。",
-    "choices": [
-      "シス-トランス異性体",
-      "鏡像異性体",
-      "同素体",
-      "同族体"
-    ],
-    "answer": 0,
-    "hints": [
-      "分子式が同じか、結合順序が違うか、立体配置だけが違うかを区別しよう。",
-      "構造異性体と立体異性体のどちらを問うかを確認。"
-    ],
-    "explanation": "二重結合や環構造では回転が制限され、シス-トランス異性体が生じる。",
-    "strategy": "異性体は「分子式は同じ」が出発点。",
-    "unitWeights": [
-      {
-        "id": "chem_isomer",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_isomer_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "不斉炭素原子をもつ化合物で生じうる立体異性体はどれか。",
-    "choices": [
-      "鏡像異性体",
-      "構造異性体のみ",
-      "同素体",
-      "同位体"
-    ],
-    "answer": 0,
-    "hints": [
-      "分子式が同じか、結合順序が違うか、立体配置だけが違うかを区別しよう。",
-      "構造異性体と立体異性体のどちらを問うかを確認。"
-    ],
-    "explanation": "4種類の異なる原子・原子団が結合した炭素は不斉炭素原子となりうる。",
-    "strategy": "異性体は「分子式は同じ」が出発点。",
-    "unitWeights": [
-      {
-        "id": "chem_isomer",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_isomer_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₄H₁₀の構造異性体の数は何種類か。",
-    "choices": [
-      "4種類",
-      "5種類",
-      "3種類",
-      "2種類"
-    ],
-    "answer": 3,
-    "hints": [
-      "分子式が同じか、結合順序が違うか、立体配置だけが違うかを区別しよう。",
-      "構造異性体と立体異性体のどちらを問うかを確認。"
-    ],
-    "explanation": "C₄H₁₀には直鎖のブタンと分岐した2-メチルプロパンの2種類がある。",
-    "strategy": "異性体は「分子式は同じ」が出発点。",
-    "unitWeights": [
-      {
-        "id": "chem_isomer",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_isomer_006",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₅H₁₂の構造異性体の数は何種類か。",
-    "choices": [
-      "4種類",
-      "2種類",
-      "5種類",
-      "3種類"
-    ],
-    "answer": 3,
-    "hints": [
-      "分子式が同じか、結合順序が違うか、立体配置だけが違うかを区別しよう。",
-      "構造異性体と立体異性体のどちらを問うかを確認。"
-    ],
-    "explanation": "ペンタン、2-メチルブタン、2,2-ジメチルプロパンの3種類。",
-    "strategy": "異性体は「分子式は同じ」が出発点。",
-    "unitWeights": [
-      {
-        "id": "chem_isomer",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_isomer_multi_001",
-    "type": "multiple",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "不斉炭素原子の条件として正しいものをすべて選びなさい。",
-    "choices": [
-      "四面体形の炭素原子である",
-      "炭素原子に4種類の異なる原子・原子団が結合",
-      "同じ原子団が2つ結合していてもよい",
-      "炭素原子が必ず二重結合をもつ"
-    ],
-    "answers": [
-      0,
-      1
-    ],
-    "hints": [
-      "結合している4方向を一つずつ比べよう。",
-      "同じ置換基が2つあれば不斉炭素ではない。"
-    ],
-    "explanation": "不斉炭素原子はsp³炭素で、4種類の異なる置換基をもつ。",
-    "strategy": "不斉炭素は「4方向がすべて異なる」と確認する。",
-    "unitWeights": [
-      {
-        "id": "chem_isomer",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_calc_001",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "炭化水素0.10 molを完全燃焼させるとCO₂ 0.30 molとH₂O 0.40 molを生じた。この炭化水素1分子中の炭素原子数を数値で答えなさい。",
-    "answer": 3,
-    "tolerance": 0,
-    "unitLabel": "個",
-    "hints": [
-      "CO₂の物質量は、もとの炭素原子の物質量と等しい。",
-      "生成CO₂のmolを試料のmolで割ろう。"
-    ],
-    "explanation": "炭化水素0.10 molからCO₂ 0.30 molが生じるので、1分子あたり炭素原子は0.30÷0.10=3個。",
-    "strategy": "燃焼分析ではCO₂からC、H₂OからHを数える。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_calc_002",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "炭化水素0.10 molを完全燃焼させるとH₂O 0.40 molを生じた。この炭化水素1分子中の水素原子数を数値で答えなさい。",
-    "answer": 8,
-    "tolerance": 0,
-    "unitLabel": "個",
-    "hints": [
-      "水1分子にはH原子が2個ある。",
-      "H₂Oのmolを2倍してから試料のmolで割ろう。"
-    ],
-    "explanation": "H₂O 0.40 molにはH原子0.80 molが含まれる。0.80÷0.10=8個。",
-    "strategy": "Hの物質量は生成水の2倍。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_empirical_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "4.4 gのCO₂と1.8 gのH₂Oを生じる有機化合物について、CとHの最簡単な原子数比が1:2であるとき、CとHだけからなる組成式を選びなさい。",
-    "hints": [
-      "CO₂からC、H₂OからHのmolを求めよう。",
-      "H₂O 1 molにはH原子2 molが含まれる。"
-    ],
-    "explanation": "CO₂ 4.4 gは0.10 molのC、H₂O 1.8 gは0.10 molの水＝0.20 molのH。比はC:H=1:2で組成式CH₂。",
-    "strategy": "組成式は原子数の最簡整数比。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ],
-    "choices": [
-      "CH2",
-      "反応しない",
-      "CH3",
-      "CH2₂"
-    ],
-    "answer": 0
-  },
-  {
-    "id": "org21_calc_003",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "組成式CH₂、分子量56の炭化水素の分子式を(C Hの順で)考えると、組成式の繰り返し数nはいくつか。",
-    "answer": 4,
-    "tolerance": 0,
-    "unitLabel": "",
-    "hints": [
-      "組成式の式量を求めよう。",
-      "分子量÷組成式量が繰り返し数n。"
-    ],
-    "explanation": "CH₂の式量は14。56÷14=4なので分子式はC₄H₈。",
-    "strategy": "分子式=(組成式)×n。",
-    "unitWeights": [
-      {
-        "id": "chem_elemental_analysis",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_written_001",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "有機化合物の種類が多い理由を、炭素原子の結合の特徴に触れて説明しなさい。",
-    "modelAnswer": "炭素原子は4本の共有結合をつくり、炭素原子どうしが鎖状・分岐状・環状など多様な骨格を形成できるため。",
-    "criteria": [
-      "炭素が4価であること",
-      "炭素原子どうしが結合できること",
-      "多様な炭素骨格に触れた"
-    ],
-    "hints": [
-      "「炭素は何本の結合をつくれるか」から書き始めよう。",
-      "鎖・分岐・環という骨格の多様性につなげよう。"
-    ],
-    "explanation": "炭素の4価と炭素同士の安定な共有結合が、多数の骨格や官能基の組合せを可能にする。",
-    "strategy": "理由説明は原因→構造→結果の順で書く。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_formula_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "アルカンの一般式として適切なものはどれか。",
-    "choices": [
-      "CₙH₂ₙ₋₆",
-      "CₙH₂ₙ₊₂",
-      "CₙH₂ₙ₊₁OH",
-      "CₙH₂ₙ₋₂"
-    ],
-    "answer": 1,
-    "hints": [
-      "炭素間の多重結合や環があると、アルカンよりHが2個ずつ少なくなる。",
-      "アルカンは「単結合のみの鎖式飽和炭化水素」と対応させよう。"
-    ],
-    "explanation": "アルカンはCₙH₂ₙ₊₂で表され、単結合のみの鎖式飽和炭化水素。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_formula_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "シクロアルカンの一般式として適切なものはどれか。",
-    "choices": [
-      "CₙH₂ₙ₊₂",
-      "CₙH₂ₙ₊₁OH",
-      "CₙH₂ₙ₋₂",
-      "CₙH₂ₙ"
-    ],
-    "answer": 3,
-    "hints": [
-      "炭素間の多重結合や環があると、アルカンよりHが2個ずつ少なくなる。",
-      "シクロアルカンは「単結合のみの環式飽和炭化水素」と対応させよう。"
-    ],
-    "explanation": "シクロアルカンはCₙH₂ₙで表され、単結合のみの環式飽和炭化水素。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_formula_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "アルケンの一般式として適切なものはどれか。",
-    "choices": [
-      "CₙH₂ₙ₊₁OH",
-      "CₙH₂ₙ",
-      "CₙH₂ₙ₋₂",
-      "CₙH₂ₙ₊₂"
-    ],
-    "answer": 1,
-    "hints": [
-      "炭素間の多重結合や環があると、アルカンよりHが2個ずつ少なくなる。",
-      "アルケンは「二重結合を1個もつ鎖式不飽和炭化水素」と対応させよう。"
-    ],
-    "explanation": "アルケンはCₙH₂ₙで表され、二重結合を1個もつ鎖式不飽和炭化水素。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_formula_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "アルキンの一般式として適切なものはどれか。",
-    "choices": [
-      "CₙH₂ₙ₊₁OH",
-      "CₙH₂ₙ₊₂",
-      "CₙH₂ₙ₋₆",
-      "CₙH₂ₙ₋₂"
-    ],
-    "answer": 3,
-    "hints": [
-      "炭素間の多重結合や環があると、アルカンよりHが2個ずつ少なくなる。",
-      "アルキンは「三重結合を1個もつ鎖式不飽和炭化水素」と対応させよう。"
-    ],
-    "explanation": "アルキンはCₙH₂ₙ₋₂で表され、三重結合を1個もつ鎖式不飽和炭化水素。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "CH₄の名称として正しいものはどれか。",
-    "choices": [
-      "シクロヘキサン",
-      "メタン",
-      "プロピル基",
-      "ベンゼン"
-    ],
-    "answer": 1,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "CH₄とメタンを対応させよう。"
-    ],
-    "explanation": "CH₄はメタンである。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₂H₆の名称として正しいものはどれか。",
-    "choices": [
-      "シクロヘキサン",
-      "ベンゼン",
-      "プロピル基",
-      "エタン"
-    ],
-    "answer": 3,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₂H₆とエタンを対応させよう。"
-    ],
-    "explanation": "C₂H₆はエタンである。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₃H₈の名称として正しいものはどれか。",
-    "choices": [
-      "プロパン",
-      "プロピル基",
-      "シクロヘキサン",
-      "ベンゼン"
-    ],
-    "answer": 0,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₃H₈とプロパンを対応させよう。"
-    ],
-    "explanation": "C₃H₈はプロパンである。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₄H₁₀の名称として正しいものはどれか。",
-    "choices": [
-      "ベンゼン",
-      "シクロヘキサン",
-      "プロピル基",
-      "ブタン"
-    ],
-    "answer": 3,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₄H₁₀とブタンを対応させよう。"
-    ],
-    "explanation": "C₄H₁₀はブタンである。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₂H₄の名称として正しいものはどれか。",
-    "choices": [
-      "シクロヘキサン",
-      "エチレン(エテン)",
-      "プロピル基",
-      "ベンゼン"
-    ],
-    "answer": 1,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₂H₄とエチレン(エテン)を対応させよう。"
-    ],
-    "explanation": "C₂H₄はエチレン(エテン)である。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_006",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₃H₆の名称として正しいものはどれか。",
-    "choices": [
-      "プロピル基",
-      "プロペン",
-      "ベンゼン",
-      "シクロヘキサン"
-    ],
-    "answer": 1,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₃H₆とプロペンを対応させよう。"
-    ],
-    "explanation": "C₃H₆はプロペンである。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_007",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₂H₂の名称として正しいものはどれか。",
-    "choices": [
-      "アセチレン(エチン)",
-      "ベンゼン",
-      "プロピル基",
-      "シクロヘキサン"
-    ],
-    "answer": 0,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₂H₂とアセチレン(エチン)を対応させよう。"
-    ],
-    "explanation": "C₂H₂はアセチレン(エチン)である。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_008",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "CH₃－の名称として正しいものはどれか。",
-    "choices": [
-      "メチル基",
-      "ベンゼン",
-      "シクロヘキサン",
-      "プロピル基"
-    ],
-    "answer": 0,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "CH₃－とメチル基を対応させよう。"
-    ],
-    "explanation": "CH₃－はメチル基である。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_009",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₂H₅－の名称として正しいものはどれか。",
-    "choices": [
-      "シクロヘキサン",
-      "ベンゼン",
-      "エチル基",
-      "プロピル基"
-    ],
-    "answer": 2,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₂H₅－とエチル基を対応させよう。"
-    ],
-    "explanation": "C₂H₅－はエチル基である。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_010",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "CH₂＝CH－の名称として正しいものはどれか。",
-    "choices": [
-      "プロピル基",
-      "シクロヘキサン",
-      "ベンゼン",
-      "ビニル基"
-    ],
-    "answer": 3,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "CH₂＝CH－とビニル基を対応させよう。"
-    ],
-    "explanation": "CH₂＝CH－はビニル基である。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_name_011",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "C₆H₅－の名称として正しいものはどれか。",
-    "choices": [
-      "フェニル基",
-      "ベンゼン",
-      "プロピル基",
-      "シクロヘキサン"
-    ],
-    "answer": 0,
-    "hints": [
-      "炭素数と結合の種類を数えよう。",
-      "C₆H₅－とフェニル基を対応させよう。"
-    ],
-    "explanation": "C₆H₅－はフェニル基である。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アルカンと塩素を紫外線下で反応させたとき、主に起こる反応はどれか。",
-    "choices": [
-      "置換反応",
-      "中和反応",
-      "付加反応",
-      "加水分解"
-    ],
-    "answer": 0,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "アルカンは紫外線下でハロゲンと置換反応する。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アルケンの検出に利用できる変化はどれか。",
-    "choices": [
-      "塩化鉄(Ⅲ)で紫色になる",
-      "石灰水が白濁する",
-      "臭素水の赤褐色が消える",
-      "銀鏡が生じる"
-    ],
-    "answer": 2,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "C=C結合は臭素を付加し、臭素水を脱色する。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アセチレンの実験室的製法として適切なものはどれか。",
-    "choices": [
-      "炭化カルシウムに水を加える",
-      "エタノールを酸化する",
-      "ベンゼンを水素化する",
-      "酢酸ナトリウムにNaOHを加えて加熱"
-    ],
-    "answer": 0,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "CaC₂+2H₂O→C₂H₂+Ca(OH)₂でアセチレンを得る。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "エチレンの実験室的製法として適切なものはどれか。",
-    "choices": [
-      "酢酸を還元する",
-      "メタンを水に溶かす",
-      "エタノールを濃硫酸と約170℃で加熱",
-      "アセチレンを完全燃焼"
-    ],
-    "answer": 2,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "エタノールの分子内脱水でエチレンが生じる。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "エチレンの性質として正しいものはどれか。",
-    "choices": [
-      "銀鏡反応を示す",
-      "水に非常によく溶ける",
-      "強酸である",
-      "植物の成熟を促す作用がある"
-    ],
-    "answer": 3,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "エチレンは植物ホルモンとして果実の成熟を促進する。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_006",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "同じ炭素数のアルカンで、枝分かれが多いほど一般に沸点が低くなる理由はどれか。",
-    "choices": [
-      "共有結合が切れやすくなるから",
-      "分子の接触面積が小さくなり分子間力が弱まるから",
-      "分子量が小さくなるから",
-      "イオン化するから"
-    ],
-    "answer": 1,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "分岐により分子同士の接触面積が小さくなり、分散力が弱くなる。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_007",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "炭素原子間の結合距離が最も短いものはどれか。",
-    "choices": [
-      "C=C",
-      "C-C",
-      "C≡C",
-      "すべて同じ"
-    ],
-    "answer": 2,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "結合次数が大きいほど結合は短く、C≡Cが最も短い。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_008",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "シクロアルカンとアルケンの関係として正しいものはどれか。",
-    "choices": [
-      "分子式が異なる",
-      "必ず同じ化合物である",
-      "同じ一般式をもち構造異性体になりうる",
-      "どちらも芳香族である"
-    ],
-    "answer": 2,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "どちらも一般式CₙH₂ₙで、環構造と二重結合の違いによる異性体になりうる。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_009",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "原油を沸点の差を利用して成分に分ける操作はどれか。",
-    "choices": [
-      "昇華",
-      "分留",
-      "抽出",
-      "ろ過"
-    ],
-    "answer": 1,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "原油は分留塔で沸点の異なる留分に分けられる。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_010",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "重質油を小さい炭化水素に分解する操作を何というか。",
-    "choices": [
-      "ジアゾ化",
-      "クラッキング",
-      "けん化",
-      "リホーミング"
-    ],
-    "answer": 1,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "熱分解・接触分解はクラッキングとよばれる。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_prop_011",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ガソリンの品質向上などのため炭化水素の構造を組み替える操作を何というか。",
-    "choices": [
-      "付加重合",
-      "クラッキング",
-      "リホーミング",
-      "蒸留"
-    ],
-    "answer": 2,
-    "hints": [
-      "飽和か不飽和か、鎖式か環式かを先に確認しよう。",
-      "代表反応・製法・物理的性質を一般式と結びつけよう。"
-    ],
-    "explanation": "接触改質はリホーミングとよばれる。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_multi_001",
-    "type": "multiple",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "不飽和炭化水素に共通しやすい性質をすべて選びなさい。",
-    "choices": [
-      "臭素水を脱色する",
-      "付加反応を起こしやすい",
-      "必ず環状構造をもつ",
-      "炭素間に多重結合をもつ"
-    ],
-    "answers": [
-      0,
-      1,
-      3
-    ],
-    "hints": [
-      "C=CまたはC≡Cの反応性を思い出そう。",
-      "環状である必要はない。多重結合がポイント。"
-    ],
-    "explanation": "アルケン・アルキンは多重結合をもち、付加反応によって臭素水を脱色する。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_calc_001",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "プロパン C₃H₈ 0.50 molを完全燃焼させるのに必要なO₂は何molか。",
-    "answer": 2.5,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "完全燃焼の反応式を完成させよう。",
-      "プロパンと酸素の係数比は1:5。"
-    ],
-    "explanation": "C₃H₈+5O₂→3CO₂+4H₂O。0.50 mol×5=2.5 mol。",
-    "strategy": "燃焼計算は反応式の係数比をmol比として使う。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_calc_002",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "エチレン C₂H₄ 0.20 molに臭素 Br₂を完全に付加させる。必要なBr₂は何molか。",
-    "answer": 0.2,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "C=C結合1個にBr₂が何分子付加するか考えよう。",
-      "エチレン:Br₂=1:1。"
-    ],
-    "explanation": "二重結合1個にBr₂ 1分子が付加するので、物質量比は1:1。",
-    "strategy": "付加反応は多重結合の数を数える。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_calc_003",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "アセチレン C₂H₂ 0.30 molを完全にエタン C₂H₆まで水素化する。必要なH₂は何molか。",
-    "answer": 0.6,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "三重結合を単結合にするにはH₂が何mol必要か考えよう。",
-      "アセチレン1 molにH₂ 2 molが付加する。"
-    ],
-    "explanation": "C₂H₂+2H₂→C₂H₆より、0.30×2=0.60 mol。",
-    "strategy": "多重結合の完全水素化では不足するH原子数を数える。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_short_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "メタンを塩素と反応させ、H原子1個がClに置換した生成物の化学式を選びなさい。",
-    "hints": [
-      "メタンのHを1個Clに置き換えよう。",
-      "炭素に結合する原子の合計は4本。"
-    ],
-    "explanation": "CH₄+Cl₂→CH₃Cl+HCl。生成物はクロロメタンCH₃Cl。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ],
-    "choices": [
-      "CH3Cl",
-      "CH3Cl₂",
-      "反応しない",
-      "CH2Cl"
-    ],
-    "answer": 0
-  },
-  {
-    "id": "org22_written_001",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "アルケンが臭素水を脱色する理由を説明しなさい。",
-    "modelAnswer": "アルケンの炭素間二重結合に臭素が付加し、赤褐色の臭素分子が消費されるため。",
-    "criteria": [
-      "二重結合に触れた",
-      "臭素の付加反応に触れた",
-      "臭素分子が消費され脱色すると説明した"
-    ],
-    "hints": [
-      "臭素水の色の原因は何か考えよう。",
-      "C=Cの付加反応でBr₂が消費されるとつなげよう。"
-    ],
-    "explanation": "臭素水の色はBr₂による。C=CにBr₂が付加するとBr₂がなくなり色が消える。",
-    "strategy": "観察された色変化を反応する粒子まで戻して説明する。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "第一級アルコールを十分に酸化したとき最終的に生じるものはどれか。",
-    "choices": [
-      "アルカン",
-      "カルボン酸",
-      "エーテル",
-      "ケトン"
-    ],
-    "answer": 1,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "第一級アルコールはアルデヒドを経てカルボン酸になる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "第二級アルコールを酸化したとき生じるものはどれか。",
-    "choices": [
-      "カルボン酸のみ",
-      "アルデヒド",
-      "ケトン",
-      "エーテル"
-    ],
-    "answer": 2,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "第二級アルコールはケトンに酸化される。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "第三級アルコールの酸化について正しいものはどれか。",
-    "choices": [
-      "銀鏡反応を示す",
-      "必ずアルデヒドになる",
-      "一般に酸化されにくい",
-      "必ずカルボン酸になる"
-    ],
-    "answer": 2,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "第三級アルコールはOHのついた炭素にHがなく、通常の条件では酸化されにくい。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "エタノールを濃硫酸と約170℃で加熱したときの主生成物はどれか。",
-    "choices": [
-      "エチレン",
-      "ジエチルエーテル",
-      "アセトン",
-      "酢酸"
-    ],
-    "answer": 0,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "約170℃では分子内脱水が起こりエチレンを生じる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "エタノールを濃硫酸と約140℃で加熱したときの主生成物はどれか。",
-    "choices": [
-      "ジエチルエーテル",
-      "エチレン",
-      "アセトアルデヒド",
-      "酢酸"
-    ],
-    "answer": 0,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "約140℃では分子間脱水でジエチルエーテルを生じる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_006",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アルコールにナトリウムを加えたとき発生する気体はどれか。",
-    "choices": [
-      "アンモニア",
-      "二酸化炭素",
-      "水素",
-      "酸素"
-    ],
-    "answer": 2,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "2ROH+2Na→2RONa+H₂で水素が発生する。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_007",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "炭素数が増えると1価アルコールの水への溶解性が低下する主な理由はどれか。",
-    "choices": [
-      "OH基が消えるから",
-      "無極性の炭化水素基の影響が大きくなるから",
-      "イオン結晶になるから",
-      "分子量が0になるから"
-    ],
-    "answer": 1,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "炭素鎖が長くなるほど疎水性部分の割合が増える。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_008",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ヨードホルム反応を示す代表的なアルコールはどれか。",
-    "choices": [
-      "グリセリン",
-      "エチレングリコール",
-      "メタノール",
-      "エタノール"
-    ],
-    "answer": 3,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "エタノールは酸化されるとCH₃CHOとなるためヨードホルム反応を示す。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_alcohol_009",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アルコール発酵でグルコースから生じる物質の組合せはどれか。",
-    "choices": [
-      "メタノールと酸素",
-      "エタノールと二酸化炭素",
-      "アセトンと窒素",
-      "酢酸と水素"
-    ],
-    "answer": 1,
-    "hints": [
-      "OHがついた炭素の級数と、加熱条件を確認しよう。",
-      "第一級→アルデヒド→酸、第二級→ケトン、第三級→酸化されにくい。"
-    ],
-    "explanation": "C₆H₁₂O₆→2C₂H₅OH+2CO₂。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_ether_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "ジエチルエーテルの性質として正しいものはどれか。",
-    "choices": [
-      "銀鏡反応を示す",
-      "水に溶けにくく引火性が高い",
-      "常温で固体である",
-      "強酸性である"
-    ],
-    "answer": 1,
-    "hints": [
-      "酸素原子が炭化水素基の間にあるかを見る。",
-      "分子間脱水では2分子がつながり、水が1分子抜ける。"
-    ],
-    "explanation": "ジエチルエーテルは揮発性・引火性が高く、水に溶けにくい。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_ether_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "エーテル結合を表す構造はどれか。",
-    "choices": [
-      "R－O－R′",
-      "R－COOH",
-      "R－NH₂",
-      "R－CHO"
-    ],
-    "answer": 0,
-    "hints": [
-      "酸素原子が炭化水素基の間にあるかを見る。",
-      "分子間脱水では2分子がつながり、水が1分子抜ける。"
-    ],
-    "explanation": "エーテルは酸素原子が2つの炭化水素基をつなぐR－O－R′。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_ether_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "エタノール2分子の分子間脱水で生じるものはどれか。",
-    "choices": [
-      "エチレンと水素",
-      "酢酸と水",
-      "ジエチルエーテルと水",
-      "アセトアルデヒドと水素"
-    ],
-    "answer": 2,
-    "hints": [
-      "酸素原子が炭化水素基の間にあるかを見る。",
-      "分子間脱水では2分子がつながり、水が1分子抜ける。"
-    ],
-    "explanation": "2C₂H₅OH→C₂H₅OC₂H₅+H₂O。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_carbonyl_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アルデヒドに共通する官能基はどれか。",
-    "choices": [
-      "－CHO",
-      "－COOH",
-      "＞CO",
-      "－OH"
-    ],
-    "answer": 0,
-    "hints": [
-      "末端の－CHOか、鎖の途中の＞COかを見分けよう。",
-      "アルデヒドは還元性あり、ケトンは通常還元性を示さない。"
-    ],
-    "explanation": "アルデヒドは末端にホルミル基－CHOをもつ。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_carbonyl_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ケトンに共通する構造はどれか。",
-    "choices": [
-      "R－CHO",
-      "R－CO－R′",
-      "R－O－R′",
-      "R－COOH"
-    ],
-    "answer": 1,
-    "hints": [
-      "末端の－CHOか、鎖の途中の＞COかを見分けよう。",
-      "アルデヒドは還元性あり、ケトンは通常還元性を示さない。"
-    ],
-    "explanation": "ケトンはカルボニル基が2つの炭化水素基に挟まれた構造をもつ。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_carbonyl_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "銀鏡反応を示す物質はどれか。",
-    "choices": [
-      "アセトアルデヒド",
-      "酢酸エチル",
-      "ジエチルエーテル",
-      "アセトン"
-    ],
-    "answer": 0,
-    "hints": [
-      "末端の－CHOか、鎖の途中の＞COかを見分けよう。",
-      "アルデヒドは還元性あり、ケトンは通常還元性を示さない。"
-    ],
-    "explanation": "アルデヒドは還元性をもち、Ag⁺をAgに還元する。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_carbonyl_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "フェーリング液を還元して赤色沈殿を生じる代表的な物質はどれか。",
-    "choices": [
-      "アルデヒド",
-      "ケトン",
-      "エステル",
-      "エーテル"
-    ],
-    "answer": 0,
-    "hints": [
-      "末端の－CHOか、鎖の途中の＞COかを見分けよう。",
-      "アルデヒドは還元性あり、ケトンは通常還元性を示さない。"
-    ],
-    "explanation": "脂肪族アルデヒドはCu²⁺をCu₂Oに還元し赤色沈殿を生じる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_carbonyl_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アセトンの製法として適切なものはどれか。",
-    "choices": [
-      "エチレンの水素化",
-      "2-プロパノールの酸化",
-      "1-プロパノールの酸化",
-      "酢酸の中和"
-    ],
-    "answer": 1,
-    "hints": [
-      "末端の－CHOか、鎖の途中の＞COかを見分けよう。",
-      "アルデヒドは還元性あり、ケトンは通常還元性を示さない。"
-    ],
-    "explanation": "第二級アルコールの2-プロパノールを酸化するとアセトンになる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_carbonyl_006",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ホルマリンとは何か。",
-    "choices": [
-      "ギ酸の濃溶液",
-      "ホルムアルデヒドの水溶液",
-      "エタノールの水溶液",
-      "アセトンの水溶液"
-    ],
-    "answer": 1,
-    "hints": [
-      "末端の－CHOか、鎖の途中の＞COかを見分けよう。",
-      "アルデヒドは還元性あり、ケトンは通常還元性を示さない。"
-    ],
-    "explanation": "ホルマリンはHCHOを約37%含む水溶液。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_carbonyl_007",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ギ酸が銀鏡反応を示す理由はどれか。",
-    "choices": [
-      "三重結合をもつから",
-      "分子中にアルデヒドに相当するH－CO－構造をもつから",
-      "ベンゼン環をもつから",
-      "強塩基だから"
-    ],
-    "answer": 1,
-    "hints": [
-      "末端の－CHOか、鎖の途中の＞COかを見分けよう。",
-      "アルデヒドは還元性あり、ケトンは通常還元性を示さない。"
-    ],
-    "explanation": "ギ酸HCOOHは還元性を示し、銀鏡反応を起こす。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "カルボン酸が炭酸水素ナトリウムと反応したとき発生する気体はどれか。",
-    "choices": [
-      "二酸化炭素",
-      "酸素",
-      "水素",
-      "アンモニア"
-    ],
-    "answer": 0,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "カルボン酸は炭酸より強い酸で、NaHCO₃からCO₂を遊離する。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "カルボン酸とアルコールの反応で生じるものはどれか。",
-    "choices": [
-      "アルデヒドと水素",
-      "エーテルと二酸化炭素",
-      "エステルと水",
-      "ケトンと酸素"
-    ],
-    "answer": 2,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "カルボン酸とアルコールの脱水縮合をエステル化という。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "酢酸とエタノールから生じるエステルはどれか。",
-    "choices": [
-      "酢酸エチル",
-      "酢酸メチル",
-      "安息香酸エチル",
-      "ギ酸エチル"
-    ],
-    "answer": 0,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "CH₃COOH+C₂H₅OH⇄CH₃COOC₂H₅+H₂O。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "エステルをNaOH水溶液で加水分解する反応を何というか。",
-    "choices": [
-      "ニトロ化",
-      "ジアゾ化",
-      "けん化",
-      "水素化"
-    ],
-    "answer": 2,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "塩基によるエステルの加水分解をけん化という。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "酢酸エチルをNaOHで完全にけん化したとき生じるものはどれか。",
-    "choices": [
-      "酢酸ナトリウムとエタノール",
-      "酢酸とエチレン",
-      "アセトンと水",
-      "メタノールとギ酸"
-    ],
-    "answer": 0,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "CH₃COOC₂H₅+NaOH→CH₃COONa+C₂H₅OH。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_006",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "高級脂肪酸とグリセリンからなるエステルを何というか。",
-    "choices": [
-      "アルカン",
-      "アミノ酸",
-      "糖類",
-      "油脂"
-    ],
-    "answer": 3,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "油脂はグリセリンと高級脂肪酸のトリエステル。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_007",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "硬化油をつくる操作はどれか。",
-    "choices": [
-      "油脂を硝酸で処理する",
-      "不飽和油脂に水素を付加する",
-      "油脂を蒸留する",
-      "油脂を酸化する"
-    ],
-    "answer": 1,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "不飽和結合にH₂を付加して固体状にする。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_008",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "セッケンが油汚れを水中に分散できる理由はどれか。",
-    "choices": [
-      "気体を発生するから",
-      "親水基と疎水基の両方をもつから",
-      "強酸だから",
-      "金属結晶だから"
-    ],
-    "answer": 1,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "疎水基が油に入り、親水基が水に向いてミセルをつくる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_acidester_009",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "硬水中でセッケンの洗浄力が低下する理由はどれか。",
-    "choices": [
-      "水が中性になるから",
-      "Ca²⁺やMg²⁺と難溶性塩をつくるから",
-      "Na⁺が蒸発するから",
-      "酸素が減るから"
-    ],
-    "answer": 1,
-    "hints": [
-      "カルボキシ基とエステル結合のどちらがあるか確認しよう。",
-      "酸＋アルコール→エステル、エステル＋塩基→塩＋アルコール。"
-    ],
-    "explanation": "高級脂肪酸のCa塩・Mg塩が沈殿し、セッケンが消費される。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_multi_001",
-    "type": "multiple",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "銀鏡反応を示すものをすべて選びなさい。",
-    "choices": [
-      "ギ酸",
-      "アセトン",
-      "アセトアルデヒド",
-      "ホルムアルデヒド"
-    ],
-    "answers": [
-      0,
-      2,
-      3
-    ],
-    "hints": [
-      "還元されやすい官能基があるかを確認。",
-      "－CHOまたはギ酸のHCOOHを選ぶ。"
-    ],
-    "explanation": "アルデヒドとギ酸は還元性を示す。アセトンは通常銀鏡反応を示さない。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_multi_002",
-    "type": "multiple",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "ヨードホルム反応を示すものをすべて選びなさい。",
-    "choices": [
-      "メタノール",
-      "2-プロパノール",
-      "アセトン",
-      "エタノール",
-      "アセトアルデヒド"
-    ],
-    "answers": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "hints": [
-      "CH₃CO－または酸化されてそれになる構造を探そう。",
-      "メタノールは該当しない。"
-    ],
-    "explanation": "CH₃CH(OH)－またはCH₃CO－構造をもつ物質が陽性。エタノールも酸化でCH₃CHOになるため陽性。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org23_calc_001",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "エタノール2.0 molに十分なNaを反応させた。発生するH₂は何molか。",
-    "answer": 1.0,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "反応式の係数をそろえよう。",
-      "アルコール:H₂=2:1。"
-    ],
-    "explanation": "2C₂H₅OH+2Na→2C₂H₅ONa+H₂より、エタノール2 molからH₂ 1 mol。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_calc_002",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "酢酸0.30 molとエタノール0.30 molが完全に反応したと仮定する。生成する酢酸エチルは何molか。",
-    "answer": 0.3,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "エステル化の反応式を確認。",
-      "反応物が同量なのでどちらも不足せず0.30 mol生成。"
-    ],
-    "explanation": "酢酸とエタノールと酢酸エチルの係数比は1:1:1。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_calc_003",
-    "type": "numeric",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "アセトアルデヒド0.10 molが銀鏡反応を完全に起こすとき、析出するAgは何molか。",
-    "answer": 0.2,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "アルデヒド基1個が何個のAg⁺を還元するかを考えよう。",
-      "1 molの－CHOにつきAg 2 mol。"
-    ],
-    "explanation": "アルデヒド1 molはAg⁺ 2 molを還元するので、Agは0.20 mol析出する。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_short_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "酢酸とエタノールから生じるエステルの示性式を選びなさい。",
-    "hints": [
-      "酸の－OHとアルコールのHが水として取れる。",
-      "残ったCH₃COO－とC₂H₅をつなぐ。"
-    ],
-    "explanation": "酢酸のCH₃COO－部分とエタノールのC₂H₅部分が結合し、CH₃COOC₂H₅。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ],
-    "choices": [
-      "CH2COOC2H5",
-      "CH3COOC2H5₂",
-      "CH3COOC2H5",
-      "CH3COOC3H5"
-    ],
-    "answer": 2
-  },
-  {
-    "id": "org23_written_001",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "第一級アルコールと第二級アルコールの酸化生成物の違いを説明しなさい。",
-    "modelAnswer": "第一級アルコールはアルデヒドを経てカルボン酸まで酸化され、第二級アルコールはケトンに酸化される。",
-    "criteria": [
-      "第一級からアルデヒド",
-      "第一級からカルボン酸",
-      "第二級からケトン"
-    ],
-    "hints": [
-      "第一級・第二級でOHの炭素につくHの数を比べよう。",
-      "生成物の官能基をアルデヒド・カルボン酸・ケトンで整理。"
-    ],
-    "explanation": "OHがついた炭素に結合するHの数が、酸化後の構造を決める。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org23_written_002",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "セッケンが油汚れを落とす仕組みを、親水基と疎水基に触れて説明しなさい。",
-    "modelAnswer": "セッケンの疎水基が油汚れに入り込み、親水基が水側を向いてミセルを形成することで、油を水中に分散させる。",
-    "criteria": [
-      "疎水基が油に入る",
-      "親水基が水側を向く",
-      "ミセル・分散に触れた"
-    ],
-    "hints": [
-      "セッケン分子の2つの部分の向きを書こう。",
-      "油を包み水中に分散させるところまで説明。"
-    ],
-    "explanation": "セッケン分子は両親媒性で、油を内側に取り込んだミセルをつくる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_benzene_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ベンゼンが起こしやすい反応はどれか。",
-    "choices": [
-      "置換反応",
-      "中和反応",
-      "付加反応のみ",
-      "銀鏡反応"
-    ],
-    "answer": 0,
-    "hints": [
-      "ベンゼン環を保つ反応か、環を壊す付加かを見分けよう。",
-      "通常条件では置換、強い条件では付加や側鎖酸化も起こる。"
-    ],
-    "explanation": "ベンゼン環は安定で、通常は付加より置換反応を起こしやすい。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_benzene_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ベンゼンのニトロ化に用いる試薬の組合せはどれか。",
-    "choices": [
-      "臭素水のみ",
-      "アンモニア水と硝酸銀",
-      "希塩酸とNaOH",
-      "濃硝酸と濃硫酸"
-    ],
-    "answer": 3,
-    "hints": [
-      "ベンゼン環を保つ反応か、環を壊す付加かを見分けよう。",
-      "通常条件では置換、強い条件では付加や側鎖酸化も起こる。"
-    ],
-    "explanation": "混酸を加えて加熱するとニトロベンゼンを生じる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_benzene_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ベンゼンを塩素化するときに用いる触媒として適切なものはどれか。",
-    "choices": [
-      "鉄粉",
-      "酵母",
-      "二酸化マンガン",
-      "白金黒のみ"
-    ],
-    "answer": 0,
-    "hints": [
-      "ベンゼン環を保つ反応か、環を壊す付加かを見分けよう。",
-      "通常条件では置換、強い条件では付加や側鎖酸化も起こる。"
-    ],
-    "explanation": "鉄または塩化鉄(Ⅲ)などの触媒下でCl₂と置換反応する。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_benzene_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ベンゼンに濃硫酸を加えて加熱すると生じるものはどれか。",
-    "choices": [
-      "アニリン",
-      "フェノール",
-      "ベンゼンスルホン酸",
-      "安息香酸"
-    ],
-    "answer": 2,
-    "hints": [
-      "ベンゼン環を保つ反応か、環を壊す付加かを見分けよう。",
-      "通常条件では置換、強い条件では付加や側鎖酸化も起こる。"
-    ],
-    "explanation": "スルホン化でC₆H₅SO₃Hを生じる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_benzene_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "トルエンの側鎖を強く酸化したときの主生成物はどれか。",
-    "choices": [
-      "フェノール",
-      "アニリン",
-      "シクロヘキサン",
-      "安息香酸"
-    ],
-    "answer": 3,
-    "hints": [
-      "ベンゼン環を保つ反応か、環を壊す付加かを見分けよう。",
-      "通常条件では置換、強い条件では付加や側鎖酸化も起こる。"
-    ],
-    "explanation": "ベンゼン環に結合するアルキル基は酸化されて－COOHになる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_benzene_006",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ベンゼンをNi触媒下で水素化したとき生じるものはどれか。",
-    "choices": [
-      "ヘキサン",
-      "トルエン",
-      "フェノール",
-      "シクロヘキサン"
-    ],
-    "answer": 3,
-    "hints": [
-      "ベンゼン環を保つ反応か、環を壊す付加かを見分けよう。",
-      "通常条件では置換、強い条件では付加や側鎖酸化も起こる。"
-    ],
-    "explanation": "C₆H₆+3H₂→C₆H₁₂。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_benzene_007",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "キシレンの分子式はどれか。",
-    "choices": [
-      "C₆H₆",
-      "C₈H₁₀",
-      "C₈H₈",
-      "C₇H₈"
-    ],
-    "answer": 1,
-    "hints": [
-      "ベンゼン環を保つ反応か、環を壊す付加かを見分けよう。",
-      "通常条件では置換、強い条件では付加や側鎖酸化も起こる。"
-    ],
-    "explanation": "ベンゼンのHを2個CH₃で置換したC₆H₄(CH₃)₂=C₈H₁₀。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_phenol_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "フェノールの検出に用いる試薬はどれか。",
-    "choices": [
-      "塩化鉄(Ⅲ)水溶液",
-      "フェーリング液",
-      "硝酸銀水溶液",
-      "石灰水"
-    ],
-    "answer": 0,
-    "hints": [
-      "フェノール性OHの弱酸性と環の反応性に注目。",
-      "FeCl₃呈色、臭素水白色沈殿、NaOHと中和をセットで覚える。"
-    ],
-    "explanation": "フェノール類はFeCl₃水溶液で青紫～赤紫色に呈色する。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_phenol",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_phenol_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "フェノールに臭素水を加えたとき生じるものはどれか。",
-    "choices": [
-      "赤色Cu₂O沈殿",
-      "2,4,6-トリブロモフェノールの白色沈殿",
-      "銀の析出",
-      "臭化水素だけ"
-    ],
-    "answer": 1,
-    "hints": [
-      "フェノール性OHの弱酸性と環の反応性に注目。",
-      "FeCl₃呈色、臭素水白色沈殿、NaOHと中和をセットで覚える。"
-    ],
-    "explanation": "フェノール環は活性化され、臭素水と容易に置換して白色沈殿を生じる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_phenol",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_phenol_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "フェノールとNaOHの反応で生じる塩はどれか。",
-    "choices": [
-      "酢酸ナトリウム",
-      "アニリン塩酸塩",
-      "ナトリウムフェノキシド",
-      "安息香酸ナトリウム"
-    ],
-    "answer": 2,
-    "hints": [
-      "フェノール性OHの弱酸性と環の反応性に注目。",
-      "FeCl₃呈色、臭素水白色沈殿、NaOHと中和をセットで覚える。"
-    ],
-    "explanation": "フェノールは弱酸でNaOHと中和しC₆H₅ONaを生じる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_phenol",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_phenol_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "フェノールが炭酸水素ナトリウムとほとんど反応しない理由はどれか。",
-    "choices": [
-      "フェノールは強塩基だから",
-      "フェノールは金属だから",
-      "フェノールに酸素がないから",
-      "フェノールは炭酸より弱い酸だから"
-    ],
-    "answer": 3,
-    "hints": [
-      "フェノール性OHの弱酸性と環の反応性に注目。",
-      "FeCl₃呈色、臭素水白色沈殿、NaOHと中和をセットで覚える。"
-    ],
-    "explanation": "フェノールはカルボン酸より弱く、炭酸よりも弱い酸。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_phenol",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_phenol_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "クメン法でフェノールとともに副生する物質はどれか。",
-    "choices": [
-      "酢酸",
-      "ベンゼン",
-      "アセトン",
-      "エタノール"
-    ],
-    "answer": 2,
-    "hints": [
-      "フェノール性OHの弱酸性と環の反応性に注目。",
-      "FeCl₃呈色、臭素水白色沈殿、NaOHと中和をセットで覚える。"
-    ],
-    "explanation": "クメン法ではフェノールとアセトンが同時に得られる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_phenol",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_acid_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "安息香酸にNaHCO₃水溶液を加えたとき発生する気体はどれか。",
-    "choices": [
-      "H₂",
-      "CO₂",
-      "O₂",
-      "N₂"
-    ],
-    "answer": 1,
-    "hints": [
-      "分子中のCOOHとフェノール性OHを別々に確認しよう。",
-      "NaHCO₃はカルボン酸、FeCl₃はフェノール性OHの手がかり。"
-    ],
-    "explanation": "安息香酸は炭酸より強い酸で、炭酸水素塩からCO₂を遊離する。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_acid",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_acid_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "テレフタル酸の代表的用途はどれか。",
-    "choices": [
-      "PETの原料",
-      "燃料電池の電解質",
-      "アンモニア合成触媒",
-      "セッケンの原料"
-    ],
-    "answer": 0,
-    "hints": [
-      "分子中のCOOHとフェノール性OHを別々に確認しよう。",
-      "NaHCO₃はカルボン酸、FeCl₃はフェノール性OHの手がかり。"
-    ],
-    "explanation": "テレフタル酸とエチレングリコールからPETをつくる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_acid",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_acid_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "フタル酸を加熱したとき生じやすいものはどれか。",
-    "choices": [
-      "アニリン",
-      "フェノール",
-      "安息香酸",
-      "無水フタル酸"
-    ],
-    "answer": 3,
-    "hints": [
-      "分子中のCOOHとフェノール性OHを別々に確認しよう。",
-      "NaHCO₃はカルボン酸、FeCl₃はフェノール性OHの手がかり。"
-    ],
-    "explanation": "オルト位の2つのCOOHが分子内脱水して酸無水物をつくる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_acid",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_acid_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "サリチル酸が示す2種類の性質はどれか。",
-    "choices": [
-      "エーテルとアルキン",
-      "アルデヒドとケトン",
-      "フェノール類とカルボン酸",
-      "アミンとアルカン"
-    ],
-    "answer": 2,
-    "hints": [
-      "分子中のCOOHとフェノール性OHを別々に確認しよう。",
-      "NaHCO₃はカルボン酸、FeCl₃はフェノール性OHの手がかり。"
-    ],
-    "explanation": "サリチル酸はフェノール性OHとCOOHの両方をもつ。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_acid",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_acid_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アセチルサリチル酸をFeCl₃水溶液で調べたとき、通常呈色しにくい理由はどれか。",
-    "choices": [
-      "COOHがないから",
-      "ベンゼン環がないから",
-      "強塩基だから",
-      "フェノール性OHがアセチル化されているから"
-    ],
-    "answer": 3,
-    "hints": [
-      "分子中のCOOHとフェノール性OHを別々に確認しよう。",
-      "NaHCO₃はカルボン酸、FeCl₃はフェノール性OHの手がかり。"
-    ],
-    "explanation": "フェノール性OHがエステル化され、FeCl₃呈色を示しにくい。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_acid",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_nitrogen_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アニリンの性質として正しいものはどれか。",
-    "choices": [
-      "銀鏡反応を示す",
-      "強酸性でNaHCO₃とCO₂を発生",
-      "中性でどの酸とも反応しない",
-      "弱塩基性で塩酸に溶ける"
-    ],
-    "answer": 3,
-    "hints": [
-      "－NO₂、－NH₂、－N=N－の変換を追おう。",
-      "ニトロ化→還元→アニリン→ジアゾ化→カップリングの流れ。"
-    ],
-    "explanation": "アニリンはアミノ基をもち弱塩基性。HClとアニリン塩酸塩をつくる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_nitrogen_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アニリンの検出反応として利用できるものはどれか。",
-    "choices": [
-      "臭素水を無色のままにする",
-      "さらし粉水溶液で赤紫色",
-      "FeCl₃で必ず青紫色",
-      "石灰水で白濁"
-    ],
-    "answer": 1,
-    "hints": [
-      "－NO₂、－NH₂、－N=N－の変換を追おう。",
-      "ニトロ化→還元→アニリン→ジアゾ化→カップリングの流れ。"
-    ],
-    "explanation": "アニリンはさらし粉水溶液で赤紫色に呈色する。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_nitrogen_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ニトロベンゼンを還元して得られる芳香族アミンはどれか。",
-    "choices": [
-      "安息香酸",
-      "アニリン",
-      "フェノール",
-      "トルエン"
-    ],
-    "answer": 1,
-    "hints": [
-      "－NO₂、－NH₂、－N=N－の変換を追おう。",
-      "ニトロ化→還元→アニリン→ジアゾ化→カップリングの流れ。"
-    ],
-    "explanation": "－NO₂を還元すると－NH₂となりアニリンを生じる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_nitrogen_004",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "アニリンを無水酢酸でアセチル化した生成物はどれか。",
-    "choices": [
-      "アセトアニリド",
-      "酢酸フェニル",
-      "サリチル酸",
-      "ニトロベンゼン"
-    ],
-    "answer": 0,
-    "hints": [
-      "－NO₂、－NH₂、－N=N－の変換を追おう。",
-      "ニトロ化→還元→アニリン→ジアゾ化→カップリングの流れ。"
-    ],
-    "explanation": "アニリンのNH₂がアセチル化されアミドのアセトアニリドとなる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_nitrogen_005",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "塩化ベンゼンジアゾニウムをつくる反応を何というか。",
-    "choices": [
-      "ジアゾ化",
-      "スルホン化",
-      "ニトロ化",
-      "けん化"
-    ],
-    "answer": 0,
-    "hints": [
-      "－NO₂、－NH₂、－N=N－の変換を追おう。",
-      "ニトロ化→還元→アニリン→ジアゾ化→カップリングの流れ。"
-    ],
-    "explanation": "アニリンを低温で亜硝酸と反応させるジアゾ化。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_nitrogen_006",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 10,
-    "prompt": "ジアゾニウム塩とフェノール類などを反応させてアゾ化合物をつくる反応はどれか。",
-    "choices": [
-      "中和滴定",
-      "付加重合",
-      "加水分解",
-      "ジアゾカップリング"
-    ],
-    "answer": 3,
-    "hints": [
-      "－NO₂、－NH₂、－N=N－の変換を追おう。",
-      "ニトロ化→還元→アニリン→ジアゾ化→カップリングの流れ。"
-    ],
-    "explanation": "カップリングにより－N=N－をもつアゾ化合物を生じる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_001",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－OHの配向性はどれか。",
-    "choices": [
-      "メタ配向性",
-      "必ずパラ位のみ",
-      "配向性を示さない",
-      "オルト・パラ配向性"
-    ],
-    "answer": 3,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－OHはオルト・パラ配向性の代表例。"
-    ],
-    "explanation": "－OHはオルト・パラ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_002",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－NH₂の配向性はどれか。",
-    "choices": [
-      "オルト・パラ配向性",
-      "必ずパラ位のみ",
-      "メタ配向性",
-      "配向性を示さない"
-    ],
-    "answer": 0,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－NH₂はオルト・パラ配向性の代表例。"
-    ],
-    "explanation": "－NH₂はオルト・パラ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_003",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－CH₃の配向性はどれか。",
-    "choices": [
-      "配向性を示さない",
-      "オルト・パラ配向性",
-      "必ずパラ位のみ",
-      "メタ配向性"
-    ],
-    "answer": 1,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－CH₃はオルト・パラ配向性の代表例。"
-    ],
-    "explanation": "－CH₃はオルト・パラ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_004",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－Clの配向性はどれか。",
-    "choices": [
-      "配向性を示さない",
-      "必ずパラ位のみ",
-      "メタ配向性",
-      "オルト・パラ配向性"
-    ],
-    "answer": 3,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－Clはオルト・パラ配向性の代表例。"
-    ],
-    "explanation": "－Clはオルト・パラ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_005",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－NO₂の配向性はどれか。",
-    "choices": [
-      "必ずパラ位のみ",
-      "メタ配向性",
-      "配向性を示さない",
-      "オルト・パラ配向性"
-    ],
-    "answer": 1,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－NO₂はメタ配向性の代表例。"
-    ],
-    "explanation": "－NO₂はメタ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_006",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－COOHの配向性はどれか。",
-    "choices": [
-      "オルト・パラ配向性",
-      "必ずパラ位のみ",
-      "メタ配向性",
-      "配向性を示さない"
-    ],
-    "answer": 2,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－COOHはメタ配向性の代表例。"
-    ],
-    "explanation": "－COOHはメタ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_007",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－CHOの配向性はどれか。",
-    "choices": [
-      "必ずパラ位のみ",
-      "メタ配向性",
-      "オルト・パラ配向性",
-      "配向性を示さない"
-    ],
-    "answer": 1,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－CHOはメタ配向性の代表例。"
-    ],
-    "explanation": "－CHOはメタ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_orientation_008",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 12,
-    "prompt": "ベンゼン環の置換基－SO₃Hの配向性はどれか。",
-    "choices": [
-      "必ずパラ位のみ",
-      "配向性を示さない",
-      "メタ配向性",
-      "オルト・パラ配向性"
-    ],
-    "answer": 2,
-    "hints": [
-      "電子を与える置換基か、電子を引く置換基かを考えよう。",
-      "－SO₃Hはメタ配向性の代表例。"
-    ],
-    "explanation": "－SO₃Hはメタ配向性を示す。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_multi_001",
-    "type": "multiple",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "フェノールと安息香酸の両方に共通する反応をすべて選びなさい。",
-    "choices": [
-      "NaOHと反応して塩をつくる",
-      "Naと反応してH₂を発生する",
-      "FeCl₃で必ず呈色する",
-      "NaHCO₃と必ずCO₂を発生する"
-    ],
-    "answers": [
-      0,
-      1
-    ],
-    "hints": [
-      "共通点と相違点を分けよう。",
-      "NaOH・Naは両方、FeCl₃とNaHCO₃は識別に使える。"
-    ],
-    "explanation": "どちらも酸性のHをもちNaOHやNaと反応する。FeCl₃呈色はフェノール、NaHCO₃とのCO₂発生は安息香酸。",
-    "strategy": "分離・識別では酸性の強さと特有反応を使う。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_separation",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_calc_001",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "ベンゼン0.20 molを完全にシクロヘキサンへ水素化する。必要なH₂は何molか。",
-    "answer": 0.6,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "ベンゼン環の3つのπ結合をすべて単結合にする。",
-      "ベンゼン:H₂=1:3。"
-    ],
-    "explanation": "C₆H₆+3H₂→C₆H₁₂より0.20×3=0.60 mol。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_calc_002",
-    "type": "numeric",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "フェノール0.10 molを過剰の臭素水と完全に反応させる。置換反応で消費されるBr₂は何molか。",
-    "answer": 0.3,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "hints": [
-      "置換される位置は2,4,6位の3か所。",
-      "フェノール:Br₂=1:3。"
-    ],
-    "explanation": "フェノール1 molにBr₂ 3 molが置換し、2,4,6-トリブロモフェノールを生じる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_phenol",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_short_001",
-    "type": "short",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "トルエンの側鎖を完全に酸化して得られる化合物の名称を入力しなさい。",
-    "acceptedAnswers": [
-      "安息香酸",
-      "benzoicacid"
-    ],
-    "hints": [
-      "ベンゼン環は残り、側鎖が何に変わるか考えよう。",
-      "アルキル側鎖→カルボキシ基。"
-    ],
-    "explanation": "ベンゼン環に結合したアルキル基は炭素数にかかわらず－COOHに酸化され、安息香酸になる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_acid",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_written_001",
-    "type": "written",
-    "difficulty": 4,
-    "baseXp": 20,
-    "prompt": "フェノールとエタノールでは、フェノールの方が酸性を示しやすい理由を簡潔に説明しなさい。",
-    "modelAnswer": "フェノールがH⁺を放出して生じるフェノキシドイオンでは、負電荷がベンゼン環に共鳴して分散し、安定化されるため。",
-    "criteria": [
-      "フェノキシドイオンに触れた",
-      "負電荷の共鳴・分散に触れた",
-      "安定化によりH⁺を放出しやすいと説明した"
-    ],
-    "hints": [
-      "酸性の強さは、H⁺を失った後のイオンの安定性で比べよう。",
-      "フェノキシドの共鳴安定化を書く。"
-    ],
-    "explanation": "共役塩基が安定なほど酸はH⁺を放出しやすい。フェノキシドでは負電荷が環へ分散する。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_phenol",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_written_002",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "アニリンが水に溶けにくいが塩酸には溶ける理由を説明しなさい。",
-    "modelAnswer": "アニリンはベンゼン環をもつため水に溶けにくいが、塩酸と反応してイオン性のアニリン塩酸塩を生じると水に溶けやすくなるため。",
-    "criteria": [
-      "ベンゼン環により水に溶けにくい",
-      "塩酸と反応する",
-      "イオン性の塩になり水溶性が増す"
-    ],
-    "hints": [
-      "中性分子とイオン性の塩の水溶性を比べよう。",
-      "HClでアニリニウムイオンになる点を書く。"
-    ],
-    "explanation": "弱塩基のアニリンは酸と塩をつくると電荷をもち、水和されやすくなる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org_struct_001",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₃H₈OでNaと反応してH₂を発生する化合物として考えられるものはどれか。",
-    "choices": [
-      "1-プロパノール",
-      "プロパン",
-      "アセトン",
-      "エチルメチルエーテル"
-    ],
-    "answer": 0,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "NaとH₂を発生するのでOHをもつアルコール。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_002",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₃H₆Oで銀鏡反応を示す鎖式化合物はどれか。",
-    "choices": [
-      "アセトン",
-      "シクロプロパノール",
-      "プロペノールのみ",
-      "プロパナール"
-    ],
-    "answer": 3,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "銀鏡反応からアルデヒド。C₃H₆Oのアルデヒドはプロパナール。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_003",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₃H₆Oで銀鏡反応を示さず、ヨードホルム反応を示す化合物はどれか。",
-    "choices": [
-      "1-プロパノール",
-      "アセトン",
-      "プロパナール",
-      "プロピオン酸"
-    ],
-    "answer": 1,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "CH₃CO－をもつケトンのアセトン。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_004",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₂H₄O₂でNaHCO₃と反応してCO₂を発生する化合物はどれか。",
-    "choices": [
-      "アセトアルデヒド",
-      "ギ酸メチル",
-      "酢酸",
-      "エチレングリコール"
-    ],
-    "answer": 2,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "NaHCO₃とのCO₂発生からカルボン酸。C₂H₄O₂は酢酸。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_005",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₄H₈O₂の化合物を加水分解すると酢酸とエタノールが生じた。元の化合物はどれか。",
-    "choices": [
-      "ギ酸プロピル",
-      "酪酸",
-      "酢酸エチル",
-      "プロピオン酸メチル"
-    ],
-    "answer": 2,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "酸部分が酢酸、アルコール部分がエタノールなので酢酸エチル。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_006",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₄H₁₀OでNaと反応せず、加熱しても銀鏡反応を示さない化合物群として最も適切なのはどれか。",
-    "choices": [
-      "エーテル",
-      "アルデヒド",
-      "カルボン酸",
-      "アルコール"
-    ],
-    "answer": 0,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "NaとH₂を発生しないのでOHをもたず、C₄H₁₀Oならエーテル候補。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_007",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₃H₈Oで酸化するとアセトンを生じる化合物はどれか。",
-    "choices": [
-      "エチルメチルエーテル",
-      "2-プロパノール",
-      "1-プロパノール",
-      "メタノール"
-    ],
-    "answer": 1,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "第二級アルコールの2-プロパノールが酸化されてアセトンになる。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_008",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₂H₆Oで約170℃の濃硫酸によりエチレンを生じる化合物はどれか。",
-    "choices": [
-      "酢酸",
-      "アセトアルデヒド",
-      "エタノール",
-      "ジメチルエーテル"
-    ],
-    "answer": 2,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "エタノールの分子内脱水でエチレンを生じる。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_009",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₇H₈の芳香族化合物を酸化すると安息香酸になった。化合物はどれか。",
-    "choices": [
-      "スチレン",
-      "フェノール",
-      "ベンゼン",
-      "トルエン"
-    ],
-    "answer": 3,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "C₆H₅CH₃の側鎖が酸化されてCOOHになる。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_010",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₇H₈OでFeCl₃水溶液により呈色し、NaOHに溶ける化合物群はどれか。",
-    "choices": [
-      "安息香酸メチル",
-      "クレゾール",
-      "ベンジルアルコール",
-      "アニソール"
-    ],
-    "answer": 1,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "FeCl₃呈色とNaOHへの溶解からフェノール類。C₇H₈Oならクレゾール。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_011",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₇H₈OでNaと反応してH₂を発生するが、FeCl₃で呈色しない化合物として適切なのはどれか。",
-    "choices": [
-      "ベンズアルデヒド",
-      "クレゾール",
-      "ベンジルアルコール",
-      "アニソール"
-    ],
-    "answer": 2,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "アルコールOHはNaと反応するが、フェノール性OHでないためFeCl₃呈色しない。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_012",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₈H₈O₂でNaHCO₃と反応せず、加水分解で安息香酸とメタノールを生じる化合物はどれか。",
-    "choices": [
-      "アセチルサリチル酸",
-      "サリチル酸",
-      "安息香酸メチル",
-      "酢酸フェニル"
-    ],
-    "answer": 2,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "加水分解生成物から安息香酸メチル。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_013",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₈H₈O₂で銀鏡反応を示す芳香族化合物として考えられるものはどれか。",
-    "choices": [
-      "安息香酸メチル",
-      "フェニルアセトアルデヒド",
-      "酢酸フェニル",
-      "アセトフェノン"
-    ],
-    "answer": 1,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "銀鏡反応から－CHOをもつ化合物。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_014",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₄H₈の鎖式化合物でシス-トランス異性体をもつものはどれか。",
-    "choices": [
-      "シクロブタン",
-      "1-ブテン",
-      "2-ブテン",
-      "2-メチルプロペン"
-    ],
-    "answer": 2,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "2-ブテンの二重結合の各炭素に異なる2置換基がある。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_015",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "分子式C₄H₁₀Oで不斉炭素原子をもつアルコールはどれか。",
-    "choices": [
-      "1-ブタノール",
-      "2-メチル-2-プロパノール",
-      "2-ブタノール",
-      "2-メチル-1-プロパノール"
-    ],
-    "answer": 2,
-    "hints": [
-      "まず反応から官能基を決め、その後で分子式に合う候補を選ぼう。",
-      "特有反応は候補を一気に絞る鍵になる。"
-    ],
-    "explanation": "2-ブタノールのOH炭素にはH、OH、CH₃、C₂H₅が結合し4種類。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_isomer",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_multi_001",
-    "type": "multiple",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "構造推定でカルボキシ基－COOHの存在を示す手がかりをすべて選びなさい。",
-    "choices": [
-      "NaHCO₃でCO₂を発生",
-      "NaOHに溶ける",
-      "銀鏡反応を必ず示す",
-      "酸性を示す"
-    ],
-    "answers": [
-      0,
-      1,
-      3
-    ],
-    "hints": [
-      "酸としての反応を選ぼう。",
-      "NaHCO₃によるCO₂発生は特に強い証拠。"
-    ],
-    "explanation": "カルボン酸は酸性でNaOHと塩をつくり、NaHCO₃からCO₂を発生する。銀鏡反応はギ酸など例外的。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_multi_002",
-    "type": "multiple",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "構造推定でアルデヒド基－CHOの存在を示す反応をすべて選びなさい。",
-    "choices": [
-      "NaHCO₃で必ずCO₂発生",
-      "銀鏡反応",
-      "フェーリング反応",
-      "酸化されてカルボン酸になる"
-    ],
-    "answers": [
-      1,
-      2,
-      3
-    ],
-    "hints": [
-      "還元性を示す試験を選ぼう。",
-      "銀鏡・フェーリングが代表的。"
-    ],
-    "explanation": "アルデヒドは還元性を示し、酸化されてカルボン酸になる。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 0.7
-      },
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 0.3
-      }
-    ]
-  },
-  {
-    "id": "org_struct_written_001",
-    "type": "written",
-    "difficulty": 4,
-    "baseXp": 20,
-    "prompt": "有機化合物の構造推定を行う基本的な手順を説明しなさい。",
-    "modelAnswer": "分子式から不飽和度や考えられる骨格を確認し、試薬に対する反応から官能基を推定し、異性体の候補を反応結果と照合して構造を決定する。",
-    "criteria": [
-      "分子式・不飽和度に触れた",
-      "反応から官能基を推定",
-      "候補を照合・消去して構造決定"
-    ],
-    "hints": [
-      "最初に分子式、次に反応性、最後に候補の消去。",
-      "「分子式→官能基→骨格→確認」の順で書こう。"
-    ],
-    "explanation": "一つの反応だけで決めず、分子式の制約と複数の特有反応を組み合わせる。",
-    "strategy": "構造推定は「分子式→不飽和度→官能基反応→候補を消去」の順で進める。",
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org21_extra_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "アルデヒドとケトンをまとめて何というか。",
-    "choices": [
-      "フェノール類",
-      "高分子化合物",
-      "炭化水素",
-      "カルボニル化合物"
-    ],
-    "answer": 3,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "どちらもカルボニル基をもつためカルボニル化合物と総称する。",
-    "strategy": "有機化合物は「炭素骨格」と「官能基」を分けて見ると、分類や性質を整理しやすい。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_feature",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org22_extra_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "炭素数がCH₂ずつ異なる同じ系列の化合物を何というか。",
-    "choices": [
-      "同位体",
-      "同族体",
-      "同素体",
-      "異性体"
-    ],
-    "answer": 1,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "一般式が同じでCH₂ずつ異なる系列を同族体という。",
-    "strategy": "炭化水素は「一般式」「結合の種類」「代表反応」の3点をセットにする。",
-    "unitWeights": [
-      {
-        "id": "chem_hydrocarbon",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_extra_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "エチレングリコールは何価アルコールか。",
-    "choices": [
-      "2価",
-      "4価",
-      "1価",
-      "3価"
-    ],
-    "answer": 0,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "OH基を2個もつため2価アルコール。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_extra_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "グリセリンは何価アルコールか。",
-    "choices": [
-      "3価",
-      "2価",
-      "4価",
-      "1価"
-    ],
-    "answer": 0,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "OH基を3個もつため3価アルコール。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_alcohol_ether",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_extra_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "アセトンはどの分類に属するか。",
-    "choices": [
-      "カルボン酸",
-      "エーテル",
-      "ケトン",
-      "アルデヒド"
-    ],
-    "answer": 2,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "アセトンCH₃COCH₃はケトン。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_aldehyde_ketone",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org23_extra_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "高純度の酢酸が冬季に固まりやすいことから何とよばれるか。",
-    "choices": [
-      "乾酢酸",
-      "濃酢酸塩",
-      "氷酢酸",
-      "酢酸氷"
-    ],
-    "answer": 2,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "純度の高い酢酸は融点約17℃で、氷酢酸とよばれる。",
-    "strategy": "酸素を含む有機化合物は、官能基と酸化・還元・脱水・加水分解の流れで整理する。",
-    "unitWeights": [
-      {
-        "id": "chem_carboxylic_ester",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_extra_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "ナフタレンの分子式はどれか。",
-    "choices": [
-      "C₈H₁₀",
-      "C₆H₆",
-      "C₁₀H₈",
-      "C₁₂H₁₀"
-    ],
-    "answer": 2,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "ベンゼン環2個が縮合したナフタレンはC₁₀H₈。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_benzene",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_extra_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "安息香酸の主な用途の一つはどれか。",
-    "choices": [
-      "燃料電池の電極",
-      "食品の防腐剤",
-      "半導体",
-      "乾燥剤"
-    ],
-    "answer": 1,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "安息香酸やその塩は防腐剤として利用される。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_acid",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_extra_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "アゾ化合物に特徴的な結合はどれか。",
-    "choices": [
-      "－N=N－",
-      "－C≡C－",
-      "－COO－",
-      "－O－O－"
-    ],
-    "answer": 0,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "アゾ基は－N=N－。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_aromatic_nitrogen",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "org24_extra_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 8,
-    "prompt": "有機化合物が塩になると水に溶けやすくなる主な理由はどれか。",
-    "choices": [
-      "ベンゼン環が消えるから",
-      "イオンとなり水和されやすくなるから",
-      "分子量が0になるから",
-      "必ず気体になるから"
-    ],
-    "answer": 1,
-    "hints": [
-      "官能基や分子式の特徴を手がかりにしよう。",
-      "代表例と性質をセットで確認。"
-    ],
-    "explanation": "酸・塩基を塩に変えると電荷をもち、水との相互作用が強くなる。",
-    "strategy": "芳香族は「ベンゼン環につく置換基」と「検出・置換反応」を対応させる。",
-    "unitWeights": [
-      {
-        "id": "chem_organic_separation",
-        "weight": 1.0
-      }
-    ]
-  },
-  {
-    "id": "carb_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "それ以上加水分解されない糖を何というか。",
-    "choices": [
-      "単糖",
-      "二糖",
-      "多糖",
-      "脂質"
-    ],
-    "answer": 0,
-    "explanation": "単糖はそれ以上加水分解されない糖。グルコースやフルクトースが代表例。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "グルコースとフルクトースに共通する分子式はどれか。",
-    "choices": [
-      "C₆H₁₂O₆",
-      "C₁₂H₂₂O₁₁",
-      "(C₆H₁₀O₅)ₙ",
-      "C₅H₁₀O₄"
-    ],
-    "answer": 0,
-    "explanation": "グルコースとフルクトースはいずれもヘキソースで、分子式はC₆H₁₂O₆。互いに構造異性体。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "グルコース水溶液が還元作用を示す主な理由として最も適切なものはどれか。",
-    "choices": [
-      "鎖状構造でホルミル基を生じるから",
-      "分子内にベンゼン環をもつから",
-      "グリコシド結合をもたないから",
-      "窒素原子を含むから"
-    ],
-    "answer": 0,
-    "explanation": "グルコースは水溶液中で環状構造と鎖状構造が平衡にあり、鎖状構造でホルミル基をもつため還元性を示す。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "フルクトースについて正しいものはどれか。",
-    "choices": [
-      "ケトースであるが還元作用を示す",
-      "二糖である",
-      "デンプンの構成単位である",
-      "還元作用を全く示さない"
-    ],
-    "answer": 0,
-    "explanation": "フルクトースはケトースだが、水溶液中で構造変化を経て還元作用を示す。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "マルトースを加水分解したときに主に生じる単糖はどれか。",
-    "choices": [
-      "グルコース",
-      "フルクトース",
-      "ガラクトース",
-      "リボース"
-    ],
-    "answer": 0,
-    "explanation": "マルトースはα-グルコース2分子が縮合した二糖なので、加水分解でグルコースを生じる。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_006",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "スクロースを加水分解すると何が生じるか。",
-    "choices": [
-      "グルコースとフルクトース",
-      "グルコース2分子",
-      "ガラクトースとグルコース",
-      "リボースとデオキシリボース"
-    ],
-    "answer": 0,
-    "explanation": "スクロースはα-グルコースとβ-フルクトースからなる。加水分解でこの2種類の単糖を生じる。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_007",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "還元作用を示さない二糖はどれか。",
-    "choices": [
-      "スクロース",
-      "マルトース",
-      "ラクトース",
-      "セロビオース"
-    ],
-    "answer": 0,
-    "explanation": "スクロースはヘミアセタール構造をもたないため還元作用を示さない。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_008",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "ラクトースを加水分解すると生じる組合せはどれか。",
-    "choices": [
-      "ガラクトースとグルコース",
-      "グルコースとフルクトース",
-      "フルクトース2分子",
-      "リボースとグルコース"
-    ],
-    "answer": 0,
-    "explanation": "ラクトースはβ-ガラクトースとグルコースからなる二糖。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_009",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "デンプンの主な構成単位はどれか。",
-    "choices": [
-      "α-グルコース",
-      "β-グルコース",
-      "フルクトース",
-      "アミノ酸"
-    ],
-    "answer": 0,
-    "explanation": "デンプンは多数のα-グルコースが脱水縮合した多糖。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_010",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "セルロースの主な構成単位はどれか。",
-    "choices": [
-      "β-グルコース",
-      "α-グルコース",
-      "フルクトース",
-      "ガラクトース"
-    ],
-    "answer": 0,
-    "explanation": "セルロースはβ-グルコースが縮合した多糖で、デンプンとは結合様式が異なる。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_011",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "デンプンにヨウ素液を加えたときの代表的な変化はどれか。",
-    "choices": [
-      "濃青色〜赤紫色に呈色",
-      "銀鏡を生じる",
-      "黄色沈殿を生じる",
-      "白煙を生じる"
-    ],
-    "answer": 0,
-    "explanation": "ヨウ素分子や三ヨウ化物イオンがデンプンのらせん構造内に入り、ヨウ素デンプン反応を示す。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_012",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "アミロースについて正しいものはどれか。",
-    "choices": [
-      "α-1,4-グリコシド結合の直鎖状構造",
-      "α-1,6結合だけの完全分岐構造",
-      "β-1,4結合の直鎖状構造",
-      "還元作用が強い単糖"
-    ],
-    "answer": 0,
-    "explanation": "アミロースはα-1,4-グリコシド結合で連なった直鎖状構造。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_013",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "アミロペクチンの特徴として正しいものはどれか。",
-    "choices": [
-      "α-1,6-グリコシド結合による枝分かれをもつ",
-      "β-グルコースだけでできる",
-      "ヨウ素デンプン反応を示さない",
-      "単糖である"
-    ],
-    "answer": 0,
-    "explanation": "アミロペクチンはα-1,4結合を主とし、α-1,6結合による枝分かれをもつ。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_014",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "グリコーゲンについて正しいものはどれか。",
-    "choices": [
-      "動物の肝臓や筋肉に存在する多糖",
-      "植物細胞壁の主成分",
-      "還元性二糖",
-      "DNAの構成糖"
-    ],
-    "answer": 0,
-    "explanation": "グリコーゲンは動物体内の貯蔵多糖で、肝臓や筋肉に存在する。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_015",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "DNAを構成する糖はどれか。",
-    "choices": [
-      "デオキシリボース",
-      "リボース",
-      "グルコース",
-      "フルクトース"
-    ],
-    "answer": 0,
-    "explanation": "DNAの糖はデオキシリボース、RNAの糖はリボース。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_016",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "RNAを構成する糖はどれか。",
-    "choices": [
-      "リボース",
-      "デオキシリボース",
-      "スクロース",
-      "セルロース"
-    ],
-    "answer": 0,
-    "explanation": "RNAの構成糖はリボース。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_017",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "セルロースがヒトに消化されにくい理由として最も適切なものはどれか。",
-    "choices": [
-      "β-グリコシド結合を分解する酵素をヒトがもたないから",
-      "還元作用を示すから",
-      "水に非常によく溶けるから",
-      "単糖だから"
-    ],
-    "answer": 0,
-    "explanation": "セルロースはβ-グルコースがβ-1,4結合した構造で、ヒトはこれを分解する酵素をもたない。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_018",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "ニトロセルロースはセルロースのどの官能基を反応させた誘導体か。",
-    "choices": [
-      "ヒドロキシ基",
-      "カルボキシ基",
-      "アミノ基",
-      "ニトロ基"
-    ],
-    "answer": 0,
-    "explanation": "セルロースの多数のヒドロキシ基が硝酸エステル化されるとニトロセルロースになる。",
-    "hints": [
-      "糖の分類・構成単位・反応性のどれを問われているか整理しよう。",
-      "還元性はヘミアセタール構造や鎖状構造、加水分解は構成単糖に注目しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_reason_001",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "未知糖Aは銀鏡反応を示し、加水分解されない。Aとして最も適切なものはどれか。",
-    "choices": [
-      "グルコース",
-      "スクロース",
-      "デンプン",
-      "セルロース"
-    ],
-    "answer": 0,
-    "explanation": "銀鏡反応を示し、加水分解されないので還元性をもつ単糖。代表例はグルコース。",
-    "hints": [
-      "まず「加水分解されない」から糖の分類を決めよう。",
-      "次に「銀鏡反応」から還元性をもつかどうかを判断しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_reason_002",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "未知糖Bは加水分解でグルコースとフルクトースを生じ、加水分解前は銀鏡反応を示さなかった。Bはどれか。",
-    "choices": [
-      "スクロース",
-      "マルトース",
-      "ラクトース",
-      "セロビオース"
-    ],
-    "answer": 0,
-    "explanation": "グルコース＋フルクトースを生じ、還元性を示さない二糖はスクロース。",
-    "hints": [
-      "加水分解後の単糖の組合せを見よう。",
-      "加水分解前に還元性がない点が決定打になるよ。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_reason_003",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "未知多糖Cはヨウ素液で濃青色を示し、希硫酸で加水分解するとグルコースを生じた。Cはどれか。",
-    "choices": [
-      "デンプン",
-      "セルロース",
-      "スクロース",
-      "グリシン"
-    ],
-    "answer": 0,
-    "explanation": "ヨウ素デンプン反応を示す多糖はデンプン。加水分解でグルコースを生じる。",
-    "hints": [
-      "呈色反応はかなり強い手がかり。",
-      "ヨウ素液で濃青色なら、らせん構造をもつ多糖を考えよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_calc_001",
-    "type": "numeric",
-    "difficulty": 2,
-    "baseXp": 14,
-    "prompt": "マルトース C₁₂H₂₂O₁₁ 342 gを完全に加水分解すると、グルコースは何 mol生じるか。半角で数値を入力。",
-    "answer": 2,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "explanation": "マルトース1 molからグルコース2 molが生じる。342 gは1 molなので、グルコースは2 mol。",
-    "hints": [
-      "まずマルトースの物質量を求めよう。",
-      "C₁₂H₂₂O₁₁ + H₂O → 2C₆H₁₂O₆ の係数比を使おう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_calc_002",
-    "type": "numeric",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "グルコース C₆H₁₂O₆ 18.0 gは何 molか。半角で数値を入力。",
-    "answer": 0.1,
-    "tolerance": 0.001,
-    "unitLabel": "mol",
-    "explanation": "グルコースのモル質量は180 g/mol。18.0÷180=0.100 mol。",
-    "hints": [
-      "分子量を先に計算しよう。",
-      "C₆H₁₂O₆は 72+12+96=180 g/mol。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "carb_written_001",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "スクロースは加水分解後に還元作用を示すようになる。その理由を説明しなさい。",
-    "modelAnswer": "スクロース自体は還元作用を示さないが、加水分解によって還元作用を示すグルコースとフルクトースを生じるため。",
-    "criteria": [
-      "スクロースは還元作用を示さない",
-      "加水分解でグルコースとフルクトースを生じる",
-      "生成した単糖が還元作用を示す"
-    ],
-    "explanation": "糖の還元性は「加水分解前の構造」と「生成する単糖」の両方で考える。",
-    "hints": [
-      "まず加水分解で何が生じるかを書こう。",
-      "生成した単糖の還元性と結びつけて説明しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_carbohydrate",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "α-アミノ酸の一般式として適切なものはどれか。",
-    "choices": [
-      "R-CH(NH₂)COOH",
-      "R-COOR'",
-      "R-CHO",
-      "R-O-R'"
-    ],
-    "answer": 0,
-    "explanation": "α-アミノ酸は同一炭素にアミノ基とカルボキシ基をもつ。一般式はR-CH(NH₂)COOH。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "グリシンが不斉炭素原子をもたない理由として正しいものはどれか。",
-    "choices": [
-      "RがHで、同じHが2つ結合するから",
-      "カルボキシ基をもたないから",
-      "アミノ基をもたないから",
-      "環状構造だから"
-    ],
-    "answer": 0,
-    "explanation": "グリシンはR=Hなので、α炭素に同じHが2つ結合し、不斉炭素原子にならない。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "結晶中のアミノ酸が主にとる形はどれか。",
-    "choices": [
-      "双性イオン",
-      "分子式だけの単体",
-      "完全な陰イオンのみ",
-      "完全な陽イオンのみ"
-    ],
-    "answer": 0,
-    "explanation": "アミノ酸は結晶中では-NH₃⁺と-COO⁻をもつ双性イオンとして存在する。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "等電点でのアミノ酸について正しいものはどれか。",
-    "choices": [
-      "全体として電荷が0となり電気泳動で移動しにくい",
-      "必ず陽極へ移動する",
-      "必ず陰極へ移動する",
-      "すべて共有結合が切れる"
-    ],
-    "answer": 0,
-    "explanation": "等電点では正負の電荷がつり合い、全体として電荷が0になる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "pHが等電点より低い水溶液中で、アミノ酸は主にどちらへ移動しやすいか。",
-    "choices": [
-      "陰極",
-      "陽極",
-      "移動しない",
-      "沈殿だけになる"
-    ],
-    "answer": 0,
-    "explanation": "酸性側ではH⁺が多く、アミノ酸は陽イオン性が強くなるため陰極へ移動しやすい。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_006",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "pHが等電点より高い水溶液中で、アミノ酸は主にどちらへ移動しやすいか。",
-    "choices": [
-      "陽極",
-      "陰極",
-      "移動しない",
-      "必ず沈殿する"
-    ],
-    "answer": 0,
-    "explanation": "塩基性側では陰イオン性が強くなるため陽極へ移動しやすい。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_007",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "2分子のアミノ酸が縮合してできる結合はどれか。",
-    "choices": [
-      "ペプチド結合",
-      "エステル結合",
-      "エーテル結合",
-      "グリコシド結合"
-    ],
-    "answer": 0,
-    "explanation": "アミノ酸のカルボキシ基とアミノ基が脱水縮合してペプチド結合をつくる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_008",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "タンパク質の一次構造とは何か。",
-    "choices": [
-      "アミノ酸配列",
-      "らせんやシートの形",
-      "分子全体の折りたたみ",
-      "複数分子の集合"
-    ],
-    "answer": 0,
-    "explanation": "一次構造はアミノ酸がどの順番で並ぶかを表す。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_009",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "ビウレット反応で検出できるものはどれか。",
-    "choices": [
-      "ペプチド結合",
-      "グリコシド結合",
-      "ベンゼン環",
-      "エステル結合"
-    ],
-    "answer": 0,
-    "explanation": "ビウレット反応はペプチド結合をもつタンパク質などの検出に用いられる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_010",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "キサントプロテイン反応で関係が深い構造はどれか。",
-    "choices": [
-      "ベンゼン環をもつアミノ酸残基",
-      "アルカン鎖だけ",
-      "エーテル結合",
-      "塩化物イオン"
-    ],
-    "answer": 0,
-    "explanation": "キサントプロテイン反応は芳香族アミノ酸残基をもつタンパク質で見られる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_011",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "タンパク質の変性について正しいものはどれか。",
-    "choices": [
-      "立体構造が変化し性質が変わる",
-      "ペプチド結合が必ずすべて切れる",
-      "アミノ酸が単糖になる",
-      "核酸になる"
-    ],
-    "answer": 0,
-    "explanation": "変性では主に高次構造が変化し、性質や働きが変わる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_012",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "DNAでアデニンAと相補的に対になる塩基はどれか。",
-    "choices": [
-      "チミンT",
-      "ウラシルU",
-      "グアニンG",
-      "シトシンC"
-    ],
-    "answer": 0,
-    "explanation": "DNAではA-T、G-Cの塩基対をつくる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_nucleic_acid",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_013",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "RNAでアデニンAと相補的に対になる塩基はどれか。",
-    "choices": [
-      "ウラシルU",
-      "チミンT",
-      "グアニンG",
-      "シトシンC"
-    ],
-    "answer": 0,
-    "explanation": "RNAではチミンの代わりにウラシルが使われ、A-Uの対になる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_nucleic_acid",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_014",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "核酸の基本単位はどれか。",
-    "choices": [
-      "ヌクレオチド",
-      "アミノ酸",
-      "グルコース",
-      "脂肪酸"
-    ],
-    "answer": 0,
-    "explanation": "核酸はヌクレオチドが連なった高分子。ヌクレオチドは糖・塩基・リン酸からなる。",
-    "hints": [
-      "アミノ酸は「NH₂とCOOHを同時にもつ」ことから考えよう。",
-      "pH・等電点・結合の種類を手がかりに、構造と性質をつなげよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_nucleic_acid",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_reason_001",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "あるα-アミノ酸Xの等電点は9.7である。pH 6.0の緩衝液中で電気泳動すると、Xは主にどちらへ移動するか。",
-    "choices": [
-      "陰極",
-      "陽極",
-      "移動しない",
-      "分解する"
-    ],
-    "answer": 0,
-    "explanation": "pHが等電点より低いので、Xは陽イオン性が強い。陽イオンは陰極へ移動する。",
-    "hints": [
-      "まずpHと等電点を比較しよう。",
-      "pH＜等電点なら、アミノ酸は正に帯電しやすい。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_reason_002",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "あるタンパク質に濃硝酸を加えて加熱すると黄色になった。含まれる可能性が高い残基はどれか。",
-    "choices": [
-      "芳香族アミノ酸残基",
-      "グリシンだけ",
-      "糖鎖だけ",
-      "脂肪酸残基"
-    ],
-    "answer": 0,
-    "explanation": "キサントプロテイン反応はベンゼン環をもつ芳香族アミノ酸残基の検出に関係する。",
-    "hints": [
-      "反応名を思い出せなくても、黄色変化と濃硝酸が手がかり。",
-      "芳香環のニトロ化に関係する検出反応を考えよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "amino_written_001",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "アミノ酸が両性化合物といわれる理由を説明しなさい。",
-    "modelAnswer": "アミノ酸は塩基性のアミノ基と酸性のカルボキシ基を同じ分子内にもつため、酸としても塩基としてもふるまうから。",
-    "criteria": [
-      "アミノ基をもつ",
-      "カルボキシ基をもつ",
-      "酸としても塩基としてもふるまう"
-    ],
-    "explanation": "構造式の中の官能基を性質に変換して説明するとよい。",
-    "hints": [
-      "両性とは酸・塩基の両方の性質をもつこと。",
-      "NH₂とCOOHの性質をそれぞれ言葉にしよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_amino_protein",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_001",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "単量体が多数結合してできた高分子を何というか。",
-    "choices": [
-      "重合体",
-      "同素体",
-      "電解質",
-      "異性体"
-    ],
-    "answer": 0,
-    "explanation": "単量体が重合してできる高分子を重合体、またはポリマーという。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_polymer_basic",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_002",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "重合体中の繰り返し単位の数を何というか。",
-    "choices": [
-      "重合度",
-      "電離度",
-      "解離度",
-      "反応速度"
-    ],
-    "answer": 0,
-    "explanation": "繰り返し単位の数を重合度という。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_polymer_basic",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_003",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "不飽和結合をもつ単量体が次々と付加して連なる反応はどれか。",
-    "choices": [
-      "付加重合",
-      "縮合重合",
-      "中和反応",
-      "加水分解"
-    ],
-    "answer": 0,
-    "explanation": "二重結合などが開いて連なる重合は付加重合。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_004",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "水などの小分子を取り除きながら単量体が連なる反応はどれか。",
-    "choices": [
-      "縮合重合",
-      "付加重合",
-      "酸化還元",
-      "電離"
-    ],
-    "answer": 0,
-    "explanation": "官能基どうしが反応し、水などを取って連なるのが縮合重合。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_005",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "ナイロン66を構成する主な結合はどれか。",
-    "choices": [
-      "アミド結合",
-      "エステル結合",
-      "エーテル結合",
-      "グリコシド結合"
-    ],
-    "answer": 0,
-    "explanation": "ナイロン66はポリアミドで、アミド結合によって連なる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_006",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "ナイロン66の原料の組合せとして適切なものはどれか。",
-    "choices": [
-      "ヘキサメチレンジアミンとアジピン酸",
-      "テレフタル酸とエチレングリコール",
-      "エチレンだけ",
-      "スチレンだけ"
-    ],
-    "answer": 0,
-    "explanation": "ナイロン66はジアミンとジカルボン酸の縮合重合でつくられる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_007",
-    "type": "single",
-    "difficulty": 1,
-    "baseXp": 10,
-    "prompt": "PETを構成する主な結合はどれか。",
-    "choices": [
-      "エステル結合",
-      "アミド結合",
-      "ペプチド結合",
-      "グリコシド結合"
-    ],
-    "answer": 0,
-    "explanation": "PETはポリエステルで、エステル結合をもつ。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_008",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "PETの原料の組合せとして適切なものはどれか。",
-    "choices": [
-      "テレフタル酸とエチレングリコール",
-      "アジピン酸とヘキサメチレンジアミン",
-      "フェノールとホルムアルデヒド",
-      "イソプレンだけ"
-    ],
-    "answer": 0,
-    "explanation": "PETはテレフタル酸とエチレングリコールの縮合重合で得られる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_009",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "ナイロン6の合成に関係する重合はどれか。",
-    "choices": [
-      "開環重合",
-      "付加縮合",
-      "電解重合",
-      "共沈"
-    ],
-    "answer": 0,
-    "explanation": "ナイロン6はε-カプロラクタムの開環重合でつくられる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_010",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "アクリル繊維の主原料となる単量体はどれか。",
-    "choices": [
-      "アクリロニトリル",
-      "エチレン",
-      "フェノール",
-      "グルコース"
-    ],
-    "answer": 0,
-    "explanation": "アクリル繊維は主にアクリロニトリルをもとにした合成繊維。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_011",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "ポリエチレンの単量体はどれか。",
-    "choices": [
-      "エチレン",
-      "プロピレン",
-      "スチレン",
-      "塩化ビニル"
-    ],
-    "answer": 0,
-    "explanation": "ポリエチレンはエチレン CH₂=CH₂ の付加重合でできる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_012",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "ポリプロピレンの単量体はどれか。",
-    "choices": [
-      "プロピレン",
-      "エチレン",
-      "塩化ビニル",
-      "酢酸ビニル"
-    ],
-    "answer": 0,
-    "explanation": "ポリプロピレンはプロピレン CH₂=CHCH₃ の付加重合でできる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_013",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "ポリスチレンの単量体はどれか。",
-    "choices": [
-      "スチレン",
-      "エチレン",
-      "塩化ビニル",
-      "アクリロニトリル"
-    ],
-    "answer": 0,
-    "explanation": "ポリスチレンはスチレンの付加重合でできる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_014",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 12,
-    "prompt": "ポリ塩化ビニルの単量体はどれか。",
-    "choices": [
-      "塩化ビニル",
-      "塩化ビニリデン",
-      "エチレン",
-      "メタクリル酸メチル"
-    ],
-    "answer": 0,
-    "explanation": "PVCは塩化ビニル CH₂=CHCl の付加重合体。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_015",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "ポリメタクリル酸メチル(PMMA)の特徴として適切なものはどれか。",
-    "choices": [
-      "透明度が高い",
-      "天然ゴムである",
-      "水に非常によく溶ける",
-      "タンパク質である"
-    ],
-    "answer": 0,
-    "explanation": "PMMAは透明度が高く、透明板などに用いられる。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_016",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "フェノール樹脂について正しいものはどれか。",
-    "choices": [
-      "フェノールとホルムアルデヒドの付加縮合でできる",
-      "エチレンの付加重合でできる",
-      "糖類からできる天然高分子である",
-      "熱可塑性だけを示す"
-    ],
-    "answer": 0,
-    "explanation": "フェノール樹脂はフェノールとホルムアルデヒドの付加縮合でできる熱硬化性樹脂。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_017",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "天然ゴムの主成分となる単量体はどれか。",
-    "choices": [
-      "イソプレン",
-      "エチレン",
-      "スチレン",
-      "グルコース"
-    ],
-    "answer": 0,
-    "explanation": "天然ゴムはイソプレンが付加重合した構造をもつ。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_018",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 14,
-    "prompt": "ゴムの加硫で主に導入されるものはどれか。",
-    "choices": [
-      "硫黄による架橋構造",
-      "ペプチド結合",
-      "グリコシド結合",
-      "核酸塩基"
-    ],
-    "answer": 0,
-    "explanation": "加硫では硫黄による架橋ができ、弾性や強度が増す。",
-    "hints": [
-      "単量体・結合・重合の種類のどれを問われているか確認しよう。",
-      "付加重合はC=C、縮合重合は小分子の脱離、開環重合は環が開くのが目印。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 14,
-    "prompt": "構造決定で「Naを加えるとH₂を発生する」ことからまず推定できる官能基はどれか。",
-    "choices": [
-      "ヒドロキシ基またはカルボキシ基",
-      "ニトロ基",
-      "エーテル結合",
-      "アルカン"
-    ],
-    "answer": 0,
-    "explanation": "Naと反応して水素を発生するのは、-OHや-COOHのように酸性のHをもつ構造。",
-    "hints": [
-      "反応で発生する気体に注目しよう。",
-      "Naと反応してH₂を出すのは、置換できるHをもつ官能基。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 14,
-    "prompt": "NaHCO₃水溶液を加えるとCO₂を発生して溶ける。最も強く推定できる官能基はどれか。",
-    "choices": [
-      "カルボキシ基",
-      "アルデヒド基",
-      "エーテル結合",
-      "ニトロ基"
-    ],
-    "answer": 0,
-    "explanation": "炭酸より強い酸であるカルボン酸はNaHCO₃と反応してCO₂を発生する。",
-    "hints": [
-      "NaHCO₃は弱い塩基として考えよう。",
-      "CO₂発生はカルボン酸の重要な手がかり。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_003",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 14,
-    "prompt": "銀鏡反応を示すことから推定できる官能基として最も適切なものはどれか。",
-    "choices": [
-      "ホルミル基",
-      "エーテル結合",
-      "ニトロ基",
-      "エステル結合"
-    ],
-    "answer": 0,
-    "explanation": "アルデヒドは還元作用を示し、銀鏡反応を起こす。",
-    "hints": [
-      "銀鏡反応は還元作用の検出。",
-      "還元性を示しやすいカルボニル化合物を考えよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_004",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 16,
-    "prompt": "ヨードホルム反応で黄色沈殿を生じる構造として適切なものはどれか。",
-    "choices": [
-      "CH₃CO- または CH₃CH(OH)-",
-      "-COOH",
-      "-O-",
-      "-NO₂"
-    ],
-    "answer": 0,
-    "explanation": "ヨードホルム反応はCH₃CO-や酸化されてCH₃CO-になるCH₃CH(OH)-構造で見られる。",
-    "hints": [
-      "黄色沈殿はCHI₃。",
-      "メチルケトン型、またはそれに酸化される第二級アルコールを探そう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_005",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 20,
-    "prompt": "分子式C₃H₈Oで、Naと反応してH₂を発生するが、酸化するとケトンを生じる化合物はどれか。",
-    "choices": [
-      "2-プロパノール",
-      "1-プロパノール",
-      "エチルメチルエーテル",
-      "アセトン"
-    ],
-    "answer": 0,
-    "explanation": "C₃H₈OでNaと反応するのでアルコール。酸化でケトンを生じるのは第二級アルコールの2-プロパノール。",
-    "hints": [
-      "C₃H₈Oの候補はアルコールかエーテル。Naとの反応で絞れる。",
-      "酸化でケトンになるのは第二級アルコール。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_006",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "分子式C₃H₈Oで、Naと反応しない化合物として最も適切なものはどれか。",
-    "choices": [
-      "エチルメチルエーテル",
-      "1-プロパノール",
-      "2-プロパノール",
-      "グリセリン"
-    ],
-    "answer": 0,
-    "explanation": "エーテルは-OHをもたないためNaと反応してH₂を発生しない。",
-    "hints": [
-      "同じ分子式でも官能基が違う異性体がある。",
-      "Naと反応しないなら-OHをもたない候補を選ぶ。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_007",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 20,
-    "prompt": "分子式C₂H₆Oの化合物AはNaと反応してH₂を発生し、酸化でアセトアルデヒドを生じた。Aはどれか。",
-    "choices": [
-      "エタノール",
-      "ジメチルエーテル",
-      "酢酸",
-      "アセトン"
-    ],
-    "answer": 0,
-    "explanation": "C₂H₆OでNaと反応し、酸化でアセトアルデヒドを生じるのはエタノール。",
-    "hints": [
-      "Naとの反応でアルコール候補。",
-      "酸化生成物がCH₃CHOなら元はC₂H₅OH。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_008",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "分子式C₂H₄Oの化合物Aは銀鏡反応を示す。Aはどれか。",
-    "choices": [
-      "アセトアルデヒド",
-      "エチレンオキシド",
-      "エタノール",
-      "酢酸"
-    ],
-    "answer": 0,
-    "explanation": "C₂H₄Oで銀鏡反応を示す代表はアセトアルデヒド CH₃CHO。",
-    "hints": [
-      "銀鏡反応はアルデヒドの手がかり。",
-      "C₂H₄Oで-CHOをもつものを選ぼう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_009",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 20,
-    "prompt": "分子式C₃H₆Oでヨードホルム反応を示し、銀鏡反応を示さない化合物はどれか。",
-    "choices": [
-      "アセトン",
-      "プロパナール",
-      "アリルアルコール",
-      "プロピオン酸"
-    ],
-    "answer": 0,
-    "explanation": "アセトンはメチルケトンなのでヨードホルム反応を示すが、ケトンなので銀鏡反応は示さない。",
-    "hints": [
-      "ヨードホルム反応と銀鏡反応を別々に判定しよう。",
-      "メチルケトンはヨードホルム反応、アルデヒドは銀鏡反応。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_010",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 20,
-    "prompt": "分子式C₂H₄O₂でNaHCO₃と反応してCO₂を発生する化合物はどれか。",
-    "choices": [
-      "酢酸",
-      "ギ酸メチル",
-      "ヒドロキシアセトアルデヒド",
-      "酢酸エチル"
-    ],
-    "answer": 0,
-    "explanation": "NaHCO₃と反応してCO₂を出すのはカルボン酸。C₂H₄O₂のカルボン酸は酢酸。",
-    "hints": [
-      "CO₂発生はカルボン酸の合図。",
-      "同じ分子式のエステルとは反応性で区別できる。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_011",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 22,
-    "prompt": "分子式C₂H₄O₂でNaHCO₃と反応しないが、加水分解でメタノールを生じる化合物はどれか。",
-    "choices": [
-      "ギ酸メチル",
-      "酢酸",
-      "エチレングリコール",
-      "アセトアルデヒド"
-    ],
-    "answer": 0,
-    "explanation": "加水分解でアルコールを生じるのでエステル。C₂H₄O₂でメタノールを生じるのはギ酸メチル。",
-    "hints": [
-      "NaHCO₃と反応しないのでカルボン酸ではない。",
-      "加水分解でアルコールが出るならエステルを考えよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_012",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "分子式C₄H₁₀OのAはNaと反応し、酸化で銀鏡反応を示すBを生じた。Aとして最も適切なものはどれか。",
-    "choices": [
-      "1-ブタノール",
-      "2-ブタノール",
-      "2-メチル-2-プロパノール",
-      "ジエチルエーテル"
-    ],
-    "answer": 0,
-    "explanation": "Naと反応するのでアルコール。酸化でアルデヒドを生じるのは第一級アルコール。1-ブタノールが適切。",
-    "hints": [
-      "Na反応でアルコール候補に絞る。",
-      "銀鏡反応を示す酸化生成物＝アルデヒドなので、元は第一級アルコール。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_013",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "分子式C₄H₁₀OのAはNaと反応し、酸化でヨードホルム反応を示すBを生じた。Aとして最も適切なものはどれか。",
-    "choices": [
-      "2-ブタノール",
-      "1-ブタノール",
-      "2-メチル-2-プロパノール",
-      "ジエチルエーテル"
-    ],
-    "answer": 0,
-    "explanation": "2-ブタノールは酸化されて2-ブタノンとなり、CH₃CO-構造をもつためヨードホルム反応を示す。",
-    "hints": [
-      "Na反応でアルコール候補。",
-      "ヨードホルム反応を示すケトンに酸化される第二級アルコールを探そう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_014",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 22,
-    "prompt": "フェノール、安息香酸、アニリンを分離するとき、NaHCO₃水溶液で水層へ移るものはどれか。",
-    "choices": [
-      "安息香酸",
-      "フェノール",
-      "アニリン",
-      "ベンゼン"
-    ],
-    "answer": 0,
-    "explanation": "NaHCO₃と反応して塩になり水層へ移るのはカルボン酸の安息香酸。フェノールはNaHCO₃では反応しにくい。",
-    "hints": [
-      "酸の強さの違いで分離する。",
-      "NaHCO₃でCO₂を出せるのはカルボン酸。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_organic_separation",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_015",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 22,
-    "prompt": "フェノール、安息香酸、アニリンを分離するとき、塩酸で水層へ移りやすいものはどれか。",
-    "choices": [
-      "アニリン",
-      "フェノール",
-      "安息香酸",
-      "トルエン"
-    ],
-    "answer": 0,
-    "explanation": "アニリンは塩基性を示し、塩酸と反応してアニリニウム塩になり水に溶けやすくなる。",
-    "hints": [
-      "塩酸と反応するのは塩基性物質。",
-      "アミノ基をもつ芳香族化合物を探そう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_organic_separation",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_016",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "C₄H₈の直鎖状アルケンのうち、シス-トランス異性体をもつものはどれか。",
-    "choices": [
-      "2-ブテン",
-      "1-ブテン",
-      "2-メチルプロペン",
-      "シクロブタン"
-    ],
-    "answer": 0,
-    "explanation": "2-ブテンは二重結合の各炭素に異なる置換基が結合しており、シス-トランス異性体をもつ。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_017",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "2-ブタノールに鏡像異性体が存在する理由はどれか。",
-    "choices": [
-      "不斉炭素原子をもつから",
-      "ベンゼン環をもつから",
-      "二重結合をもつから",
-      "エステル結合をもつから"
-    ],
-    "answer": 0,
-    "explanation": "2-ブタノールの2位炭素には4種類の異なる原子・原子団が結合している。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_018",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "C₄H₁₀の構造異性体の数はどれか。",
-    "choices": [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    "answer": 0,
-    "explanation": "C₄H₁₀には直鎖状のブタンと枝分かれした2-メチルプロパンの2種類がある。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_019",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "C₅H₁₂の構造異性体の数はどれか。",
-    "choices": [
-      "3",
-      "2",
-      "4",
-      "5"
-    ],
-    "answer": 0,
-    "explanation": "C₅H₁₂にはn-ペンタン、2-メチルブタン、2,2-ジメチルプロパンの3種類がある。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_020",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 20,
-    "prompt": "C₆H₆のベンゼンが付加反応より置換反応を起こしやすい理由として最も適切なものはどれか。",
-    "choices": [
-      "ベンゼン環が安定だから",
-      "単結合だけだから",
-      "水に非常によく溶けるから",
-      "イオン結合だから"
-    ],
-    "answer": 0,
-    "explanation": "ベンゼン環はπ電子が非局在化した安定な構造で、付加で安定性が失われるため置換が起こりやすい。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_021",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 20,
-    "prompt": "ベンゼン環に-CH₃が結合した化合物を酸化すると主に何になるか。",
-    "choices": [
-      "安息香酸",
-      "フェノール",
-      "アニリン",
-      "ニトロベンゼン"
-    ],
-    "answer": 0,
-    "explanation": "ベンゼン環に結合した炭化水素基は酸化されると炭素数にかかわらずカルボキシ基になる。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_022",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 20,
-    "prompt": "サリチル酸がFeCl₃水溶液で呈色し、NaHCO₃にも溶ける理由として最も適切なものはどれか。",
-    "choices": [
-      "フェノール性OHとカルボキシ基を両方もつから",
-      "アミノ基だけをもつから",
-      "エーテル結合だけをもつから",
-      "アルカンだから"
-    ],
-    "answer": 0,
-    "explanation": "サリチル酸はフェノール性OHとカルボキシ基をもつため、FeCl₃呈色とNaHCO₃との反応の両方を示す。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_023",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 20,
-    "prompt": "アセチルサリチル酸がFeCl₃水溶液で呈色しにくい理由はどれか。",
-    "choices": [
-      "フェノール性OHがアセチル化されているから",
-      "カルボキシ基がないから",
-      "ベンゼン環がないから",
-      "アミノ基をもつから"
-    ],
-    "answer": 0,
-    "explanation": "アセチルサリチル酸ではフェノール性OHがエステル化され、フェノール類としての呈色が出にくい。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_024",
-    "type": "single",
-    "difficulty": 5,
-    "baseXp": 22,
-    "prompt": "サリチル酸メチルがNaHCO₃水溶液に溶けにくい理由はどれか。",
-    "choices": [
-      "カルボキシ基がエステル化されているから",
-      "フェノール性OHをもたないから",
-      "ベンゼン環をもたないから",
-      "アルデヒドだから"
-    ],
-    "answer": 0,
-    "explanation": "サリチル酸メチルでは-COOHが-COOCH₃になっており、NaHCO₃とCO₂を出す酸性を示しにくい。",
-    "hints": [
-      "分子式だけでなく、反応結果や異性体条件を条件に変換しよう。",
-      "「官能基」「骨格」「立体」の順に候補を消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "exam_ch7_001",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "糖類の判別で、ヨウ素液によって濃青色を示す物質として最も適切なものはどれか。",
-    "choices": [
-      "デンプン",
-      "スクロース",
-      "グルコース",
-      "フルクトース"
-    ],
-    "answer": 0,
-    "explanation": "ヨウ素デンプン反応はデンプンのらせん構造に由来する。",
-    "hints": [
-      "共通テスト型は、選択肢を一つずつ事実に照合しよう。",
-      "暗記だけでなく、反応・構造・用途の関係で消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_common_ch7",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "exam_ch7_002",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "Aは銀鏡反応を示さず、加水分解でグルコースとフルクトースを生じる。Aはどれか。",
-    "choices": [
-      "スクロース",
-      "マルトース",
-      "ラクトース",
-      "デンプン"
-    ],
-    "answer": 0,
-    "explanation": "スクロースは非還元性二糖で、加水分解によりグルコースとフルクトースを生じる。",
-    "hints": [
-      "共通テスト型は、選択肢を一つずつ事実に照合しよう。",
-      "暗記だけでなく、反応・構造・用途の関係で消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_common_ch7",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "exam_ch7_003",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "タンパク質の検出で、ペプチド結合の存在を確認する反応はどれか。",
-    "choices": [
-      "ビウレット反応",
-      "ヨウ素デンプン反応",
-      "バイルシュタイン反応",
-      "銀鏡反応"
-    ],
-    "answer": 0,
-    "explanation": "ビウレット反応はペプチド結合の検出に用いられる。",
-    "hints": [
-      "共通テスト型は、選択肢を一つずつ事実に照合しよう。",
-      "暗記だけでなく、反応・構造・用途の関係で消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_common_ch7",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "exam_ch7_004",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "DNAとRNAの違いとして正しいものはどれか。",
-    "choices": [
-      "DNAはデオキシリボース、RNAはリボースを含む",
-      "DNAはウラシル、RNAはチミンを含む",
-      "DNAは糖を含まない",
-      "RNAは塩基を含まない"
-    ],
-    "answer": 0,
-    "explanation": "DNAはデオキシリボースとチミン、RNAはリボースとウラシルを含む。",
-    "hints": [
-      "共通テスト型は、選択肢を一つずつ事実に照合しよう。",
-      "暗記だけでなく、反応・構造・用途の関係で消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_common_ch7",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "exam_ch7_005",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "ナイロン66とPETに共通する特徴として最も適切なものはどれか。",
-    "choices": [
-      "縮合重合で得られる",
-      "付加重合だけで得られる",
-      "単糖からできる",
-      "天然ゴムである"
-    ],
-    "answer": 0,
-    "explanation": "ナイロン66もPETも二官能性単量体の縮合重合で得られる。",
-    "hints": [
-      "共通テスト型は、選択肢を一つずつ事実に照合しよう。",
-      "暗記だけでなく、反応・構造・用途の関係で消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_common_ch7",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "exam_ch7_006",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "ポリエチレン、ポリプロピレン、ポリスチレンに共通する重合形式はどれか。",
-    "choices": [
-      "付加重合",
-      "縮合重合",
-      "開環重合",
-      "付加縮合"
-    ],
-    "answer": 0,
-    "explanation": "これらはC=Cをもつ単量体が付加重合してできる熱可塑性樹脂。",
-    "hints": [
-      "共通テスト型は、選択肢を一つずつ事実に照合しよう。",
-      "暗記だけでなく、反応・構造・用途の関係で消去しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_common_ch7",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "orbital_001",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 14,
-    "prompt": "K殻に対応する原子軌道として適切なものはどれか。",
-    "choices": [
-      "1s軌道",
-      "2s軌道",
-      "2p軌道",
-      "3d軌道"
-    ],
-    "answer": 0,
-    "explanation": "K殻は主量子数1の電子殻で、1s軌道に対応する。",
-    "hints": [
-      "電子殻の番号と軌道の主量子数を対応させよう。",
-      "K殻は最も内側、つまりn=1。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_orbital",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "orbital_002",
-    "type": "single",
-    "difficulty": 2,
-    "baseXp": 14,
-    "prompt": "L殻に収容できる最大電子数はどれか。",
-    "choices": [
-      "8個",
-      "2個",
-      "18個",
-      "32個"
-    ],
-    "answer": 0,
-    "explanation": "L殻は2s軌道と3つの2p軌道からなり、2+6=8個の電子を収容できる。",
-    "hints": [
-      "s軌道は2個、p軌道は3本で合計6個。",
-      "L殻は2sと2pからなる。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_orbital",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "orbital_003",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "炭素原子がメタンCH₄で主にとる混成軌道はどれか。",
-    "choices": [
-      "sp³",
-      "sp²",
-      "sp",
-      "dsp²"
-    ],
-    "answer": 0,
-    "explanation": "メタンの炭素は4本のσ結合をつくり、正四面体形のsp³混成をとる。",
-    "hints": [
-      "結合の本数と分子の形を考えよう。",
-      "正四面体形ならsp³混成。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_orbital",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "orbital_004",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "エチレンCH₂=CH₂の炭素原子が主にとる混成軌道はどれか。",
-    "choices": [
-      "sp²",
-      "sp³",
-      "sp",
-      "d²sp³"
-    ],
-    "answer": 0,
-    "explanation": "エチレンの各炭素は平面三角形に近い配置でsp²混成をとる。",
-    "hints": [
-      "二重結合をもつ炭素のまわりの形を考えよう。",
-      "平面三角形ならsp²混成。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_orbital",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "orbital_005",
-    "type": "single",
-    "difficulty": 3,
-    "baseXp": 18,
-    "prompt": "アセチレンHC≡CHの炭素原子が主にとる混成軌道はどれか。",
-    "choices": [
-      "sp",
-      "sp²",
-      "sp³",
-      "dsp²"
-    ],
-    "answer": 0,
-    "explanation": "三重結合をもつ炭素は直線形でsp混成をとる。",
-    "hints": [
-      "三重結合のまわりは直線形。",
-      "直線形の炭素ならsp混成。"
-    ],
-    "unitWeights": [
-      {
-        "id": "exam_orbital",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_001",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "未知化合物Aは分子式C₃H₆O₂で、NaHCO₃と反応してCO₂を発生し、エタノールと濃硫酸で加熱すると芳香のある液体を生じた。Aはどれか。",
-    "choices": [
-      "プロピオン酸",
-      "酢酸メチル",
-      "乳酸エチル",
-      "アセトン"
-    ],
-    "answer": 0,
-    "explanation": "NaHCO₃とCO₂を出すのでカルボン酸。エタノールとエステル化するのでC₃H₆O₂のプロピオン酸が適切。",
-    "hints": [
-      "NaHCO₃との反応で官能基を決めよう。",
-      "エステル化はカルボン酸＋アルコールで起こる。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_002",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "未知化合物Bは分子式C₃H₆Oで、フェーリング液を還元した。Bとして適切なものはどれか。",
-    "choices": [
-      "プロパナール",
-      "アセトン",
-      "プロピオン酸",
-      "2-プロパノール"
-    ],
-    "answer": 0,
-    "explanation": "フェーリング液を還元するのでアルデヒド。C₃H₆Oのアルデヒドはプロパナール。",
-    "hints": [
-      "還元性の検出反応から官能基を決めよう。",
-      "フェーリング液を還元する代表はアルデヒド。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_003",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "未知化合物CはC₃H₆Oで、フェーリング液を還元せず、ヨードホルム反応を示した。Cはどれか。",
-    "choices": [
-      "アセトン",
-      "プロパナール",
-      "アリルアルコール",
-      "プロピオン酸"
-    ],
-    "answer": 0,
-    "explanation": "フェーリング液を還元しないのでアルデヒドではない。ヨードホルム反応を示すC₃H₆Oはアセトン。",
-    "hints": [
-      "2つの実験結果で候補を消去しよう。",
-      "ヨードホルム反応を示すメチルケトンを考えよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_004",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "化合物DはC₆H₅OHで、FeCl₃水溶液で呈色した。Dの分類はどれか。",
-    "choices": [
-      "フェノール類",
-      "アルコール",
-      "カルボン酸",
-      "エステル"
-    ],
-    "answer": 0,
-    "explanation": "C₆H₅OHはベンゼン環にOHが直接結合したフェノール。FeCl₃で呈色する。",
-    "hints": [
-      "OHがどこに結合しているかを見る。",
-      "ベンゼン環に直接結合したOHはフェノール性OH。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_005",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "化合物EはC₆H₅NH₂で、塩酸に溶けやすい。これはどの性質によるか。",
-    "choices": [
-      "アミノ基の塩基性",
-      "カルボキシ基の酸性",
-      "エステルの加水分解",
-      "芳香環の付加反応"
-    ],
-    "answer": 0,
-    "explanation": "アニリンはアミノ基をもち弱塩基性を示し、塩酸と塩をつくって水に溶けやすくなる。",
-    "hints": [
-      "塩酸に溶ける＝塩基性物質を考える。",
-      "アミノ基はH⁺を受け取れる。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_006",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "未知化合物FはC₆H₅COOHで、NaHCO₃水溶液に溶けた。Fはどれか。",
-    "choices": [
-      "安息香酸",
-      "フェノール",
-      "アニリン",
-      "トルエン"
-    ],
-    "answer": 0,
-    "explanation": "C₆H₅COOHは安息香酸。カルボキシ基があるのでNaHCO₃と反応して溶ける。",
-    "hints": [
-      "NaHCO₃に溶ける酸性の官能基を探す。",
-      "-COOHがあればカルボン酸。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_007",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "分子式C₄H₈で臭素水を脱色する直鎖状化合物として適切なものはどれか。",
-    "choices": [
-      "1-ブテン",
-      "シクロブタン",
-      "ブタン",
-      "ベンゼン"
-    ],
-    "answer": 0,
-    "explanation": "臭素水を脱色するのはC=Cをもつ不飽和化合物。C₄H₈の直鎖状アルケンなら1-ブテン。",
-    "hints": [
-      "臭素水の脱色は不飽和結合の手がかり。",
-      "直鎖状という条件で環式を除外しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_008",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "化合物GはC₂H₄を水付加して得られ、Naと反応してH₂を発生する。Gはどれか。",
-    "choices": [
-      "エタノール",
-      "エチレン",
-      "アセトアルデヒド",
-      "酢酸"
-    ],
-    "answer": 0,
-    "explanation": "エチレンへの水付加でエタノールが得られる。エタノールはNaと反応してH₂を発生する。",
-    "hints": [
-      "反応前後の官能基変化を考えよう。",
-      "アルケンへの水付加でアルコールになる。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_009",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "化合物Hはエタノールを約170℃の濃硫酸で脱水して得られる。Hはどれか。",
-    "choices": [
-      "エチレン",
-      "ジエチルエーテル",
-      "酢酸エチル",
-      "アセトアルデヒド"
-    ],
-    "answer": 0,
-    "explanation": "エタノールを濃硫酸中約170℃で加熱すると分子内脱水によりエチレンが生じる。",
-    "hints": [
-      "濃硫酸の温度条件に注目。",
-      "170℃は分子内脱水、140℃は分子間脱水。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_integrated_010",
-    "type": "single",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "化合物Iはエタノールを約140℃の濃硫酸で脱水して得られる。Iはどれか。",
-    "choices": [
-      "ジエチルエーテル",
-      "エチレン",
-      "アセトアルデヒド",
-      "酢酸"
-    ],
-    "answer": 0,
-    "explanation": "約140℃ではエタノール2分子の分子間脱水によりジエチルエーテルが生じる。",
-    "hints": [
-      "温度条件で生成物が変わる。",
-      "140℃は分子間脱水でエーテル。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "struct_written_001",
-    "type": "written",
-    "difficulty": 4,
-    "baseXp": 24,
-    "prompt": "構造決定問題で、実験結果を官能基の条件に変換することが重要な理由を説明しなさい。",
-    "modelAnswer": "銀鏡反応やNaHCO₃との反応などの実験結果は官能基の手がかりになる。結果を条件に変換すると、候補構造を消去し、複数条件を合わせて構造を決定できるから。",
-    "criteria": [
-      "実験結果から官能基を推定する",
-      "候補構造を消去できる",
-      "複数条件を組み合わせて構造を決める"
-    ],
-    "explanation": "構造決定では「反応名を覚える」だけでなく「何を示す実験か」に変換する力が重要。",
-    "hints": [
-      "実験結果はそのまま答えではなく、官能基のサイン。",
-      "複数のサインを重ねて候補を絞る、という流れを説明しよう。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_structure_determination",
-        "weight": 1
-      }
-    ]
-  },
-  {
-    "id": "poly_written_001",
-    "type": "written",
-    "difficulty": 3,
-    "baseXp": 20,
-    "prompt": "付加重合と縮合重合の違いを、単量体と副生成物に注目して説明しなさい。",
-    "modelAnswer": "付加重合はC=Cなどの不飽和結合をもつ単量体が付加して連なる反応で、水などの小分子は生じない。一方、縮合重合は官能基どうしが反応し、水などの小分子を取り除きながら連なる反応である。",
-    "criteria": [
-      "付加重合は不飽和結合をもつ単量体が連なる",
-      "縮合重合は官能基どうしが反応する",
-      "縮合重合では水などの小分子が副生する"
-    ],
-    "explanation": "重合の種類は「どんな単量体か」「何か抜けるか」で区別すると覚えやすい。",
-    "hints": [
-      "単量体の形に注目しよう。",
-      "副生成物があるかどうかも違いになる。"
-    ],
-    "unitWeights": [
-      {
-        "id": "chem_synthetic_polymer",
-        "weight": 1
       }
     ]
   }

@@ -12996,9 +12996,9 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 2,
     "baseXp": 14,
-    "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lの水溶液の[OH⁻]は何 mol/Lか。指数の形ではなく 1e-11 のように答えてよい。",
-    "answer": 1e-11,
-    "tolerance": 1e-13,
+    "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lの水溶液の[OH⁻]は何 mol/Lか。入力欄には 1e-11 のように答えてよい。",
+    "answer": 1.0×10⁻¹¹,
+    "tolerance": 1.0×10⁻¹³,
     "unitLabel": "mol/L",
     "explanation": "Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴より、[OH⁻]=1.0×10⁻¹¹。",
     "unitWeights": [
@@ -13014,8 +13014,8 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[OH⁻]=1.0×10⁻⁴ mol/Lの水溶液の[H⁺]は何 mol/Lか。",
-    "answer": 1e-10,
-    "tolerance": 1e-12,
+    "answer": 1.0×10⁻¹⁰,
+    "tolerance": 1.0×10⁻¹²,
     "unitLabel": "mol/L",
     "explanation": "[H⁺]=Kw/[OH⁻]=1.0×10⁻¹⁴/1.0×10⁻⁴=1.0×10⁻¹⁰。",
     "unitWeights": [
@@ -13030,11 +13030,11 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "[H⁺]=1e-01 mol/L の水溶液のpHを答えなさい。",
+    "prompt": "[H⁺]=1.0×10⁻⁰¹ mol/L の水溶液のpHを答えなさい。",
     "answer": 1,
     "tolerance": 0.01,
     "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻1 なので pH=1。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻¹ なので pH=1。",
     "unitWeights": [
       {
         "id": "basic_ph",
@@ -13047,11 +13047,11 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "[H⁺]=1e-02 mol/L の水溶液のpHを答えなさい。",
+    "prompt": "[H⁺]=1.0×10⁻⁰² mol/L の水溶液のpHを答えなさい。",
     "answer": 2,
     "tolerance": 0.01,
     "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻2 なので pH=2。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻² なので pH=2。",
     "unitWeights": [
       {
         "id": "basic_ph",
@@ -13064,11 +13064,11 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "[H⁺]=1e-03 mol/L の水溶液のpHを答えなさい。",
+    "prompt": "[H⁺]=1.0×10⁻⁰³ mol/L の水溶液のpHを答えなさい。",
     "answer": 3,
     "tolerance": 0.01,
     "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻3 なので pH=3。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻³ なので pH=3。",
     "unitWeights": [
       {
         "id": "basic_ph",
@@ -13081,11 +13081,11 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "[H⁺]=1e-04 mol/L の水溶液のpHを答えなさい。",
+    "prompt": "[H⁺]=1.0×10⁻⁰⁴ mol/L の水溶液のpHを答えなさい。",
     "answer": 4,
     "tolerance": 0.01,
     "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻4 なので pH=4。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻⁴ なので pH=4。",
     "unitWeights": [
       {
         "id": "basic_ph",
@@ -13098,11 +13098,11 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "[H⁺]=1e-07 mol/L の水溶液のpHを答えなさい。",
+    "prompt": "[H⁺]=1.0×10⁻⁰⁷ mol/L の水溶液のpHを答えなさい。",
     "answer": 7,
     "tolerance": 0.01,
     "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻7 なので pH=7。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻⁷ なので pH=7。",
     "unitWeights": [
       {
         "id": "basic_ph",
@@ -13115,11 +13115,11 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "[H⁺]=1e-10 mol/L の水溶液のpHを答えなさい。",
+    "prompt": "[H⁺]=1.0×10⁻¹⁰ mol/L の水溶液のpHを答えなさい。",
     "answer": 10,
     "tolerance": 0.01,
     "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻10 なので pH=10。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻¹⁰ なので pH=10。",
     "unitWeights": [
       {
         "id": "basic_ph",
@@ -13132,11 +13132,11 @@ window.CHEM_QUESTIONS = [
     "type": "numeric",
     "difficulty": 1,
     "baseXp": 10,
-    "prompt": "[H⁺]=1e-12 mol/L の水溶液のpHを答えなさい。",
+    "prompt": "[H⁺]=1.0×10⁻¹² mol/L の水溶液のpHを答えなさい。",
     "answer": 12,
     "tolerance": 0.01,
     "unitLabel": "",
-    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻12 なので pH=12。",
+    "explanation": "pH=-log[H⁺]。 [H⁺]=1.0×10⁻¹² なので pH=12。",
     "unitWeights": [
       {
         "id": "basic_ph",
@@ -17189,7 +17189,7 @@ window.CHEM_QUESTIONS = [
     "baseXp": 18,
     "prompt": "2O₃＋C→CO₂＋2O₂で、Cが5.0×10⁻⁴mol反応すると、消費されるO₃は何molか。半角数値で答えよ。",
     "answer": 0.001,
-    "tolerance": 1e-05,
+    "tolerance": 1.0×10⁻⁰⁵,
     "unitLabel": "mol",
     "explanation": "係数比O₃:C=2:1。5.0×10⁻⁴molの2倍で1.0×10⁻³mol。",
     "unitWeights": [
@@ -17735,7 +17735,7 @@ window.CHEM_QUESTIONS = [
     "baseXp": 18,
     "prompt": "2O₃→3O₂でO₃が1.00×10⁻³mol分解するとO₂は何mol生じるか。",
     "answer": 0.0015,
-    "tolerance": 1e-05,
+    "tolerance": 1.0×10⁻⁰⁵,
     "unitLabel": "mol",
     "explanation": "係数比O₃:O₂=2:3。1.00×10⁻³×3/2=1.50×10⁻³mol。",
     "unitWeights": [
@@ -22760,7 +22760,7 @@ window.CHEM_QUESTIONS = [
     "baseXp": 14,
     "prompt": "濃度が60秒で1.00 mol/Lから0.70 mol/Lに減少した。平均分解速度を求めなさい。",
     "answer": 0.005,
-    "tolerance": 1e-05,
+    "tolerance": 1.0×10⁻⁰⁵,
     "unitLabel": "mol/(L・s)",
     "hints": [
       "濃度変化の絶対値を時間で割る。",
@@ -23417,8 +23417,8 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lのとき[OH⁻]を求めなさい。",
-    "answer": 1e-11,
-    "tolerance": 1e-13,
+    "answer": 1.0×10⁻¹¹,
+    "tolerance": 1.0×10⁻¹³,
     "unitLabel": "mol/L",
     "hints": [
       "Kw=[H⁺][OH⁻]を変形。",

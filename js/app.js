@@ -5,6 +5,8 @@
   const units = window.CHEM_UNITS || [];
   const chars = window.CHEM_CHARACTERS || { heroes: [], pets: [] };
   const questions = window.CHEM_QUESTIONS || [];
+  const elements = window.CHEM_ELEMENTS || [];
+  const elementMap = Object.fromEntries(elements.map(el => [String(el.atomicNumber), el]));
   const main = document.getElementById("main");
   const modal = document.getElementById("modal");
   const toast = document.getElementById("toast");
@@ -152,9 +154,14 @@
     studySessions: 0,
     wrongBank: {},
     retryGraduated: 0,
-    lastPlayedAt: null,
-    streak: { current: 0, best: 0, lastStudyDate: null, studyDates: [], totalActiveDays: 0 },
-    streakRewards: []
+    currentStreak: 0,
+    longestStreak: 0,
+    lastLoginDate: null,
+    loginDates: [],
+    dailyGoal: 3,
+    todayQuestions: 0,
+    todayDate: null,
+    lastPlayedAt: null
   });
 
   function loadSave() {
@@ -170,9 +177,7 @@
         unitXp: { ...fresh.unitXp, ...(saved.unitXp || {}) },
         unitAttempts: { ...fresh.unitAttempts, ...(saved.unitAttempts || {}) },
         unitCorrect: { ...fresh.unitCorrect, ...(saved.unitCorrect || {}) },
-        wrongBank: { ...fresh.wrongBank, ...(saved.wrongBank || {}) },
-        streak: { ...fresh.streak, ...(saved.streak || {}) },
-        streakRewards: Array.isArray(saved.streakRewards) ? saved.streakRewards : []
+        wrongBank: { ...fresh.wrongBank, ...(saved.wrongBank || {}) }
       };
     } catch (error) {
       console.warn("セーブデータを読み込めませんでした", error);
@@ -199,43 +204,44 @@
     const y = date.getFullYear(), m = String(date.getMonth()+1).padStart(2,"0"), d = String(date.getDate()).padStart(2,"0");
     return `${y}-${m}-${d}`;
   }
-  function dayDiff(a, b) {
-    const [ay,am,ad]=a.split("-").map(Number), [by,bm,bd]=b.split("-").map(Number);
-    return Math.round((Date.UTC(by,bm-1,bd)-Date.UTC(ay,am-1,ad))/86400000);
+  function dayDifference(a, b) {
+    if (!a || !b) return 999;
+    const x = new Date(`${a}T12:00:00`), y = new Date(`${b}T12:00:00`);
+    return Math.round((y-x)/86400000);
   }
-  const STREAK_MILESTONES = [3,7,14,30,50,100];
-  function streakPraise(days = save.streak.current) {
-    const pet = activePet();
-    if (days >= 100) return `${pet.name}「100日！学びがもう君の力になってる！」`;
-    if (days >= 30) return `${pet.name}「${days}日連続！続ける才能、ほんものだよ！」`;
-    if (days >= 14) return `${pet.name}「2週間をこえたね。昨日の自分を毎日更新してる！」`;
-    if (days >= 7) return `${pet.name}「1週間達成！コツコツがちゃんと形になったよ♪」`;
-    if (days >= 3) return `${pet.name}「${days}日連続！始める力が習慣に変わってきたね！」`;
-    if (days === 2) return `${pet.name}「昨日に続いて今日も来た！これが一番強い学び方だよ。」`;
-    if (days === 1) return `${pet.name}「今日の一歩を記録したよ。明日も会えたらうれしいな！」`;
-    return `${pet.name}「まず1問。今日を学んだ日にしよう！」`;
-  }
-  function registerStudyDay() {
+  let loginEvent = null;
+  function registerDailyLogin() {
     const today = localDateKey();
-    const st = save.streak || (save.streak = defaultSave().streak);
-    if (st.lastStudyDate === today) return { changed:false, current:st.current, milestone:null };
-    const gap = st.lastStudyDate ? dayDiff(st.lastStudyDate, today) : null;
-    st.current = gap === 1 ? st.current + 1 : 1;
-    st.best = Math.max(st.best || 0, st.current);
-    st.lastStudyDate = today;
-    st.studyDates = [...new Set([...(st.studyDates || []), today])].slice(-180);
-    st.totalActiveDays = st.studyDates.length;
-    const milestone = STREAK_MILESTONES.includes(st.current) && !(save.streakRewards || []).includes(st.current) ? st.current : null;
-    if (milestone) save.streakRewards.push(milestone);
-    return { changed:true, current:st.current, milestone };
+    if (save.todayDate !== today) { save.todayDate = today; save.todayQuestions = 0; }
+    if (save.lastLoginDate === today) return;
+    const diff = dayDifference(save.lastLoginDate, today);
+    save.currentStreak = diff === 1 ? (save.currentStreak || 0) + 1 : 1;
+    save.longestStreak = Math.max(save.longestStreak || 0, save.currentStreak);
+    save.lastLoginDate = today;
+    save.loginDates = [...new Set([...(save.loginDates || []), today])].slice(-60);
+    loginEvent = { streak: save.currentStreak, continued: diff === 1 };
+    persist();
   }
-  function lastSevenDaysMarkup() {
-    const studied = new Set(save.streak.studyDates || []);
-    return Array.from({length:7}, (_,i)=>{
-      const d=new Date(); d.setDate(d.getDate()-(6-i));
-      const key=localDateKey(d), done=studied.has(key);
-      return `<div class="streak-day ${done?'done':''}"><span>${['日','月','火','水','木','金','土'][d.getDay()]}</span><b>${done?'✓':'·'}</b></div>`;
-    }).join('');
+  function streakPraise(streak = save.currentStreak) {
+    if (streak >= 30) return `🔥 ${streak}日連続！ここまで続けたキミは、本当に強いよ。`;
+    if (streak >= 14) return `✨ ${streak}日連続！努力がもう習慣になってきたね。`;
+    if (streak >= 7) return `🎉 ${streak}日連続！一週間の積み重ね、すごい！`;
+    if (streak >= 3) return `🌱 ${streak}日連続！今日も会えてうれしいよ。`;
+    return `今日も来てくれたね。まず1問から一緒に始めよう！`;
+  }
+  function weekStreakMarkup() {
+    const days = ["日","月","火","水","木","金","土"];
+    const today = new Date();
+    const monday = new Date(today); monday.setDate(today.getDate() - ((today.getDay()+6)%7));
+    return `<div class="week-streak">${Array.from({length:7},(_,i)=>{const d=new Date(monday);d.setDate(monday.getDate()+i);const key=localDateKey(d);const done=(save.loginDates||[]).includes(key);const now=key===localDateKey();return `<div class="week-day ${done?'done':''} ${now?'today':''}"><span>${days[d.getDay()]}</span><b>${done?'✓':'·'}</b></div>`}).join("")}</div>`;
+  }
+  function openLoginPraise() {
+    if (!loginEvent) return;
+    const p = activePet();
+    modal.className = "modal open streak-modal";
+    modal.setAttribute("aria-hidden","false");
+    modal.innerHTML = `<div class="modal-box streak-box"><button class="icon-btn streak-close" data-action="close-modal" aria-label="閉じる">×</button><div class="streak-flame">🔥</div><p class="eyebrow">DAILY LOGIN</p><h2>${save.currentStreak}日連続学習</h2><img src="${p.image}" alt="${escapeHtml(p.name)}"><div class="streak-speech"><strong>${escapeHtml(p.name)}</strong><p>${escapeHtml(streakPraise())}</p></div>${weekStreakMarkup()}<button class="btn primary full" data-action="daily-3">今日の3問を始める</button></div>`;
+    loginEvent = null;
   }
 
   function showToast(message) {
@@ -247,6 +253,25 @@
   function escapeHtml(value = "") {
     return String(value).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#039;",'"':"&quot;"}[c]));
   }
+  const SUPER_CHARS = {"-":"⁻","+":"⁺","0":"⁰","1":"¹","2":"²","3":"³","4":"⁴","5":"⁵","6":"⁶","7":"⁷","8":"⁸","9":"⁹"};
+  function toSuperscript(value = "") {
+    return String(value).split("").map(c => SUPER_CHARS[c] || c).join("");
+  }
+  function normalizeChemNotation(value = "") {
+    let text = String(value);
+    // JavaScript-style scientific notation is accepted as input, but questions are shown in textbook notation.
+    text = text.replace(/\b(\d+(?:\.\d+)?)\s*[eE]\s*([+-]?\d+)\b/g, (_, coefficient, exponent) => {
+      const shown = coefficient.includes(".") ? coefficient : `${coefficient}.0`;
+      return `${shown}×10${toSuperscript(exponent)}`;
+    });
+    // Normalize partially superscripted powers such as 10⁻12 or 10^-12.
+    text = text.replace(/10(?:\^)?([⁺⁻+-])([0-9]+)/g, (_, sign, digits) => {
+      const plainSign = sign === "⁻" ? "-" : sign === "⁺" ? "+" : sign;
+      return `10${toSuperscript(plainSign + digits)}`;
+    });
+    return text;
+  }
+  function chemText(value = "") { return escapeHtml(normalizeChemNotation(value)); }
   function levelFromXp(xp = 0) { return Math.floor(Math.sqrt(Math.max(0, xp) / 25)) + 1; }
   function xpForLevel(level) { return 25 * Math.pow(Math.max(0, level - 1), 2); }
   function levelProgress(xp = 0) {
@@ -400,7 +425,7 @@
     modal.setAttribute("aria-hidden", "false");
     modal.innerHTML = `<div class="modal-box hint-box" role="dialog" aria-modal="true" aria-label="${title}">
       <div class="modal-head hint-head"><div><p class="eyebrow">${escapeHtml(p.name)}のヒント</p><h2>${title}</h2></div><button class="icon-btn" data-action="close-modal" aria-label="閉じる">×</button></div>
-      <div class="hint-pop-body"><img src="${p.image}" alt="${escapeHtml(p.name)}"><p>${escapeHtml(text)}</p></div>
+      <div class="hint-pop-body"><img src="${p.image}" alt="${escapeHtml(p.name)}"><p>${chemText(text)}</p></div>
       <div class="hint-steps"><span class="${safeLevel===1?'active':''}">1</span><span class="${safeLevel===2?'active':''}">2</span></div>
       <div class="modal-actions">${safeLevel===2?'<button class="btn secondary" data-action="hint-prev">ヒント1に戻る</button>':''}<button class="btn secondary" data-action="close-modal">問題に戻る</button>${safeLevel===1?'<button class="btn primary" data-action="hint-next">ヒント2を見る</button>':''}</div>
     </div>`;
@@ -497,10 +522,11 @@
     else if (next === "units") renderUnits(params.course || currentCourse);
     else if (next === "group") renderGroup(params.groupId);
     else if (next === "status") renderStatus();
+    else if (next === "partners") renderPartners();
+    else if (next === "periodic") renderPeriodicTable();
     else if (next === "records") renderRecords();
     else if (next === "retry") renderRetryLab();
     else if (next === "settings") renderSettings();
-    else if (next === "partners") renderPartners();
     main.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -526,7 +552,7 @@
           <p class="eyebrow">CHEM GROW 校内限定版</p>
           <h1>${escapeHtml(save.profileName)}の化学ステータス</h1>
           <p class="home-lead">今日はまず${dailyCount || 0}問。短く解いて、ステータスを少しずつ育てます。</p>
-          <div class="streak-card"><div class="streak-number"><span>🔥</span><strong>${save.streak.current}</strong><small>日連続</small></div><div><b>${escapeHtml(streakPraise(save.streak.current))}</b><div class="streak-week">${lastSevenDaysMarkup()}</div></div></div>
+          <div class="streak-home"><div class="streak-count"><span>🔥</span><div><strong>${save.currentStreak}日連続</strong><small>最長 ${save.longestStreak}日</small></div></div><div class="daily-goal"><span>今日の目標 ${Math.min(save.todayQuestions,save.dailyGoal)}/${save.dailyGoal}問</span>${progressMarkup(Math.min(100,Math.round(save.todayQuestions/save.dailyGoal*100)),2)}</div></div>
           <div class="home-partner-line">
             ${pairMarkup(true)}
             <div class="pet-home-bubble"><strong>${escapeHtml(p.name)}</strong><p>${escapeHtml(pickComment("start"))}</p></div>
@@ -561,6 +587,7 @@
         <button class="quick-card" data-action="course" data-course="chemistry"><span class="icon">⚗️</span><span><strong>化学</strong><small>考査範囲を選択</small></span></button>
         <button class="quick-card" data-action="course" data-course="exam"><span class="icon">🎯</span><span><strong>共通テスト・総合対策</strong><small>実戦問題を選択</small></span></button>
         <button class="quick-card" data-route="partners"><span class="icon">🐾</span><span><strong>主人公・ペット図鑑</strong><small>${escapeHtml(h.name)}＋${escapeHtml(p.name)}</small></span></button>
+        <button class="quick-card" data-route="periodic"><span class="icon">🧬</span><span><strong>元素図鑑</strong><small>原子番号1〜20を詳しく学ぶ</small></span></button>
         <button class="quick-card" data-route="retry"><span class="icon">🧪</span><span><strong>誤答ラボ</strong><small>間違えた問題だけリトライ</small></span></button>
       </section>`;
   }
@@ -696,11 +723,84 @@
 
   function renderPartners() {
     const h=activeHero(), p=activePet();
-    const partnerSection=(c,type)=>`<article class="partner-profile ${type}">
-      <div class="partner-profile-image"><img src="${c.profileImage || c.image}" alt="${escapeHtml(c.name)}の紹介画像"></div>
-      <div class="partner-profile-copy"><p class="eyebrow">${type==='hero'?'MAIN CHARACTER':'STUDY PET'}</p><h2>${escapeHtml(c.profileTitle || c.name)}</h2><p class="partner-story">${escapeHtml(c.profileStory || c.trait)}</p><blockquote>${escapeHtml(c.phrase || c.trait)}</blockquote><div class="partner-profile-actions"><button class="btn primary" data-action="open-character">別の${type==='hero'?'主人公':'ペット'}を選ぶ</button></div></div>
-    </article>`;
-    main.innerHTML=`${backBar("主人公・ペット図鑑")}<section class="partner-library-head panel"><div><p class="eyebrow">CHEM GROW PARTNERS</p><h1>一緒に学ぶ、主人公とペット</h1><p>選択画面では小さなキャラクター画像、紹介ページでは世界観が伝わる一枚絵を表示します。</p></div><div class="streak-summary"><span>🔥</span><strong>${save.streak.current}日</strong><small>最高 ${save.streak.best}日</small></div></section>${partnerSection(h,'hero')}${partnerSection(p,'pet')}<section class="panel streak-detail"><div class="section-head"><div><h2>ペットとの継続記録</h2><p>1日1セッション完了すると、その日が学習日に記録されます。</p></div></div><div class="streak-hero-line"><img src="${p.image}" alt="${escapeHtml(p.name)}"><div><h3>${escapeHtml(streakPraise(save.streak.current))}</h3><div class="streak-week large">${lastSevenDaysMarkup()}</div><p>累計学習日 ${save.streak.totalActiveDays || 0}日・最長 ${save.streak.best || 0}日。3・7・14・30日などの節目には特別メッセージが届きます。</p></div></div></section>`;
+    const profileCard=(c,type)=>{const selected=type==="hero"?save.selectedHeroId===c.id:save.selectedPetId===c.id;return `<article class="profile-card ${selected?'selected':''}"><div class="profile-art ${c.profileImage?'full':''}">${c.profileImage?`<img src="${c.profileImage}" alt="${escapeHtml(c.name)}紹介画像">`:`<img src="${c.image}" alt="${escapeHtml(c.name)}">`}</div><div class="profile-copy"><span class="profile-type">${type==='hero'?'主人公':'ペット'} ${selected?'・選択中':''}</span><h3>${escapeHtml(c.name)}</h3><strong>${escapeHtml(c.role||c.trait)}</strong><p>${escapeHtml(c.story||c.trait)}</p>${c.phrase?`<blockquote>「${escapeHtml(c.phrase)}」</blockquote>`:''}<button class="btn ${selected?'secondary':'primary'}" data-action="select-profile-character" data-type="${type}" data-id="${c.id}">${selected?'現在のパートナー':'このキャラを選ぶ'}</button></div></article>`};
+    main.innerHTML=`${backBar("キャラクター図鑑")}<section class="partner-hero panel"><div><p class="eyebrow">YOUR LEARNING TEAM</p><h1>学びを続ける相棒たち</h1><p>主人公は挑戦する自分の分身。ペットは毎日の学習を見守り、連続ログインや正解、やり直しをほめてくれます。</p><div class="partner-current"><strong>現在：${escapeHtml(h.name)} ＋ ${escapeHtml(p.name)}</strong><span>🔥 ${save.currentStreak}日連続</span></div></div>${pairMarkup()}</section><div class="section-head"><div><h2>主人公</h2><p>得意分野や物語から、自分に合う主人公を選べます。</p></div></div><section class="profile-grid">${chars.heroes.map(c=>profileCard(c,"hero")).join("")}</section><div class="section-head"><div><h2>応援ペット</h2><p>ペットごとに言葉や得意分野が変わります。</p></div></div><section class="profile-grid">${chars.pets.map(c=>profileCard(c,"pet")).join("")}</section>`;
+  }
+
+
+  function elementCard(el) {
+    return `<button class="element-tile category-${escapeHtml(el.category)}" data-action="open-element" data-atomic="${el.atomicNumber}" style="--element-accent:${el.accent}">
+      <span class="element-number">${el.atomicNumber}</span>
+      <strong>${escapeHtml(el.symbol)}</strong>
+      <span class="element-name">${escapeHtml(el.name)}</span>
+      <small>${escapeHtml(el.atomicMass)}</small>
+    </button>`;
+  }
+
+  function periodicSlot(number) {
+    const el = elementMap[String(number)];
+    return el ? elementCard(el) : `<div class="element-gap" aria-hidden="true"></div>`;
+  }
+
+  function renderPeriodicTable() {
+    const rows = [
+      [1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,2],
+      [3,4,null,null,null,null,null,null,null,null,null,null,5,6,7,8,9,10],
+      [11,12,null,null,null,null,null,null,null,null,null,null,13,14,15,16,17,18],
+      [19,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]
+    ];
+    main.innerHTML = `${backBar("元素図鑑")}<section class="periodic-intro panel"><div><p class="eyebrow">PERIODIC TABLE LAB</p><h1>元素図鑑 1–20</h1><p>周期表の元素をタップすると、高校化学に必要な性質・電子配置・化合物・反応・入試ポイントまで詳しく確認できます。反応式はさらにタップして大きく表示できます。</p></div><div class="periodic-progress"><strong>${elements.length}</strong><span>/ 20 元素収録</span><small>学習達成による元素獲得機能は次段階で接続予定</small></div></section>
+      <section class="periodic-panel panel">
+        <div class="periodic-scroll" aria-label="周期表 原子番号1から20">
+          <div class="periodic-grid">${rows.flatMap(row=>row.map(n=>n?periodicSlot(n):`<div class="element-gap"></div>`)).join("")}</div>
+        </div>
+        <div class="element-legend"><span><i class="legend-dot nonmetal"></i>非金属</span><span><i class="legend-dot alkali"></i>アルカリ金属</span><span><i class="legend-dot earth"></i>第2族</span><span><i class="legend-dot metalloid"></i>半金属</span><span><i class="legend-dot halogen"></i>ハロゲン</span><span><i class="legend-dot noble"></i>希ガス</span></div>
+      </section>
+      <section class="panel periodic-guide"><h2>この図鑑の使い方</h2><div class="guide-grid"><div><strong>① 元素をタップ</strong><p>基本情報と高校化学で重要な内容が開きます。</p></div><div><strong>② 項目を開く</strong><p>単体の性質、化合物、製法、入試ポイントを読み分けられます。</p></div><div><strong>③ 反応式をタップ</strong><p>状態記号・条件・酸化数変化を大画面で確認できます。</p></div></div></section>`;
+  }
+
+  function detailSection(title, body, open = false) {
+    return `<details class="element-detail-section" ${open ? "open" : ""}><summary>${title}<span>＋</span></summary><div class="element-detail-body">${body}</div></details>`;
+  }
+
+  function openElementDetail(atomicNumber) {
+    const el = elementMap[String(atomicNumber)];
+    if (!el) return;
+    const compoundMarkup = (el.compounds || []).map(c => `<article class="compound-card"><div><strong>${escapeHtml(c.name)}</strong><span>${escapeHtml(c.formula)}</span></div><p>${escapeHtml(c.note)}</p></article>`).join("");
+    const reactionMarkup = (el.reactions || []).length ? el.reactions.map((r,i)=>`<button class="reaction-card" data-action="open-reaction" data-atomic="${el.atomicNumber}" data-reaction="${i}"><span class="reaction-label">${escapeHtml(r.title)}</span><strong>${escapeHtml(r.equation)}</strong><small>タップして大きく見る →</small></button>`).join("") : `<div class="no-reaction"><strong>高校化学で扱う代表反応はほとんどありません</strong><p>閉殻電子配置により、通常条件では極めて反応しにくい元素です。</p></div>`;
+    modal.className = "modal open element-modal";
+    modal.setAttribute("aria-hidden","false");
+    modal.innerHTML = `<div class="modal-box element-detail-box" role="dialog" aria-modal="true" aria-label="${escapeHtml(el.name)}の元素詳細">
+      <button class="icon-btn element-close" data-action="close-modal" aria-label="閉じる">×</button>
+      <header class="element-detail-hero" style="--element-accent:${el.accent}"><div class="element-symbol-large"><span>${el.atomicNumber}</span><strong>${escapeHtml(el.symbol)}</strong><small>${escapeHtml(el.atomicMass)}</small></div><div><p class="eyebrow">ELEMENT ${el.atomicNumber}</p><h2>${escapeHtml(el.name)} <small>${escapeHtml(el.english)}</small></h2><div class="element-tags"><span>第${el.group}族</span><span>第${el.period}周期</span><span>${escapeHtml(el.category)}</span><span>常温：${escapeHtml(el.state)}</span></div><p>${escapeHtml(el.overview)}</p></div></header>
+      <div class="element-quickfacts"><div><span>電子殻</span><strong>${escapeHtml(el.shells)}</strong></div><div><span>電子配置</span><strong>${escapeHtml(el.electronConfiguration)}</strong></div><div><span>代表的酸化数</span><strong>${escapeHtml(el.oxidationStates)}</strong></div></div>
+      <div class="element-detail-content">
+        ${detailSection("原子と電子配置", `<p>${escapeHtml(el.atomic)}</p>`, true)}
+        ${detailSection("単体の性質", `<ul>${el.properties.map(x=>`<li>${escapeHtml(x)}</li>`).join("")}</ul>`, true)}
+        ${detailSection("代表的な反応", `<div class="reaction-list">${reactionMarkup}</div>`, true)}
+        ${detailSection("代表的な化合物", `<div class="compound-grid">${compoundMarkup}</div>`)}
+        ${detailSection("自然界での存在・製法・利用", `<p>${escapeHtml(el.occurrence)}</p>`)}
+        ${detailSection("高校化学・入試の重要ポイント", `<ul class="exam-point-list">${el.examPoints.map(x=>`<li>${escapeHtml(x)}</li>`).join("")}</ul>`)}
+        ${detailSection("よくある誤解", `<ul class="misconception-list">${el.misconceptions.map(x=>`<li>${escapeHtml(x)}</li>`).join("")}</ul>`)}
+      </div>
+    </div>`;
+  }
+
+  function openReactionPopup(atomicNumber, index) {
+    const el = elementMap[String(atomicNumber)];
+    const reaction = el?.reactions?.[Number(index)];
+    if (!el || !reaction) return;
+    modal.className = "modal open reaction-modal";
+    modal.setAttribute("aria-hidden","false");
+    modal.innerHTML = `<div class="modal-box reaction-popup" role="dialog" aria-modal="true" aria-label="${escapeHtml(reaction.title)}">
+      <div class="reaction-popup-head"><button class="btn secondary small" data-action="back-element" data-atomic="${el.atomicNumber}">← ${escapeHtml(el.name)}に戻る</button><button class="icon-btn" data-action="close-modal" aria-label="閉じる">×</button></div>
+      <div class="reaction-element-chip"><strong>${escapeHtml(el.symbol)}</strong><span>${escapeHtml(el.name)}の反応</span></div>
+      <p class="eyebrow">CHEMICAL EQUATION</p><h2>${escapeHtml(reaction.title)}</h2>
+      <div class="reaction-equation-large">${escapeHtml(reaction.equation)}</div>
+      <div class="reaction-meta"><div><span>反応条件</span><strong>${escapeHtml(reaction.conditions)}</strong></div><div><span>酸化数の変化</span><strong>${escapeHtml(reaction.redox)}</strong></div></div>
+      <section class="reaction-explanation"><h3>何が起こっている？</h3><p>${escapeHtml(reaction.explanation)}</p></section>
+      <p class="reaction-note">式は横に長い場合でも、スマホ・iPadで見切れないよう自動調整されます。</p>
+    </div>`;
   }
 
   function renderSettings() {
@@ -787,14 +887,14 @@
     const mainUnit = subunitMap[q.unitWeights?.[0]?.id] || subunitMap[session.subunitId];
     const groupName = session.mode === "exam" ? "定期考査対策" : (mainUnit?.groupName || groupMap[session.groupId]?.name || "ランダム出題");
     const subName = session.mode === "group" ? "単元ランダム" : session.mode === "exam" ? "選択単元ランダム" : (mainUnit?.name || "学習");
-    const inputNote = q.type === "numeric" ? '<span class="input-note">数値は半角で入力</span>' : '';
+    const inputNote = q.type === "numeric" ? '<span class="input-note">数値は半角で入力（例：1.0×10⁻¹² は 1e-12）</span>' : '';
     main.innerHTML = `<div class="question-wrap game-question-wrap">
       <div class="breadcrumb"><button data-action="exit-session">← 戻る</button><button data-route="home">ホーム</button><button data-route="status">ステータス</button><span>${escapeHtml(groupName)}</span><span>›</span><span>${escapeHtml(subName)}</span></div>
       <div class="question-head"><span class="question-index">Q ${session.index+1} / ${session.items.length}</span><span class="status-pill">${difficultyLabel(q.difficulty)}</span></div>
       <div class="question-stage">
         ${companionMarkup(q)}
         <article class="question-card">
-          <h2>${escapeHtml(q.prompt)}</h2>
+          <h2>${chemText(q.prompt)}</h2>
           ${inputNote}
           <div id="answer-zone">${answerMarkup(q)}</div>
           <div id="feedback-zone"></div>
@@ -812,7 +912,7 @@
     if (q.type === "written") return `<textarea class="written-area" id="written-answer" placeholder="理由が伝わるように文章で説明しよう"></textarea>`;
     return "";
   }
-  function choiceButton(text,i,multiple){ return `<button class="choice" data-action="choice" data-index="${i}" data-multiple="${multiple?'1':'0'}"><span class="choice-letter">${String.fromCharCode(65+i)}</span><span>${escapeHtml(text)}</span></button>`; }
+  function choiceButton(text,i,multiple){ return `<button class="choice" data-action="choice" data-index="${i}" data-multiple="${multiple?'1':'0'}"><span class="choice-letter">${String.fromCharCode(65+i)}</span><span>${chemText(text)}</span></button>`; }
 
   function calculatorMarkup() {
     const keys = ["7","8","9","÷","4","5","6","×","1","2","3","−","0",".","=","+"];
@@ -891,8 +991,8 @@
     const text = document.getElementById("written-answer")?.value.trim();
     if (!text) return showToast("まず自分の説明を書いてください");
     session.currentAnswered = true;
-    document.getElementById("feedback-zone").innerHTML = `<div class="feedback neutral"><strong>模範解答と比べよう</strong><div class="model-answer">${escapeHtml(q.modelAnswer)}</div><p>自分の文章に含まれていた要素を選択してください。</p><div class="criteria">${q.criteria.map((c,i)=>`<label><input type="checkbox" data-criterion="${i}"><span>${escapeHtml(c)}</span></label>`).join("")}</div></div>`;
-    document.getElementById("question-actions").innerHTML = `<button class="btn primary" data-action="complete-written">自己確認を完了</button>`;
+    document.getElementById("feedback-zone").innerHTML = `<div class="feedback neutral"><strong>自己採点</strong><div class="model-answer">${chemText(q.modelAnswer)}</div><p>模範解答と比べて、自分の文章に含まれていた要素を選択してください。</p><div class="criteria">${q.criteria.map((c,i)=>`<label><input type="checkbox" data-criterion="${i}"><span>${chemText(c)}</span></label>`).join("")}</div></div>`;
+    document.getElementById("question-actions").innerHTML = `<button class="btn primary" data-action="complete-written">自己採点を完了</button>`;
   }
   function completeWritten() {
     if (!session) return;
@@ -906,6 +1006,9 @@
     session.currentAnswered = true;
     const beforeCats = categoryStats();
     save.totalQuestions += 1;
+    const todayKey = localDateKey();
+    if (save.todayDate !== todayKey) { save.todayDate = todayKey; save.todayQuestions = 0; }
+    save.todayQuestions = (save.todayQuestions || 0) + 1;
     if (correct) { save.totalCorrect += 1; session.correct += 1; }
     let retryResult = null;
     if (correct && session.mode === "wrong") retryResult = registerRetryCorrect(q);
@@ -927,8 +1030,8 @@
     const commentKind = leveled ? "levelup" : correct ? "correct" : "wrong";
     if (!fromWritten) markChoiceFeedback(q);
     const support = questionSupport(q);
-    const answerLine = support.answer ? `<div class="answer-line"><span>答え</span><strong>${escapeHtml(support.answer)}</strong></div>` : "";
-    const supportBox = `<div class="learn-support"><strong>なるほど解説</strong>${answerLine}<p>${escapeHtml(support.explanation)}</p><div class="strategy-tip"><b>CHEM攻略ポイント</b><span>${escapeHtml(support.strategy)}</span></div></div>`;
+    const answerLine = support.answer ? `<div class="answer-line"><span>答え</span><strong>${chemText(support.answer)}</strong></div>` : "";
+    const supportBox = `<div class="learn-support"><strong>なるほど解説</strong>${answerLine}<p>${chemText(support.explanation)}</p><div class="strategy-tip"><b>CHEM攻略ポイント</b><span>${chemText(support.strategy)}</span></div></div>`;
     document.getElementById("feedback-zone").innerHTML = `<div class="feedback ${correct?'good':'bad'}"><strong>${correct?'正解！':'確認しよう'}</strong>${feedbackProgressMarkup(beforeCats, afterCats, gains, commentKind)}${retryStatusMarkup(retryResult)}${supportBox}${xpBreakdownMarkup(q,totalXp)}</div>`;
     document.getElementById("question-actions").innerHTML = `<button class="btn secondary" data-action="exit-session">ここで終了</button><button class="btn secondary" data-route="home">ホームで確認</button><button class="btn secondary" data-route="status">ステータスを見る</button><button class="btn primary" data-action="next-question">${session.index+1>=session.items.length?'結果を見る':'次の問題へ'}</button>`;
   }
@@ -946,9 +1049,7 @@
   function finishSession() {
     route = "result";
     updateNav();
-    save.studySessions += 1;
-    const streakResult = registerStudyDay();
-    persist();
+    save.studySessions += 1; persist();
     const h=activeHero(),p=activePet();
     const catRows = {};
     Object.entries(session.xpByUnit).forEach(([id,xp]) => {
@@ -961,7 +1062,7 @@
     const xpRows=Object.values(catRows).sort((a,b)=>b.xp-a.xp);
     main.innerHTML = `${backBar("結果")}<section class="panel result-card"><p class="eyebrow">SESSION COMPLETE</p><h1>学習おつかれさま！</h1>
       <div class="result-pair"><img src="${h.image}" alt="${escapeHtml(h.name)}"><img class="pet" src="${p.image}" alt="${escapeHtml(p.name)}"></div>
-      <div class="result-streak ${streakResult.milestone?'milestone':''}"><span>🔥</span><div><strong>${save.streak.current}日連続</strong><p>${escapeHtml(streakPraise(save.streak.current))}</p>${streakResult.milestone?`<em>🎁 ${streakResult.milestone}日継続達成！特別バッジを獲得</em>`:""}</div></div><p>${escapeHtml(pickComment("finish"))}</p><p>${session.items.length}問中 ${session.correct}問を到達判定できました。能力値は問題ごとの関連度に応じて加算されています。</p>
+      <p>${escapeHtml(pickComment("finish"))}</p><p>${session.items.length}問中 ${session.correct}問を到達判定できました。能力値は問題ごとの関連度に応じて加算されています。</p>
       <div class="xp-list">${xpRows.map(r=>`<div class="xp-row"><span>${r.icon} ${escapeHtml(r.name)}<small>（内訳：${escapeHtml([...new Set(r.details)].slice(0,4).join("・"))}）</small></span><span>+${r.xp} XP</span></div>`).join("")}</div>
       <div class="welcome-actions" style="justify-content:center"><button class="btn primary" data-action="retry-session">もう一度</button><button class="btn secondary" data-route="status">ステータスを見る</button><button class="btn secondary" data-route="records">学習記録を見る</button><button class="btn secondary" data-route="retry">誤答ラボ</button><button class="btn secondary" data-route="units">別の単元へ</button></div>
     </section>`;
@@ -1000,6 +1101,7 @@
       else go("home");
     }
     else if(action==="daily-3"){
+      closeModal();
       const items = takeRandom(dailyPool(), 3);
       if (!items.length) return showToast("問題準備中です");
       session = { mode:"daily", requestedCount:3, items, index:0, correct:0, xpByUnit:{}, currentAnswered:false, currentSelection:[], hintLevel:0 };
@@ -1024,7 +1126,14 @@
     else if(action==="open-group")go("group",{groupId:button.dataset.group});
     else if(action==="back-group")go("group",{groupId:button.dataset.group});
     else if(action==="open-character")openCharacterModal();
+    else if(action==="open-element")openElementDetail(button.dataset.atomic);
+    else if(action==="open-reaction")openReactionPopup(button.dataset.atomic, button.dataset.reaction);
+    else if(action==="back-element")openElementDetail(button.dataset.atomic);
     else if(action==="close-modal")closeModal();
+    else if(action==="select-profile-character"){
+      if(button.dataset.type==="hero")save.selectedHeroId=button.dataset.id;else save.selectedPetId=button.dataset.id;
+      persist(); renderPartners(); showToast("学習パートナーを変更しました");
+    }
     else if(action==="select-character"){
       if(button.dataset.type==="hero")save.selectedHeroId=button.dataset.id;else save.selectedPetId=button.dataset.id;
       persist();
@@ -1065,6 +1174,8 @@
   modal.addEventListener("click",e=>{if(e.target===modal)closeModal();});
   document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
 
+  registerDailyLogin();
   updateNav();
   renderHome();
+  if (loginEvent) setTimeout(openLoginPraise, 180);
 })();

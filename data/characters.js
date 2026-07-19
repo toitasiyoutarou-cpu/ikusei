@@ -1,6 +1,6 @@
 window.CHEM_CHARACTERS = {
   heroes: [
-    { id: "phoenix", number: 5, name: "フェニックス", image: "assets/characters/11-phoenix.webp", trait: "フェノールフタレインの力を宿す伝説の主人公", phrase: "色の変化が真実を教えてくれる！", profileImage: "assets/profiles/phoenix-profile.jpg", profileTitle: "フェノールフタレインのフェニックス", profileStory: "酸性・中性では静かに力をため、アルカリ性に出会うと鮮やかなピンクへ。変化を恐れず、観察から答えを見つける主人公。", strengths: ["basic_neutralization","basic_acid_base","basic_indicator"], weaknesses: [] },
+    { id: "phoenix", number: 5, name: "フェニックス", image: "assets/characters/11-phoenix.webp", trait: "フェノールフタレインの力を宿す伝説の主人公", phrase: "色の変化が真実を教えてくれる！", profileImage: "assets/introductions/phoenix-profile.jpg", role: "酸・塩基の変化を見抜く主人公", story: "無色からピンクへ変わる瞬間を力に変える、フェノールフタレインのフェニックス。間違いを恐れず、変化を観察して答えに近づく。", strengths: ["basic_neutralization","basic_acid_base","basic_indicator"], weaknesses: [] },
     { id: "react", number: 1, name: "リアク", image: "assets/characters/01-react.webp", trait: "反応の変化を見つける行動派", phrase: "さあ、反応開始！", strengths: ["basic_equation", "chem_rate_definition"], weaknesses: ["basic_atom"] },
     { id: "ion", number: 2, name: "イオン", image: "assets/characters/02-ion.webp", trait: "＋と−のつながりを考える観察役", phrase: "安定する組合せを探そう", strengths: ["basic_ion", "basic_ionic_bond", "basic_neutralization"], weaknesses: ["basic_mol"] },
     { id: "mol", number: 3, name: "モル", image: "assets/characters/03-mol.webp", trait: "数と量を丁寧に整理する分析役", phrase: "それ、何mol？", strengths: ["basic_mol", "basic_molar_mass", "basic_concentration"], weaknesses: ["basic_element_detection"] },
@@ -13,6 +13,6 @@ window.CHEM_CHARACTERS = {
     { id: "atomru", number: 8, name: "アトムル", image: "assets/characters/08-atomru.webp", trait: "電子の動きを追う原子ペット", strengths: ["basic_atom", "basic_electron", "basic_periodic_table"] },
     { id: "ionyan", number: 9, name: "イオニャン", image: "assets/characters/09-ionyan.webp", trait: "電荷の引力を感じるイオンペット", strengths: ["basic_ion", "basic_ionic_bond", "basic_electrolyte"] },
     { id: "molmol", number: 10, name: "モルモル", image: "assets/characters/10-molmol.webp", trait: "物質の量を数える食いしん坊ペット", strengths: ["basic_mol", "basic_molar_mass", "basic_stoichiometry"] },
-    { id: "teikiko", number: 11, name: "定期子うさぎ", image: "assets/characters/12-study-bunny.webp", trait: "テスト勉強を応援し、苦手の克服を支える努力家ペット", phrase: "コツコツが未来のできた！につながるよ♪", profileImage: "assets/profiles/teikiko-profile.jpg", profileTitle: "がんばるキミを応援！ 定期子うさぎ", profileStory: "テストまでの小さな目標を一緒に管理する応援ペット。連続学習を見つけるたびに、努力を具体的に褒めてくれる。", strengths: ["basic_acid_base", "basic_indicator", "basic_neutralization"] }
+    { id: "teikiko", number: 11, name: "定期子うさぎ", image: "assets/characters/12-study-bunny.webp", trait: "テスト勉強を応援し、苦手の克服を支える努力家ペット", profileImage: "assets/introductions/study-bunny-profile.jpg", role: "継続学習を支える応援ペット", story: "定期テストまでの小さな努力を見つけて、毎日ほめてくれる。連続学習が続くほど、応援メッセージも特別になる。", phrase: "努力は、うらぎらない！", strengths: ["basic_acid_base", "basic_indicator", "basic_neutralization"] }
   ]
 };

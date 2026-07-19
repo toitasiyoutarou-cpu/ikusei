@@ -1,9 +1,3 @@
-/*
-  高校化学 学習問題データ
-  type: single / multiple / numeric / short / written
-  unitWeights: 複数小単元にまたがるときの経験値配分。
-  01〜09のアップロード資料をもとに収録。
-*/
 window.CHEM_QUESTIONS = [
   {
     "id": "mol_001",
@@ -9417,7 +9411,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "H₂の分子量または式量を求めなさい。H=1.0 とする。",
-    "answer": 2.0,
+    "answer": 2,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "H₂を構成する原子の原子量を足し合わせると2。",
@@ -9434,7 +9428,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "O₂の分子量または式量を求めなさい。O=16 とする。",
-    "answer": 32.0,
+    "answer": 32,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "O₂を構成する原子の原子量を足し合わせると32。",
@@ -9451,7 +9445,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "N₂の分子量または式量を求めなさい。N=14 とする。",
-    "answer": 28.0,
+    "answer": 28,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "N₂を構成する原子の原子量を足し合わせると28。",
@@ -9468,7 +9462,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "CO₂の分子量または式量を求めなさい。C=12, O=16 とする。",
-    "answer": 44.0,
+    "answer": 44,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "CO₂を構成する原子の原子量を足し合わせると44。",
@@ -9485,7 +9479,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "H₂Oの分子量または式量を求めなさい。H=1.0, O=16 とする。",
-    "answer": 18.0,
+    "answer": 18,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "H₂Oを構成する原子の原子量を足し合わせると18。",
@@ -9502,7 +9496,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "NH₃の分子量または式量を求めなさい。N=14, H=1.0 とする。",
-    "answer": 17.0,
+    "answer": 17,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "NH₃を構成する原子の原子量を足し合わせると17。",
@@ -9519,7 +9513,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "CH₄の分子量または式量を求めなさい。C=12, H=1.0 とする。",
-    "answer": 16.0,
+    "answer": 16,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "CH₄を構成する原子の原子量を足し合わせると16。",
@@ -9553,7 +9547,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "CaCO₃の分子量または式量を求めなさい。Ca=40, C=12, O=16 とする。",
-    "answer": 100.0,
+    "answer": 100,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "CaCO₃を構成する原子の原子量を足し合わせると100。",
@@ -9570,7 +9564,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "H₂SO₄の分子量または式量を求めなさい。H=1.0, S=32, O=16 とする。",
-    "answer": 98.0,
+    "answer": 98,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "H₂SO₄を構成する原子の原子量を足し合わせると98。",
@@ -9587,7 +9581,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "NaOHの分子量または式量を求めなさい。Na=23, O=16, H=1.0 とする。",
-    "answer": 40.0,
+    "answer": 40,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "NaOHを構成する原子の原子量を足し合わせると40。",
@@ -9604,7 +9598,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "Mg(OH)₂の分子量または式量を求めなさい。Mg=24, O=16, H=1.0 とする。",
-    "answer": 58.0,
+    "answer": 58,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "Mg(OH)₂を構成する原子の原子量を足し合わせると58。",
@@ -9621,7 +9615,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "C₂H₅OHの分子量または式量を求めなさい。C=12, H=1.0, O=16 とする。",
-    "answer": 46.0,
+    "answer": 46,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "C₂H₅OHを構成する原子の原子量を足し合わせると46。",
@@ -9638,7 +9632,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "CH₃COOHの分子量または式量を求めなさい。C=12, H=1.0, O=16 とする。",
-    "answer": 60.0,
+    "answer": 60,
     "tolerance": 0.01,
     "unitLabel": "",
     "explanation": "CH₃COOHを構成する原子の原子量を足し合わせると60。",
@@ -9655,7 +9649,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "H₂O 18 g は何 molか。モル質量は 18 g/mol とする。",
-    "answer": 1.0,
+    "answer": 1,
     "tolerance": 0.001,
     "unitLabel": "mol",
     "explanation": "物質量＝質量÷モル質量＝18÷18＝1 mol。",
@@ -9739,7 +9733,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "NaCl 117 g は何 molか。モル質量は 58.5 g/mol とする。",
-    "answer": 2.0,
+    "answer": 2,
     "tolerance": 0.001,
     "unitLabel": "mol",
     "explanation": "物質量＝質量÷モル質量＝117÷58.5＝2 mol。",
@@ -9823,7 +9817,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "O₂ 64 g は何 molか。モル質量は 32 g/mol とする。",
-    "answer": 2.0,
+    "answer": 2,
     "tolerance": 0.001,
     "unitLabel": "mol",
     "explanation": "物質量＝質量÷モル質量＝64÷32＝2 mol。",
@@ -9970,7 +9964,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "NaOH 0.05 mol の質量は何 gか。モル質量は 40 g/mol とする。",
-    "answer": 2.0,
+    "answer": 2,
     "tolerance": 0.01,
     "unitLabel": "g",
     "explanation": "質量＝物質量×モル質量＝0.05×40＝2 g。",
@@ -10012,7 +10006,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "CH₄ 0.25 mol の質量は何 gか。モル質量は 16 g/mol とする。",
-    "answer": 4.0,
+    "answer": 4,
     "tolerance": 0.01,
     "unitLabel": "g",
     "explanation": "質量＝物質量×モル質量＝0.25×16＝4 g。",
@@ -10473,7 +10467,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "標準状態で密度が 1.25 g/L の気体の分子量を求めなさい。",
-    "answer": 28.0,
+    "answer": 28,
     "tolerance": 0.2,
     "unitLabel": "",
     "explanation": "分子量＝密度×モル体積＝1.25×22.4≒28。",
@@ -10490,7 +10484,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "標準状態で密度が 1.43 g/L の気体の分子量を求めなさい。",
-    "answer": 32.0,
+    "answer": 32,
     "tolerance": 0.2,
     "unitLabel": "",
     "explanation": "分子量＝密度×モル体積＝1.43×22.4≒32。",
@@ -10524,7 +10518,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "標準状態で密度が 0.714 g/L の気体の分子量を求めなさい。",
-    "answer": 16.0,
+    "answer": 16,
     "tolerance": 0.2,
     "unitLabel": "",
     "explanation": "分子量＝密度×モル体積＝0.714×22.4≒16。",
@@ -10541,7 +10535,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "標準状態で密度が 0.0893 g/L の気体の分子量を求めなさい。",
-    "answer": 2.0,
+    "answer": 2,
     "tolerance": 0.2,
     "unitLabel": "",
     "explanation": "分子量＝密度×モル体積＝0.0893×22.4≒2。",
@@ -10558,7 +10552,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "溶質 10 g を水 90 g に溶かした溶液の質量パーセント濃度は何％か。",
-    "answer": 10.0,
+    "answer": 10,
     "tolerance": 0.01,
     "unitLabel": "%",
     "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100＝10÷100×100＝10%。",
@@ -10575,7 +10569,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "溶質 5 g を水 95 g に溶かした溶液の質量パーセント濃度は何％か。",
-    "answer": 5.0,
+    "answer": 5,
     "tolerance": 0.01,
     "unitLabel": "%",
     "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100＝5÷100×100＝5%。",
@@ -10592,7 +10586,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "溶質 20 g を水 180 g に溶かした溶液の質量パーセント濃度は何％か。",
-    "answer": 10.0,
+    "answer": 10,
     "tolerance": 0.01,
     "unitLabel": "%",
     "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100＝20÷200×100＝10%。",
@@ -10609,7 +10603,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "溶質 15 g を水 135 g に溶かした溶液の質量パーセント濃度は何％か。",
-    "answer": 10.0,
+    "answer": 10,
     "tolerance": 0.01,
     "unitLabel": "%",
     "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100＝15÷150×100＝10%。",
@@ -10626,7 +10620,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "溶質 12 g を水 88 g に溶かした溶液の質量パーセント濃度は何％か。",
-    "answer": 12.0,
+    "answer": 12,
     "tolerance": 0.01,
     "unitLabel": "%",
     "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100＝12÷100×100＝12%。",
@@ -10643,7 +10637,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "溶質 25 g を水 75 g に溶かした溶液の質量パーセント濃度は何％か。",
-    "answer": 25.0,
+    "answer": 25,
     "tolerance": 0.01,
     "unitLabel": "%",
     "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100＝25÷100×100＝25%。",
@@ -10796,7 +10790,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "溶質 0.1 mol を含む水溶液 0.1 L のモル濃度は何 mol/Lか。",
-    "answer": 1.0,
+    "answer": 1,
     "tolerance": 0.001,
     "unitLabel": "mol/L",
     "explanation": "モル濃度＝溶質の物質量÷溶液の体積＝0.1÷0.1＝1 mol/L。",
@@ -10898,7 +10892,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 1,
     "baseXp": 10,
     "prompt": "溶質 0.75 mol を含む水溶液 0.75 L のモル濃度は何 mol/Lか。",
-    "answer": 1.0,
+    "answer": 1,
     "tolerance": 0.001,
     "unitLabel": "mol/L",
     "explanation": "モル濃度＝溶質の物質量÷溶液の体積＝0.75÷0.75＝1 mol/L。",
@@ -12997,8 +12991,8 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lの水溶液の[OH⁻]は何 mol/Lか。入力欄には 1e-11 のように答えてよい。",
-    "answer": 1.0×10⁻¹¹,
-    "tolerance": 1.0×10⁻¹³,
+    "answer": 1e-11,
+    "tolerance": 1e-13,
     "unitLabel": "mol/L",
     "explanation": "Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴より、[OH⁻]=1.0×10⁻¹¹。",
     "unitWeights": [
@@ -13014,8 +13008,8 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[OH⁻]=1.0×10⁻⁴ mol/Lの水溶液の[H⁺]は何 mol/Lか。",
-    "answer": 1.0×10⁻¹⁰,
-    "tolerance": 1.0×10⁻¹²,
+    "answer": 1e-10,
+    "tolerance": 1e-12,
     "unitLabel": "mol/L",
     "explanation": "[H⁺]=Kw/[OH⁻]=1.0×10⁻¹⁴/1.0×10⁻⁴=1.0×10⁻¹⁰。",
     "unitWeights": [
@@ -16287,7 +16281,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 3,
     "baseXp": 20,
     "prompt": "1価のイオンを析出させる。電気量 96500 C を流したとき、変化するイオンは何 molか。ファラデー定数は96500 C/molとする。",
-    "answer": 1.0,
+    "answer": 1,
     "tolerance": 0.001,
     "unitLabel": "mol",
     "explanation": "電子の物質量は96500/96500 mol。1価のイオン1 molには電子1 molが必要なので、1 mol。",
@@ -16321,7 +16315,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 3,
     "baseXp": 20,
     "prompt": "2価のイオンを析出させる。電気量 193000 C を流したとき、変化するイオンは何 molか。ファラデー定数は96500 C/molとする。",
-    "answer": 1.0,
+    "answer": 1,
     "tolerance": 0.001,
     "unitLabel": "mol",
     "explanation": "電子の物質量は193000/96500 mol。2価のイオン1 molには電子2 molが必要なので、1 mol。",
@@ -17189,7 +17183,7 @@ window.CHEM_QUESTIONS = [
     "baseXp": 18,
     "prompt": "2O₃＋C→CO₂＋2O₂で、Cが5.0×10⁻⁴mol反応すると、消費されるO₃は何molか。半角数値で答えよ。",
     "answer": 0.001,
-    "tolerance": 1.0×10⁻⁰⁵,
+    "tolerance": 1e-05,
     "unitLabel": "mol",
     "explanation": "係数比O₃:C=2:1。5.0×10⁻⁴molの2倍で1.0×10⁻³mol。",
     "unitWeights": [
@@ -17735,7 +17729,7 @@ window.CHEM_QUESTIONS = [
     "baseXp": 18,
     "prompt": "2O₃→3O₂でO₃が1.00×10⁻³mol分解するとO₂は何mol生じるか。",
     "answer": 0.0015,
-    "tolerance": 1.0×10⁻⁰⁵,
+    "tolerance": 1e-05,
     "unitLabel": "mol",
     "explanation": "係数比O₃:O₂=2:3。1.00×10⁻³×3/2=1.50×10⁻³mol。",
     "unitWeights": [
@@ -19032,7 +19026,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "0℃の氷180gを0℃の水にするのに必要な熱量は何kJか。水の融解熱を6.0kJ/mol、H₂O=18g/molとする。数値だけ入力。",
-    "answer": 60.0,
+    "answer": 60,
     "tolerance": 0.1,
     "unitLabel": "kJ",
     "hints": [
@@ -19582,7 +19576,7 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "標準状態で密度1.25g/Lの気体の分子量はいくつか。モル体積22.4L/molを用いる。",
-    "answer": 28.0,
+    "answer": 28,
     "tolerance": 0.1,
     "unitLabel": "",
     "hints": [
@@ -21240,7 +21234,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21265,7 +21259,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21290,7 +21284,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21315,7 +21309,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21340,7 +21334,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21365,7 +21359,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21390,7 +21384,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21415,7 +21409,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21436,7 +21430,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21457,7 +21451,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21478,7 +21472,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21503,7 +21497,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21525,7 +21519,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21555,7 +21549,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21580,7 +21574,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21605,7 +21599,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21630,7 +21624,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_enthalpy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21655,7 +21649,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_entropy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21680,7 +21674,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_entropy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21705,7 +21699,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_entropy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21729,7 +21723,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_entropy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21750,7 +21744,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21771,7 +21765,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21796,7 +21790,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21821,7 +21815,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21846,7 +21840,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21867,7 +21861,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21892,7 +21886,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21917,7 +21911,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hess",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21942,7 +21936,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_bond_energy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21967,7 +21961,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_bond_energy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -21988,7 +21982,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_bond_energy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22013,7 +22007,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_bond_energy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22038,7 +22032,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_bond_energy",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22063,7 +22057,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22088,7 +22082,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22113,7 +22107,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22136,7 +22130,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22159,7 +22153,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22184,7 +22178,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22209,7 +22203,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22234,7 +22228,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22259,7 +22253,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22284,7 +22278,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22309,7 +22303,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_cell",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22334,7 +22328,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22359,7 +22353,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22384,7 +22378,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22409,7 +22403,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22434,7 +22428,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22459,7 +22453,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22484,7 +22478,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22509,7 +22503,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22534,7 +22528,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22556,7 +22550,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_electrolysis",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22577,7 +22571,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22598,7 +22592,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22619,7 +22613,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22640,7 +22634,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22661,7 +22655,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22682,7 +22676,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22703,7 +22697,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22724,7 +22718,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_faraday",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22749,7 +22743,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_definition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22760,7 +22754,7 @@ window.CHEM_QUESTIONS = [
     "baseXp": 14,
     "prompt": "濃度が60秒で1.00 mol/Lから0.70 mol/Lに減少した。平均分解速度を求めなさい。",
     "answer": 0.005,
-    "tolerance": 1.0×10⁻⁰⁵,
+    "tolerance": 1e-05,
     "unitLabel": "mol/(L・s)",
     "hints": [
       "濃度変化の絶対値を時間で割る。",
@@ -22770,7 +22764,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_definition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22795,7 +22789,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_definition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22820,7 +22814,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_definition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22845,7 +22839,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_definition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22866,7 +22860,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_definition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22891,7 +22885,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_factor",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22916,7 +22910,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_factor",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22941,7 +22935,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_rate_factor",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22966,7 +22960,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_activation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -22991,7 +22985,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_activation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23016,7 +23010,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_activation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23040,7 +23034,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_activation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23065,7 +23059,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_activation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23090,7 +23084,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_equilibrium_state",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23115,7 +23109,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_equilibrium_state",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23140,7 +23134,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_equilibrium_state",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23165,7 +23159,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_equilibrium_constant",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23190,7 +23184,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_equilibrium_constant",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23211,7 +23205,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_equilibrium_constant",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23236,7 +23230,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_equilibrium_constant",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23261,7 +23255,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_le_chatelier",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23286,7 +23280,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_le_chatelier",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23311,7 +23305,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_le_chatelier",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23336,7 +23330,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_le_chatelier",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23361,7 +23355,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_le_chatelier",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23386,7 +23380,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23407,7 +23401,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23417,8 +23411,8 @@ window.CHEM_QUESTIONS = [
     "difficulty": 2,
     "baseXp": 14,
     "prompt": "25℃で[H⁺]=1.0×10⁻³ mol/Lのとき[OH⁻]を求めなさい。",
-    "answer": 1.0×10⁻¹¹,
-    "tolerance": 1.0×10⁻¹³,
+    "answer": 1e-11,
+    "tolerance": 1e-13,
     "unitLabel": "mol/L",
     "hints": [
       "Kw=[H⁺][OH⁻]を変形。",
@@ -23428,7 +23422,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23453,7 +23447,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23478,7 +23472,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ionization_equilibrium",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23503,7 +23497,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_buffer",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23528,7 +23522,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_buffer",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23553,7 +23547,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_solubility_product",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23578,7 +23572,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_solubility_product",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23743,7 +23737,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch4",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23767,7 +23761,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch4",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23791,7 +23785,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch4",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23815,7 +23809,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch4",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23839,7 +23833,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_reading_ch4",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23864,7 +23858,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hydrogen_noble",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23889,7 +23883,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hydrogen_noble",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23911,7 +23905,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hydrogen_noble",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23936,7 +23930,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hydrogen_noble",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23961,7 +23955,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hydrogen_noble",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -23986,7 +23980,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_hydrogen_noble",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24011,7 +24005,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24036,7 +24030,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24061,7 +24055,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24086,7 +24080,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24108,7 +24102,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24133,7 +24127,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24158,7 +24152,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24180,7 +24174,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_halogen",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24205,7 +24199,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_oxygen_sulfur",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24230,7 +24224,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_oxygen_sulfur",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24255,7 +24249,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_oxygen_sulfur",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24280,7 +24274,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_oxygen_sulfur",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24303,7 +24297,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_oxygen_sulfur",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24328,7 +24322,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_oxygen_sulfur",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24353,7 +24347,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_nitrogen_phosphorus",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24378,7 +24372,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_nitrogen_phosphorus",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24401,7 +24395,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_nitrogen_phosphorus",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24426,7 +24420,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_nitrogen_phosphorus",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24451,7 +24445,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_nitrogen_phosphorus",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24476,7 +24470,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_nitrogen_phosphorus",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24501,7 +24495,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_carbon_silicon",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24526,7 +24520,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_carbon_silicon",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24551,7 +24545,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_carbon_silicon",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24576,7 +24570,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_carbon_silicon",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24601,7 +24595,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_carbon_silicon",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24626,7 +24620,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24651,7 +24645,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24676,7 +24670,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24701,7 +24695,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24726,7 +24720,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24748,7 +24742,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24773,7 +24767,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24798,7 +24792,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24820,7 +24814,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24845,7 +24839,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkali",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24870,7 +24864,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkaline_earth",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24895,7 +24889,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkaline_earth",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24920,7 +24914,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkaline_earth",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24945,7 +24939,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkaline_earth",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24970,7 +24964,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkaline_earth",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -24995,7 +24989,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_alkaline_earth",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25020,7 +25014,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_al_zn",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25045,7 +25039,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_al_zn",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25070,7 +25064,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_al_zn",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25095,7 +25089,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_al_zn",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25118,7 +25112,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_al_zn",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25143,7 +25137,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25168,7 +25162,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25193,7 +25187,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25218,7 +25212,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25243,7 +25237,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25268,7 +25262,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25293,7 +25287,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25318,7 +25312,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25343,7 +25337,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25368,7 +25362,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25393,7 +25387,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25418,7 +25412,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25440,7 +25434,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_complex",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25462,7 +25456,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_complex",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25487,7 +25481,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_complex",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25512,7 +25506,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_complex",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25537,7 +25531,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_complex",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25562,7 +25556,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25587,7 +25581,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25612,7 +25606,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25637,7 +25631,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25662,7 +25656,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25687,7 +25681,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25712,7 +25706,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25737,7 +25731,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25762,7 +25756,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25787,7 +25781,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25812,7 +25806,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25837,7 +25831,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_gas_generation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25862,7 +25856,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_gas_generation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25887,7 +25881,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_gas_generation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25912,7 +25906,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_gas_generation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25937,7 +25931,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_gas_generation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25962,7 +25956,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -25987,7 +25981,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26012,7 +26006,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26037,7 +26031,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26062,7 +26056,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26087,7 +26081,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26112,7 +26106,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26137,7 +26131,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_ion_separation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26162,7 +26156,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_inorganic_summary",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26187,7 +26181,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_inorganic_summary",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26212,7 +26206,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_inorganic_summary",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26410,7 +26404,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch5",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26434,7 +26428,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch5",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26458,7 +26452,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch5",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26482,7 +26476,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "exam_written_ch5",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26528,7 +26522,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_transition",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26549,7 +26543,7 @@ window.CHEM_QUESTIONS = [
     "unitWeights": [
       {
         "id": "chem_precipitation",
-        "weight": 1.0
+        "weight": 1
       }
     ]
   },
@@ -26693,5 +26687,28320 @@ window.CHEM_QUESTIONS = [
         "weight": 0.3
       }
     ]
+  },
+  {
+    "id": "pdfbook_26",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "26 非金属元素からなる物質▶身のまわりにある14族元素の単体および化合物に関する 記述として下線部に誤りを含むものを、次の園〜延のうちから 1 つ選べ。 園 黒鉛は電気をよく通し、アルミニウムの電解精錬に用いられる。 堰 ガラスを切るときに使われるダイヤモンドは、共有結合の結晶である。 奄 灯油などが不完全燃焼したときに発生する一酸化炭素は、水によく溶ける。 宴 ケイ素の単体は半導体の性質を示し、集積回路に用いられる。 あな 延 シリカゲルは水と親和性のある微細な孔をたくさんもつので、乾燥剤に用いられる。 (15 センター試験)",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-1.jpg",
+    "imageAlt": "問題 26 の掲載ページ",
+    "modelAnswer": "奄",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "26 非金属元素からなる物質 奄 園 (正) 黒鉛 C は電気をよく導き、電極などに用いられる。 アルミニウムの電解精錬(溶融塩電解)には、陽極に黒鉛が用いられる。 堰 (正) ダイヤモンド C は共有結合の結晶であり、極めてかたい。 奄 (誤) 一酸化炭素 CO は、灯油や炭などの不完全燃焼で生成する、 水に溶けにくい気体である。 宴 (正) ケイ素 Si は、金属のような導体と、プラスチックのような不 導体(絶縁体)の中間の性質を示し、半導体である。 あな 延 (正) シリカゲルは、水と親和性のある微細な孔をたくさんもち、 乾燥剤に用いられる。 第 5 27 気体の発生と性質 章 堰 気体発生時の化学反応式と各気体は、次のようになる。 水に溶ける気体は水上置 無 ア 2Al+2NaOH+6H2O → 2NaAl(OH)4+3H2↑ ア：H2 換では捕集できない。 機 物 イ CaF2+H2SO4 → CaSO4+2HF↑ イ：HF 質 ウ FeS+H2SO4 → FeSO4+H2S↑ ウ：H2S ❶ エ 2KClO3 → 2KCl+3O2↑ エ：O2 ❶この反応では、MnO2 オ Zn+2HCl → ZnCl2+H2↑ オ：H2 は触媒として働いている。 これらのうち、ア、オの水素 H2 とエの酸素 O2 は水に溶けにくいので、 水上置換で捕集できるが、イのフッ化水素 HF とウの硫化水素 H2S は水 に溶けるので、水上置換では捕集できない。 28 二酸化硫黄 宴 ❶ 銅と熱濃硫酸 の反応では、二酸化硫黄 SO2 が発生する。 ❶加熱した濃硫酸を熱濃 Cu+2H2SO4 → CuSO4+2H2O+SO2 ↑ 硫酸という。熱濃硫酸は 固体 B 気体A 酸化作用を示す。 園 (正) 気体Aは二酸化硫黄 SO2 であり、水によく溶け、空気よりも 重いので、下方置換で捕集する。 堰 (正) 二酸化硫黄 SO2 は、通常、還元剤として働くが、硫化水素 H2S のような還元剤に対しては酸化剤として働く。このとき、硫黄 S が 生成する。 2H2S+SO2 → 2H2O+3S 奄 (正) 二酸化硫黄 SO2 は、ヨウ素 I2(酸化剤)に対しては、還元剤と して働く。 I2+SO2+2H2O → 2HI+H2SO4 このとき、ヨウ素 I2 がなくなるため、褐色が消える。 宴 (誤) 二酸化硫黄 SO2 は水によく溶け、その水溶液は弱酸性を示す。 H2O+SO2 ⇄ H++HSO3− 延 (正) 固体 B は、硫酸銅(Ⅱ)無水塩 CuSO4 である。 299 問題 29 ▶ 33 29 薬品の性質と保存方法 奄 園 (正) フッ化水素酸(フッ化水素 HF の水溶液)は、ガラス (主成分 SiO2)と反応するので、ガラスのびんには保存できない。その ため、ポリエチレンのびんに保存する。 SiO2+6HF → H2SiF6+2H2O 堰 (正) 水酸化ナトリウム NaOH には潮解性があり、空気中の水蒸 ❶ 気を吸収する ので、密閉して保存する。 ❶空気中の二酸化炭素 奄 (誤) ナトリウム Na は、空気中の酸素や水と反応する。また、エ CO2 も吸収する。 タノール C2H5OH とも反応して水素を発生する。 2C2H5OH+2Na → 2C2H5ONa+H2 そのため、エタノールには保存できず、ナトリウムと反応しない灯油な どに保存する。 宴 (正) 黄リン P4 は、空気中の酸素と反応して自然発火するので、 空気に触れないように水中に保存する。 P4+5O2 → P4O10 延 (正) 硝酸 HNO3 は光で分解しやすいので、紫外線を透過させない ❷ 褐色びんに入れて保存する 。 ❷硝酸は熱でも分解する 4HNO3 → 4NO2+2H2O+O2 ため、冷暗所に保存する。 30 金属・合金の性質 延 園 (正) カリウム K のようなアルカリ金属は、やわらかく、 容易にナイフで切断できる。 堰 (正) 銀 Ag や銅 Cu は、イオン化傾向が小さく、塩酸とは反応し ないが、硝酸や熱濃硫酸などの酸化力のある酸とは反応する。 奄 (正) 鉄 Fe は濃硝酸には不動態となり、それ以上反応が進行しな くなる。 宴 (正) チタン Ti とマンガン Mn の合金には、その体積の1000倍も の水素 H2 を貯蔵できるものがある。このような合金は、水素吸蔵合金 とよばれ、ニッケル−水素電池などに用いられる。 延 (誤) 亜鉛 Zn は鉄 Fe よりもイオン化傾向が大きい。トタンは、 鉄に亜鉛をめっきしたものである。 31 金属元素の性質 宴 園 (正) カリウム K は赤紫色、ストロンチウム Sr は赤(紅) 色の炎色反応を示す。 堰 (正) スズ Sn、バリウム Ba は、いずれも 2 価の陽イオンになるこ とができるので、酸化数 +2 をとりうる。 奄 (正) 硫化鉄(Ⅱ)FeS、硫化銀 Ag2S は、いずれも黒色の固体である。 宴 (誤) 炭酸ナトリウムNa2CO3 は水に溶けるが、炭酸カルシウム CaCO3 は水に溶けにくい。 延 (正) 酸化アルミニウム Al2O3、酸化亜鉛 ZnO は、いずれも白色の 固体である。 300 32 金属イオンの分離 ア：奄 イ：園 園〜宴の試薬に対して、各イオンの沈殿生成の有無は表のよう になる(― は沈殿を生じないもの、＊は錯イオンを形成して溶けるもの)。 ア イ 試薬 Pb2+ Fe2+ Ca2+ Cu2+ Pb2+ Al3+ 鴛 NaOH(過剰) ＊ Fe(OH)2 Ca(OH)2 Cu(OH)2 ＊ ＊ 塩 NH3(過剰) Pb(OH)2 Fe(OH)2 Ca(OH)2 ＊ Pb(OH)2 Al(OH)3 於 HCl PbCl2 ― ― ― PbCl2 ― 汚 H2S(塩基性) PbS FeS ― CuS PbS Al(OH)3 したがって、アで Pb2+ のみを沈殿させるものは奄、イで Cu2+ のみを 沈殿させるものは園である。 第 5 33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_inorganic_summary",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題26"
+  },
+  {
+    "id": "pdfbook_27",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "27 気体の発生と性質▶表に示す 2 種類の薬品 2 種類の薬品 発生する気体 の反応によって発生する気体ア〜オのうち、水 Al、NaOH 水溶液 ア 上置換で捕集できないものの組み合わせを、次 CaF2、濃硫酸 イ の園〜延のうちから 1 つ選べ。 FeS、希硫酸 ウ 園 アとイ 堰 イとウ 奄 ウとエ KClO3、MnO2 エ 宴 エとオ 延 アとオ Zn、希塩酸 オ (15 センター試験追試)",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-1.jpg",
+    "imageAlt": "問題 27 の掲載ページ",
+    "modelAnswer": "堰",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "27 気体の発生と性質 章 堰 気体発生時の化学反応式と各気体は、次のようになる。 水に溶ける気体は水上置 無 ア 2Al+2NaOH+6H2O → 2NaAl(OH)4+3H2↑ ア：H2 換では捕集できない。 機 物 イ CaF2+H2SO4 → CaSO4+2HF↑ イ：HF 質 ウ FeS+H2SO4 → FeSO4+H2S↑ ウ：H2S ❶ エ 2KClO3 → 2KCl+3O2↑ エ：O2 ❶この反応では、MnO2 オ Zn+2HCl → ZnCl2+H2↑ オ：H2 は触媒として働いている。 これらのうち、ア、オの水素 H2 とエの酸素 O2 は水に溶けにくいので、 水上置換で捕集できるが、イのフッ化水素 HF とウの硫化水素 H2S は水 に溶けるので、水上置換では捕集できない。 28 二酸化硫黄 宴 ❶ 銅と熱濃硫酸 の反応では、二酸化硫黄 SO2 が発生する。 ❶加熱した濃硫酸を熱濃 Cu+2H2SO4 → CuSO4+2H2O+SO2 ↑ 硫酸という。熱濃硫酸は 固体 B 気体A 酸化作用を示す。 園 (正) 気体Aは二酸化硫黄 SO2 であり、水によく溶け、空気よりも 重いので、下方置換で捕集する。 堰 (正) 二酸化硫黄 SO2 は、通常、還元剤として働くが、硫化水素 H2S のような還元剤に対しては酸化剤として働く。このとき、硫黄 S が 生成する。 2H2S+SO2 → 2H2O+3S 奄 (正) 二酸化硫黄 SO2 は、ヨウ素 I2(酸化剤)に対しては、還元剤と して働く。 I2+SO2+2H2O → 2HI+H2SO4 このとき、ヨウ素 I2 がなくなるため、褐色が消える。 宴 (誤) 二酸化硫黄 SO2 は水によく溶け、その水溶液は弱酸性を示す。 H2O+SO2 ⇄ H++HSO3− 延 (正) 固体 B は、硫酸銅(Ⅱ)無水塩 CuSO4 である。 299 問題 29 ▶ 33 29 薬品の性質と保存方法 奄 園 (正) フッ化水素酸(フッ化水素 HF の水溶液)は、ガラス (主成分 SiO2)と反応するので、ガラスのびんには保存できない。その ため、ポリエチレンのびんに保存する。 SiO2+6HF → H2SiF6+2H2O 堰 (正) 水酸化ナトリウム NaOH には潮解性があり、空気中の水蒸 ❶ 気を吸収する ので、密閉して保存する。 ❶空気中の二酸化炭素 奄 (誤) ナトリウム Na は、空気中の酸素や水と反応する。また、エ CO2 も吸収する。 タノール C2H5OH とも反応して水素を発生する。 2C2H5OH+2Na → 2C2H5ONa+H2 そのため、エタノールには保存できず、ナトリウムと反応しない灯油な どに保存する。 宴 (正) 黄リン P4 は、空気中の酸素と反応して自然発火するので、 空気に触れないように水中に保存する。 P4+5O2 → P4O10 延 (正) 硝酸 HNO3 は光で分解しやすいので、紫外線を透過させない ❷ 褐色びんに入れて保存する 。 ❷硝酸は熱でも分解する 4HNO3 → 4NO2+2H2O+O2 ため、冷暗所に保存する。 30 金属・合金の性質 延 園 (正) カリウム K のようなアルカリ金属は、やわらかく、 容易にナイフで切断できる。 堰 (正) 銀 Ag や銅 Cu は、イオン化傾向が小さく、塩酸とは反応し ないが、硝酸や熱濃硫酸などの酸化力のある酸とは反応する。 奄 (正) 鉄 Fe は濃硝酸には不動態となり、それ以上反応が進行しな くなる。 宴 (正) チタン Ti とマンガン Mn の合金には、その体積の1000倍も の水素 H2 を貯蔵できるものがある。このような合金は、水素吸蔵合金 とよばれ、ニッケル−水素電池などに用いられる。 延 (誤) 亜鉛 Zn は鉄 Fe よりもイオン化傾向が大きい。トタンは、 鉄に亜鉛をめっきしたものである。 31 金属元素の性質 宴 園 (正) カリウム K は赤紫色、ストロンチウム Sr は赤(紅) 色の炎色反応を示す。 堰 (正) スズ Sn、バリウム Ba は、いずれも 2 価の陽イオンになるこ とができるので、酸化数 +2 をとりうる。 奄 (正) 硫化鉄(Ⅱ)FeS、硫化銀 Ag2S は、いずれも黒色の固体である。 宴 (誤) 炭酸ナトリウムNa2CO3 は水に溶けるが、炭酸カルシウム CaCO3 は水に溶けにくい。 延 (正) 酸化アルミニウム Al2O3、酸化亜鉛 ZnO は、いずれも白色の 固体である。 300 32 金属イオンの分離 ア：奄 イ：園 園〜宴の試薬に対して、各イオンの沈殿生成の有無は表のよう になる(― は沈殿を生じないもの、＊は錯イオンを形成して溶けるもの)。 ア イ 試薬 Pb2+ Fe2+ Ca2+ Cu2+ Pb2+ Al3+ 鴛 NaOH(過剰) ＊ Fe(OH)2 Ca(OH)2 Cu(OH)2 ＊ ＊ 塩 NH3(過剰) Pb(OH)2 Fe(OH)2 Ca(OH)2 ＊ Pb(OH)2 Al(OH)3 於 HCl PbCl2 ― ― ― PbCl2 ― 汚 H2S(塩基性) PbS FeS ― CuS PbS Al(OH)3 したがって、アで Pb2+ のみを沈殿させるものは奄、イで Cu2+ のみを 沈殿させるものは園である。 第 5 33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_inorganic_summary",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題27"
+  },
+  {
+    "id": "pdfbook_28",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "28 二酸化硫黄▶図に示すように、試験管に濃硫酸を入れて 加熱しながら、そこに銅線を注意深く浸したところ、刺激臭 のある気体 A が発生した。濃硫酸は徐々に着色し、しばらく すると試験管の底に白色の固体 B が沈殿した。固体 B を取り 出し水に溶かすと、その溶液は青色となった。この実験で発 生した気体 A と生成した固体 B に関する記述として誤りを含 むものを、次の園〜延のうちから 1 つ選べ。 園 気体 A は、下方置換で捕集できる。 堰 硫化水素の水溶液に気体 A を通じると、硫黄が析出する。 奄 ヨウ素を溶かしたヨウ化カリウム水溶液に気体 A を通じると、ヨウ素の色が消える。 宴 気体 A を水に溶かした水溶液は、中性を示す。 延 固体 B は、硫酸銅(Ⅱ)の無水物(無水塩)である。 (16 センター試験追試)",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-1.jpg",
+    "imageAlt": "問題 28 の掲載ページ",
+    "modelAnswer": "宴",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "28 二酸化硫黄 宴 ❶ 銅と熱濃硫酸 の反応では、二酸化硫黄 SO2 が発生する。 ❶加熱した濃硫酸を熱濃 Cu+2H2SO4 → CuSO4+2H2O+SO2 ↑ 硫酸という。熱濃硫酸は 固体 B 気体A 酸化作用を示す。 園 (正) 気体Aは二酸化硫黄 SO2 であり、水によく溶け、空気よりも 重いので、下方置換で捕集する。 堰 (正) 二酸化硫黄 SO2 は、通常、還元剤として働くが、硫化水素 H2S のような還元剤に対しては酸化剤として働く。このとき、硫黄 S が 生成する。 2H2S+SO2 → 2H2O+3S 奄 (正) 二酸化硫黄 SO2 は、ヨウ素 I2(酸化剤)に対しては、還元剤と して働く。 I2+SO2+2H2O → 2HI+H2SO4 このとき、ヨウ素 I2 がなくなるため、褐色が消える。 宴 (誤) 二酸化硫黄 SO2 は水によく溶け、その水溶液は弱酸性を示す。 H2O+SO2 ⇄ H++HSO3− 延 (正) 固体 B は、硫酸銅(Ⅱ)無水塩 CuSO4 である。 299 問題 29 ▶ 33 29 薬品の性質と保存方法 奄 園 (正) フッ化水素酸(フッ化水素 HF の水溶液)は、ガラス (主成分 SiO2)と反応するので、ガラスのびんには保存できない。その ため、ポリエチレンのびんに保存する。 SiO2+6HF → H2SiF6+2H2O 堰 (正) 水酸化ナトリウム NaOH には潮解性があり、空気中の水蒸 ❶ 気を吸収する ので、密閉して保存する。 ❶空気中の二酸化炭素 奄 (誤) ナトリウム Na は、空気中の酸素や水と反応する。また、エ CO2 も吸収する。 タノール C2H5OH とも反応して水素を発生する。 2C2H5OH+2Na → 2C2H5ONa+H2 そのため、エタノールには保存できず、ナトリウムと反応しない灯油な どに保存する。 宴 (正) 黄リン P4 は、空気中の酸素と反応して自然発火するので、 空気に触れないように水中に保存する。 P4+5O2 → P4O10 延 (正) 硝酸 HNO3 は光で分解しやすいので、紫外線を透過させない ❷ 褐色びんに入れて保存する 。 ❷硝酸は熱でも分解する 4HNO3 → 4NO2+2H2O+O2 ため、冷暗所に保存する。 30 金属・合金の性質 延 園 (正) カリウム K のようなアルカリ金属は、やわらかく、 容易にナイフで切断できる。 堰 (正) 銀 Ag や銅 Cu は、イオン化傾向が小さく、塩酸とは反応し ないが、硝酸や熱濃硫酸などの酸化力のある酸とは反応する。 奄 (正) 鉄 Fe は濃硝酸には不動態となり、それ以上反応が進行しな くなる。 宴 (正) チタン Ti とマンガン Mn の合金には、その体積の1000倍も の水素 H2 を貯蔵できるものがある。このような合金は、水素吸蔵合金 とよばれ、ニッケル−水素電池などに用いられる。 延 (誤) 亜鉛 Zn は鉄 Fe よりもイオン化傾向が大きい。トタンは、 鉄に亜鉛をめっきしたものである。 31 金属元素の性質 宴 園 (正) カリウム K は赤紫色、ストロンチウム Sr は赤(紅) 色の炎色反応を示す。 堰 (正) スズ Sn、バリウム Ba は、いずれも 2 価の陽イオンになるこ とができるので、酸化数 +2 をとりうる。 奄 (正) 硫化鉄(Ⅱ)FeS、硫化銀 Ag2S は、いずれも黒色の固体である。 宴 (誤) 炭酸ナトリウムNa2CO3 は水に溶けるが、炭酸カルシウム CaCO3 は水に溶けにくい。 延 (正) 酸化アルミニウム Al2O3、酸化亜鉛 ZnO は、いずれも白色の 固体である。 300 32 金属イオンの分離 ア：奄 イ：園 園〜宴の試薬に対して、各イオンの沈殿生成の有無は表のよう になる(― は沈殿を生じないもの、＊は錯イオンを形成して溶けるもの)。 ア イ 試薬 Pb2+ Fe2+ Ca2+ Cu2+ Pb2+ Al3+ 鴛 NaOH(過剰) ＊ Fe(OH)2 Ca(OH)2 Cu(OH)2 ＊ ＊ 塩 NH3(過剰) Pb(OH)2 Fe(OH)2 Ca(OH)2 ＊ Pb(OH)2 Al(OH)3 於 HCl PbCl2 ― ― ― PbCl2 ― 汚 H2S(塩基性) PbS FeS ― CuS PbS Al(OH)3 したがって、アで Pb2+ のみを沈殿させるものは奄、イで Cu2+ のみを 沈殿させるものは園である。 第 5 33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_inorganic_summary",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題28"
+  },
+  {
+    "id": "pdfbook_29",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "29 薬品の性質と保存方法▶化学薬品の性質とその保存方法に関する記述として誤りを 含むものを、次の園〜延のうちから 1 つ選べ。 園 フッ化水素酸はガラスを腐食するため、ポリエチレンのびんに保存する。 堰 水酸化ナトリウムは潮解するため、密閉して保存する。 奄 ナトリウムは空気中で酸素や水と反応するため、エタノール中に保存する。 宴 黄リンは空気中で自然発火するため、水中に保存する。 延 濃硝酸は光で分解するため、褐色のびんに保存する。 (12 センター試験) 248",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-1.jpg",
+    "imageAlt": "問題 29 の掲載ページ",
+    "modelAnswer": "奄",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "29 薬品の性質と保存方法 奄 園 (正) フッ化水素酸(フッ化水素 HF の水溶液)は、ガラス (主成分 SiO2)と反応するので、ガラスのびんには保存できない。その ため、ポリエチレンのびんに保存する。 SiO2+6HF → H2SiF6+2H2O 堰 (正) 水酸化ナトリウム NaOH には潮解性があり、空気中の水蒸 ❶ 気を吸収する ので、密閉して保存する。 ❶空気中の二酸化炭素 奄 (誤) ナトリウム Na は、空気中の酸素や水と反応する。また、エ CO2 も吸収する。 タノール C2H5OH とも反応して水素を発生する。 2C2H5OH+2Na → 2C2H5ONa+H2 そのため、エタノールには保存できず、ナトリウムと反応しない灯油な どに保存する。 宴 (正) 黄リン P4 は、空気中の酸素と反応して自然発火するので、 空気に触れないように水中に保存する。 P4+5O2 → P4O10 延 (正) 硝酸 HNO3 は光で分解しやすいので、紫外線を透過させない ❷ 褐色びんに入れて保存する 。 ❷硝酸は熱でも分解する 4HNO3 → 4NO2+2H2O+O2 ため、冷暗所に保存する。 30 金属・合金の性質 延 園 (正) カリウム K のようなアルカリ金属は、やわらかく、 容易にナイフで切断できる。 堰 (正) 銀 Ag や銅 Cu は、イオン化傾向が小さく、塩酸とは反応し ないが、硝酸や熱濃硫酸などの酸化力のある酸とは反応する。 奄 (正) 鉄 Fe は濃硝酸には不動態となり、それ以上反応が進行しな くなる。 宴 (正) チタン Ti とマンガン Mn の合金には、その体積の1000倍も の水素 H2 を貯蔵できるものがある。このような合金は、水素吸蔵合金 とよばれ、ニッケル−水素電池などに用いられる。 延 (誤) 亜鉛 Zn は鉄 Fe よりもイオン化傾向が大きい。トタンは、 鉄に亜鉛をめっきしたものである。 31 金属元素の性質 宴 園 (正) カリウム K は赤紫色、ストロンチウム Sr は赤(紅) 色の炎色反応を示す。 堰 (正) スズ Sn、バリウム Ba は、いずれも 2 価の陽イオンになるこ とができるので、酸化数 +2 をとりうる。 奄 (正) 硫化鉄(Ⅱ)FeS、硫化銀 Ag2S は、いずれも黒色の固体である。 宴 (誤) 炭酸ナトリウムNa2CO3 は水に溶けるが、炭酸カルシウム CaCO3 は水に溶けにくい。 延 (正) 酸化アルミニウム Al2O3、酸化亜鉛 ZnO は、いずれも白色の 固体である。 300 32 金属イオンの分離 ア：奄 イ：園 園〜宴の試薬に対して、各イオンの沈殿生成の有無は表のよう になる(― は沈殿を生じないもの、＊は錯イオンを形成して溶けるもの)。 ア イ 試薬 Pb2+ Fe2+ Ca2+ Cu2+ Pb2+ Al3+ 鴛 NaOH(過剰) ＊ Fe(OH)2 Ca(OH)2 Cu(OH)2 ＊ ＊ 塩 NH3(過剰) Pb(OH)2 Fe(OH)2 Ca(OH)2 ＊ Pb(OH)2 Al(OH)3 於 HCl PbCl2 ― ― ― PbCl2 ― 汚 H2S(塩基性) PbS FeS ― CuS PbS Al(OH)3 したがって、アで Pb2+ のみを沈殿させるものは奄、イで Cu2+ のみを 沈殿させるものは園である。 第 5 33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_inorganic_summary",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題29"
+  },
+  {
+    "id": "pdfbook_30",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "30 金属・合金の性質▶次の記述の下線部に誤りを含むものを 1 つ選べ。 園 カリウムは、密度が小さく、やわらかい金属である。 堰 銀と銅は、塩酸とは反応しないが、酸化力のある酸とは反応する。 奄 鉄は、水素よりイオン化傾向が大きいが、不動態をつくり濃硝酸には溶けない。 宴 水素吸蔵合金は、安全に水素を貯蔵できるので、ニッケル-水素電池に用いられる。 延 亜鉛は、鉄よりイオン化傾向が小さいので、トタンに用いられる。 (16 センター試験)",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-1.jpg",
+    "imageAlt": "問題 30 の掲載ページ",
+    "modelAnswer": "延",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "30 金属・合金の性質 延 園 (正) カリウム K のようなアルカリ金属は、やわらかく、 容易にナイフで切断できる。 堰 (正) 銀 Ag や銅 Cu は、イオン化傾向が小さく、塩酸とは反応し ないが、硝酸や熱濃硫酸などの酸化力のある酸とは反応する。 奄 (正) 鉄 Fe は濃硝酸には不動態となり、それ以上反応が進行しな くなる。 宴 (正) チタン Ti とマンガン Mn の合金には、その体積の1000倍も の水素 H2 を貯蔵できるものがある。このような合金は、水素吸蔵合金 とよばれ、ニッケル−水素電池などに用いられる。 延 (誤) 亜鉛 Zn は鉄 Fe よりもイオン化傾向が大きい。トタンは、 鉄に亜鉛をめっきしたものである。 31 金属元素の性質 宴 園 (正) カリウム K は赤紫色、ストロンチウム Sr は赤(紅) 色の炎色反応を示す。 堰 (正) スズ Sn、バリウム Ba は、いずれも 2 価の陽イオンになるこ とができるので、酸化数 +2 をとりうる。 奄 (正) 硫化鉄(Ⅱ)FeS、硫化銀 Ag2S は、いずれも黒色の固体である。 宴 (誤) 炭酸ナトリウムNa2CO3 は水に溶けるが、炭酸カルシウム CaCO3 は水に溶けにくい。 延 (正) 酸化アルミニウム Al2O3、酸化亜鉛 ZnO は、いずれも白色の 固体である。 300 32 金属イオンの分離 ア：奄 イ：園 園〜宴の試薬に対して、各イオンの沈殿生成の有無は表のよう になる(― は沈殿を生じないもの、＊は錯イオンを形成して溶けるもの)。 ア イ 試薬 Pb2+ Fe2+ Ca2+ Cu2+ Pb2+ Al3+ 鴛 NaOH(過剰) ＊ Fe(OH)2 Ca(OH)2 Cu(OH)2 ＊ ＊ 塩 NH3(過剰) Pb(OH)2 Fe(OH)2 Ca(OH)2 ＊ Pb(OH)2 Al(OH)3 於 HCl PbCl2 ― ― ― PbCl2 ― 汚 H2S(塩基性) PbS FeS ― CuS PbS Al(OH)3 したがって、アで Pb2+ のみを沈殿させるものは奄、イで Cu2+ のみを 沈殿させるものは園である。 第 5 33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_transition",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題30"
+  },
+  {
+    "id": "pdfbook_31",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "31 金属元素の性質▶ 2 つの元素 2 つの元素 共通する性質 に共通する性質として誤りを含む 園 K、Sr 炎色反応を示す ものを、表の園〜延のうちから 1 堰 Sn、Ba +2 の酸化数をとりうる つ選べ。 (15 センター試験) 奄 Fe、Ag 硫化物は黒色である 第 宴 Na、Ca 炭酸塩は水によく溶ける 5 章 延 Al、Zn 酸化物の粉末は白色である",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-2.jpg",
+    "imageAlt": "問題 31 の掲載ページ",
+    "modelAnswer": "宴",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "31 金属元素の性質 宴 園 (正) カリウム K は赤紫色、ストロンチウム Sr は赤(紅) 色の炎色反応を示す。 堰 (正) スズ Sn、バリウム Ba は、いずれも 2 価の陽イオンになるこ とができるので、酸化数 +2 をとりうる。 奄 (正) 硫化鉄(Ⅱ)FeS、硫化銀 Ag2S は、いずれも黒色の固体である。 宴 (誤) 炭酸ナトリウムNa2CO3 は水に溶けるが、炭酸カルシウム CaCO3 は水に溶けにくい。 延 (正) 酸化アルミニウム Al2O3、酸化亜鉛 ZnO は、いずれも白色の 固体である。 300 32 金属イオンの分離 ア：奄 イ：園 園〜宴の試薬に対して、各イオンの沈殿生成の有無は表のよう になる(― は沈殿を生じないもの、＊は錯イオンを形成して溶けるもの)。 ア イ 試薬 Pb2+ Fe2+ Ca2+ Cu2+ Pb2+ Al3+ 鴛 NaOH(過剰) ＊ Fe(OH)2 Ca(OH)2 Cu(OH)2 ＊ ＊ 塩 NH3(過剰) Pb(OH)2 Fe(OH)2 Ca(OH)2 ＊ Pb(OH)2 Al(OH)3 於 HCl PbCl2 ― ― ― PbCl2 ― 汚 H2S(塩基性) PbS FeS ― CuS PbS Al(OH)3 したがって、アで Pb2+ のみを沈殿させるものは奄、イで Cu2+ のみを 沈殿させるものは園である。 第 5 33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_transition",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題31"
+  },
+  {
+    "id": "pdfbook_32",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "32 金属イオンの分離▶アおよびイのイオンを含む各水溶液から、下線を引いたイオン 無 機 のみを沈殿として分離したい。最も適当な方法を下の園〜宴のうちから 1 つずつ選べ。 物 質 ア Pb2+、Fe2+、Ca2+ イ Cu2+、Pb2+、Al3+ 園 水酸化ナトリウム水溶液を過剰に加える。 堰 アンモニア水を過剰に加える。 奄 室温で希塩酸を加える。 宴 アンモニア水を加えて塩基性にしたのち、硫化水素を通じる。 (16 センター試験追試)",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-2.jpg",
+    "imageAlt": "問題 32 の掲載ページ",
+    "modelAnswer": "ア：奄 イ：園",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "32 金属イオンの分離 ア：奄 イ：園 園〜宴の試薬に対して、各イオンの沈殿生成の有無は表のよう になる(― は沈殿を生じないもの、＊は錯イオンを形成して溶けるもの)。 ア イ 試薬 Pb2+ Fe2+ Ca2+ Cu2+ Pb2+ Al3+ 鴛 NaOH(過剰) ＊ Fe(OH)2 Ca(OH)2 Cu(OH)2 ＊ ＊ 塩 NH3(過剰) Pb(OH)2 Fe(OH)2 Ca(OH)2 ＊ Pb(OH)2 Al(OH)3 於 HCl PbCl2 ― ― ― PbCl2 ― 汚 H2S(塩基性) PbS FeS ― CuS PbS Al(OH)3 したがって、アで Pb2+ のみを沈殿させるものは奄、イで Cu2+ のみを 沈殿させるものは園である。 第 5 33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_ion_separation",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題32"
+  },
+  {
+    "id": "pdfbook_33",
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "33 金属イオンの分離▶Ag 、Ba 、Mn + 2+ 2+ を含む酸性水溶液に、KI 水溶液、K2SO4 水溶 液、NaOH 水溶液を適切な順序で加えて、それぞれの陽イオンを別々の沈殿として分離 したい。表 1 に関連する化合物の水への溶解性、図 1 に実験操作の手順を示す。図 1 の 操作 1 〜 3 で加える水溶液の順序を表 2 の園〜宴とするとき、Ag+、Ba2+、Mn2+ を別々 の沈殿として分離できないものはどれか。最も適当なものを 1 つ選べ。 表1 水への溶解性(〇：溶ける、×：溶けにくい) Ag+、Ba2+、Mn2+ AgI × Ag2SO4 〇 Ag2O × 操作 1 BaI2 〇 BaSO4 × Ba(OH)2 〇 沈殿 ろ液 MnI2 〇 MnSO4 〇 Mn(OH)2 × 操作 2 表2 操作 1 操作 2 操作 3 沈殿 ろ液 操作 3 園 KI 水溶液 K2SO4 水溶液 NaOH 水溶液 堰 KI 水溶液 NaOH 水溶液 K2SO4 水溶液 沈殿 ろ液 奄 K2SO4 水溶液 KI 水溶液 NaOH 水溶液 図1 陽イオンを分離する手順 宴 K2SO4 水溶液 NaOH 水溶液 KI 水溶液 (21 共通テスト 第 2 日程) 249",
+    "image": "./assets/question-pages/p248-249_第5章共通テスト対策問題-2.jpg",
+    "imageAlt": "問題 33 の掲載ページ",
+    "modelAnswer": "宴",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "33 金属イオンの分離 章 宴 各操作を流れ図で示すと、次のようになる。 無 機 物 質 園〜奄は分離できるが、宴は分離できない。 301",
+    "unitWeights": [
+      {
+        "id": "chem_ion_separation",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p248-249 第5章共通テスト対策問題・問題33"
+  },
+  {
+    "id": "pdfbook_422",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "422. 非金属元素の単体と化合物 次の文中のA〜 F は、第 1 周期から第 3 周期までの水 素以外の非金属元素を表している。各元素の単体やその化合物について性質を調べたと ころ、次の(a)〜(h)のことがわかった。文中の および( )に入れるのに最も適 当なものを、それぞれ a 群 および( b 群)から選び、その記号を記せ。 (a) Aの単体は、酸化マンガン(Ⅳ)に濃塩酸を加え、加熱することによって得られる気 体である。この気体は 1 色で刺激臭がある。 (b) Aの単体を水に溶かしたときに生じる化合物のうち、( 2 )には 3 作用が あり、漂白などに用いられている。 (c) B と水素との化合物W、および B と C との化合物 X は、ともに常温・常圧において 気体である。Wと X を反応させたところ、 B の単体と水が生じた。この反応でWは 4 剤として作用している。なお、 B と C は同族元素である。 (d) D の単体は水と激しく反応して、( 5 )と C の単体を生じる。( 5 )の水溶液 は弱酸性を示す。また、この水溶液はポリエチレン容器に保存する。 (e) E の単体は固体である。 B と E との化合物は常温・常圧において液体で、B の単体 や有機化合物を溶かす溶媒として知られている。また、 C と E との間には複数の化合 物が存在し、そのすべてが常温・常圧で気体である。そのうちの( 6 )は、無色、無 臭で毒性が強い。 (f) F と水素との化合物 Y は常温・常圧において気体で、水に溶解すると塩基性を示す。 Aと水素との化合物 Z と Y を混合すると、白煙が生じる。この反応は、 Y または Z の 検出に用いられる。 (g) C と F との間には複数の化合物が存在する。たとえば、銅と希硝酸を反応させて 生じる気体の( 7 )は、空気中の酸素と反応して 8 色の( 9 )に変化する。 (h) 気体の( 9 )や X が工場などから放出されると、それぞれ空気中の水や酸素と反 応して、( 10 )や( 11 )となり、雨水に溶けこむと酸性雨となる。 ここで、Wは( 12 )、 X は( 13 )、 Y は( 14 )、 Z は( 15 )である。 a群 (ア) 無 (イ) 黄緑 (ウ) 赤褐 (エ) 淡青 (オ) 酸化 (カ) 還元 (キ) 中和 (ク) 脱水 ( b 群) (ケ) CO (コ) CO2 (サ) H2O (シ) H2O2 (ス) H3PO4 (セ) H 2S (ソ) H2SO4 (タ) HCl (チ) HClO (ツ) HF (テ) HNO3 (ト) NH3 (ナ) NO (ニ) NO2 (ヌ) P4O10 (ネ) SO2 (ノ) SiO2 (11 関西大 改) 422 (c) 化合物 X は酸化剤としても還元剤としても働く物質である。 (e) B と E の化合物は二酸化炭素と同じ分子構造をもつ無極性分子である。 250",
+    "image": "./assets/question-pages/p250-252_第5章総合問題-1.jpg",
+    "imageAlt": "問題 422 の掲載ページ",
+    "modelAnswer": "(1) (イ) (2) (チ) (3) (オ) (4) (カ) (5) (ツ) (6) (ケ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "422. 非金属元素の単体と化合物 (1) (イ) (2) (チ) (3) (オ) (4) (カ) (5) (ツ) (6) (ケ) (7) (ナ) (8) (ウ) (9) (ニ) (10) (テ) (11) (ソ) (12) (セ) 自分の知識と照らし合わ (13) (ネ) (14) (ト) (15) (タ) せ、判断がつきやすいと 元素の周期表の第 1 〜第 3 周期に属する、水素元素 H 以外の非 ころから元素を決定して 金属元素は、次の表の のようになる。 いくとよい。必ずしもす 族 1 2 13 14 15 16 17 18 べての反応を正確に覚え 周期 ていなくても解答するこ 1 H He とは可能である。 2 Li Be B C N O F Ne 3 Na Mg Al Si P S Cl Ar (a) 酸化マンガン(Ⅳ)MnO2 に濃塩酸を加えて加熱すると、塩素 Cl2 が 発生する。 MnO2+4HCl → MnCl2+2H2O+Cl2 したがって、元素Aは塩素 Cl であり、その単体は黄緑色、刺激臭の気体 である。 (b) 塩素 Cl2 を水に溶かすと、塩素の一部が水と反応して、塩化水素 HCl と次亜塩素酸 HClO を生じる。 Cl2+H2O ⇄ HCl+HClO 次亜塩素酸は強い酸化作用を示し、漂白剤として用いられる。 したがって、化合物(2)は次亜塩素酸 HClO である。 (c) 元素 B と C の化合物 X は、常温・常圧で気体で、元素 B と C は同族 元素であることから、 B 、 C は16族元素の酸素 O 、硫黄 S のいずれかで ❶(c)で、B 、C が決めに あると予想される。また、元素 B と水素の化合物Wと X が反応して、 B くい場合でも、(d)の反 の単体と水を生じることから、次の反応がおこっていると考えられる。 応で C が酸素と決定でき 2H2S+SO2 → 3S+2H2O る。 したがって、元素 B は硫黄 S 、元素 C は酸素 O 、化合物Wは硫化水素 H2S、 化合物 X は二酸化硫黄 SO2 である。 ❷フッ化水素では H F (d) 単体が水と激しく反応して、元素 C の単体(酸素)を生じることから、 結合が強く、電離しにく ❶ 元素 D の単体はフッ素 F2と予想できる 。 くなるため、弱い酸性を 2F2+2H2O → 4HF+O2 示す。 したがって、化合物(5)はフッ化水素 HF である。フッ化水素の水溶液 ❷ (フッ化水素酸)は弱い酸性を示し 、ガラスを侵すので、ポリエチレン ❸ポリエチレン容器に保 ❸ 容器に保存される 。 存することから、ガラス (e) 第 1 〜第 3 周期で単体が固体の非金属元素はホウ素 B 、炭素 C 、ケ と反応する水溶液である イ素 Si、リン P 、硫黄 S である。元素 B (硫黄)との化合物が、液体で、 と推定できる。 B の単体(硫黄)や有機化合物を溶かす溶媒であるので、これは二硫化炭 ❹ 素 CS2 であり 、元素 E は炭素 C となる。元素 C (酸素)と E (炭素)の化 ❹ 二 硫 化 炭 素 CS2 は 直 合物には一酸化炭素 CO、二酸化炭素 CO2 がある。このうち、無色、無 線形の分子である。常温 臭で毒性が強いものは CO なので、化合物(6)は一酸化炭素 CO となる。 で液体(沸点46.3℃)であ (f) 元素 F と水素との化合物 Y は、気体で、水に溶解すると塩基性を示 り、無極性溶媒として用 すことから、アンモニア NH3 と予想される。また、元素A(塩素)と水素 いられる。 の化合物 Z は塩化水素 HCl であり、アンモニアは塩化水素と反応して、 302 ❺ 塩化アンモニウム NH4Cl の白煙を生じる 。 ❺白煙を生じる検出反応 NH3+HCl → NH4Cl から、HCl と NH3 の反応 したがって、元素 F は窒素 N 、化合物 Y はアンモニア NH3、化合物 Z は を予想できる。 塩化水素 HCl である。 (g) 元素 C (酸素)と F (窒素)の化合物には、NO や NO2、N2O4 などが ある。銅と希硝酸の反応で生じる気体は一酸化窒素 NO である。 3Cu+8HNO3 → 3Cu(NO3)2+4H2O+2NO ❻二酸化硫黄などの硫黄 NO は、空気中の酸素と反応して、赤褐色の二酸化窒素 NO2を生じる。 酸 化 物 SOx は、か つ て 2NO+O2 → 2NO2 は工場や自動車の排ガス したがって、化合物(7)は一酸化窒素 NO、(9)は二酸化窒素 NO2である。 に多く含まれていた。し (h) 化合物(9)の二酸化窒素 NO2 は、水に溶けて硝酸 HNO3 を生じる。 かし、燃料の脱硫(硫黄 3NO2+H2O → 2HNO3+NO 分 を 除 去 す る こ と) や、 ❻ 化合物 X の二酸化硫黄 SO2 は、空気中で酸化されて三酸化硫黄 SO3 と SOx を除去する装置・触 なり、これが水に溶けると硫酸 H2SO4 を生じる。 媒の開発などによって、 第 SO3+H2O → H2SO4 現在、排出量は削減され 5 したがって、化合物(10)は硝酸 HNO3、(11)は硫酸 H2SO4 である。 ている。 章",
+    "unitWeights": [
+      {
+        "id": "chem_inorganic_summary",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p250-252 第5章総合問題・問題422"
+  },
+  {
+    "id": "pdfbook_423",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "423. イオンの推定 実験指導者 X は、Ag+、Al3+、Ba2+、Ca2+、Cu2+、Fe3+、K+、Na+、 2+ 2+ Pb 、Zn のうち、4 種類の陽イオンを含む水溶液Aを調製した。実験者 Y は、水溶液 に含まれる陽イオンの成分を調べる目的で(Ⅰ)〜(Ⅵ)の順で操作を行い、各結果を得た。 ここで、各操作で発生する沈殿により、該当する金属イオンは完全に水溶液から取り除 かれると考えてよいが、実験者 Y はそのことを知らないものとする。 (Ⅰ) 塩化水素を、 \b 白色沈殿が十分に生じるまで水溶液Aに吹き込み、生じた沈殿を ろ過により取り除いて水溶液 B を得た。 (Ⅱ) 硫化水素を、 黒色沈殿が十分に生じるまで水溶液 B に吹き込み、生じた沈殿を ろ過により取り除いて水溶液 C を得た。 (Ⅲ) アンモニアを、 黒色沈殿が十分に生じるまで水溶液 C に吹き込み、生じた沈殿 をろ過により取り除いて水溶液 D を得た。 第 (Ⅳ) 硫化水素を水溶液 D に十分に吹き込んだが、沈殿は生じなかったためそのまま水 5 溶液 E とした。 章 (Ⅴ) 水溶液 E に炭酸ナトリウム水溶液を十分に加え、生じた \u0010 白色沈殿をろ過により 取り除き、水溶液 F を得た。 無 機 (Ⅵ) 水溶液 F の炎色反応を確認したところ、黄色い炎が観察された。 物 質 以上の結果を踏まえて、実験者 Y は 4 つの陽イオンの組み合わせを Ba2+、Cu2+、Na+、 Pb2+ と判断した。実験指導者 X の溶液調製、実験者 Y の実験操作および観察結果自体 には誤りはなかったものの、実験者 Y の考察に不備があり、この解答は誤りを含む。そ こで不備について考察した上で、実際に含まれていたイオンを考察したい。 (1) 沈殿(ア)〜(エ)について、含まれる元素の候補として最も適切なものを 1 つある いは 2 つ、次のうちからそれぞれ選べ。 Ag Al Ba Ca Cu Fe K Na Pb Zn (2) 実験者 Y が水溶液Aに含まれていると考えた Ba2+、Cu2+、Na+、Pb2+ のうち、実 験(Ⅵ)で検出を判断したと推定される陽イオンが、実際に水溶液Aに含まれているか どうかについて、どのような実験を追加して行えば正しく判断できると考えられるか。 最も適切なものを次のうちから選べ。 園 実験(Ⅱ)の沈殿(イ)をろ過したのち、ろ液を十分に加熱し、硝酸を加える。 堰 実験(Ⅲ)の沈殿(ウ)が溶解するまで水酸化ナトリウム水溶液を加える。 奄 実験(Ⅳ)の水溶液 E について炎色反応を調べる。 宴 実験(Ⅴ)で使用する炭酸ナトリウムの代わりに炭酸水素ナトリウムを用いる。 (3) 別の実験者 Z が独自に実験を行った結果、水溶液Aには Ag+、Na+、Pb2+、Zn2+ が含まれていると結論づけた。実験指導者 X は、実験者 Y 、 Z について「 2 種類合っ ている人と 1 種類しか合っていない人がいる」と評価した。そこで、追加実験として、 実験(Ⅰ)で生じた沈殿(ア)に対して熱水を加えたところ、沈殿は溶解した。水溶液A に含まれていた 4 種類の金属イオンは何か記せ。 (18 東京理科大 改) 423 実験(Ⅱ)で硫化水素を除去していないため、実験(Ⅲ)の溶液に硫化水素が存在する。 251 H=1.0 C=12 N=14 O=16",
+    "image": "./assets/question-pages/p250-252_第5章総合問題-1.jpg",
+    "imageAlt": "問題 423 の掲載ページ",
+    "modelAnswer": "無",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "423. イオンの推定 無 (1) (ア) Ag、Pb (イ) Cu (ウ) Fe (エ) Ba、Ca 機 物 (2) 奄 (3) Pb2+、Cu2+、Fe3+、Ca2+ 質 (Ⅰ)〜(Ⅵ)の結果から、次のことがわかる。 (Ⅰ) 水溶液 A に塩化水素 HCl を吹き込むと白色 沈殿(ア)を生じた。 ⇒塩化物イオン Cl− と沈殿を形成するのは Ag+ お よび Pb2+ であり、白色沈殿(ア)は AgCl または PbCl2 のどちらか、もしくは両方である。 (Ⅱ) 水溶液 B に硫化水素 H2S を吹き込むと黒色 沈殿(イ)を生じた。 ⇒操作(Ⅰ)によって水溶液 B は酸性になっており、 水溶液中から Ag+ も Pb2+ も除去されている。こ の条件で H2S を吹き込んで生じた黒色沈殿(イ) ❶ は CuS である 。 (Ⅲ) 水溶液 C にアンモニア NH3 を吹き込むと、黒 色沈殿(ウ)を生じた。 ⇒ここまでの操作(Ⅰ)、(Ⅱ)によって水溶液 C には、 Ag+、Pb2+、Cu2+ は含まれていない。ここに NH3 を吹き込んで生じる黒色沈殿(ウ)は FeS である。 この沈殿は、操作(Ⅱ)で吹き込んだ H2S によって Fe3+ が還元されて ❶Cu2+ は溶解度積が小 生じた Fe2+ が、塩基性条件で H2S と反応して生じたものである。こ さく、液性にかかわらず、 のことから水溶液Aには Fe3+ が含まれていたことがわかる。 CuS の沈殿を生じる。 (Ⅳ) 水溶液 D に硫化水素 H2S を吹き込んだが、沈殿は生じなかった。 ⇒操作(Ⅲ)で塩基性にした水溶液に H2S を通じても沈殿を生じなかっ ❷ たことから、水溶液Aには Zn2+ が含まれていなかったことがわかる 。 ❷操作(Ⅲ)でも白色沈殿 (Ⅴ) 水溶液 E に炭酸ナトリウム Na2CO3 水溶液を加えると、白色沈殿 を生じておらず、Zn2+ が (エ)を生じた。 含まれていないことがわ ⇒ここまでの操作(Ⅰ)〜(Ⅴ)から、水溶液 E に含まれている可能性があ かる。 303 問題 424 る陽イオンは、Ba2+、Ca2+、K+、Na+ の 4 種類である。このうち、 CO32− で沈殿を生じるのは、Ba2+ と Ca2+ の 2 つであり、生じた白色 沈殿(エ)は BaCO3 または CaCO3 のいずれか、もしくは両方である。 (Ⅵ) 水溶液 F の炎色反応は黄色であった。 ⇒この結果から、水溶液 F には Na+ が含まれていることがわかるが、操 作(Ⅴ)で Na2CO3 を加えているため、もとの水溶液 A に Na+ が入っ ていたかどうかはわからない。 (1) 以上の結果から、白色沈殿(ア)には Ag+ または Pb2+、黒色沈殿 (イ)には Cu2+、黒色沈殿(ウ)には Fe2+、白色沈殿(エ)には Ba2+ また は Ca2+ が含まれることがわかる。 (2) 実験操作Ⅵで水溶液 F 中に検出された Na+ は、実験操作Ⅴで Na2CO3 水溶液として水溶液 E に加えられた可能性がある。したがって、 水溶液Aに Na+ が含まれているかどうかを調べるには、Na2CO3 を加え る前の水溶液 E の炎色反応を確かめるとよい。 (3) 水溶液Aに含まれる 4 つの陽イオンのうち、Cu2+、Fe3+ の 2 つは 確定しており、残りの 2 つは「Ag+、Pb2+ のいずれか」、「Ba2+ または Ca2+ のいずれか」である。 実験者 Z が判断した「Ag+、Na+、Pb2+、Zn2+」のうち、正しいのは Ag+ または Pb2+ のいずれかであり、水溶液Aに Na+、Zn2+ は含まれていな いことがわかる。したがって、実験者 Y が判断した「Ba2+、Cu2+、Na+、 Pb2+」のうち、 「Ba2+、Cu2+、Pb2+」に正解が 2 つあることになる。こ 2+ こで、Cu の存在は実験操作(Ⅱ)から明らかなので、もう 1 つの金属 イオンは、Ba2+ か Pb2+ のどちらかである。 追加実験から沈殿(ア)が熱水に溶解したので、沈殿(ア)は PbCl2 である とわかり、水溶液 A には Pb2+ が含まれていたことがわかる。 Y の答え は 2 つが正解なので、水溶液Aには Ba2+ は含まれず、Ca2+ が含まれて いたことがわかる。",
+    "unitWeights": [
+      {
+        "id": "chem_inorganic_summary",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p250-252 第5章総合問題・問題423"
+  },
+  {
+    "id": "pdfbook_424",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "424. 肥料の三要素 次の文章を読み、下の各問いに答えよ。 窒素、リン、カリウムは、植物の成長に必要な肥料の三要素とよばれる。農地では、 化学肥料などを利用して肥料の三要素の不足分を補っている。土壌中に供給された肥料 の三要素は、おもに ⒜ イオンの形で植物に吸収される。 肥料の三要素のうち、窒素を補う肥料を特に窒素肥料といい、代表例としてアンモニ ウム塩(硫酸アンモニウムや ⒝ 硝酸アンモニウムなど)や尿素があげられる。窒素肥料の 原料となるアンモニアは、触媒を用いて、窒素と水素から直接合成されているが、この 製法を( あ )法という。 ⒞ 尿素はアンモニアと二酸化炭素を高温・高圧で反応させる と得られ、特に、土壌の pH を変化させない中性の肥料として有効である。 環境中の窒素はさまざまな形態をとりつつ、大気中、土壌中、水中、生体内を循環し ている。土壌中の ⒟ アンモニウム塩は、酸素環境下で微生物による( い )作用を受け、 硝酸塩に変化する。これらのアンモニウム塩と硝酸塩は植物の根から吸収される。 (1) 文中の(あ)、(い)にあてはまる最も適当な語句を記せ。 (2) 下線部(a)について、リンの場合を考えると、リン酸がイオンの形で植物に吸収さ れる。その例として 1 価のイオンの化学式を記せ。 (3) 下線部(b)の硝酸アンモニウムについて、 、\u000fの問いに答えよ。 硝酸アンモニウム水溶液は、強い酸性、弱い酸性、中性、弱い塩基性、強い塩基 性のうち、どの性質を示すか答えよ。 \u000f 硝酸アンモニウム水溶液に水酸化ナトリウム水溶液を加えると、アンモニアが生 成した。この反応の化学反応式を記せ。 (4) 下線部(c)について、 〜\u000fの問いに答えよ。 尿素を合成する化学反応式を記せ。 \u000f の反応が完全に進行するとして、必要最小量のアンモニアを利用して尿素 30 kg を合成した。このとき利用したアンモニアの質量〔kg〕を計算せよ。 (5) 文章中の下線部(d)について、 および\u000fの問いに答えよ。 アンモニウムイオンは次の反応によって硝酸イオンに変化する。 NH4+ + ( A ) ア → NO3− + ( B ) H2O + ( C ) イ この反応式の(A)〜(C)に最も適当な係数を入れ、 ア および イ については最も 適当な化学式を下の園〜怨のうちから選べ。 園 H+ 堰 OH− 奄 O2 宴 H2O2 延 NO 怨 NO2 \u000f この反応がおこることによって、土壌の pH が変化した。変化した pH をもとに もどすための最も適当な物質を、下の園〜怨のうちから選べ。 園 酸化カルシウム 堰 硫酸マグネシウム 奄 塩化アンモニウム 宴 十酸化四リン 延 硫酸カリウム 怨 ミョウバン (立命館大 改) 424 (4) 尿素は分子式 CO(NH2)2 で表される。 (5) \u000f 反応によって生じた H+ の効果を打ち消す物質を選べばよい。 252",
+    "image": "./assets/question-pages/p250-252_第5章総合問題-3.jpg",
+    "imageAlt": "問題 424 の掲載ページ",
+    "modelAnswer": "(1) (あ) ハーバー・ボッシュ (い) 酸化 (2) H2PO4−",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "424. 肥料の三要素 (1) (あ) ハーバー・ボッシュ (い) 酸化 (2) H2PO4− (3) \u0002 弱い酸性 \u0003 NH4NO3+NaOH → NaNO3+H2O+NH3 (4) \u0002 2NH3+CO2 → CO(NH2)2+H2O \u0003 17 kg (5) \u0002 A：2 B：1 C：2 ア：奄 イ：園 \u0003 園 (1) (あ) アンモニアの工業的製法はハーバー・ボッシュ法 とよばれ、次の化学反応式で表される。 N2+3H2 ⇄ 2NH3 (い) アンモニウムイオン NH4+ 中の窒素原子の酸化数は −3、硝酸イ オン NO3− 中の窒素原子の酸化数は +5 である。 N の酸化数が増加して ❶ いるので、微生物によって酸化されている ことがわかる。 ❶アンモニウムイオン (2) リン酸 H3PO4 は次のように 3 段階に電離する。 NH4+ は亜硝酸菌によっ H3PO4 ⇄ H++H2PO4− て亜硝酸イオン NO2− に H2PO4− ⇄ H++HPO42− 酸 化 さ れ る。さ ら に、 HPO42− ⇄ H++PO43− NO2− は硝酸菌によって このように、リン酸からはリン酸二水素イオン H2PO4−、リン酸水素イ NO3− へと酸化される。 オン HPO42−、リン酸イオン PO43− が生成する。 (3) \u0002 硝酸アンモニウム NH4NO3 は強酸である硝酸と、弱塩基であ 304 るアンモニアの塩なので、その水溶液は弱い酸性を示す。 NH4NO3 → NH4++NO3− NH4++H2O ⇄ NH3+H3O+ \u0003 硝酸アンモニウム水溶液に強塩基である水酸化ナトリウム水溶液を 加えると、弱塩基の遊離がおこり、アンモニアが発生する。 NH4NO3+NaOH → NaNO3+H2O+NH3 (4) \u0002 尿素CO(NH2)2 はアンモニアと二酸化炭素を高温・高圧で反 応させて得られる。 2NH3+CO2 → CO(NH2)2+H2O \u0003 30 kg(=30×103 g)の尿素(モル質量 60 g/mol)の物質量は、 30×103 g =5.0×102 mol 60 g/mol 化学反応式の係数から、 1 mol の尿素を得るのに、 2 mol のアンモニア が必要なので、30 kg の尿素を得るのに必要なアンモニアの物質量は、 第 5.0×102 mol×2=1.0×103 mol 5 アンモニアのモル質量は 17 g/mol なので、その質量は、 章 17 g/mol×1.0×103 mol=1.7×104 g=17 kg 別解 窒素原子に注目して解く。尿素 30 kg(=30×103 g)に含まれる 無 窒素原子の物質量は、 機 物 30×103 g 質 ×2=1.0×103 mol 60 g/mol この窒素はすべてアンモニアから供給されたものであり、アンモニアの 物質量に等しい。したがって、アンモニア(モル質量17g/mol)の質量は、 17 g/mol×1.0×103 mol=1.7×104 g=17 kg (5) \u0002 下線部(d)から、酸素 O2 との反応であることを読み取る。酸 化剤としての酸素の働きは、次式で表される。 O2+4H++4e− → 2H2O …① アンモニウムイオン NH4+ を硝酸イオン NO3− に酸化するときの窒素原 子の酸化数の変化は、(1)の(い)から +8 である。したがって、1 mol の ❷NH4+ が電子を放出す ❷ NH4+ の変化で電子 8 mol が放出されることがわかる 。これを酸化剤 る変化は次のように表さ である酸素が受け取っているので、①式から、 1 mol の NH4+ の酸化に れる。 は 2 mol の酸素が必要であることがわかる。したがって、イオン反応式 NH4++3H2O → は次のように表される。 NO3−+10H++8e− NH4++2O2 → NO3−+H2O+2H+ …② \u0003 ②式から、アンモニウムイオンの酸化によって水素イオン H+ を生 ❸金属元素の酸化物のう じるので、これを中和するための塩基性の物質を選べばよい。 ち、水と反応して塩基と 園 酸化カルシウム CaO は塩基性酸化物❸であり、酸と反応する。 なるものや、酸と反応す CaO+2H+ → Ca2++H2O るものを塩基性酸化物と 堰、奄 硫酸マグネシウム MgSO4、塩化アンモニウム NH4Cl はいずれ いう。 も強酸と弱塩基からなる塩なので、水溶液は弱い酸性を示す。 宴 十酸化四リン P4O10 は酸性酸化物❹である。 ❹非金属元素の酸化物の 延 硫酸カリウム K2SO4 は強酸・強塩基の塩で、水溶液は中性を示す。 うち、水と反応して酸と 怨 ミョウバンにはいろいろな種類があるが、一般には硫酸カリウムア なるものや、塩基と反応 ルミニウム十二水和物 AlK(SO4)2･12H2O を指す。ミョウバンの水溶液 するものを酸性酸化物と は弱い酸性を示す。 いう。 305",
+    "unitWeights": [
+      {
+        "id": "chem_inorganic_summary",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p250-252 第5章総合問題・問題424"
+  },
+  {
+    "id": "pdfbook_425",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "425. 有機化合物の特徴▶有機化合物に関する次の記述のうち、正しいものを 1 つ選べ。 (ア) 構成元素の種類が多いため、化合物の種類も非常に多い。 (イ) 分子式が同じでも、構造や性質の異なるものがある。 (ウ) 一般に、融点や沸点が高く、可燃性のものが多い。 (エ) 分子からなる物質が多く、水に溶けやすいが、有機溶媒には溶けにくい。",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-4.jpg",
+    "imageAlt": "問題 425 の掲載ページ",
+    "modelAnswer": "(イ) ❶ C 、 H 、 O 、 N 、Cl、",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "425. 有機化合物の特徴 (イ) ❶ C 、 H 、 O 、 N 、Cl、 (ア) (誤) 有機化合物は、炭素原子を骨格とし、原子が互い S などである。 に共有結合してできた分子からできている。有機化合物を構成する元素 ❶ ❷ の種類は少ない が、化合物の種類は非常に多い 。これは、炭素原子が ❷現在、 1 億種以上の有 他の炭素原子や非金属元素の原子と、多様な結合をするためである。 機化合物が知られている。 (イ) (正) 有機化合物には、分子式が同じであっても、原子どうしの つながり方が異なる構造異性体や、立体的な構造が異なる立体異性体が ❸有機化合物は一般に、 存在するものがある。 融点や沸点が低い。 ❸ (ウ) (誤) 有機化合物は、一般に、融点や沸点が低く 、可燃性のもの 示性式 沸点〔℃〕 が多い。有機化合物を燃焼させると、CO2 や H2O などを生じる。 CH3OH 65 (エ) (誤) 有機化合物は水に溶けにくいものが多いが、エタノールな C2H5OH 78 どの有機溶媒には溶けやすいものが多い。 CH2 CH2 −104",
+    "unitWeights": [
+      {
+        "id": "chem_organic_feature",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題425"
+  },
+  {
+    "id": "pdfbook_426",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "426. 有機化合物の分類▶次の化合物について、下の各問いに答えよ。 (ア) CH3CHO (イ) CH3COCH3 (ウ) C2H5COOH (エ) C2H5OH (オ) C6H5NO2 (カ) CH3NH2 (1) 各化合物中に下線を付した官能基について、それぞれの名称を記せ。 (2) 各化合物は、官能基による分類では何とよばれるか。その名称を記せ。 第 (3) これらの化合物の中から、次の(a)、(b)にあてはまるものをそれぞれ選べ。 6 (a) 酸性を示すもの (b) 塩基性を示すもの 章",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-4.jpg",
+    "imageAlt": "問題 426 の掲載ページ",
+    "modelAnswer": "(1) (ア) ホルミル基(アルデヒド基) (イ) カルボニル基",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "426. 有機化合物の分類 (1) (ア) ホルミル基(アルデヒド基) (イ) カルボニル基 (ウ) カルボキシ基 (エ) ヒドロキシ基 (オ) ニトロ基 (カ) アミノ基 (2) (ア) アルデヒド (イ) ケトン (ウ) カルボン酸 (エ) アルコール (オ) ニトロ化合物 (カ) アミン (3) (a) (ウ) (b) (カ) 有機化合物のおもな特徴を決める原子団を官能基という。たと えば、カルボキシ基 COOH は酸性、アミノ基 NH2 は塩基性を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_feature",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題426"
+  },
+  {
+    "id": "pdfbook_427",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "427. 元素分析▶図は、元素分析装置を 有 機 模式的に示したものである。炭素と水 化 合 素からなる化合物 10.5 mg を完全燃 物 焼させたところ、水 18.9 mg と二酸化 炭素 30.8 mg を得た。 (1) 酸化銅(Ⅱ)はどのような役割をしているか。 (2) 塩化カルシウム管とソーダ石灰管は、それぞれどのような役割をしているか。 (3) 塩化カルシウム管とソーダ石灰管の順番を逆にしてはいけないのはなぜか。 (4) 元素分析の結果から、化合物中の炭素原子と水素原子の質量パーセントを求めよ。",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-4.jpg",
+    "imageAlt": "問題 427 の掲載ページ",
+    "modelAnswer": "(1) 試料の不完全燃焼によって生じた一酸化炭素を酸化して、",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "427. 元素分析 (1) 試料の不完全燃焼によって生じた一酸化炭素を酸化して、 二酸化炭素にする。 (2) 塩化カルシウム管：試料の燃焼によって生じた水蒸気を吸収する。 ソーダ石灰管：二酸化炭素を吸収する。 (3) ソーダ石灰は二酸化炭素と水蒸気の両方を吸収するため、順番を逆 にすると、ソーダ石灰管で二酸化炭素と水蒸気の両方が吸収されてしま い、それぞれの質量を測定できなくなるから。 (4) 炭素原子：80.0% 水素原子：20.0% (1) 炭素と水素からなる化合物を燃焼させると、二酸化炭素 と水が生成するが、不完全燃焼によって一酸化炭素も生じる。これを完 ❶ 全に二酸化炭素に変えるため、燃焼管の出口に酸化銅(Ⅱ)CuO を置く 。 ❶CO+CuO → ❷ (2) 塩化カルシウム 管で水蒸気を吸収し、ソーダ石灰管で二酸化炭素 CO2+Cu の 反 応 が お こ を吸収する。 る。 (3) ソーダ石灰は、CaO と NaOH を混合して焼きかためたものであり、 強い塩基性を示す。水と二酸化炭素をよく吸収するため、気体の乾燥剤 ❷塩化カルシウム CaCl2 や二酸化炭素の吸収剤としてよく用いられる。したがって、燃焼で生じ は気体の乾燥剤として用 た気体を、先にソーダ石灰管に通じると、水も二酸化炭素も吸収してし いられる。 まうため、それぞれの質量を測定できなくなる。 (4) 試料中の炭素原子の質量は、二酸化炭素 CO2 の質量に、二酸化炭 306 素中の炭素の割合をかけたものである。 C のモル質量 12 g/mol 30.8 mg× =30.8 mg× =8.40 mg CO2 のモル質量 44 g/mol したがって、試料中の炭素原子の割合は、 8.40 mg ×100=80.0 80.0％ 10.5 mg 試料中の水素原子の質量は、水蒸気 H2O の質量に、水蒸気中の水素の割 合をかけたものである。 H のモル質量×2 1.0 g/mol×2 ❸炭素と水素からなる化 18.9 mg× =18.9 mg× =2.10 mg H2O のモル質量 18 g/mol 合物なので、水素原子の ❸ したがって、試料中の水素原子の割合 は、 割合は、(100−炭素の割 2.10 mg 合)から求めることもで ×100=20.0 20.0％ 10.5 mg きる。",
+    "unitWeights": [
+      {
+        "id": "chem_elemental_analysis",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題427"
+  },
+  {
+    "id": "pdfbook_428",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "428. 組成式・分子式の決定▶炭素、水素、酸素からなる有機化合物について元素分析し た結果、炭素は40.0％、水素は6.7％、酸素は53.3％であり、別の実験から求めた分子量 は60であった。この有機化合物の組成式および分子式を求めよ。",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-4.jpg",
+    "imageAlt": "問題 428 の掲載ページ",
+    "modelAnswer": "組成式：CH2O 分子式：C2H4O2",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "428. 組成式・分子式の決定 組成式：CH2O 分子式：C2H4O2 各元素の質量パーセントをその元素の原子量で割って比をとれ 第 6 ば、原子数の比が求められる。この原子数の比を最も簡単な整数比にし ❶ 章 たものが組成式 である。各元素の原子数の比は次のようになる。 ❶実験によって求められ 40.0 6.7 53.3 るため、実験式ともよば C：H：O= ： ： =3.33：6.7：3.33≒1：2：1 12 1.0 16 れる。 有 機 したがって、組成式は CH2O である。分子式は組成式の整数倍で表され、 化 その整数値と測定された分子量との関係は次のようになる。 合 物 (組成式の式量)×n=分子量 この化合物の分子量は60であり、組成式の式量は30なので、(CH2O) =30×n=60 から、n=2 となる。したがって、分子式は C2H4O2 である。",
+    "unitWeights": [
+      {
+        "id": "chem_elemental_analysis",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題428"
+  },
+  {
+    "id": "pdfbook_429",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "429. 構造異性体▶次の各問いに答えよ。 (1) 次の化合物のうち、(ア)と互いに構造異性体の関係にあるものをすべて選べ。 (ア) CH3 O CH2 CH3 (イ) CH3 CH2 O CH3 (ウ) CH3 CH2 CH2 OH (エ) CH3 C CH3 (オ) CH3 CH CH3 (カ) CH3 CH2 C H O OH O (2) 次の分子式で表される各化合物の構造異性体をすべて構造式で示せ。 (ア) C4H10 (イ) C3H6Cl2 (ウ) C2H4O (エ) C3H9N 257 H=1.0 C=12 O=16",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-4.jpg",
+    "imageAlt": "問題 429 の掲載ページ",
+    "modelAnswer": "構造異性体には、炭素の",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "429. 構造異性体 構造異性体には、炭素の (1) (ウ)、(オ) 骨格が異なるもの、官能 (2) (ア) ① CH3 CH2 CH2 CH3 ② CH3 CH CH3 基の種類が異なるもの、 Cl CH3 官能基の位置が異なるも (イ) ① CH3 CH2 CH ② CH3 CH CH2 のなどがある。 Cl Cl Cl Cl ③ CH2 CH2 CH2 ④ CH3 C CH3 Cl Cl Cl ❶ ❷ (ウ) ① CH2 CH OH ② CH3 C H ③ CH2 CH2 ❶ビニルアルコールとよ O O ばれ、不安定な分子であ (エ) ① CH3 CH2 CH2 NH2 ② CH3 CH CH3 り、す ぐ に CH3 CHO NH2 に変化する。 ③ CH3 CH2 NH CH3 ④ CH3 N CH3 CH3 ❷エチレンオキシドとよ (1) 炭素原子、水素原子、酸素原子のそれぞれの数が同じもの ばれる物質である。 を選ぶ。(ア)は分子式 C3H8O であり、同じ分子式で示されるのは、(イ)、 (ウ)、(オ)である。これらのうち、(イ)は(ア)と同じ化合物であり、異 性体ではない。 307 問題 430 ▶ 432 (2) まず、炭素原子を直鎖状に並べ、原子価が 4 価であることに留意し て構造を書き、考えられる官能基の 1 つについて、その位置をずらしな がら異性体を考える。次に、直鎖状の炭素原子の数を 1 つずつ減らしな がら、枝分かれした炭素骨格それぞれについて、官能基の位置を 1 つず ❸不飽和化合物では、異 つずらしながら、異性体を考えていく。 性体として環状構造をも 別の官能基についても同様に異性体を考える。さらに、不飽和の場合に つ化合物が存在すること ❸ は、環状構造についても考える 。 を考える。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題429"
+  },
+  {
+    "id": "pdfbook_430",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "430. 立体異性体▶次の文中の( )に適当な語句を入れよ。 炭素原子間の結合が自由に回転できないために生じる立体異性体を( ア )異性体と いう。(ア)異性体は、二重結合をもつ化合物などにみられる。(ア)異性体のうち、炭素 原子間の結合をはさみ、同種の原子や原子団が同じ側に位置するものを( イ )形、反 対側に位置するものを( ウ )形という。 4 つの異なる原子、原子団が結合している炭素原子を( エ )という。(エ)をもつ分 子には、右手と左手、または鏡に対する実像と鏡像の関係にある 2 つの異性体が存在し ている。このような立体異性体を( オ )異性体という。",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-5.jpg",
+    "imageAlt": "問題 430 の掲載ページ",
+    "modelAnswer": "(ア) シス-トランス(幾何) (イ) シス (ウ) トランス",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "430. 立体異性体 (ア) シス-トランス(幾何) (イ) シス (ウ) トランス (エ) 不斉炭素原子 (オ) 鏡像(光学) 炭素原子間の結合が自由回転できないために生じる立体異性 ❶ 体 をシス-トランス異性体(幾何異性体)という。次のような二重結合 ❶示性式は同じであるが、 をもつ化合物などにみられる。シス-トランス異性体は、炭素原子間の 原子や原子団の立体的な 結合をはさんで、同種の原子や原子団が同じ側に位置するものをシス形、 配置が異なる異性体を立 反対側に位置するものをトランス形という。 体異性体という。 乳酸分子 CH3CH(OH)COOH には、 4 つの異なる原子や原子団が結合し ている炭素原子が存在し、これを不 斉炭素原子という。不斉炭素原子を もつ分子には、右手と左手、または 鏡に対する実像と鏡像の関係にある 2 つの異性体が存在する❷。このような立体異性体を鏡像異性体(光学 ❷右手と左手の関係にあ 異性体)という。 るため、互いに重ね合わ 環式化合物のシス-トランス異性体 せることができない。 1,2-ジクロロシクロプロパンのような化合物の場合、次の 2 種類の化合 物が考えられる。このとき、環に対して同じ側に同種の原子や原子団が あるものがシス形、環に対して反対側にあるものがトランス形である。 このように、環式化合物にもシス-トランス異性体をもつものがある。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題430"
+  },
+  {
+    "id": "pdfbook_431",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "431. 立体異性体▶次の各問いに答えよ。 (1) 次の化合物のうち、シス-トランス異性体が存在するものをすべて選べ。 (ア) CH2 C(CH3)2 (イ) CH3 CH C(CH3)2 (ウ) CH3−CH CH COOH (エ) HOOC CH CH COOH (オ) (CH3)2C C(COOH)2 (2) 次の化合物のうち、鏡像異性体が存在するものをすべて選べ。 (ア) CH3 CH CH3 (イ) CH3 CH2 CH CH3 OH OH (ウ) CH3 C CH2 CH3 (エ) CH3 CH COOH (オ) CH3 CH COOH O CH3 OH 発展例題 34 化学式の決定 ➡問題 432 炭素、水素、酸素からなる有機化合物 4.6 mg を完全燃焼させると、二酸化炭素 8.8 mg と水 5.4 mg を生じた。また、別の実験でこの有機化合物 23 g の物質量を調べると、 0.50 mol であった。次の各問いに答えよ。 (1) この有機化合物の組成式と分子式を求めよ。 (2) この有機化合物の構造異性体をすべて構造式で示せ。 (1) 完 全 燃 焼 に よ っ て 生 じ た CO2 と (1) C…8.8 mg×(12/44)=2.4 mg H2O の質量から C 、 H の質量を求め、 H…5.4 mg×(2.0/18)=0.60 mg 試料の質量からこれらを引いて O の質 O…4.6 mg−(2.4 mg+0.60 mg)=1.6 mg 量を求める。これらを各原子量(モル 2.4 0.60 1.6 C：H：O= ： ： =2：6：1 質量)で割って、原子数の比(整数比) 12 1.0 16 を求める。 したがって、組成式は C2H6O である。 分子量は、モル質量=質量/物質量の モル質量は 23 g/0.50 mol=46 g/mol なので、 関係から求められる。 46×n=46 から n=1 となり、分子式は (組成式の式量)×n=分子量の関係を C2H6O である。 用いて分子式を求める。 (2) CH3−CH2−OH CH3−O−CH3 (2) 原子の受けもつ線(価標)に応じて 構造式を示す。 C：4 H：1 O：2 例題 258 解説動画 H=1.0 C=12 O=16",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-5.jpg",
+    "imageAlt": "問題 431 の掲載ページ",
+    "modelAnswer": "(1) (ウ)、(エ) (2) (イ)、(オ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "431. 立体異性体 (1) (ウ)、(エ) (2) (イ)、(オ) 立体異性体は、示性式は同じであるが、原子・原子団の立体配 ❶ 置が異なる異性体である 。 ❶立体異性体にはシス- (1) シス-トランス異性体(幾何異性体)には、同種の原子または原子団 トランス異性体や鏡像異 が二重結合の同じ側に結合しているシス形と、反対側に結合しているト 性体がある。 ランス形とがある。二重結合をつくる炭素原子に結合している 4 つの原 子または原子団のうち、少なくとも一方の炭素原子に結合している原子 または原子団が同じ場合には、シス-トランス異性体は存在しない。 308 (2) 炭素原子に 4 つの異なる原子または原子団が結合している化合物、 すなわち不斉炭素原子をもつ化合物は(イ)と(オ)であり、これらには鏡 像異性体が存在する(＊は不斉炭素原子)。 ＊ ＊ (イ) CH3 CH2 CH CH3 (オ) CH3 CH COOH OH OH 構造異性体と立体異性体 分子式は同じであるが、構造や性質が異なる化合物を異性体という。 ①構造異性体…炭素原子の骨格、官能基の種類、官能基の結合位置が異なる。 ● ②立体異性体…示性式は同じであるが、原子・原子団の立体配置が異なる。 ● ・シス-トランス異性体(幾何異性体)…二重結合をつくる各炭素原子に、それぞれ異なる原子ま たは原子団が結合して生じる。 ・鏡像異性体(光学異性体)…不斉炭素原子をもつため、互いに鏡像の関係にある。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題431"
+  },
+  {
+    "id": "pdfbook_432",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "432. 元素分析と構造▶炭素、水素、酸素のみからなる有機化合物 43.0 mg を完全に燃焼 させたところ、110.0 mg の二酸化炭素と 45.0 mg の水が生じた。別の実験から、この有 機化合物の分子量は150以下であることがわかっている。 (1) この有機化合物の組成式と分子式を記せ。 (2) この分子式で示される有機化合物のうち、カルボニル基 をもつ構造(ホル ミル基 CHO を含む)は何個あるか。なお、立体異性体を区別しないものとする。 (3) (2)の化合物のうち、アルデヒドに分類されるものの構造式をすべて記せ。 (24 北里大 改)",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-6.jpg",
+    "imageAlt": "問題 432 の掲載ページ",
+    "modelAnswer": "(1) 組成式 C5H10O 分子式 C5H10O (2) 7 個",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "432. 元素分析と構造 (1) 組成式 C5H10O 分子式 C5H10O (2) 7 個 第 6 章 (1) この有機化合物に含まれる各元素の質量を求める。 12 有 C の質量：110.0 mg× =30.00 mg 機 44 化 合 2.0 物 H の質量：45.0 mg× =5.00 mg 18 O の質量=(試料の質量)−( C の質量)−( H の質量) =43.0 mg−30.00 mg−5.00 mg=8.0 mg 各元素の原子数の比は、次のように求められる。 30.00 5.00 8.0 C：H：O= ： ： =5：10：1 12 1.0 16.0 ❶ したがって、組成式 は C5H10O となる。分子式は(C5H10O) と表され、 ❶組成式は構成元素の原 分子量は(12×5+1.0×10+16)×n=86n となる。分子量は150以下で 子数を最も簡単な整数比 あるから n=1 となり、分子式は C5H10O と求められる。 で表した式である。 (2)、(3) カルボニル基 をもつので、この化合物は R1 CO R2 と表される。分子式 C5H10O から CO を引き算すると C4H10 が残る。こ れが R1+R2 の化学式である。考えられる構造は、以下の 7 通りである。 ① R1=C4H9、R2=H のとき ❷ これらが(3)の解答である 。 ❷R2=H のとき、カルボ ② R1=C3H7、R2=CH3 のとき ニル基はホルミル基 CHO の一部となるが、 これらはカルボニル基を ③ R1=C2H5、R2=C2H5 のとき もつ構造として考えてよ い。 309 問題 433 ▶ 435",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題432"
+  },
+  {
+    "id": "pdfbook_433",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "433. 構造式の推定▶ある化合物の元素分析の結果は、質量パーセントで炭素59.9％、水 素13.4％、酸素26.7％であった。この化合物 1.00 mg を 1.00 L の真空容器に入れ、373 K に加熱し完全に蒸発させたときの気体の圧力は 51.6 Pa であった。この気体を理想気 第 体とみなし、気体定数を 8.31×103 Pa･L/(K･mol)として、次の各問いに答えよ。 6 (1) この化合物の分子量を求めよ。 章 (2) この化合物の分子式を求めよ。 (3) この化合物の分子式から考えられる構造式をすべて示せ。また、それぞれの構造 有 機 式に含まれる官能基の部分を○で囲み、その官能基の名称を記せ。 (11 信州大) 化 合 物",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-6.jpg",
+    "imageAlt": "問題 433 の掲載ページ",
+    "modelAnswer": "(1) 60.1 (2) C3H8O",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "433. 構造式の推定 (1) 60.1 (2) C3H8O (3) CH3 CH2 CH2 OH ヒドロキシ基 CH3 CH CH3 CH3 O CH2−CH3 エーテル結合 OH ヒドロキシ基 (1) 気体の状態方程式 PV =nRT=(w/M )RT から、化合物 のモル質量を M 〔g/mol〕とすると、次式が成り立つ。 wRT ❶ 1.00×10−3 g ×8.31×103 Pa･L/(K･mol)×373 K ❶1.00 mg は M= = 1.00×10−3 g である。 PV 51.6 Pa×1.00 L M =60.07 g/mol (2) 各元素の質量パーセントをその元素の原子量(モル質量)で割って 比をとれば、原子数の比が求められる。この原子数の比を最も簡単な整 数比にしたものが組成式(実験式)である。分子式は組成式の整数倍で表 される。 各元素の原子数の比は次のようになる。 59.9 13.4 26.7 ❷ C：H：O= ： ： =4.99：13.4：1.66≒3：8：1 ❷ O の原子数の比は C や 12 1.0 16 H の比よりも小さくなる したがって、組成式は C3H8O である。この化合物の分子量は60.1で、組 ことが多い。したがって、 成式の式量は60なので、(C3H8O) =60×n=60.1 から、n=1 となる。 簡単な整数比にするには、 したがって、分子式は C3H8O である。 C 、 H の値を O の値で割 (3) 分子式 C3H8O から考えられる化合物の構造は、次の鎖式飽和化合 ってみるとよい。 物のアルコールとエーテルが考えられる。 C の値 4.99 CH3 CH2 CH2 OH CH3 CH CH3 = ＝3.01 O の値 1.66 CH3 O CH2 CH3 OH H の値 13.4 = =8.07 このアルコールとエーテルに含まれる官能基は、ヒドロキシ基 OH と O の値 1.66 エーテル結合 O である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題433"
+  },
+  {
+    "id": "pdfbook_434",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "434. 異性体▶次の分子式(ア)〜(オ)で表される化合物について、下の各問いに答えよ。 (ア) C 3H 6 (イ) C4H8 (ウ) C5H12 (エ) C6H14 (オ) C7H16 (1) 各化合物には、それぞれ何種類の構造異性体が存在するか。 (2) シス-トランス異性体が存在する化合物はどれか。(ア)〜(オ)の記号で記せ。 (3) 鏡像異性体が存在する化合物はどれか。(ア)〜(オ)の記号で記せ。また、その鏡 像異性体をもつものの構造式をすべて示せ。 (名古屋学芸大 改)",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-6.jpg",
+    "imageAlt": "問題 434 の掲載ページ",
+    "modelAnswer": "(1) (ア) 2 種類 (イ) 5 種類 (ウ) 3 種類 (エ) 5 種類",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "434. 異性体 (1) (ア) 2 種類 (イ) 5 種類 (ウ) 3 種類 (エ) 5 種類 (オ) 9 種類 (2) (イ) (3) (オ) CH3 CH2 CH2 CH CH2 CH3 CH3 CH3 CH2 CH CH CH3 CH3 CH3 ❶ (1) (ア)〜(オ)の構造異性体 は、それぞれ次のようになる。 ❶構造異性体は原子のつ (ア) ① CH3 CH CH2 ② CH2 CH2 ながり方が異なる。 プロペン(プロピレン) CH2 シクロプロパン 不飽和炭化水素の構造異 (イ) ① CH3 CH2 CH CH2 ② CH3 CH CH CH3 性体は、鎖式炭化水素以 1-ブテン 2-ブテン 外に、環式炭化水素も考 ③ CH3 C CH2 ④ CH2 CH2 える。 CH3 2-メチルプロペン CH2 CH2 シクロブタン ⑤ CH2 CH CH3 CH2 メチルシクロプロパン (ウ) ① CH3 CH2 CH2 CH2 CH3 ペンタン CH3 ② CH3 CH2 CH CH3 ③ CH3 C CH3 2,2-ジメチル CH3 2-メチルブタン CH3 プロパン 310 (エ) ① CH3 CH2 CH2 CH2 CH2 CH3 ヘキサン ② CH3 CH2 CH2 CH CH3 2-メチルペンタン CH3 ③ CH3 CH2 CH CH2 CH3 3-メチルペンタン CH3 ④ CH3 CH CH CH3 2,3-ジメチルブタン CH3 CH3 CH3 ⑤ CH3 CH2 C CH3 2,2-ジメチルブタン CH3 (オ) ① CH3 CH2 CH2 CH2 CH2 CH2 CH3 ヘプタン ② CH3 CH2 CH2 CH2 CH CH3 2-メチルヘキサン CH3 ＊ ③ CH3 CH2 CH2 CH CH2 CH3 3-メチルヘキサン CH3 ＊ ④ CH3 CH2 CH CH CH3 2,3-ジメチルペンタン CH3 CH3 第 6 ⑤ CH3 CH CH2 CH CH3 2,4-ジメチルペンタン 章 CH3 CH3 CH3 ⑥ CH3 CH2 CH2 C CH3 2,2-ジメチルペンタン 有 機 CH3 CH3 化 ⑦ CH3 CH2 C CH2 CH3 3,3-ジメチルペンタン 合 物 CH3 ⑧ CH3 CH2 CH CH2 CH3 3-エチルペンタン CH2 CH3 CH3 ⑨ CH3 CH C CH3 2,2,3-トリメチルブタン CH3 CH3 (＊印は不斉炭素原子) ❷ (2) (イ)の②には、次のようなシス-トランス異性体 がある。 ❷シス-トランス異性体 CH3 CH3 CH3 H (幾何異性体)は二重結合 C C C C H H H CH3 をつくる各炭素原子に、 シス-2-ブテン トランス-2-ブテン それぞれ異なる原子また (3) 分子中に不斉炭素原子があると、鏡像異性体が存在する。したが は原子団が結合して生じ って、(オ)の③、④には鏡像異性体が存在する。 る。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題434"
+  },
+  {
+    "id": "pdfbook_435",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "435. 立体異性体▶次の各問いに答えよ。 (1) フマル酸とマレイン酸は、どちらも分子式 C4H4O4 で 表される 2 価のカルボン酸であり、フマル酸はトランス形、 マレイン酸はシス形である。それぞれの構造式を示せ。 (2) 分子式 C6H10 で表される直鎖状の化合物には、図に示 す 2,4-ヘキサジエンがある。この化合物には、シス-トラ ンス異性体が存在する。考えられるシス-トランス異性体 の構造式をすべて示せ。 (3) L-グルタミン酸の構造式を図に示す。これに含まれる 炭素原子のうち、不斉炭素原子はどれか。番号で答えよ。 (4) L-グルタミン酸と鏡像異性体の関係にある D-グルタミ ン酸の構造式を図にならって示せ。 (鹿児島大 改) 259",
+    "image": "./assets/question-pages/p254-259_21_有機化合物の特徴と構造-6.jpg",
+    "imageAlt": "問題 435 の掲載ページ",
+    "modelAnswer": "311",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "435. 立体異性体 311 問題 436 ▶ 438 (3) 2 (4) (1) 分子式 C4H4O4 で表される分子に、 2 つのカルボキシ基 COOH が含まれることか ら、これを除く炭素の骨格は C2H2 と表され、 分子は右のような構造となる。 二重結合をもつ化合物の場合、二重結合をはさんで、 同種の原子または原子団が同じ側に結合しているシス 形と、反対側に結合しているトランス形が存在する場 合がある。 ❶ (2) 2,4-ヘキサジエン には二重結合が 2 つある。 ❶分子内に炭素原子間の それぞれの二重結合について、シス-トランス異性体 二重結合を 2 つもつ炭化 を考えると、次のようになる。 水素をジエンという。ジ エンには合成ゴムの原料 に用いられる1,3-ブタジ エン CH2 CHCH CH2 などがある。 ❷有機化合物を簡略化し て示す表記法で表してい る。この表記法では、炭 素骨格をジグザグの直線 このように、①トランス−トランス、②トランス−シス、③シス−トラ で表し、炭素骨格をわか ンス、④シス−シスの 4 つの組み合わせが考えられる。①が問題で与え りやすくしている。 られた構造である。これらの異性体のうち、②と③は同じ化合物となる ので、実際にはシス-トランス異性体は 3 種類存在することになる。 (3)、(4) 分子内に不斉炭素原子があれば、鏡像異性体が存在する。一 般に、不斉炭素原子に結合し ている 4 つの原子または原子 団のうちのいずれか 2 つの位 置を置き換えると鏡像異性体 ができる。 L-グルタミン酸の 3 、 4 、 5 番の炭素原子を含む原子団を R で表すと、L-グルタミン酸 と鏡像異性体の関係にある ❸鏡像関係にある鏡像異 D-グルタミン酸は、次のよう 性体は D-、L-のような ❸ になる 。 表記を用いて区別される。 312",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p254-259 21 有機化合物の特徴と構造・問題435"
+  },
+  {
+    "id": "pdfbook_436",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "436. 炭化水素の構造式▶次の(1)〜(6)の物質の構造式を例にならって示せ。また、(7) 〜(9)で示される物質の名称を記せ。 CH2 〈例〉 エタン CH3 CH3 シクロプロパン CH2 CH2 エチレン CH2 CH2 (1) アセチレン (2) プロパン (3) プロペン (4) 1-ブテン (5) 2-ブテン (6) シクロペンタン (7) CHCl3 (8) CH3 CH(CH3) CH3 (9) CH2 C(CH3)2",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-4.jpg",
+    "imageAlt": "問題 436 の掲載ページ",
+    "modelAnswer": "❶",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "436. 炭化水素の構造式 ❶ (1) CH CH (2) CH3 CH2 CH3 (3) CH2 CH CH3 (4) CH2 CH CH2 CH3 (5) CH3 CH CH CH3 1 モノ mono 2 ジ di (6) (7) トリクロロメタン(クロロホルム) 3 トリ tri (8) 2-メチルプロパン(イソブタン) 4 テトラ tetra (9) 2-メチルプロペン(イソブテン) 5 ペンタ penta 6 ヘキサ hexa 名称に付記された数字は、不飽和結合や置 7 ヘプタ hepta 換基の位置を示す。置換基の数は、ジ、トリ、テト 8 オクタ octa ❶ ラなどの数詞で示される 。たとえば、(8)は端から 9 ノナ nona 2 つめの炭素原子にメチル基が 1 個ついたプロパン 10 デカ deca である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題436"
+  },
+  {
+    "id": "pdfbook_437",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "437. メタン▶メタンに関して、次の各問いに答えよ。 (1) 酢酸ナトリウムと水酸化ナトリウムを混合して加熱すると、 メタンが発生する。この変化を化学反応式で表せ。 (2) メタンに塩素を加えて光を照射したときに生じる 4 種類の 置換体の化学式と名称を記せ。 (3) 同温・同圧で同体積のメタンとプロパンをそれぞれ完全燃 焼させるとき、必要な酸素の体積比を最も簡単な整数比で示せ。",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-5.jpg",
+    "imageAlt": "問題 437 の掲載ページ",
+    "modelAnswer": "6",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "437. メタン 第 6 (1) CH3COONa+NaOH → CH4+Na2CO3 章 (2) CH3Cl：クロロメタン(塩化メチル) CH2Cl2：ジクロロメタン(塩化メチレン) CHCl3：トリクロロメタン(クロロホルム) 有 機 CCl4：テトラクロロメタン(四塩化炭素) 化 (3) メタン：プロパン=2：5 合 物 一般式が CH2+2 で表されるアルカンのうち、n=1 のものが メタン CH4 である。 (1) 酢酸ナトリウム CH3COONa と水酸化ナトリウムを混合して加熱 すると、炭酸ナトリウムが生じ、メタンが発生する。 CH3COONa+NaOH → CH4+Na2CO3 (2) メタンのようなアルカンは、一般に、反応性に乏しいが、塩素と混 合して光(紫外線)をあてると、段階的に置換反応がおこる。 CH4 → CH3Cl → CH2Cl2 → CHCl3 → CCl4 メタン クロロメタン ジクロロメタン トリクロロメタン テトラクロロメタン (塩化メチル) (塩化メチレン) (クロロホルム) (四塩化炭素) (3)メタン CH4、プロパン C3H8 の完全燃焼は、次のように表される。 CH4+2O2 → CO2+2H2O C3H8+5O2 → 3CO2+4H2O 化学反応式の係数から、必要な酸素の体積比はメタン：プロパン=2：5 である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題437"
+  },
+  {
+    "id": "pdfbook_438",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "438. エチレン▶次の文中の( )に適当な語句または数値を入れよ。 エチレンは、エタノールと濃硫酸を約( ア )℃に加熱すると得られる。エチレン分 子を構成する原子は、すべて同一( イ )上にあり、2 つの CH2 は二重結合を軸にした 回転ができない。臭素水にエチレンを通じると、その水溶液の( ウ )色が消える。こ れは( エ )反応がおこるためである。また、リン酸を触媒として、水を(エ)反応させ ると( オ )を生じる。適当な触媒を用いて、多数のエチレン分子を( カ )させると、 高分子である( キ )が生成する。",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-5.jpg",
+    "imageAlt": "問題 438 の掲載ページ",
+    "modelAnswer": "(ア) 170 (イ) 平面 (ウ) 赤褐 (エ) 付加",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "438. エチレン (ア) 170 (イ) 平面 (ウ) 赤褐 (エ) 付加 (オ) エタノール (カ) 付加重合 (キ) ポリエチレン エチレン C2H4 は、エタノール C2H5OH の分子内脱水反応でつ ❶石油の分留において、 くることができる。 沸点30〜200℃の成分を CH3CH2OH → CH2 CH2+H2O ナフサという。ナフサは ❶ 工業的には、石油を分留して得られるナフサ(粗製ガソリン) の熱分解 炭素数 5 〜11の炭化水素 (クラッキング)によって製造する。 などを含む混合物である。 313 問題 439 ▶ 442 エチレン分子を構成する原子はすべて同一平面上にあり、 2 つの CH2 ❷ は二重結合を軸にして自由に回転できない 。 ❷ 臭素水にエチレンを通じると、臭素水の赤褐色が消える。これは、エチ レンに臭素が付加して 1,2-ジブロモエタン(無色)が生成したためであ る。エチレンのように分子内に二重結合をもつ分子は、次のように付加 反応や重合反応を行う。 CH2 CH2+Br2 → CH2Br CH2Br CH2 CH2+H2O → CH3 CH2 OH 付加重合 nCH2 CH2 →  CH2 CH2   ポリエチレン",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題438"
+  },
+  {
+    "id": "pdfbook_439",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "439. アセチレン▶図はアセチ レン CH CH を原料とする 有機化合物の合成経路である。 A〜 H に適切な化合物の構造 式と名称を記せ。ただし、 B は組成式と名称を記せ。",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-5.jpg",
+    "imageAlt": "問題 439 の掲載ページ",
+    "modelAnswer": "A. CH2 CH C N アクリロニトリル",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "439. アセチレン A. CH2 CH C N アクリロニトリル B . CaC2 炭化カルシウム(カーバイド) C . ベンゼン D. 酢酸ビニル E . CH2 CH Cl 塩化ビニル F. アセトアルデヒド G . CH2 CH2 エチレン H . CH3 CH3 エタン アセチレン C2H2 は、炭化カルシウム(カーバイド)CaC2 と水 からつくられる。 CaC2+2H2O → Ca(OH)2+CH CH アセチレンを赤熱した鉄管に通すと、 3 分子が重合してベンゼン C6H6 が生成する。 3CH CH → C6H6 ❶CH2 CH はビニル アセチレンに種々の分子を付加させると、二重結合をもった化合物 基とよばれる。   ❶ CH2 CH X が生成する。 X：CH3COO 酢酸ビニル CH CH+H X → CH2 CH Cl 塩化ビニル X CN アクリロニトリル H エチレン アセチレンに水が付加すると、次のようにビニルアルコールが生成する が、この物質は不安定で、ただちにアセトアルデヒドになる。 H2O CH CH → CH2 CH → CH3 C H OH O",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題439"
+  },
+  {
+    "id": "pdfbook_440",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "440. 石油の精製▶次の記述のうち、誤っているものを 1 つ選べ。 (ア) 原油の主成分は、アルカンやシクロアルカンなどの炭化水素である。 (イ) 原油の分留によって得られるナフサの沸点は、灯油の沸点よりも高い。 (ウ) ナフサの熱分解によって、工業原料であるエチレンなどが得られる。 (エ) 市販のガソリンには、ナフサの接触改質によって得られる成分が含まれる。 264 H=1.0 C=12 Br=80",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-5.jpg",
+    "imageAlt": "問題 440 の掲載ページ",
+    "modelAnswer": "(イ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "440. 石油の精製 (イ) (ア) (正) 油田からくみ上げられる原油の主成分は、鎖式お よび環式の飽和炭化水素である。 (イ) (誤) 原油の分留によって得られる成分を、沸点の低い順に並べ ると、石油ガス、ナフサ、灯油、軽油の順になる。ここで残った残油を さらに減圧して蒸留すると、重油が得られる。 (ウ) (正) エチレンは、工業的にはおもに触媒を用いたナフサの熱分 314 解(クラッキング)によって得られる。 (エ) (正) ナフサは粗製ガソリンともよばれるが、そのままでは市販 のガソリンとして用いることができない。触媒を使ってナフサの成分で ある炭化水素の炭素骨格を変換し(接触改質)、市販ガソリンとしている。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題440"
+  },
+  {
+    "id": "pdfbook_441",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "441. 炭化水素の反応▶次の(1)〜(5)の反応を化学反応式で表せ。 (1) メタンに塩素を加えて光を照射すると、クロロメタンを生じた。 (2) エタノールと濃硫酸の混合物を約170℃で加熱すると、エチレンが発生した。 (3) 炭化カルシウム(カーバイド)に水を加えると、アセチレンが発生した。 (4) エチレンに臭素が付加して、1,2-ジブロモエタンが生成した。 (5) アセチレンが重合して、ベンゼンが生成した。",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-6.jpg",
+    "imageAlt": "問題 441 の掲載ページ",
+    "modelAnswer": "(1) CH4+Cl2 → CH3Cl+HCl",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "441. 炭化水素の反応 (1) CH4+Cl2 → CH3Cl+HCl (2) C2H5OH → CH2 CH2+H2O (3) CaC2+2H2O → CH CH+Ca(OH)2 (4) CH2 CH2+Br2 → CH2Br CH2Br (5) 3CH CH → C6H6 (1) メタンなどのアルカンは、一般に、反応性に乏しいが、塩 素と混合して光(紫外線)をあてると、次のような置換反応がおこる。 CH4+Cl2 → CH3Cl+HCl このような水素と塩素の置換反応は、段階的におこり、すべての水素が 塩素と置換された四塩化炭素 CCl4 まで反応を進めることができる。 (2) エタノールと濃硫酸の反応は、温度によって生成する物質が異なる。 第 6 130℃〜140℃では、エタノールの分子間から水が取れて、ジエチルエー 章 テルが生成する。 ❶ C2H5OH+HOC2H5 → C2H5OC2H5+H2O (分子間脱水) ❶ 2 分子から水などの簡 160℃〜170℃では、 1 分子のエタノールから水が取れて、エチレンが生 単な分子が取れて、 1 分 有 機 成する。 子の化合物が生成する反 化 C2H5OH → CH2 CH2+H2O (分子内脱水) ❷ 応を縮合という。 合 物 (3) 炭化カルシウム(カーバイド)に水を加えるとアセチレンが発生し、 水酸化カルシウムが生じるため、その水溶液は強い塩基性を示す。 ❷ 1 分子から簡単な分子 CaC2+2H2O → CH CH+Ca(OH)2 が取れる反応は脱離とい (4) 臭素水にエチレンを通じると臭素水の赤褐色が消える。これは、 う。 エチレンに臭素が付加して、無色の 1,2-ジブロモエタンが生成するため である。 CH2 CH2+Br2 → CH2Br−CH2Br (5) アセチレンを赤熱した鉄管に通すと、 3 分子が重合してベンゼン C6H6 が生成する。 3CH CH → C6H6",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題441"
+  },
+  {
+    "id": "pdfbook_442",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "442. 炭化水素の異性体▶次の記述のうち、正しいものを 1 つ選べ。 (ア) プロパンには、構造異性体が存在する。 (イ) ブタンには、シス-トランス異性体(幾何異性体)が存在する。 (ウ) ペンタン C5H12 には、 3 つの構造異性体が存在する。 (エ) 分子式 C3H6 で示される炭化水素には、異性体が存在しない。 (オ) 分子式 C4H8 で示されるアルケンには、構造異性体が 2 種類、シス-トランス異性 第 体が 3 種類存在する。 6 章",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-6.jpg",
+    "imageAlt": "問題 442 の掲載ページ",
+    "modelAnswer": "(ウ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "442. 炭化水素の異性体 (ウ) (ア) (誤) アルカン CH2+2 のうち、構造異性体が存在す るのは n=4 のブタン C4H10 からである。 (イ) (誤) シス-トランス異性体(幾何異性体)は、分子内の二重結合 が回転できないことによって生じる異性体である。アルカンであるブタ ン C4H10 には、二重結合は存在しない。 (ウ) (正) ペンタン C5H12 の構造異性体は、次の 3 種類である。 CH3 CH2 CH2 CH2 CH3 ペンタン CH3 CH3 CH2 CH CH3 2-メチルブタン CH3 C CH3 CH3 CH3 2,2-ジメチルプロパン 315 問題 443 ▶ 445 (エ) (誤) 一般式 CH2 で示される化合物には、アルケンとシクロ ❶ アルカンがある 。C3H6 で示される化合物には、次の 2 つの物質がある。 ❶アルケンとシクロアル CH2 CH CH3 プロペン(プロピレン) CH2 CH2 シクロプロパン カンは、いずれも一般式 CH2 CH2 で表される。 (オ) (誤) C4H8 で示される化合物のうち、アルケンの構造異性体を示す。 CH2 CH CH2 CH3 1-ブテン CH3 CH CH CH3 2-ブテン CH3 C CH2 2-メチルプロペン CH3 これらのうち、2-ブテンにはシス-トランス異性体が存在する。 CH3 CH3 CH3 H C C C C H H H CH3 シス-2-ブテン トランス-2-ブテン したがって、アルケン C4H8 には、 3 種類の構造異性体が存在し、また、 2 種類のシス-トランス異性体が存在する。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題442"
+  },
+  {
+    "id": "pdfbook_443",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "443. 炭化水素の構造と性質▶次の(1)、(2)の条件にあてはまる化合物をすべて選び、園 〜延の番号で示せ。 有 機 (1) 分子をつくっている原子がすべて同一平面上にある化合物 化 合 (2) 付加反応によって臭素水を脱色する化合物 物 園 CH3CH3 堰 CH3CH(CH3)CH3 奄 CH2 CH2 宴 CH CH 延 CH3CH CHCH3",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-6.jpg",
+    "imageAlt": "問題 443 の掲載ページ",
+    "modelAnswer": "(1) 奄、宴 (2) 奄、宴、延 ❶ メ タ ン 分 子 CH4 は、",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "443. 炭化水素の構造と性質 (1) 奄、宴 (2) 奄、宴、延 ❶ メ タ ン 分 子 CH4 は、 園〜延の化合物の立体構造は、次のようになる。 水素原子を頂点とする正 四面体形の構造をとる。 メ チ ル 基 CH3 もメタ ン分子と同様に、四面体 の頂点に水素原子が位置 する構造をとる。 ❷ (1) 園のエタン、堰の 2-メチルプロパン、延の 2-ブテンの分子を構成 ❶ する原子は、メタンの分子構造と同様の構造をもつため 、すべての原 子が同一平面上に存在するわけではない。 奄のエチレン C2H4 は二重結合をもつ分子で、すべての原子が同一平面 ❷ 上に存在する 。エチレン分子の炭素結合間の距離は、単結合の場合よ ❸エチレンの C C間 ❸ りも短い 。また、 2 つの CH2 は、二重結合を軸とした回転ができない。 の 距 離 は 0.134 nm、エ 宴のアセチレン分子はすべての原子が同一直線上に存在する。したがっ タンの C C 間の距離 て、すべての原子は同一平面上に存在する。 は 0.154 nm である。 (2) 分子中に二重結合や三重結合などの不飽和結合をもつものは、臭 素水を脱色する。不飽和結合をもつものは奄、宴、延である。 脂肪族炭化水素 一般式 構造と性質 例 アルカン CnH2n+2 単結合のみからなる鎖状構造の飽和炭化水素。 メタン CH4、エタン C2H6 二重結合を 1 個もち、付加反応や重合反応をし エチレン CH2 CH2 アルケン CnH2n やすい。 プロペン CH3 CH CH2 三重結合を 1 個もち、付加反応や重合反応をし アセチレン CH CH アルキン CnH2n−2 やすい。 プロピン CH3−C CH 316",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題443"
+  },
+  {
+    "id": "pdfbook_444",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "444. 炭化水素の燃焼▶次の各問いに答えよ。 (1) 炭化水素の一般式を CH として、炭化水素の完全燃焼を化学反応式で表せ。 (2) ある炭化水素 1 mol を完全燃焼させたところ、二酸化炭素 4 mol と水 4 mol が生成 した。この炭化水素の分子式を示せ。 (3) あるアルケン CH2 1 mol を完全燃焼させるのに、酸素が 3 mol 必要であった。 このアルケンの分子式を示せ。",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-6.jpg",
+    "imageAlt": "問題 444 の掲載ページ",
+    "modelAnswer": "(1) CmHn+ m+ n",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "444. 炭化水素の燃焼 (1) CmHn+ m+ n 4 n O2 → mCO2+ H2O 2 (2) C4H8 (3) C2H4 ❶ (1) 1 mol の炭化水素 CH を完全燃焼させる と、CO2 が ❶完全燃焼では、化合物 m〔mol〕、H2O が n/2〔mol〕生成する。これらから、両辺の酸素原子の数 中の C が CO2、H が H2O を合わせると、次の化学反応式が得られる。 になる。  CH+ m+ n 4  n O2 → mCO2+ H2O 2 (2) 1 mol の炭化水素が完全燃焼して二酸化炭素と水がそれぞれ 4 mol ずつ生成したので、(1)の化学反応式の係数から、m=4、n/2=4 と なり、m=4、n=8 となる。したがって、分子式は C4H8 である。 (3) アルケン CH2 の完全燃焼の化学反応式は、次のようになる。 3n CH2+ O → nCO2+nH2O 2 2 アルケン 1 mol を完全燃焼させるのに必要な酸素は 3 mol なので、化学 第 6 反応式の係数から、3n/2=3 となる。したがって、n=2 となり、分子式 章 は C2H4 である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題444"
+  },
+  {
+    "id": "pdfbook_445",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "445. 付加反応▶次の各問いに答えよ。 (1) ある炭化水素を 0 ℃、1.013×105 Pa で 3.0 L とって完全燃焼させたところ、同温・ 同圧で 9.0 L の二酸化炭素が得られた。また、炭化水素 3.0 L に水素を付加させると、 同温・同圧で 6.0 L の水素が吸収された。この炭化水素の分子式を次から選べ。 園 C2H2 堰 C2H4 奄 C3H4 宴 C3H6 延 C4H6 怨 C4H8 (2) 5.60 g のアルケン CH2 に臭素 Br2 を完全に反応させたところ、37.6 g の化合物 CH2Br2 を得た。このアルケンの炭素数 n を次から選べ。 園 1 堰 2 奄 3 宴 4 延 5 怨 6 265 H=1.0 C=12 Br=80 発展例題 35 炭化水素の構造推定 ➡問題 447 あるアルケン A に臭素を反応させたところ、アルケン A の約3.3倍の分子量をもつ生成 物が得られた。また、このアルケンAに水素を反応させると、アルカン B が生成した。 (1) アルケンAの分子式を示せ。 (2) この反応で生じたアルカン B として考えられる構造式は何種類か。 (1) ア ル ケ ン CH2 と 臭 素 Br2 (1) A の分子量は CH2 =14n、臭素付加生成物の分子 の反応は、次のようになる。 量は CH2Br2=14n+160 である。したがって、次の関 CH2+Br2 → CH2Br2 係が成り立つ。 アルケンと臭素付加生成物の分 14n+160=14n×3.3 n=5 C5H10 子量を比較して、 n を求め、分 (2) A(C5H10)に水素が付加してできるアルカン B 子式をつくる。 (C5H12)は、次の 2 種類だけである。 (2) アルケン A には、 5 種類の 構造異性体が考えられる。それ ぞれの水素付加生成物を考える。 発展例題 36 オゾン分解 ➡問題 448 有機化合物Aは、分子量が 70 のアルケンである。一般に、炭素原子間の二重結合をオゾ ン分解すると、二重結合が切断され、次に示すように、カルボニル基をもつ 2 つの化合 物が生じる。 O 3 C C → C O+O C この反応を用い、化合物 A の二重結合を切断すると、アセトアルデヒド CH3CHO とア セトン CH3COCH3 を生じた。化合物Aの構造式を示せ。 アルケンをオゾン O3 で酸化すると、 CH2=70 から、12n+2n=70 n=5 次のように分解される。 したがって、化合物Aの分子式は C5H10 となる。また、 R1 R3 3 O この化合物Aをオゾン分解すると、アセトアルデヒド 2 C C → R R4 CH3CHO とアセトン CH3COCH3 を生じる。 R1 R3 O 3 CH3 CH3 2 C O + O C C5H10 → C O + O C R R4 H CH3 一部の R が H のとき、生成物がアルデ 生成した CH3CHO と CH3COCH3 のカルボニル基 ヒドとなる。 C=O がもとの化合物 A の二 CH3 CH3 アルケンの分子式を CH2 として分 重結合に相当するので、構造式 C C H CH3 子式を求める。 は右のようになる。 例題 266 解説動画 C=12 Ca=40",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-6.jpg",
+    "imageAlt": "問題 445 の掲載ページ",
+    "modelAnswer": "機",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "445. 付加反応 有 機 (1) 奄 (2) 堰 化 (1) 炭化水素 CH の完全燃焼を表す化学反応式は、 ❶C C 結 合 1 個 に H2 合 物 は 1 個、C C 結合には  CH+ m+ n 4  n O2 → mCO2+ H2O 2 …① H2 2 個が付加できる。 ①式において、 1 mol の炭化水素からmmol の二酸化炭素が生成してお り、同温・同圧における体積比は、1：m である。3.0 L の炭化水素の燃 ❷分子式の比較 焼で、9.0 L の二酸化炭素が生じたので、体積比は、炭化水素：二酸化炭 (鎖式化合物の場合) 素=3.0：9.0=1.0：3.0 であり、m=3 となる。 飽和炭化水素：CH2+2 また、炭化水素 3.0 L に水素 6.0 L が付加しているので、炭化水素 1 mol C C が 1 個：CH2 あたり 2 mol の水素が付加する。したがって、この炭化水素は、分子内 C C が 2 個または ❶ に 2 個の二重結合または 1 個の三重結合をもつことになる 。いずれの C C が 1 個：CH2−2 ❷ 場合でも、n=(2m+2)−4=2m−2 となる ので、n=2×3−2=4 となる。 (2) アルケン CH2 と臭素 Br2 の反応は、次のようになる。 ❸臭素に着目すると、臭 CH2 + Br2 → CH2Br2 素の質量は、 モル質量 14n 160 14n+160 〔g/mol〕 37.6 g−5.60 g=32.0 g 化学反応式の係数から、CH2 と CH2Br2 の物質量は等しいので、 したがって、次式から求 5.60 g 37.6 g ❸ めることもできる。 = n=2 14n g/mol (14n+160)g/mol 5.60 g 32.0 g = したがって、アルケン CH2 の炭素数は 2 である。 14n g/mol 160 g/mol 317 問題 446 ▶ 448",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題445"
+  },
+  {
+    "id": "pdfbook_446",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "446. アセチレン▶次の文を読み、下の各問いに答えよ。 アセチレン C2H2 は三重結合を有する有機化合物の中で最小の炭化水素であり、アル カンの熱分解で製造されるほか、炭化カルシウムに水を加えても発生する。アセチレン は反応性に富み、 2 分子の臭素と速やかに反応してAを与える。また、硫酸水銀(Ⅱ)触 媒の存在下では水の付加も進行する。このとき、不安定な B を経由し、最終的に B の構 造異性体である C を与える。さらに、アセチレンを赤熱した鉄に触れさせると 3 分子の 重合が起こり D になる。一方、アセチレンを過剰のアンモニア性硝酸銀水溶液に通じる と、 E が白色沈殿として生じる。 (1) 化合物A〜 E の構造式を記せ。 (2) 下線部の反応式を記せ。また、純度64.0％の炭化カルシウム 5.00 g と十分な量の 水を反応させたときに発生するアセチレンの体積は、0 ℃、1.013×105 Pa で何 L に相 第 当するか。 (24 大阪大 改) 6 章",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-8.jpg",
+    "imageAlt": "問題 446 の掲載ページ",
+    "modelAnswer": "(1)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "446. アセチレン (1) (2) CaC2+2H2O → C2H2+Ca(OH)2 1.12 L (1) 本問で扱われている反応の流れは、図のようになる。ア ンモニア性硝酸銀水溶液にアセチレンを通じると、置換反応によって銀 ❶ アセチリド AgC CAg の白色沈殿を生じる 。この反応は、エタンやエ ❶銀アセチリドは、加熱 チレンでは進行しない。 や衝撃によって爆発しや すい化合物である。 (2) CaC2 と水は次式のように反応してアセチレン C2H2 が発生する。 CaC2+2H2O → C2H2+Ca(OH)2 純 度 64.0％ の 炭 化 カ ル シ ウ ム 5.00 g に 含 ま れ る CaC2 の 質 量 は 5.00 g×0.640=3.20 g である。CaC2 のモル質量は 64 g/mol なので、水 と反応する CaC2 の物質量は、 3.20 g =5.00×10−2 mol 64 g/mol 上記の反応式より、 1 mol の CaC2 から発生するアセチレンは 1 mol な ので、この反応では 5.00×10−2 mol のアセチレンが発生する。このアセ チレンが 0 ℃、1.013×105 Pa で占める体積は次式のように求められる。 22.4 L/mol×5.00×10−2 mol=1.12 L",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題446"
+  },
+  {
+    "id": "pdfbook_447",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "447. 炭化水素の推定▶分子式が C4H8 で表されるアルケンA、B 、C 、D がある。A〜 D に水素を付加させたところ、A、 B 、 C からは同じアルカンが生じた。A、 B 、 C に水 有 機 を付加させたところ、Aと B からはアルコール X 、 C からはアルコール X と Y が生じた。 化 合 次の各問いに答えよ。 物 (1) Aと B は、何という異性体の関係にあるか。 (2) Aと B が異性体になる理由を25字以内で記せ。 (3) アルケン C 、 D およびアルコール X と Y の構造式を記せ。 (4) C4H8 の分子式をもつ、アルケン以外の化合物の構造式を 1 つ記せ。 (11 九州工業大 改)",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-8.jpg",
+    "imageAlt": "問題 447 の掲載ページ",
+    "modelAnswer": "(1) シス-トランス異性体(幾何異性体)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "447. 炭化水素の推定 (1) シス-トランス異性体(幾何異性体) (2) 二重結合を軸とした分子内の回転ができないから。(23字) (3) C CH3 CH2 CH CH2 D CH3 C CH2 CH3 X CH3 CH2 CH CH3 Y CH3 CH2 CH2 CH2 OH OH (4) (1)〜(3) 分子式が C4H8 で表されるアルケンには、次の 4 種 類がある。 318 これらに水素を付加させると、①〜③からはブタン CH3CH2CH2CH3、 ④からは 2-メチルプロパン CH3CH(CH3)2 が生成する。したがって、D ❶水が結合する向きの違 は④の 2-メチルプロペンである。次に①〜③に水を付加させると、①か いによって 2 種類の化合 ❶ らは、次のように 1-ブタノールと 2-ブタノールが生成する 。 物が生成する。 ❷次のように二重結合を 形成する炭素のどちら側 にヒドロキシ基が結合し ても同じ物質を生じる。 ❷ 同様に考えると、②と③からは 2-ブタノールのみが生成するとわかる 。 以上のことから、C は①の 1-ブテン、Aと B は、一方が②のトランス-2- ブテン、もう一方が③のシス-2-ブテンである。また、アルコール X は 第 6 2-ブタノール、 Y は 1-ブタノールである。 章 (4) 分子式 CH2 で表される炭化水素(n≧3)には、アルケン以外に、 シクロアルカンがある。 有",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題447"
+  },
+  {
+    "id": "pdfbook_448",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "448. 炭化水素の構造決定▶次の文を読んで、下の各問いに答えよ。 アルケンにオゾンを作用させると、次式に示すオゾン分解とよばれる反応によって、 ケトンまたはアルデヒドを得ることができる。   R1、R2、R3、R4 R1 R3 オゾン分解 R1 R3 C C → C O+O C は、水素原子または R2 R 4 R2 R4 アルキル基を表す。 分子式が C5H10 であるアルケンA〜 C についてオゾン分解をしたところ、アルケンA からは化合物 D と E が、アルケン B からは化合物 D と F が、アルケン C からは化合物 G とホルムアルデヒド HCHO がそれぞれ生成した。化合物 D 〜 G の構造を決定するため の実験によって、化合物 D 、 E はホルミル基をもつ化合物であり、化合物 D 、 F 、 G は CH3 CO R の構造をもつカルボニル化合物であった。 (1) アルケン A には 2 種類の構造が考えられる。A として考えられる 2 種類のアルケ ンの構造式を記せ。 (2) アルケン B 、 C の構造式を記せ。 (3) 化合物 D 〜 G の構造式を記せ。 (17 高知大 改) 267",
+    "image": "./assets/question-pages/p260-267_22_脂肪族炭化水素-8.jpg",
+    "imageAlt": "問題 448 の掲載ページ",
+    "modelAnswer": "化",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "448. 炭化水素の構造決定 機 化 (1) 合 物 (2) B C (3) D CH3 CHO E CH3 CH2 CHO F CH3 CO CH3 G CH3 CO CH2 CH3 ❶ (1) A をオゾン分解 すると、 D と E が生じる。 D は ❶オゾンを用いて、アル CH3 CO R の構造をもつアルデヒドなので、R H と考えられ、アセ ケンの二重結合を切断し トアルデヒド CH3CHO である。A の分子式 C5H10 から考えると、 E は て、ケトンやアルデヒド 炭素原子 3 個のアルデヒド R CHO であり、プロピオンアルデヒド を生じさせる反応は、オ CH3CH2CHO である。 ゾン分解とよばれる。 O3 C5H10 → CH3CHO + CH3CH2CHO A D E したがって、A は 2-ペンテン CH3CH2CH CHCH3 である。2-ペンテ ンにはシス-トランス異性体が存在する。 (2)、(3) B をオゾン分解すると、 D と F が生成する。(1)から、 D は CH3CHO である。 B の分子式 C5H10 から考えると、F は炭素原子 3 個で、 CH3 CO R の構造をもつので、アセトン CH3COCH3 とわかる。 O3 C5H10 → CH3CHO + CH3COCH3 B D F したがって、 B は 2-メチル-2-ブテン CH3CH C(CH3)CH3 である。 C をオゾン分解すると、 G とホルムアルデヒド HCHO が生成する。 C 319 問題 449 ▶ 451 の分子式 C5H10 から考えると、G は炭素原子 4 個で、CH3 CO R の構 造をもつので、エチルメチルケトン CH3COCH2CH3 とわかる。 O3 C5H10 → CH3COCH2CH3 + HCHO C G ホルムアルデヒド したがって、 C は 2-メチル-1-ブテン CH2 C(CH3)CH2CH3 である。 分子式が C5H10 のアルケンには、シス-トランス異性体も含めて、 次の①〜⑥の異性体がある。 ① CH3 CH2 CH2 CH CH2 ② CH3 CH2 CH3 ③ CH3 CH2 H C C C C 1-ペンテン H H H CH3 シス-2-ペンテン トランス-2-ペンテン ④ CH3 CH2 C CH2 ⑤ CH3 CH C CH3 ⑥ CH2 CH CH CH3 CH3 CH3 CH3 2-メチル-1-ブテン 2-メチル-2-ブテン 3-メチル-1-ブテン ①〜⑥のアルケンをオゾン分解すると、次のようなアルデヒドとケトン ❷ が生成する 。 ❷二重結合をつくる炭素 オゾン分解 原子に結合する水素原子 ① CH3 CH2 CH2 CH CH2 → CH3CH2CH2CHO と HCHO の数から、ケトン、アル 1-ペンテン ブチルアルデヒド ホルムアルデヒド (ブタナール) デヒド、ホルムアルデヒ ドのどれが生成するかを ② CH3 CH2 CH3オゾン分解 C C → CH3CH2CHO と CH3CHO 判断する。 H H プロピオンアルデヒド シス-2-ペンテン アセトアルデヒド (プロパナール) ③ CH3 CH2 H オゾン分解 C C → CH3CH2CHO と CH3CHO H CH3 プロピオンアルデヒド アセトアルデヒド トランス-2-ペンテン オゾン分解 ④ CH3 CH2 C CH2 → CH3CH2 C O と HCHO CH3 CH3 2-メチル-1-ブテン エチルメチルケトン ホルムアルデヒド ⑤ CH3 CH C CH3 オゾン分解 CH3 → CH3CHO と C O CH3 CH3 2-メチル-2-ブテン アセトアルデヒド アセトン ⑥ CH2 CH CH CH3 オゾン分解 CH3 → HCHO と CH CHO CH3 CH3 3-メチル-1-ブテン ホルム イソブチルアルデヒド アルデヒド (2-メチルプロパナール) ( はケトンを表す) オゾン分解 オゾン O3 を用いて、アルケンの二重結合を切断し、ケトンやアルデヒドを生成させる反応。生 じたケトンやアルデヒドから、もとのアルケンを推定できる。 R1 R3 O3 R1 R3 2 C C 4 → 2 C O+O C R R オゾン分解 R R4 1 4 (R 〜R は水素原子または炭化水素基) R1〜R4 のいずれか 1 つでも H の場合は、アルデヒドを生じる。 320",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p260-267 22 脂肪族炭化水素・問題448"
+  },
+  {
+    "id": "pdfbook_449",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "449. メタノール▶次の実験 1 、 2 について、下の各問いに答えよ。 実験 1 メタノールを試験管にとり、米粒大のナトリウムの小片を 1 つ加えた。 実験 2 メタノールを試験管にとり、図のように、加熱した銅線を 液面近くまで差しこんだ。 (1) 実験 1 でおこった変化を化学反応式で表せ。 (2) 実験 2 で銅線を差しこんだとき、銅線の色は何色から何色に変化したか。 (3) 実験 2 でメタノールは何に変化したか。物質名と化学式を記せ。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-07.jpg",
+    "imageAlt": "問題 449 の掲載ページ",
+    "modelAnswer": "(1) 2CH3OH+2Na → 2CH3ONa+H2",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "449. メタノール (1) 2CH3OH+2Na → 2CH3ONa+H2 (2) 黒色から赤い銅の色に変化した。 (3) ホルムアルデヒド、HCHO (1) メタノール CH3OH はナトリウムと反応して水素を発生 ❶ し、ナトリウムメトキシド CH3ONa を生じる 。 ❶ ア ル コ ー ル ROH は、 2CH3OH+2Na → 2CH3ONa+H2 ナトリウム Na と反応し (2)、(3) 銅線を加熱すると、表面が黒色の酸化銅(Ⅱ)CuO に変化する。 て、ナトリウムアルコキ 熱いうちに、これをメタノールの液面に近づけると、メタノールが酸化 シド RONa を生じる。 され、ホルムアルデヒド HCHO が生じる。このとき、CuO は還元され て、赤味を帯びた銅 Cu に変化する。 CH3OH+CuO → HCHO+Cu+H2O",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題449"
+  },
+  {
+    "id": "pdfbook_450",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "450. エタノール▶次の文中の( )にあてはまる物質名とその示性式を記せ。また、 (a)、 (c)、(e)の変化をそれぞれ化学反応式で表せ。 (a) エタノールにナトリウムを加えると、水素を発生して( ア )を生じる。 (b) 約170℃に加熱した濃硫酸にエタノールを加えると、( イ )を生じる。 (c) 約140℃に加熱した濃硫酸にエタノールを加えると、( ウ )を生じる。 (d) エタノールに、硫酸酸性の二クロム酸カリウム水溶液を加えて加熱すると、中性の ( エ )を生じる。 (e) エタノールに酢酸と少量の濃硫酸を加えて温めると、( オ )を生じる。 例題 274 解説動画",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-07.jpg",
+    "imageAlt": "問題 450 の掲載ページ",
+    "modelAnswer": "(ア) ナトリウムエトキシド C2H5ONa 第",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "450. エタノール (ア) ナトリウムエトキシド C2H5ONa 第 6 (イ) エチレン CH2 CH2 (ウ) ジエチルエーテル C2H5OC2H5 章 (エ) アセトアルデヒド CH3CHO (オ) 酢酸エチル CH3COOC2H5 (a) 2C2H5OH+2Na → 2C2H5ONa+H2 (c) 2C2H5OH → C2H5OC2H5+H2O 有 機 (e) CH3COOH+C2H5OH → CH3COOC2H5+H2O 化 (a) アルコールは、ナトリウムと反応して水素を発生し、ナト 合 物 リウムアルコキシドを生成する。 2R OH+2Na → 2R ONa+H2 (b) 約170℃に加熱した濃硫酸にエタノールを加えると、分子内脱水(脱 ❶ 離)がおこり、エチレンが生成する 。 ❶エタノールと濃硫酸の 約170℃ 反応では、温度によって C2H5OH → CH2 CH2+H2O H2SO4 生成物が異なる。 (c) 約140℃に加熱した濃硫酸にエタノールを加えると、分子間脱水(縮 ❶ 合)がおこり、ジエチルエーテルが生成する 。 約140℃ 2C2H5OH → C2H5OC2H5+H2O H2SO4 (d) エタノールを硫酸酸性の二クロム酸カリウム水溶液で酸化すると、 アセトアルデヒドが生成する。 酸化 C2H5OH → CH3CHO (e) エタノールと酢酸に濃硫酸を加えて加熱すると、縮合がおこり、酢 酸エチルを生じる。 CH3COOH+C2H5OH → CH3COOC2H5+H2O",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題450"
+  },
+  {
+    "id": "pdfbook_451",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "451. アルコールの構造と異性体▶次の各問いに答えよ。 (1) 分子式 C3H8O で表される化合物には、構造異性体は何種類あるか。 (2) 分子式 C4H10O で表されるアルコールについて、次の(a)〜(c)にあてはまる化合 物の構造式および名称を記せ。 (a) 直鎖状で、酸化されるとアルデヒドを生じる。 (b) 鏡像異性体をもつ。 (c) 第三級アルコールである。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-07.jpg",
+    "imageAlt": "問題 451 の掲載ページ",
+    "modelAnswer": "(1) 3 種類",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "451. アルコールの構造と異性体 (1) 3 種類 (2) (a) CH3−CH2−CH2−CH2−OH 1-ブタノール (b) CH3 CH2 CH CH3 2-ブタノール OH 321 問題 452 ▶ 455 (c) CH3 CH3 C CH3 2-メチル-2-プロパノール OH (1) 分子式 C3H8O の異性体には、アルコールとエーテルがあ ❶アルコールはその構造 る。アルコールとして、次の 2 種類が考えられる。 に応じて、第一級アルコ CH3 CH2 CH2 OH CH3 CH CH3 ール〜第三級アルコール 1-プロパノール OH 2-プロパノール に分類される。 エーテルとして、次の 1 種類が考えられる。 第一級アルコール CH3 O CH2CH3 エチルメチルエーテル R CH2 OH ❶ (2) 分子式が C4H10O である異性体には、アルコール として次の 4 種 第二級アルコール ❷ 類が考えられる 。 R1 CH3 CH2 CH2 CH2 OH 1-ブタノール (第一級アルコール) R2 CH OH CH3 CH CH2 OH 2-メチル-1-プロパノール (第一級アルコール) 第三級アルコール CH3 R1 ＊ 2 CH3 CH2 CH CH3 2-ブタノール (第二級アルコール) R C OH CH3 OH (＊は不斉炭素原子) R3 CH3 C CH3 2-メチル-2-プロパノール (第三級アルコール) OH ❷エーテルとしては、次 (a) 酸化されると、第一級アルコールはアルデヒドを経てカルボン酸、 の 3 種類が考えられる。 第二級アルコールはケトンになる。第三級アルコールは酸化されにくい。 CH3CH2CH2 O CH3 上記のうち、直鎖状の第一級アルコールは、1-ブタノールである。 CH3CH2 O CH2CH3 (b) 2-ブタノールは不斉炭素原子をもつので、鏡像異性体が存在する。 (CH3)2CH O CH3 (c) 上記のうち、第三級アルコールは 2-メチル-2-プロパノールである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題451"
+  },
+  {
+    "id": "pdfbook_452",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "452. アルコールとエーテル▶次の記述のうち、誤りを含むものを 1 つ選べ。 (ア) メタノールに酢酸と少量の濃硫酸を加えて温めると、エステルが生成する。 (イ) エタノールはナトリウムと反応して水素を発生するが、ジエチルエーテルはナト リウムとは反応しない。 (ウ) エタノールとジエチルエーテルは、いずれも水によく溶ける。 (エ) エタノールとジメチルエーテルは同じ分子式をもち、互いに異性体である。 第 (オ) ジメチルエーテルよりもエタノールの方が沸点が高い。 6 章",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-08.jpg",
+    "imageAlt": "問題 452 の掲載ページ",
+    "modelAnswer": "(ウ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "452. アルコールとエーテル (ウ) (ア) (正) メタノール CH3OH と酢酸 CH3COOH の混合物 に少量の濃硫酸を加えて温めると、エステルである酢酸メチル CH3COOCH3 を生じる。 CH3OH+CH3COOH → CH3COOCH3+H2O (イ) (正) 一般に、アルコールはナトリウムと反応して水素を発生し、 ナトリウムアルコキシドになる。エーテルはナトリウムと反応しない。 2C2H5OH+2Na → 2C2H5ONa+H2 (ウ) (誤) エタノールは水に任意の割合で溶けるが、ジエチルエーテ ルは水に溶けにくい。 (エ) (正) C2H6O の分子式で示される化合物には、エタノールとジメ チルエーテルの 2 種類の異性体が存在する。 ❶エタノールは常温で液 (オ) (正) エタノールはヒドロキシ基をもち、水素結合を形成するた 体(沸点78℃)、ジメチル め、同じ分子量で互いに異性体の関係にあるジメチルエーテルに比べて エーテルは常温で気体 沸点・融点が高くなる❶。 (沸点−25℃)である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題452"
+  },
+  {
+    "id": "pdfbook_453",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "453. 化合物の推定▶次の記述について、下の各問いに答えよ。 (a) Aは分子式 C3H8O で示され、ナトリウムと反応して気体を発生する。 有 機 (b) Aを酸化すると、ケトン B を生成する。 化 合 (c) Aを濃硫酸とともに加熱すると C が得られる。 C はすみやかに臭素と反応する。 物 (1) 化合物A、 B および C の構造式を示せ。 (2) Aとナトリウムの反応を化学反応式で表せ。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-08.jpg",
+    "imageAlt": "問題 453 の掲載ページ",
+    "modelAnswer": "(1) A. CH3 CH CH3 B . CH3 C CH3",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "453. 化合物の推定 (1) A. CH3 CH CH3 B . CH3 C CH3 OH O C . CH2 CH−CH3 (2) 2(CH3)2CHOH+2Na → 2(CH3)2CHONa+H2 322 分子式 C3H8O で表される化合物には、次の 3 種類がある。 CH3 CH2 CH2 OH CH3 CH CH3 1-プロパノール OH 2-プロパノール CH3 O CH2 CH3 エチルメチルエーテル このうち、ナトリウムと反応して水素を発生するのはアルコールである。 アルコールのうち、酸化するとケトンを生じるのは第二級アルコールな ので、Aは 2-プロパノールとわかり、ケトン B はアセトンとなる。 酸化 CH3 CH CH3 → CH3 C CH3 OH O アセトン 2-プロパノールを濃硫酸で脱水すれば、プロペン(プロピレン)が得られ ❶ る 。プロペンは臭素と付加反応をしやすい。 ❶生成物が臭素水を脱色 CH3 CH CH3 → CH2 CH CH3+H2O するので、この反応の生 OH プロペン 成物はアルケンであり、 付加 CH2 CH CH3+Br2 → CH2Br CHBr CH3 エーテルではないと判断 1,2-ジブロモプロパン できる。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題453"
+  },
+  {
+    "id": "pdfbook_454",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "454. アルデヒドとケトン▶次の文中の( )に適当な語句を入れよ。 アルデヒドは( ア )基 CHO、ケトンは( イ )基 C=O をもっており、いずれ も( ウ )を酸化して得られる。ホルムアルデヒドは、加熱した銅や白金などを触媒と して、( エ )を酸化して合成される。エタノールを酸化すると、中性の( オ )が得 られる。一方、第二級アルコールである 2-プロパノールを酸化すると、( カ )が得ら れる。アルデヒドとケトンの相違は、前者が( キ )作用を示す点にある。たとえば、 アルデヒドは、アンモニア性硝酸銀水溶液を(キ)して( ク )を析出したり、( ケ ) 液と反応して酸化銅(Ⅰ)の赤色沈殿を生じたりする。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-08.jpg",
+    "imageAlt": "問題 454 の掲載ページ",
+    "modelAnswer": "6",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "454. アルデヒドとケトン 第 6 (ア) ホルミル(アルデヒド) (イ) カルボニル 章 (ウ) アルコール (エ) メタノール (オ) アセトアルデヒド (カ) アセトン (キ) 還元 (ク) 銀 (ケ) フェーリング アルデヒドとケトンは異性体の関係にあり、それぞれホルミル 有 機 基(アルデヒド基) CHO とカルボニル基 CO をもつ。アルデヒド 化 は、第一級アルコールの酸化、ケトンは第二級アルコールの酸化によっ 合 物 て生じる。アルデヒドは、適当な酸化剤によって酸化されやすく、この とき相手を還元する。 第一級アルコールを酸化すると、アルデヒドを経てカルボン酸を生じる。 たとえば、メタノールを酸化すると、ホルムアルデヒドを経てギ酸を生 じ、エタノールを酸化すると、アセトアルデヒドを経て酢酸を生じる。 アルデヒドとケトンの違いは、アルデヒドが還元作用を示す点である。 アルデヒドの還元作用の確認には、次の 2 つの反応が用いられる。 ①銀鏡反応…アンモニア性硝酸銀水溶液にアルデヒドを加えて加熱する と、銀が析出する。 ❶ ②フェーリング液の還元…フェーリング液 にアルデヒドを加えて加熱 ❶フェーリング液には 2 すると、酸化銅(Ⅰ)Cu2O の赤色沈殿を生じる。 価の銅の錯イオンが含ま れる。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題454"
+  },
+  {
+    "id": "pdfbook_455",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "455. 酢酸▶次の文中の( )に適当な語句を入れよ。 酢酸は特有の刺激臭をもつ無色の液体であり、純度の高いものは冬期に凝固しやすい ので( ア )とよばれる。工業的に酢酸をつくるには、触媒の存在のもとでエチレンを 空気酸化して( イ )とし、さらにそれを空気酸化して酢酸とする。酢酸とメタノール の混合物を少量の濃硫酸と加熱すると、( ウ )と水が生成する。(ウ)と異性体の関係 にあるカルボン酸は( エ )である。 275",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-08.jpg",
+    "imageAlt": "問題 455 の掲載ページ",
+    "modelAnswer": "(ア) 氷酢酸 (イ) アセトアルデヒド (ウ) 酢酸メチル",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "455. 酢酸 (ア) 氷酢酸 (イ) アセトアルデヒド (ウ) 酢酸メチル (エ) プロピオン酸 酢酸の凝固点は約17℃であり、純粋なものは低温時に凝固する ため、氷酢酸とよばれる。 エチレンをパラジウム Pd 塩を触媒として空気中の酸素で酸化すると、 アセトアルデヒド CH3CHO を生じる。 2CH2 CH2+O2 → 2CH3CHO アセトアルデヒドをマンガン Mn 塩を触媒として空気中の酸素で酸化す ると、酢酸 CH3COOH を生じる。 2CH3CHO+O2 → 2CH3COOH 323 問題 456 ▶ 460 酢酸とメタノール CH3OH が縮合反応(エステル化)をおこすときの変化 は、次式で表される。 CH3 C OH+H O CH3 → CH3 C O CH3+H2O O O 酢酸メチル このとき、エステルである酢酸メチル CH3COOCH3 が生じる。 酢酸メチルと異性体の関係にあるカルボン酸は、炭素数 3 のカルボン酸 であるプロピオン酸 CH3CH2COOH である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題455"
+  },
+  {
+    "id": "pdfbook_456",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "456. カルボン酸とエステル▶次の(1)、(2)の物質を表す一般式をA群から、また、その 一般的性質を B 群から、それぞれ 1 つずつ選べ。 (1) カルボン酸 (2) エステル 〈A群〉 園 RCHO 堰 RCOOH 奄 ROH 宴 RCOOR' 〈 B 群〉 (ア) 中性の物質で、ナトリウムと反応して水素を発生する。 (イ) 炭酸水素ナトリウムと反応して、二酸化炭素を発生する。 (ウ) フェーリング液を加えて加熱すると、赤色沈殿を生じる。 (エ) 加水分解すると、酸とアルコールを生じる。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-08.jpg",
+    "imageAlt": "問題 456 の掲載ページ",
+    "modelAnswer": "(1) 堰、(イ) (2) 宴、(エ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "456. カルボン酸とエステル (1) 堰、(イ) (2) 宴、(エ) カルボン酸は弱酸であるが、炭酸よりも酸性が強いので、炭酸 塩や炭酸水素塩と反応して、二酸化炭素を発生する。 RCOOH+NaHCO3 → RCOONa+H2O+CO2 エステルは、カルボン酸とアルコールの縮合反応(エステル化)で生じる。 この反応は可逆的であり、エステルは酸触媒でカルボン酸とアルコール にもどる。この変化はエステルの加水分解とよばれる。 縮合 RCOOH+R'OH  RCOOR'+H2O 加水分解",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題456"
+  },
+  {
+    "id": "pdfbook_457",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "457. エステルの構造▶分子式 C4H8O2 で示されるエステル A、 B 、 C について、次の各 問いに答えよ。 (1) Aを加水分解すると、沸点が78℃のアルコールと、酢酸が得られた。エステルAの 構造式を示せ。 (2) B を加水分解して得られたカルボン酸は、銀鏡反応を示した。また、B から得られ たアルコールを酸化すると、ケトンを生じた。エステル B の構造式を示せ。 (3) C を加水分解して得られたカルボン酸は、銀鏡反応を示した。また、C から得られ たアルコールを酸化すると、アルデヒドを生じた。エステル C の構造式を示せ。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-09.jpg",
+    "imageAlt": "問題 457 の掲載ページ",
+    "modelAnswer": "(1) CH3 C O CH2 CH3 (2) H C O CH CH3",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "457. エステルの構造 (1) CH3 C O CH2 CH3 (2) H C O CH CH3 O O CH3 (3) H C O CH2 CH2 CH3 O 分子式 C4H8O2 のエステルとして、次の 4 種類が考えられる。 ① H COO CH2 CH2 CH3 ギ酸プロピル ❶ ② H COO CH CH3 ギ酸イソプロピル ❶イソプロピル基 CH3 CH3 ③ CH3 COO CH2 CH3 酢酸エチル CH ④ CH3 CH2 COO CH3 プロピオン酸メチル CH3 (1) エステル A を加水分解すると、沸点78℃のアルコールと酢酸が得 られたので、このエステルの示性式は CH3COOC2H5 となる。したがっ て、アルコールはエタノール C2H5OH であり、エステルAは③の酢酸エ チルである。 (2) エステル B を加水分解して得られるカルボン酸は、銀鏡反応を示 すことから、還元作用を示すことがわかる。カルボン酸のうち、還元作 ❷ 用を示すものはギ酸 HCOOH である 。したがって、このエステルは、 ❷ギ酸はホルミル基をも HCOOC3H7 である。また、 B を加水分解して得られるアルコールを酸 つため、銀鏡反応を示す。 化するとケトンを生じることから、このアルコールは第二級アルコール であり、2-プロパノール CH3CH(OH)CH3 と決まる。したがって、エス テル B は②のギ酸イソプロピルである。 (3) (2)と同様に、エステル C は HCOOC3H7 となる。エステル C から 得られたアルコールを酸化するとアルデヒドを生じることから、このア ルコールは第一級アルコールであり、1-プロパノール CH3CH2CH2OH と決まる。したがって、エステル C は①のギ酸プロピルである。 324",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題457"
+  },
+  {
+    "id": "pdfbook_458",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "458. エステルの反応▶次の文を読み、下の各問いに答えよ。 酢酸エチル 1 mL を試験管にとり、6 mol/L の水酸化ナトリ ウム水溶液を 5 mL 加えると、溶液は二層になった。図のよう に、この試験管に長いガラス管Aをつけ、沸騰石を入れて、お だやかに加熱し、十分に反応させた。 (1) 文中の下線部で、酢酸エチルは上層と下層のどちらにな るか。 (2) この実験で、ガラス管Aを使用する理由を説明せよ。 (3) この実験でおこる変化を化学反応式で表せ。また、塩基 を用いたこの反応を何というか。 (4) この実験で観察される試験管内の溶液の変化を記せ。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-09.jpg",
+    "imageAlt": "問題 458 の掲載ページ",
+    "modelAnswer": "(1) 上層 (2) 加熱によって蒸気になった反応物や生成物を冷",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "458. エステルの反応 (1) 上層 (2) 加熱によって蒸気になった反応物や生成物を冷 却して液体にし、反応容器にもどすため。 (3) CH3COOC2H5+NaOH → CH3COONa+C2H5OH 反応名：けん化 (4) 反応前は二層であった溶液が、反応後に一層の溶液になる。 ❶ (1) 酢酸エチルは水に溶けにくく、水よりも密度が小さい た ❶酢酸エチルの密度は め、酢酸エチルが上層になり、水酸化ナトリウム水溶液が下層になる。 0.90 g/cm3 である。 (2) ガラス管 A は簡易的な還流冷却器として用いられている。還流冷 却器は、加熱によって蒸発する有機化合物の気体を冷却し、液体として 再び反応容器へもどすものである。この実験では、ガラス管内の気体は 空気によって冷却される。 (3)、(4) エステルを塩基で加水分解する反応をけん化という。酢酸エ チルは水酸化ナトリウム水溶液でけん化され、酢酸ナトリウムとエタノ ールになる。反応前に二層であった溶液は、酢酸ナトリウムとエタノー ルの水溶液となるので、一層になる。このとき、酢酸エチルの芳香も消 第 6 える。 章 還流冷却器 還流…いったん蒸気となったものが凝縮して液体となり、再びもとにも 有 どることである。図のような装置で還流をする。このとき用いる冷却 機 化 器を還流冷却器という。 合 還流冷却器…加熱によって蒸発する有機化合物の気体を冷却し、液体と 物 して再び反応容器へもどす働きをする。 ❶A、 B の CH3CO 、",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題458"
+  },
+  {
+    "id": "pdfbook_459",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "459. ヨードホルム反応▶次の園〜沿の有機化合物のうち、ヨードホルム反応を示すもの をすべて選べ。 園 CH3 OH 堰 CH3 CH2 OH 奄 CH3 CH2 CH2 OH 宴 CH3 CH CH3 OH 延 CH3 C H 怨 CH3 C CH3 掩 CH3 CH2 C H O O O 援 CH3 CH2 C CH2 CH3 沿 CH3 CH2 O CH3 O 276",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-09.jpg",
+    "imageAlt": "問題 459 の掲載ページ",
+    "modelAnswer": "堰、宴、延、怨 る原子を X とすると、 X",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "459. ヨードホルム反応 CH3CH(OH) に結合す 堰、宴、延、怨 る原子を X とすると、 X ヨードホルム反応は、次のような構造をもつ有機化合物にみら は C または H である。 X れる反応である。 が非共有電子対をもつ O ❶ A. CH3 C R B. CH3 CH R   R は水素原子または や N の場合、その化合物 炭化水素基 O OH はヨードホルム反応を示 反応は水酸化ナトリウムなどで塩基性にした水溶液中で、ヨウ素を反応 さない。したがって、酢 させることで進行し、特有の臭気をもつ黄色のヨードホルム CHI3 の沈 酸や酢酸メチルなどはヨ ❷ 殿が観察される。アルコール型の構造をもつ B は、まず A に酸化され 、 ードホルム反応を示さな そののちヨードホルム反応が進行する。Aのヨードホルム反応は、次の い｡ 反応式で表される。 ❷ B の酸化は、次の反応 CH3CO−R+4NaOH+3I2 → CHI3+R−COONa+3NaI+3H2O で生じる次亜ヨウ素酸イ オン IO−によっておこる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題459"
+  },
+  {
+    "id": "pdfbook_460",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "460. 化合物の性質▶次の(1)〜(5)にあてはまる物質を、下の(ア)〜(カ)から選べ。 (1) 水に溶けにくいが、水酸化ナトリウム水溶液中で加熱すると溶ける。 (2) 水に溶けにくく、麻酔性と強い引火性がある。 (3) アンモニア性硝酸銀水溶液を加えて温めると、銀を析出する。 (4) 加熱によって容易に脱水し、酸無水物となる。 (5) 水に溶けて中性を示し、ナトリウムと反応して水素を発生する。 (ア) エタノール (イ) アセトアルデヒド (ウ) マレイン酸 (エ) ジエチルエーテル (オ) 酢酸エチル (カ) フマル酸",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-09.jpg",
+    "imageAlt": "問題 460 の掲載ページ",
+    "modelAnswer": "(1) (オ) (2) (エ) (3) (イ) (4) (ウ) (5) (ア) → IO−+I−+H2O",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "460. 化合物の性質 I2+2OH− (1) (オ) (2) (エ) (3) (イ) (4) (ウ) (5) (ア) → IO−+I−+H2O 各化合物は次のように表される。 (ア) C2H5OH (イ) CH3CHO (ウ) (エ) C2H5OC2H5 (オ) CH3COOC2H5 (カ) 325 問題 461 ▶ 464 それぞれの化合物の官能基の性質から判断して、あてはまる性質を選ぶ。 (1) エステルは水に溶けにくいが、水酸化ナトリウム水溶液にはけん 化されて溶ける。 CH3COOC2H5+NaOH → CH3COONa+C2H5OH したがって、(オ)の酢酸エチル CH3COOC2H5 である。 (2) 水に溶けにくいのは(エ)のジエチルエーテルと(オ)の酢酸エチルで ある。このうち、麻酔性を示すのは(エ)のジエチルエーテル C2H5OC2H5 である。 (3) 還元作用を示す物質は、ホルミル基 CHO を含む化合物である。 したがって、(イ)のアセトアルデヒド CH3CHO である。 (4) 分子内の比較的近い場所に 2 個のカルボキシ基 COOH をもつジ カルボン酸は、加熱によって脱水し環状構造の酸無水物になりやすい。 特にマレイン酸は、炭素原子間の二重結合を挟んでシスの位置に 2 個の カルボキシ基をもつので、加熱によって容易に脱水がおこる。マレイン 酸の幾何異性体であるフ マル酸では、このような 反応はおこりにくい❶。 ❶フマル酸はカルボキシ したがって、(ウ)のマレ 基の位置が離れているた イン酸である。 め、分子内で脱水反応が (5) アルコールとカルボン酸は、ヒドロキシ基 OH をもつので、ナト おこりにくい。 リウムと反応して水素を発生する。アルコールは中性、カルボン酸は酸 性を示す。したがって、(ア)のエタノール C2H5OH である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題460"
+  },
+  {
+    "id": "pdfbook_461",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "461. 酢酸とその誘導体▶次の図のA〜 F にあてはまる化合物の名称と示性式を示せ。 第 6 章",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-10.jpg",
+    "imageAlt": "問題 461 の掲載ページ",
+    "modelAnswer": "A. エタノール C2H5OH B . アセトアルデヒド CH3CHO",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "461. 酢酸とその誘導体 A. エタノール C2H5OH B . アセトアルデヒド CH3CHO C . 酢酸カルシウム (CH3COO)2Ca D . アセトン CH3COCH3 E . 酢酸エチル CH3COOC2H5 F . 無水酢酸 (CH3CO)2O B . 酢酸は、アセトアルデヒド CH3CHO の酸化によって得ら れる。酢酸を還元すると、アセトアルデヒド(B)になる。 A. アセトアルデヒド(B)は、エタノール C2H5OH の酸化によって得ら れる。また、アセトアルデヒドを還元すると、エタノール(A)になる。 E . 酢酸とエタノール(A)に少量の濃硫酸を加えてエステル化を行うと、 酢酸エチル CH3COOC2H5 が生成する。 CH3COOH+C2H5OH → CH3COOC2H5+H2O C . 酢酸を水酸化カルシウムで中和すると、酢酸カルシウム (CH3COO)2Ca が生成する。 ❶ D . 酢酸カルシウム(C)を乾留 すると、 アセトン CH3COCH3 が得られる。 ❶有機化合物を空気を遮 (CH3COO)2Ca → CH3COCH3+CaCO3 断して加熱分解すること アセトン(D)は 2-プロパノールの酸化によっても生成する。 を乾留という。特に、木 F . 酢酸は、脱水剤として十酸化四リン P4O10 を加えて加熱すると、 2 材、石炭、石油などに対 分子が縮合して無水酢酸(CH3CO)2O を生じる。 して用いることが多い。 326",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題461"
+  },
+  {
+    "id": "pdfbook_462",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "462. 油脂▶次の文中の( )に適当な語句を入れよ。 油脂は、高級脂肪酸と( ア )との( イ )であり、大豆油のように室温で液体のも 有 機 のを( ウ )、牛脂のように室温で固体のものを( エ )という。脂肪酸の不飽和の度 化 合 合いが( オ )い油脂は室温で液体であり、空気中で酸化されて固体になりやすいので 物 ( カ )油とよばれ、塗料などに用いられる。また、ニッケルなどを触媒として、炭素 原子間の二重結合に( キ )を付加させると、固体になる。このようにしてつくられた 油脂は( ク )油とよばれ、マーガリンなどの原料になる。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-10.jpg",
+    "imageAlt": "問題 462 の掲載ページ",
+    "modelAnswer": "(ア) グリセリン (イ) エステル (ウ) 脂肪油 (エ) 脂肪",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "462. 油脂 (ア) グリセリン (イ) エステル (ウ) 脂肪油 (エ) 脂肪 (オ) 大き (カ) 乾性 (キ) 水素 (ク) 硬化 ❶油脂は高級脂肪酸と、 ❶ 油脂は、高級脂肪酸とグリセリンのエステルである 。油脂の 3 価アルコールであるグ うち、大豆油のように室温で液体のものを脂肪油といい、牛脂のように リセリンとのエステルで 固体のものを脂肪という。高級脂肪酸の不飽和の度合いが大きい油脂は ある。 室温で液体であり、飽和脂肪酸の含量が多いものは室温で固体である。 脂肪酸の不飽和の度合いが大きい液体の油脂は、空気中で酸化されて固 ❷乾性油にはアマニ油な 体になりやすいので乾性油という❷。液体の油脂に、ニッケルなどの触 どがある。アマニ油は植 媒を用いて炭素原子間の二重結合に水素を付加させると、固体になる場 物のアマ(亜麻)の種子か 合がある。このようにして得られた油脂を硬化油という。 らつくられる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題462"
+  },
+  {
+    "id": "pdfbook_463",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "463. セッケン▶次の文中の( )に適当な語句を入れよ。 油脂を水酸化ナトリウム水溶液でけん化すると、高級脂肪酸の( ア )が得られる。 これがセッケンであり、その水溶液は加水分解によって弱い( イ )性を示す。セッケ ンは、( ウ )性の炭化水素基と親水性の COO− をもち、水溶液中で炭化水素基を ( エ )側にして集まる。繊維に付着した油分は、この(エ)側にとりこまれ、水中に分 散しやすくなる。これを( オ )作用という。しかし、Ca2+ や Mg2+ の多い( カ ) 水中では、難溶性の塩を生じて、洗浄力は低下する。",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-10.jpg",
+    "imageAlt": "問題 463 の掲載ページ",
+    "modelAnswer": "(ア) ナトリウム塩 (イ) 塩基 (ウ) 親油(疎水)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "463. セッケン (ア) ナトリウム塩 (イ) 塩基 (ウ) 親油(疎水) (エ) 内 (オ) 乳化 (カ) 硬 油脂は高級脂肪酸のグリセリンエステルである。油脂を水酸化 第 6 ナトリウム水溶液と加熱すると、高級脂肪酸のナトリウム塩であるセッ 章 ケンとグリセリンが生じる。この反応をけん化という。 ❶ (RCOO)3C3H5+3NaOH → 3RCOONa+C3H5(OH)3 ❶油脂は次のように示さ セッケンを水に溶かすと、加水分解して弱い塩基性を示す。 れる。 有 機 RCOO−+H2O ⇄ RCOOH+OH− 化 セッケンは親油性(疎水性)の炭 合 物 化 水 素 基 と 親 水 性 の COO− をもち、水溶液中では炭化水素 反応式は R1 〜R3 が同じ 基を内側にして集まり、粒子を R の場合で示している。 形成する。多数のセッケンが集まってできたものをミセルという。 ❷ 繊維に付着した油分は、セッケン分子の親油性の部分に取り囲まれ 、 ❷ 親水性の部分を外側に向けて、水中に分散される(乳化作用)。このよう にして、繊維に付着した油分の汚れが落ちる。 セッケンは、Ca2+ や Mg2+ を多く含む硬水中では、難溶性の塩である (RCOO)2Ca や(RCOO)2Mg を生じ、洗浄力を失う。 2RCOO−+Ca2+ → (RCOO)2Ca",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題463"
+  },
+  {
+    "id": "pdfbook_464",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "464. 合成洗剤▶セッケンとアルキルベンゼンスルホン酸ナトリウム(略称 ABS)を比較 して、ABS のみがもつ特徴を 1 つ選べ。 (ア) カルボン酸の塩であるため、水に溶けたときに塩基性を示す。 (イ) スルホン酸の塩であるため、水に溶けたときに塩基性を示さない。 (ウ) 水に溶けて電離する。 (エ) 水に溶けても電離しない。 277 発展例題 37 物質の推定 ➡問題 466･467 化合物A、 B 、 C はいずれも、水酸化ナトリウム水溶液中でヨウ素と加熱すると黄色沈 殿を生じる。しかし、これら 3 種類の化合物のうち、銀鏡反応を示すのはAのみである。 化合物 B を濃硫酸と混ぜて140℃に加熱すると、化合物 D が生成する。また、化合物 C を 還元したのち、これを濃硫酸と加熱すると気体 E が発生する。 E は、臭素水を脱色する。 次の各問いに答えよ。 (1) A〜 E にあてはまるものを下の(ア)〜(ケ)から選び、記号で示せ。 (2) 文中の下線部の反応の名称と、黄色沈殿の分子式を記せ。 (ア) CH3CH=CH2 (イ) CH3CH2COOH (ウ) CH3CHO (エ) CH3COCH3 (オ) HOCH2CH2OH (カ) CH3CH2CH3 (キ) CH3CH2OH (ク) HCOOH (ケ) CH3CH2OCH2CH3 ヨードホルム反応を示す化合物 ヨードホルム反応を示すのは(ウ)、(エ)、(キ)である。Aは は、分子内に次の構造をもつ。 還元作用を示すので、ホルミル基をもつ(ウ)である。 B はア CH3 C R CH3 CH R ルコールと判断できるので(キ)であり、その縮合で生じる D O OH は(ケ)である。 C は(エ)で、還元によって 分子内に CHO をもつ化合物 CH3CH(OH)CH3 になり、これを脱水すると(ア)を生じる。 は、還元性をもち、銀鏡反応を (1) A (ウ) B (キ) C (エ) D (ケ) E (ア) 示す。 (2) ヨードホルム反応、CHI3 発展例題 38 カルボン酸とエステルの反応 ➡問題 468･469 分子式が C4H8O2 の有機化合物 A、 B がある。A は直鎖状の分子で、炭酸ナトリウム水 溶液に溶けて気体を発生する。一方、 B に水酸化ナトリウム水溶液を加えて温めると、 化合物 C のナトリウム塩と化合物 D が得られる。 D を酸化すると、中性の E になり、 E はフェーリング液を還元しない。化合物A〜 E を示性式で示せ。 Na2CO3 と の 反 応 で CO2 を 発 生 Aは直鎖状のカルボン酸である。一方、 B はエステルであ するのは、炭酸よりも強い酸であ り、けん化でカルボン酸 C の塩とアルコール D を生じる。 る。一方、アルカリでけん化され E は、中性で、フェーリング液を還元しないことから、ケ るのはエステルである。アルコー トンである。 D は、酸化によってケトンを生じるので、第 ルのうち、酸化されてケトンを生 二級アルコールである。全体の分子式から考えて、 D は じるものは、第二級アルコールで CH3CH(OH)CH3 となる。したがって、 C はギ酸、 E はア ある。 セトンであり、 B はギ酸イソプロピルとなる。 R1 酸化 R1 A. CH3CH2CH2COOH B . HCOOCH(CH3)2 CHOH → C O R2 R2 C . HCOOH D . CH3CH(OH)CH3 第二級アルコール ケトン E . CH3COCH3 例題 278 解説動画 H=1.0 C=12 O=16",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-10.jpg",
+    "imageAlt": "問題 464 の掲載ページ",
+    "modelAnswer": "(イ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "464. 合成洗剤 (イ) セッケンもアルキルベ ンゼンスルホン酸ナトリウム (ABS) も 長 い 親 油 性 (疎 水 性) の部分と親水性の部分をもつ物 ❶セッケンの水溶液は、 質で、界面活性剤である。 塩基性を示し、羊毛など セッケンは高級脂肪酸のナトリウム塩であり、これは弱酸と強塩基から の動物性繊維を侵すので、 なる塩なので、水溶液中で加水分解して塩基性を示す❶。 それらの洗浄には適さな RCOO−+H2O ⇄ RCOOH+OH− い。 一方、ABS は、強酸と強塩基からなる塩であり、セッケンのように水溶 液中で加水分解せず、水溶液は中性を示す。 327 問題 465 ▶ 466 セッケンと合成洗剤 セッケン…油脂のけん化で得られた高級脂肪酸のナトリウム塩。水 溶液は弱い塩基性。硬水中では沈殿を生じ、洗浄力が低下する。 合成洗剤…石油などを原料として、化学的に合成された界面活性剤。 水溶液は中性。硬水中でも沈殿が生じず、洗浄力を保つ。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題464"
+  },
+  {
+    "id": "pdfbook_465",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "465. エタノールとその誘導体▶図は、エタノールを中心とした有機化合物の関連と反応 を示したものである。図中のA〜 H に該当する構造式を記し、下の各問いに答えよ。 (1) 図中の(a)〜(c)に該当する操作を、次の(ア)〜(ウ)から 1 つずつ選べ。 第 (ア) ニッケル触媒下で水素を付加する (イ) リン酸触媒を用いて水を付加する 6 (ウ) 塩化パラジウム(Ⅱ)と塩化銅(Ⅱ)を触媒に用いて酸化する 章 (2) 図中の①〜⑤に該当する反応名を、下の(ア)〜(オ)から 1 つずつ選べ。 (ア) 酸化 (イ) 還元 (ウ) 中和 (エ) 付加 (オ) 脱水 有 機 (3) A〜 H のうち、次の(ア)、(イ)に該当する物質をすべて選べ。 化 合 (ア) フェーリング液を還元する。 物 (イ) 炭酸水素ナトリウム水溶液を加えると気体が発生する。 (京都女子大 改)",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-12.jpg",
+    "imageAlt": "問題 465 の掲載ページ",
+    "modelAnswer": "A〜 H の化合物の名称は",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "465. エタノールとその誘導体 A〜 H の化合物の名称は 次のとおりである。 A. エチレン B . ジエチルエーテル C . アセトアルデヒド D . 酢酸 (1) (a) (イ) (b) (ウ) (c) (ア) (2) ① (エ) ② (ア) ③ (ウ) E . 酢酸エチル ④ (オ) ⑤ (イ) (3) (ア) C (イ) D、F F . 無水酢酸 化合物A〜 H は、次のように考えて決定する。 G . アセトン A・ B ：エタノールを脱水して得られる化合物はエチレン(分子内脱水)、 H . 2-プロパノール またはジエチルエーテル(分子間脱水)である。Aはアセチレンと水素と の反応でも得られるので、エチレンとわかる。したがって、 B はジエチ ルエーテルである。 C ・ D ： D に水酸化カルシウムを反応させると、塩である酢酸カルシウ ムが生成するので、 D が酢酸とわかる。 C はエタノールから酢酸に変化 する中間の物質なので、アセトアルデヒドである。 酸化 酸化 C2H5OH → CH3CHO → CH3COOH E ： E は酢酸とエタノールの脱水(エステル化)で得られるので、酢酸エ チルである。 CH3COOH+C2H5OH → CH3COOC2H5+H2O F ： F は酢酸に十酸化四リンを作用させて得られるので、無水酢酸である。 G ・H： G は酢酸カルシウムの熱分解(乾留)によって得られるので、ア セトンである。 乾留 (CH3COO)2Ca → CH3COCH3+CaCO3 ここで、②の反応は、エタノールをアセトアルデヒドにする反応なので、 酸化である。 H は、酸化によってアセトンになる物質であり、2-プロパ ノールとわかる。 (1) (a) エチレンからエタノールへの変換なので、水の付加である。 ❶ この反応では、リン酸 H3PO4 を触媒に用いる 。 ❶触媒には、リン酸をシ CH2 CH2+H2O → CH3CH2OH リカゲルにしみこませた (b) エチレンからアセトアルデヒドの合成では、塩化パラジウム(Ⅱ) ものが用いられ、反応は PdCl2 と塩化銅(Ⅱ)CuCl2 を触媒に用いてエチレンを酸素で酸化する。 気相中で行われる。 2CH2 CH2+O2 → 2CH3CHO (c) アセトアルデヒドをエタノールに変化させる反応なので、還元で ある。したがって、ニッケル触媒を用いてカルボニル基 C Oに水素 328 ❷ H2 を付加させればよい 。 ❷水素原子を受け取る変 CH3CHO+H2 → CH3CH2OH 化は還元である。 (2) ① アセチレンと水素を反応させてエチレンを合成する反応なの で、付加である。 ② エタノールをアセトアルデヒドに変換する反応なので、酸化である。 ③ 酢酸と水酸化カルシウムから酢酸カルシウムが生成する反応なので、 中和である。 ④ 酢酸から無水酢酸を合成する反応なので、分子間脱水である。 ⑤ ②の酸化の逆向きの反応なので、還元である。 (3) (ア) フェーリング液の還元は、アルデヒドの検出に用いられる。 したがって、 C のアセトアルデヒドが該当する。 (イ) 炭酸水素ナトリウム水溶液と反応して気体(二酸化炭素)が発生す ❸炭酸よりも強い酸であ る反応は、カルボン酸の検出に用いられる❸。したがって、 D の酢酸が るカルボン酸は、炭酸水 該当する。また、 F の無水酢酸に炭酸水素ナトリウム水溶液を加えると、 素ナトリウムと反応して 無水酢酸が加水分解され、生成した酢酸が炭酸水素ナトリウム水溶液と 弱 酸 で あ る CO2 を 生 じ 反応して二酸化炭素を発生する。 る(弱酸の遊離)。 第",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題465"
+  },
+  {
+    "id": "pdfbook_466",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "466. アルコールの反応▶次の文を読み、下の各問いに答えよ。 アルコールA、 B 、 C 、 D は、それぞれメタノール、1-プロパノール、2-プロパノー ル、2-メチル-2-プロパノールのいずれかである。各アルコールをおだやかに酸化した ところ、Aからはアルデヒド E が、 B からはケトン F が、 C からはアルデヒド G が得ら れたが、 D はほとんど酸化されなかった。アルデヒド E と G は容易に酸化されて、それ ぞれカルボン酸 H とカルボン酸 I になる。 I は ① 銀鏡反応を示す。 ② ケトン F は酢酸カ ルシウムを乾留することによっても得られる。 (1) アルコールA〜 D の名称を記せ。 (2) E 〜 I の構造式を記せ。 (3) 下線部①の原因となる官能基の名称を記せ。 (4) 6.4 g のアルコール C をすべて酸化して、カルボン酸 I にした。得られる I の質量 は何 g か。 (5) 下線部②の反応を、化学反応式で表せ。 (6) カルボン酸 H に炭酸水素ナトリウム水溶液を加えたときにおこる反応を、化学反 応式で表せ。 (岐阜聖徳学園大 改) 279 H=1.0 C=12 O=16",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-12.jpg",
+    "imageAlt": "問題 466 の掲載ページ",
+    "modelAnswer": "章",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "466. アルコールの反応 6 章 (1) A 1-プロパノール B 2-プロパノール C メタノール D 2-メチル-2-プロパノール (2) 有 機 化 合 物 (3) ホルミル基 (4) 9.2 g (5) (CH3COO)2Ca → CH3COCH3+CaCO3 (6) CH3CH2COOH+NaHCO3 → CH3CH2COONa+H2O+CO2 (1) 4 種類のアルコールの構造を次に示す。 メタノール CH3OH 1-プロパノール CH3CH2CH2OH 2-プロパノール CH3CH(OH)CH3 2-メチル-2-プロパノール (CH3)3COH メタノールと 1-プロパノールは第一級アルコールであり、酸化されると アルデヒドを経由してカルボン酸になる。2-プロパノールは第二級アル コールであり、酸化されるとケトンになる。2-メチル-2-プロパノール は第三級アルコールであり、酸化されにくい。 問題文におけるアルコールA〜 D の反応をまとめると、次のようになる。 酸化 酸化 酸化 乾留 A → E → H B → F  酢酸カルシウム アルデヒド カルボン酸 ケトン 酸化 酸化 C → G → I (銀鏡反応を示す) D：ほとんど酸化されない ❶ギ酸は、アルデヒドの アルデヒド カルボン酸 構造をもち、還元作用を この結果から、アルコールAと C は第一級アルコールであり、メタノー 示す。 ル、1-プロパノールのいずれかである。それぞれの酸化によって得られ たカルボン酸の性質を比較すると、 C から生成するカルボン酸 I は銀鏡 ❶ 反応を示すのでギ酸 HCOOH であり 、 C はメタノール、 G はホルムア 329 問題 467 ▶ 468 ルデヒド HCHO とわかる。したがって、A は 1-プロパノールであり、 E はプロピオンアルデヒド CH3CH2CHO、 H はプロピオン酸 CH3CH2COOH となる。また、 B は第二級アルコールなので、2-プロパ ノールであり、 F はアセトン CH3COCH3 である。 D は第三級アルコー ルなので、2-メチル-2-プロパノールである。 (4) C のメタノール CH3OH の分子量は32、 I のギ酸 HCOOH の分子 6.4 g 量は46である。6.4 g の C の物質量は =0.20 mol であり、 1 32 g/mol mol の C から生成する I は 1 mol なので、求める質量は次のようになる。 46 g/mol×0.20 mol=9.2 g (5) 酢酸カルシウムを乾留すると、アセトンが得られる。これは、実験 室におけるアセトンの製法の 1 つである。 (6) カルボン酸は炭酸よりも強い酸であり、炭酸水素ナトリウムと反 応して、二酸化炭素を発生する。 RCOOH+NaHCO3 → RCOONa+CO2+H2O",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題466"
+  },
+  {
+    "id": "pdfbook_467",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "467. 化合物の推定▶Ⅰ〜Ⅵの文は、分子式が C5H12O で表される化合物 A 〜 F に関する ものである。下の各問いに答えよ。 Ⅰ Aは炭素原子のつながりに枝分かれがない第一級アルコールである。 Ⅱ B は不斉炭素原子とエーテル結合を有している。 Ⅲ C は不斉炭素原子を有する第一級アルコールである。 Ⅳ D はアルコールであり、濃硫酸を用いて分子内で脱水を行うとき、 3 種類のアル ケンの生成が予想される。そのうちの 2 種類は、互いに立体異性体である。 Ⅴ E は塩基性水溶液中でヨウ素と反応して黄色沈殿を生じる。また、 E と濃硫酸を 用いて分子内で脱水を行うとき、 2 種類のアルケンの生成が予想される。これらは 立体異性体の関係にない。 Ⅵ F はアルコールであるが、濃硫酸と反応させても D 、 E と同様の分子内脱水が進 行しない。 (1) A〜 F の構造式を記せ。 (2) A 〜 D および F のうち、 E と同様に塩基性水溶液中でヨウ素と反応して黄色沈殿 を生じるものはどれか。 (3) A 〜 F のうち、硫酸酸性の二クロム酸カリウム水溶液を用いて酸化したときに生 成する中性の化合物が銀鏡反応を示すものをすべて選べ。 (25 横浜国立大 改)",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-13.jpg",
+    "imageAlt": "問題 467 の掲載ページ",
+    "modelAnswer": "(1)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "467. 化合物の推定 (1) (2) D (3) A、C、F 分子式が C5H12O で表される化合物は、立体異性体を考慮しな ければ、アルコールが①〜⑧の 8 種類、エーテルが⑨〜⑭の 6 種類ある。 各構造式を次に示す(＊は不斉炭素原子)。 330 Ⅰ：炭素原子のつながりに枝分かれがない第一級アルコールAは①であ ❶ る 。 ❶第一級アルコールでは、 Ⅱ：不斉炭素原子をもつエーテル B は⑪である。 ヒドロキシ基 OH が結 Ⅲ：不斉炭素原子をもつ第一級アルコール C は④である。 合した炭素原子に炭化水 Ⅳ〜Ⅵ：残ったアルコールの分子内脱水を考える。この反応では図のよ 素基が 1 つ結合している。 うに OHと、 OHが結合した炭素原子に隣接する炭素原子に結合した なお、メタノール H が水分子となってとれる。アルコール⑧では OHとともにとれる H CH3OH も第一級アルコ がないので、分子内脱水が進行しない。したがって、 F は⑧である。 ールに分類される。 残った②、③、⑤、⑥、⑦の分子内脱水による生成物は次のようになる。 ❷シス-トランス異性体 は立体異性体の 1 つであ る。 第 ❸ヨードホルム反応を示 6 章 す 化 合 物 は CH3CO X Ⅳの記述にあてはまるアルケンの組み合わせは②からの生成物なので、 または CH3 CH(OH) ❷ 有 D は②である 。Ⅴの記述から E はヨードホルム反応を示すアルコール X( X は水素原子または ❸ 機 なので CH3 CH(OH) の部分構造をもつ 。これに該当するものは② 炭素原子)という構造を 化 または⑥であるが、このうち分子内脱水すると立体異性体の関係にない もつ。 合 物 2 種類のアルケンを生じるのは⑥なので、 E は⑥と決まる。 (2) A 〜 D 、 F の う ち、ヨ ー ド ホ ル ム 反 応 を 示 す 物 質 は、CH3 CH(OH) の部分構造をもつ D である。 ❹第一級アルコールを強 (3) 硫酸酸性の二クロム酸カリウム水溶液を用いて酸化したときに生 く酸化すると、中性のア 成する中性の化合物は、アルデヒドまたはケトンである。このうち、銀 ルデヒドを経由してカル 鏡反応を示すものはアルデヒドなので、第一級アルコールを選べばよ ボン酸が生成するが、こ ❹ い 。したがって、A(①)、 C (④)、 F (⑧)である。 の条件ではそこまで反応 は進まないと考えてよい。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題467"
+  },
+  {
+    "id": "pdfbook_468",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "468. エステルの異性体▶次の文中の( )に適当な数値を入れよ。 分子式 C5H10O2 をもつ化合物のうち、エステルに分類されるものは( ア )種類存在 し、それらのうち不斉炭素原子をもつものは( イ )種類である。 これらの構造異性体を加水分解して生じるカルボン酸およびアルコールの種類は、構 造異性体を含めて数えると、それぞれ( ウ )種類および( エ )種類である。生じた カルボン酸のうち、アンモニア性硝酸銀水溶液と反応して銀を析出するものは( オ ) 種類である。また、生じたアルコールのうち、ヨードホルム反応を示すものは( カ ) 種類、酸化剤によってケトンを与えるものは( キ )種類である。 (12 東京理科大)",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-13.jpg",
+    "imageAlt": "問題 468 の掲載ページ",
+    "modelAnswer": "(ア) 9 (イ) 1 (ウ) 5 (エ) 8 (オ) 1 (カ) 3 (キ) 2",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "468. エステルの異性体 (ア) 9 (イ) 1 (ウ) 5 (エ) 8 (オ) 1 (カ) 3 (キ) 2 ❶ ❷ 分子式 C5H10O2 で表されるエステル は、次の 9 種類 である。 ❶エステルは R1 COO R2 の 構 造 を も つ。R1 はH でもよい。 ❷次のように炭素原子の 数で分類して調べる。 ①〜④H COO C4H9 ⑤、⑥CH3 COO C3H7 ⑦ C2H5 COO C2H5 ⑧、⑨C3H7 COO CH3 これらのうち、不斉炭素原子(＊印)をもつものは③の 1 種類である。 これらの構造異性体の加水分解生成物は、次の表のようになる。 331 問題 469 ▶ 470 加水分解による生成物 カルボン酸 アルコール ① ● H COOH ギ酸 CH3 CH2 CH2 CH2 OH 1-ブタノール(第一級) 2-メチル-1-プロパノール ● ② H COOH ギ酸 (第一級) ③ H COOH ● ギ酸 2-ブタノール(第二級) 2-メチル-2-プロパノール ④ H COOH ● ギ酸 (第三級) ● ⑤ CH3 COOH 酢酸 CH3 CH2 CH2 OH 1-プロパノール(第一級) ⑥ ● CH3 COOH 酢酸 2-プロパノール(第二級) ⑦ CH3 CH2 ● COOH プロピオン酸 CH3 CH2 OH エタノール(第一級) ● ⑧ CH3 CH2 CH2 COOH 酪酸 CH3 OH メタノール(第一級) ● ⑨ イソ酪酸 CH3 OH メタノール(第一級) したがって、カルボン酸は 5 種類、アルコールは 8 種類である。 ❸ギ酸はホルミル基をも ❸ 5 種類のカルボン酸のうち、銀鏡反応を示すものはギ酸 のみである。 ち、還元作用を示す。 8 種類のアルコールのうち、ヨードホルム反応を示すものは 2-ブタノー ❹ の構造を ❹ ル、2-プロパノール、エタノールの 3 種類である 。 酸化剤によってケトンを生じるアルコールは、第二級アルコールであり、 もつアルコールはヨード 2-ブタノールと 2-プロパノールの 2 種類である。 ホルム反応を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題468"
+  },
+  {
+    "id": "pdfbook_469",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "469. エステルの推定▶炭素、水素、酸素からなるエステルA〜 D は、互いに異性体であ る。33.0 mg のAを完全燃焼させると二酸化炭素 66.0 mg と水 27.0 mg が生じた。また、 4.40 g の A をベンゼン 100 g に溶かした溶液の凝固点は、ベンゼンよりも2.56℃低かっ た。A、 B を加水分解すると、それぞれ銀鏡反応を示す化合物 E が生じた。Aを加水分 解して得られるアルコールを酸化すると、ケトンが得られた。 C を加水分解するとカル ボン酸 F とアルコール G が生じ、 G を酸化すると F が生じた。 (1) Aの分子式を求めよ。ベンゼンのモル凝固点降下は 5.12 K･kg/mol である。 (2) エステルA〜 D の示性式を記せ。 (3) エステルAの加水分解を、化学反応式で表せ。 (10 日本女子大) 280 H=1.0 C=12 O=16 Na=23",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-13.jpg",
+    "imageAlt": "問題 469 の掲載ページ",
+    "modelAnswer": "(1) C4H8O2 (2) A HCOOCH(CH3)2",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "469. エステルの推定 (1) C4H8O2 (2) A HCOOCH(CH3)2 B HCOOCH2CH2CH3 C CH3COOCH2CH3 D CH3CH2COOCH3 (3) HCOOCH(CH3)2+H2O → HCOOH+(CH3)2CHOH (1) 33.0 mg のAに含まれる各原子の質量は、次のようになる。 12 C：66.0 mg× =18.0 mg 44 2.0 H：27.0 mg× =3.00 mg 18 O：33.0 mg−(18.0 mg+3.00 mg)=12.0 mg 原子数の比は、次のように求められる。 18.0 3.00 12.0 C：H：O= ： ： =1.50：3.00：0.75=2：4：1 12 1.0 16 ❶凝固点降下度 Δt〔K〕と したがって、A の組成式は C2H4O となり、分子式は(C2H4O)、分子量 モル凝固点降下 M=44n と求められる。一方、凝固点降下度の測定結果から、分子量 M K〔K･kg/mol〕、溶液の質 ❶ は次のように求められる。Δt=Km から 、 量 モ ル 濃 度 m 〔mol/kg〕 4.40/M には次の関係が成り立つ。 2.56 K=5.12 K･kg/mol× mol/kg M =88.0 g/mol 100/1000 Δt=Km 44n=88.0 から n=2 と求められ、Aの分子式は C4H8O2 となる。 (2) 分子式が C4H8O2 で表されるエステルは、次の①〜④の 4 種類で ❷エステルの加水分解 ❷ ある。また、①〜④のエステルの加水分解生成物を示す 。 R1COOR2+H2O → R1COOH+R2OH 332 加水分解による生成物 エステル カルボン酸 アルコール ① ● HCOOCH2CH2CH3 HCOOH CH3CH2CH2OH ② ● HCOOCH(CH3)2 HCOOH (CH3)2CHOH ③ ● CH3COOCH2CH3 CH3COOH CH3CH2OH ④ ● CH3CH2COOCH3 CH3CH2COOH CH3OH 問題文中のA〜 F の関係をまとめると、次のようになる。 化合物 E は、銀鏡反応を示すことから、ギ酸 HCOOH である。したがっ て、A、 B は、ギ酸のエステルである①、②のいずれかである。Aの加 水分解によって生成するアルコールの酸化でケトンを生じたことから、 このアルコールは第二級アルコールとわかり、Aが②、 B が①となる。 C の加水分解によって得られるアルコール G を酸化すると、カルボン酸 第 6 F になるので、 F と G の分子内にある炭素原子の数は同じである。した 章 がって、 C は③である。また、 F は酢酸 CH3COOH、 G はエタノール CH3CH2OH となる。 D は残りのエステル④と決まる。 有",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題469"
+  },
+  {
+    "id": "pdfbook_470",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "470. 物質の識別▶次の文中の化合物 A 〜 F は、アセトアルデヒド、エタノール、ギ酸、 酢酸、酢酸エチル、ジエチルエーテルのいずれかである。A〜 F はそれぞれ何か。化学 式で答えよ。 ① A、 B 、 C は、単体のナトリウムと反応し、水素を発生する。 ② Aと C は、炭酸水素ナトリウム水溶液を加えると、気体を発生する。 ③ C と E は、アンモニア性硝酸銀水溶液を加えて温めると、銀が析出する。 ④ D と F は、水に溶けにくい。 ⑤ D に水酸化ナトリウム水溶液を加えて熱すると、均一な溶液になる。 (08 千葉工業大 改)",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-14.jpg",
+    "imageAlt": "問題 470 の掲載ページ",
+    "modelAnswer": "化",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "470. 物質の識別 機 化 A：CH3COOH B：C2H5OH C：HCOOH 合 物 D：CH3COOC2H5 E：CH3CHO F：C2H5OC2H5 ① A、 B 、 C は単体のナトリウムと反応するので、それぞれ ❶ エタノール、ギ酸、酢酸のいずれかである 。 ❶単体のナトリウムは、 2C2H5OH+2Na → 2C2H5ONa+H2 ヒドロキシ基またはカル 2HCOOH+2Na → 2HCOONa+H2 ボキシ基と反応して、水 2CH3COOH+2Na → 2CH3COONa+H2 素を発生する。 ② 炭酸水素ナトリウム水溶液と反応して気体(二酸化炭素)を発生する のは、炭酸よりも強い酸であるカルボン酸である。したがって、Aと C は、それぞれギ酸または酢酸のいずれかである。 HCOOH+NaHCO3 → HCOONa+H2O+CO2 CH3COOH+NaHCO3 → CH3COONa+H2O+CO2 ①、②から、 B はエタノールとわかる。 ③ アンモニア性硝酸銀水溶液によって銀が析出(銀鏡反応)するのは、 還元作用を示す物質である。したがって、 C と E は、それぞれアセトア ❷ ルデヒドまたはギ酸のいずれかである 。 ❷ギ酸は、カルボン酸と ②、③から、Aは酢酸、 C はギ酸、 E はアセトアルデヒドとわかる。 アルデヒドの両方の性質 ④ D と F は水に溶けにくいので、それぞれ酢酸エチルまたはジエチル を示す。 エーテルのいずれかである。 ⑤ D は水酸化ナトリウム水溶液との加熱によって均一な溶液になる (けん化)ので、酢酸エチルとわかる。 CH3COOC2H5+NaOH → CH3COONa+C2H5OH したがって、 F はジエチルエーテルである。 333 問題 471 ▶ 473",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題470"
+  },
+  {
+    "id": "pdfbook_471",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "471. 油脂の構成▶油脂はグリセリンと高級脂肪酸のエステルである。動物由来の油脂A は、炭素鎖に枝分かれがなく、炭素数が18の不飽和度が異なる 3 種類の脂肪酸から構成 される。1.00 mol の A にニッケルを触媒として水素を付加すると 4.00 mol の水素が消 費され、飽和脂肪酸のみからなる油脂 B が生成した。また、1.00 g のAを完全にけん化 第 するのに必要な水酸化ナトリウムの質量は( ア )mg であった。 6 (1) グリセリンの構造式を記せ。 章 (2) 油脂Aの分子量を求め、文中の(ア)にあてはまる数値を答えよ。 (3) 鏡像異性体を区別しないとき、油脂Aの構造は何通り考えられるか。 有 機 (4) 油脂 A をけん化した溶液に塩酸を加えると、油脂に含まれる 3 種類の脂肪酸が得 化 合 られた。これらのうち、最も融点が高い脂肪酸の分子式を記せ。 (24 慶應義塾大 改) 物",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-14.jpg",
+    "imageAlt": "問題 471 の掲載ページ",
+    "modelAnswer": "(1) (2) 分子量 882 (ア) 136",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "471. 油脂の構成 (1) (2) 分子量 882 (ア) 136 (3) 3 通り (4) C18H36O2 (2) 1.00 mol の油脂 A に付加する H2 は 4.00 mol なので、A の 分子内に C C が 4 個ある。A を構成する 3 個の脂肪酸はすべて異な るので、A は C C を 3 個もつ脂肪酸 a 、C C を 1 個もつ脂肪酸 b お ❶ よび C C をもたない脂肪酸 c で構成されている 。脂肪酸の分子内の ❶互いに異なる 3 個の整 炭 素 数 は 18 で あ る か ら、 a は C17H29COOH (分 子 量 278)、 b は 数( 0 以上)の和が 4 であ C17H33COOH(分子量282)、 c は C17H35COOH(分子量284)と表される。 るとき、該当する整数の Aはグリセリン(分子量92)と a 〜 c の各脂肪酸との脱水縮合で生成した 組み合わせは( 3 、1 、0 ) と考えると、Aの分子量は(278+282+284)+92−18×3=882 である。 のみである。 水酸化ナトリウムによるAのけん化は、次式のように表される。 ❷ A1'、A2'、A3' で 表 さ れる次の構造は、それぞ 1 mol の A をけん化するために必要な水酸化ナトリウム(式量40)は 3 れ A1、A2、A3 と同じ構 mol なので、1.00 g のA をけん化するために必要な水酸化ナトリウムの 造である。 質量は次式のように求められる。 1.00 g 40 g/mol× ×3=0.1360 g 882 g/mol (3) (2)の反応式における油脂Aの構造は、考えられる構造の 1 つであ ＊ る。鏡像異性体を区別しない場合、不斉炭素原子 C に結合する脂肪酸 ❷ に着目すると、次の 3 つの構造が考えられる 。 (4) 脂肪酸は塩化水素よりも弱い酸なので、けん化後の水溶液に十分 な量の塩酸を加えると、次式のように脂肪酸が遊離する。 RCOONa+HCl → RCOOH+NaCl 天然の油脂に含まれる不飽和脂肪酸の場合、 C C における C 原子のつ ❸ ながり方がシス形であり、この部分で炭化水素基が折れ曲がっている 。 ❸ このため、不飽和脂肪酸では分子どうしが接近しにくく、分子間力が弱 まるため、飽和脂肪酸に比べて融点が低い。したがって、脂肪酸 a 〜 c の中では、飽和脂肪酸である c(C17H35COOH)の融点が最も高い。 334",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題471"
+  },
+  {
+    "id": "pdfbook_472",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "472. けん化価とヨウ素価▶油脂 1 g のけん化に要する水酸化カリウムの質量〔mg〕をけ ん化価といい、油脂 100 g に付加するヨウ素の質量〔g〕をヨウ素価という。次の各問い に答えよ。ただし、KOH の式量を56、I2 の分子量を254とする。 (1) 油脂 X のけん化価は 190 であった。油脂 X の分子量を有効数字 3 桁で答えよ。 (2) 油脂 X のヨウ素価が 86.2 であるとき、油脂 X の分子内には、いくつの炭素−炭素 二重結合が含まれているか。ただし、油脂 X の分子内には、炭素−炭素三重結合は含 まれていないものとする。 (15 信州大 改)",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-14.jpg",
+    "imageAlt": "問題 472 の掲載ページ",
+    "modelAnswer": "(1) 884 (2) 3",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "472. けん化価とヨウ素価 (1) 884 (2) 3 (1) 水酸化カリウムによる油脂のけん化は、次式で表される。 油脂 1 g をけん化するために必要な水酸化カリウム KOH の質量〔mg〕の ❶ 数値をけん化価 という。求める油脂 X の分子量をMとする。KOH の ❶けん化価の値が大きい 式量は56、 1 mol の油脂のけん化に必要な KOH は 3 mol なので、 ほど、油脂の分子量は小 1 さくなる。 190=56×3× ×103 M =884.2 M ❷ (2) 油脂 100 g に付加するヨウ素の質量〔g〕の数値をヨウ素価という 。 ❷ヨウ素価が大きい油脂 ヨウ素 I2 は、炭素原子間の二重結合 C=C の 1 個あたりに 1 分子が付加 は常温で液体のものが多 できるので、ヨウ素価は油脂に含まれる C=C 結合の数を反映する。 い。そのうち、特にヨウ この油脂 1 分子に含まれる C=C 結合の数を n とすると、油脂 1 mol 素価が130以上のものは 第 6 (=884.2 g)に付加するヨウ素 I2 (分子量254)は n〔mol〕となる。この油 空気中で酸化されて固化 章 脂 100 g に付加するヨウ素は 86.2 g なので、次式が成立する。 しやすい。このような油 100 脂は乾性油とよばれ、油 86.2=254×n× n=3.00 884.2 絵の具などに用いられる。 有 機 化",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題472"
+  },
+  {
+    "id": "pdfbook_473",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "473. ジアステレオ異性体▶分子内に不斉炭 素原子が 2 つある場合、一般に 4 種類の立 体異性体ができ、これらのうち、互いに鏡 像の関係にはない立体異性体をジアステレ オ異性体という。天然に存在するアミノ酸 L-イソロイシン(図の A)とその立体異性 体 B 〜 D を示す。Aのジアステレオ異性体 となるものを記号で記せ。 (16 大阪大 改) 281",
+    "image": "./assets/question-pages/p268-281_23_酸素を含む脂肪族化合物-14.jpg",
+    "imageAlt": "問題 473 の掲載ページ",
+    "modelAnswer": "物",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "473. ジアステレオ異性体 合 物 C 、D ❶ Aは、図の構造式で示され、 2 か所に不斉炭素原子 C をもつ 。 ❶Aはアミノ酸の 1 種で 不斉炭素原子 1 つにつき 2 つの立体異性体が存在するため、理論上は 4 あり、イソロイシンとよ つの立体異性体が存在する。 ばれる。 Aの鏡像異性体は、鏡にうつしたものなので、図のように示される。 B Aの鏡像異性体と一致するので、 B はAの鏡像異性体である。 ❷ C Aの鏡像異性体と一致せず、ジアステレオ異性体 となる。 ❷鏡像異性体の関係にな D C と同様に、Aの鏡像異性体と一致せず、ジアステレオ異性体とな い立体異性体どうしがジ ❷ る 。なお、 C と D は鏡像異性体である。 アステレオ異性体である。 このように、不斉炭素原子を 2 つもつ化合物では、各不斉炭素原子の立 体配置をすべて反転させたものが鏡像異性体となり、不斉炭素原子の立 体配置を一部だけ反転させたものは鏡像異性体の関係にはならず、ジア ステレオ異性体となる。 335",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p268-281 23 酸素を含む脂肪族化合物・問題473"
+  },
+  {
+    "id": "pdfbook_474",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "474. ベンゼンの構造と性質▶文中の( )に適当な語句を入れ、下の問いに答えよ。 ベンゼンは分子式( ア )で表される炭化水素で、石油の改質や( イ )の 3 分子重 合によって得られる無色・特異臭の液体である。ベンゼン分子中の原子はすべて同一 ( ウ )上にあり、分子は( エ )形の形状をしている。このため、ベンゼン分子は無 極性分子である。ベンゼンは安定で、アルケンやアルキンに比べて付加反応をおこしに くく、( オ )反応がおこりやすい。空気中では多量のすすを出して燃焼する。 問 次の炭化水素を、炭素原子間の結合距離が長い順に並べよ。 エタン、エチレン、アセチレン、ベンゼン",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-06.jpg",
+    "imageAlt": "問題 474 の掲載ページ",
+    "modelAnswer": "(ア) C6H6 (イ) アセチレン (ウ) 平面 (エ) 正六角 構造式で示される。",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "474. ベンゼンの構造と性質 ❶ベンゼンは次のような (ア) C6H6 (イ) アセチレン (ウ) 平面 (エ) 正六角 構造式で示される。 (オ) 置換 問 エタン>ベンゼン>エチレン>アセチレン ベンゼンの分子式は C6H6 であり、これはアセチレンの分子式 C2H2 の 3 倍に相当し、ベンゼンは触媒の存在下でアセチレンの 3 分子 重合によってもつくられる。 ベンゼンのすべての原子は、同一平面上にあり、炭素原子は正六角形を ❶ これを省略して、下のよ つくっている 。この炭素骨格をベンゼン環という。ベンゼン環は、二 重結合が特定の位置に固定されておらず、付加反応がおこりにくい安定 うな略式のものがよく用 な構造をとっている。このため、芳香族化合物では、付加反応よりも、 いられる。 置換反応の方がおこりやすい。また、燃焼時にはすすを発生する。 問 炭素原子間の結合距離は、一般に単結合>二重結合>三重結合であ る。ベンゼンの炭素原子間の結合距離はすべて等しく、単結合と二重結 ❷炭素原子間の結合距離 合の中間の長さである❷。 結合距離 化合物 〔nm〕",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題474"
+  },
+  {
+    "id": "pdfbook_475",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "475. ベンゼンの反応▶図に示したベンゼンの反応に ついて、次の各問いに答えよ。 (1) A 〜 D にあてはまる有機化合物の示性式と名 称を記せ。 (2) (ア)〜(エ)にあてはまる反応名を記せ。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-07.jpg",
+    "imageAlt": "問題 475 の掲載ページ",
+    "modelAnswer": "0.154",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "475. ベンゼンの反応 C C 0.154 (1) A：C6H5Cl クロロベンゼン B：C6H6Cl6 1,2,3,4,5,6- (エタン) ヘキサクロロシクロヘキサン C：C6H5SO3H ベンゼンスルホン酸 C C 0.134 (エチレン) D：C6H5NO2 ニトロベンゼン (2) (ア) 塩素化(ハロゲン化) (イ) 付加 (ウ) スルホン化 (エ) ニトロ化 C C 0.120 (ア)、(ウ)、(エ)は置換反応、(イ)は付加反応である。 (アセチレン) (ア) ベンゼンに鉄粉(触媒)を加えて塩素を通じると塩素化(ハロゲン C C間 0.140 化)がおこり、クロロベンゼン C6H5Cl を生じる。 (ベンゼン) C6H6+Cl2 → C6H5Cl+HCl (イ) ベンゼンと塩素の混合物に光(紫外線)を照射すると、付加反応が ❶ おこり、1,2,3,4,5,6-ヘキサクロロシクロヘキサン C6H6Cl6 を生じる。 ❶ C6H6+3Cl2 → C6H6Cl6 (ウ) ベンゼンに濃硫酸を加えて加熱するとスルホン化がおこり、ベン ゼンスルホン酸 C6H5SO3H を生じる。 ベンゼンヘキサクロリド C6H6+H2SO4 → C6H5SO3H+H2O (BHC)ともよばれる。 (エ) ベンゼンに濃硝酸と濃硫酸を加えて反応させるとニトロ化がおこ り、ニトロベンゼン C6H5NO2 を生じる。 C6H6+HNO3 → C6H5NO2+H2O",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題475"
+  },
+  {
+    "id": "pdfbook_476",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "476. 芳香族化合物の性質▶ベンゼン環に、(1) 塩素原子、(2) スルホ基、(3) ニトロ基 がそれぞれ 1 個結合した物質の性質として適当なものを、次から 1 つずつ選べ。 (ア) 水にわずかに溶け、水溶液は弱酸性を示す。塩化鉄(Ⅲ)水溶液で紫色を呈する。 (イ) 水によく溶け、水溶液は強酸性を示す。 (ウ) 銅線につけてバーナーの炎に入れると、青緑色の炎色反応が観察できる。 (エ) 塩基性を示し、塩酸によく溶ける。 (オ) 無色または淡黄色、油状の液体で水よりも密度が大きい。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-07.jpg",
+    "imageAlt": "問題 476 の掲載ページ",
+    "modelAnswer": "(1) (ウ) (2) (イ) (3) (オ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "476. 芳香族化合物の性質 (1) (ウ) (2) (イ) (3) (オ) (1)、(2)、(3)は、それぞれクロロベンゼン、ベンゼンスルホン 酸、ニトロベンゼンである。 (1) クロロベンゼンのように、分子内にハロゲン原子をもつ有機化合 ❶ 物は、銅線につけてバーナーの炎に入れると、青緑色の炎色反応を示す 。 ❶このようなハロゲンの (2) ベンゼンスルホン酸は水によく溶け、水溶液は強い酸性を示す。 検出法をバイルシュタイ (3) ニトロベンゼンは淡黄色(純粋なものは無色)で、油状の液体である。 ンテストという。 水に溶けにくく、水よりも密度が大きい(密度 1.20 g/cm3)。 336",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題476"
+  },
+  {
+    "id": "pdfbook_477",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "477. 芳香族化合物の異性体▶次の各問いに答えよ。 (1) 分子式 C6H4Cl2 で表される芳香族化合物の構造式と名称をすべて記せ。 (2) 次の分子式で表される芳香族化合物には、何種類の構造異性体が存在するか。 ① C6H3Cl3 ② C8H10 ③ C7H8O (3) (ア) o-キシレン、(イ) m-キシレン、(ウ) p-キシレンのベンゼン環の水素原子 1 個を臭素原子で置換してできる化合物は、それぞれ何種類存在するか。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-07.jpg",
+    "imageAlt": "問題 477 の掲載ページ",
+    "modelAnswer": "(2) ① 3 種類 ② 4 種類 ③ 5 種類",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "477. 芳香族化合物の異性体 (2) ① 3 種類 ② 4 種類 ③ 5 種類 (3) (ア) 2 種類 (イ) 3 種類 (ウ) 1 種類 (1) ベンゼン環に置換基が 2 つ結合した化合物には、o-、 m-、p-の異性体が存在する。 (2) ① 分子式 C6H3Cl3 で表される芳香族化合物は次の 3 種類である。 ② 分子式 C8H10 で表される芳香族化合物は次の 4 種類である。 第 6 章 有 機 ③ 分子式 C7H8O で表される芳香族化合物は次の 5 種類である。 化 合 物 ❶ (3) キシレン のベンゼン環に結合した水素原子 1 個を臭素原子に置 ❶キシレンには、o-、m-、 換してできる芳香族化合物は、それぞれ次のようになる。 p- の 3 種 類 の 構 造 異 性 体がある。 芳香族化合物の構造異性体 ベンゼン環において、ある置換基 X のすぐ隣りの位置をオルト(o-)位、 その次の位置をメタ(m-)位、さらにその次の位置をパラ(p-)位とよぶ。 また、置換基の位置は、 1 〜 6 の数字で表される場合もある。 337 問題 478 ▶ 481",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題477"
+  },
+  {
+    "id": "pdfbook_478",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "478. 芳香族化合物の異性体▶次の記述にあてはまる芳香族化合物の構造式を記せ。 (1) 分子式が C7H7Cl で表され、ベンゼン環に置換基を 1 つもつ。 (2) 分子式が C9H12 で表され、 2 つの置換基をベンゼン環のパラ位にもつ。 (3) 分子式が C8H10O で表され、不斉炭素原子をもつアルコールである。 (4) 分子式が C7H6O2 で表され、エステル結合をもつ。 288",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-07.jpg",
+    "imageAlt": "問題 478 の掲載ページ",
+    "modelAnswer": "(1) 分子式 C7H7Cl で表される芳香族化合物には、次の 4 種類",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "478. 芳香族化合物の異性体 (1) 分子式 C7H7Cl で表される芳香族化合物には、次の 4 種類 が考えられる。 これらのうち、ベンゼン環に置換基が 1 つ結合した化合物は④である。 (2) ベンゼン環の p 位に 2 つの置換基が結合した芳香族化合物なので、 分子式 C9H12 で表される化合物は X C6H4 Y と表すことができる。 C9H12 から C6H4 を引くと、 X と Y の原子数の合計が求められ、C3H8 と なる。したがって、 X と Y は CH3 と C2H5 となる。 (3) 分子式 C8H10O で表される芳香族化合物のアルコールには、次の 5 種類が考えられる。 これらのうち、不斉炭素原子をもつものは、⑤だけである。 (4) 分子式 C7H6O2 で表され、 COO の構造をもつ化合物には、次 の 2 種類が考えられる。 安息香酸はカルボン酸、ギ酸フェニルはエステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題478"
+  },
+  {
+    "id": "pdfbook_479",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "479. フェノールの製法▶フェノールの合成の流れを図に示す。図中のA〜 D にあてはま る化合物の構造式と名称を答えよ。また、(1)の工業的製法、および(2)の①の操作はそ れぞれ何とよばれるか。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-07.jpg",
+    "imageAlt": "問題 479 の掲載ページ",
+    "modelAnswer": "A B",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "479. フェノールの製法 A B C D (1) クメン法 ① アルカリ融解 フェノールは、工業的にはベンゼンとプロペンから次のような ❶クメン法は、アセトン ❶ 工程で合成される。この製法をクメン法という 。 の工業的製法でもある。 また、ベンゼンスルホン酸ナトリウムのアルカリ融解でも合成できる。 338",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題479"
+  },
+  {
+    "id": "pdfbook_480",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "480. フェノールの性質▶次の文を読み、下の各問いに答えよ。 ナトリウムフェノキシドの水溶液に二酸化炭素を通じると、フェノールが生じる。ま た、フェノールの水溶液に( ア )の水溶液を加えると、青紫色を呈する。 フェノールを臭素水に加えると、( イ )の白色沈殿が生じる。また、フェノールを 第 ニトロ化すると、爆発性の( ウ )が得られる。 6 (1) (ア)〜(ウ)にあてはまる化合物の物質名を記せ。 章 (2) 下線部の反応から、フェノールと炭酸の酸性は、どちらが強いと考えられるか。 有 機",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-08.jpg",
+    "imageAlt": "問題 480 の掲載ページ",
+    "modelAnswer": "(1) (ア) 塩化鉄(Ⅲ) (イ) 2,4,6-トリブロモフェノール",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "480. フェノールの性質 (1) (ア) 塩化鉄(Ⅲ) (イ) 2,4,6-トリブロモフェノール (ウ) ピクリン酸(2,4,6-トリニトロフェノール) (2) 炭酸 (1) フェノール類は、一般に、塩化鉄(Ⅲ)水溶液によって呈色 する。フェノールは、オルト位、パラ位で置換反応をしやすく、ベンゼ ンよりもはるかに反応性が高い。フェノールは臭素水とは触媒なしで反 ❶ 応し、2,4,6-トリブロモフェノールを生じる 。 ❶ベンゼンの臭素化には、 鉄触媒が必要である。 また、フェノールをニトロ化すると、最終的にニトロ基が 3 個導入され ❷ たピクリン酸を生じる 。 ❷フェノールのニトロ化 は容易におこる。これに 対して、ベンゼンのニト ロ化はおこりにくい。 第 6 章 (2) 弱酸の塩に、より強い酸を加えると、強い酸が塩になり弱酸が遊離 する。下線部の反応では、生成するフェノールが弱酸である。 C6H5ONa+H2O+CO2 → C6H5OH+NaHCO3 有 機 酸の強さ 化 合 塩化水素、硫酸、スルホン酸>カルボン酸>(炭酸)>フェノール類 物 弱酸の塩に、より強い酸を加えると、弱酸が遊離する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題480"
+  },
+  {
+    "id": "pdfbook_481",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "481. フェノールとアルコール▶フェノールとエタノールに関する次の記述のうちから、 化 合 (1) フェノールのみにあてはまるもの、(2) エタノールのみにあてはまるもの、(3) 両 物 方にあてはまるものをそれぞれすべて選べ。 (ア) 水にきわめてよく溶ける。 (イ) 酸性物質である。 (ウ) ナトリウムと反応する。 (エ) 水酸化ナトリウム水溶液と反応する。 (オ) 塩化鉄(Ⅲ)水溶液で呈色する。 (カ) 酸化されてアルデヒドを生じる。 (キ) 常温で固体である。 (ク) 無水酢酸と反応して、エステルになる。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-08.jpg",
+    "imageAlt": "問題 481 の掲載ページ",
+    "modelAnswer": "(1) (イ)、(エ)、(オ)、(キ) (2) (ア)、(カ) (3) (ウ)、(ク)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "481. フェノールとアルコール (1) (イ)、(エ)、(オ)、(キ) (2) (ア)、(カ) (3) (ウ)、(ク) ❶ フェノールとエタノールはいずれもヒドロキシ基をもち 、類 ❶ 似点と相違点をもつ。 フェノールの性質 フェノールは無色の固体(融点41℃)で、水に少し溶 けて弱い酸性を示し、水酸化ナトリウムやナトリウムと反応する。 C6H5OH+NaOH → C6H5ONa+H2O 2C6H5OH+2Na → 2C6H5ONa+H2 また、フェノールは無水酢酸と反応してエステルを生じる。 C6H5OH+(CH3CO)2O → C6H5OCOCH3+CH3COOH ❷ フェノールは、塩化鉄(Ⅲ)FeCl3 水溶液と反応して青紫色を呈する 。 ❷フェノール類の検出に エタノールの性質 エタノールは無色の液体で、水によく溶け、水溶液 用いられる。 は中性である。ナトリウムと反応して水素を発生するが、水酸化ナトリ ウムとは反応しない。 2C2H5OH+2Na → 2C2H5ONa+H2 また、氷酢酸や無水酢酸と反応してエステルを生じる。 C2H5OH+(CH3CO)2O → C2H5OCOCH3+CH3COOH 酸化すると、アセトアルデヒドを経て酢酸に変化する。 酸化 酸化 C2H5OH  → CH3CHO  →CH3COOH 339 問題 482 ▶ 485 エタノールとフェノールの比較 エタノール フェノール 常温における状態 液体 固体 水溶液の性質 中性。水によく溶ける 弱酸性。水にわずかに溶ける Na との反応 C2H5ONa を生じて H2 を発生 C6H5ONa を生じて H2 を発生 NaOH との反応 反応しない C6H5ONa を生成 無水酢酸との反応 エステルを生成 エステルを生成",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題481"
+  },
+  {
+    "id": "pdfbook_482",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "482. サリチル酸▶サリチル酸の反応に関わる経路図について、下の各問いに答えよ。 (1) A、 B にあてはまる化合物の構造式と物質名を記せ。 (2) a 、 b にあてはまる操作として、正しいものを選べ。 (ア) 水溶液にして、二酸化炭素を通じる。 (イ) 塩酸を加える。 (ウ) 高温・高圧で二酸化炭素と反応させる。 (3) 次の化合物のうち、下の記述にあてはまるものをすべて選べ。 (ア) サリチル酸 (イ) 化合物A (ウ) 化合物 B ① 炭酸水素ナトリウム水溶液に、気体を発生しながら溶ける。 ② 塩化鉄(Ⅲ)水溶液によって呈色する。 289",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-08.jpg",
+    "imageAlt": "問題 482 の掲載ページ",
+    "modelAnswer": "サリチル酸はカルボキシ",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "482. サリチル酸 サリチル酸はカルボキシ (1) A B 基とヒドロキシ基をもち、 カルボン酸とフェノール 類の両方の性質を示す。 (2) a (ウ) b (イ) (3) ① (ア)、(ウ) ② (ア)、(イ) (1) サリチル酸を濃硫酸の存在下でメタノールと反応させる と、カルボキシ基がエステル化され、サリチル酸メチルを生じる。 また、サリチル酸を無水酢酸と反応させると、アセチル化がおこり、ア セチルサリチル酸を生じる。 (2) ナトリウムフェノキシドの固体に高温・高圧下で二酸化炭素を反 応させると、サリチル酸ナトリウムが生成する。これに強酸を加えると、 サリチル酸が遊離する。 (3) ① カルボキシ基をもつ化合物が示す反応であり、カルボキシ基 がエステル化されているサリチル酸メチルは反応しない。 ② フェノール性ヒドロキシ基をもつ化合物が示す性質であり、ヒドロ キシ基がアセチル化されているアセチルサリチル酸は呈色しない。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題482"
+  },
+  {
+    "id": "pdfbook_483",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "483. 芳香族カルボン酸▶次の記述のうち、正しいものを 2 つ選べ。 (ア) トルエンを酸化すると、安息香酸を生じる。 (イ) 安息香酸は炭酸よりも弱い酸なので、炭酸水素ナトリウムとは反応しない。 (ウ) 安息香酸は無水酢酸と反応し、エステル結合をもつ化合物をつくる。 (エ) テレフタル酸は分子内で脱水し、酸無水物となる。 (オ) テレフタル酸とエチレングリコールからポリエチレンテレフタラートが得られる。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-08.jpg",
+    "imageAlt": "問題 483 の掲載ページ",
+    "modelAnswer": "(ア)、(オ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "483. 芳香族カルボン酸 (ア)、(オ) (ア) (正) トルエンを KMnO4 で酸化すると、ベンゼン環に 結合したメチル基が酸化されてカルボキシ基になり、安息香酸が生じる。 (イ) (誤) 安息香酸は炭酸よりも強い酸であり、炭酸水素ナトリウム と反応して、二酸化炭素を発生し、安息香酸ナトリウムを生じる。 (ウ) (誤) 安息香酸はカルボン酸であり、アルコールとエステル結合 を形成する。無水酢酸は、酢酸 2 分子の縮合で生じた化合物であり、酢 340 酸と同様に、アルコールと反応してエステルを形成する。 (エ) (誤) テレフタル酸は 2 つのカルボキシ基がパラ位に位置してお ❶ り 、分子内で脱水はおこりにくい。分子内で容易に脱水を行うのは、 ❶ オルト位にカルボキシ基をもつフタル酸である。 (オ) (正) テレフタル酸はカルボキシ基を 2 つもち、エチレングリコ ール HOCH2CH2OH はヒドロキシ基を 2 つもつ。これらの物質が縮合 重合すると、カルボキシ基とヒドロキシ基の間でエステル結合が形成さ ❷ れ、高分子化合物のポリエチレンテレフタラート(PET) を生じる。 ❷ PET の よ う に、分 子 内にエステル結合を多数 もつ高分子をポリエステ ルという。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題483"
+  },
+  {
+    "id": "pdfbook_484",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "484. アニリンの性質▶アニリンに関する次の記述のうち、誤っているものを 2 つ選べ。 (ア) アニリンに硫酸酸性の二クロム酸カリウム水溶液を反応させると、黒色の染料で あるアニリンブラックが生じる。 (イ) アニリンを無水酢酸と反応させると、アセトアニリドが生じる。 (ウ) アニリン塩酸塩水溶液に希硝酸を加えると、塩化ベンゼンジアゾニウムが生じる。 (エ) アニリンに塩化鉄(Ⅲ)水溶液を加えると、赤紫色になる。 (オ) アニリン塩酸塩水溶液に水酸化ナトリウム水溶液を加えると、弱塩基のアニリン が遊離する。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-09.jpg",
+    "imageAlt": "問題 484 の掲載ページ",
+    "modelAnswer": "(ウ)、(エ) 第",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "484. アニリンの性質 (ウ)、(エ) 第 6 (ア) (正) アニリンを硫酸酸性の二クロム酸カリウム水溶液 章 で酸化すると、黒色染料として用いられるアニリンブラックを生じる。 (イ) (正) アニリンと無水酢酸を反応させると、アセチル化がおこり、 ❶ アセトアニリドを生じる 。 ❶ NH CO をアミ 有 機 ド結合といい、アミド結 化 合をもつ化合物を総称し 合 物 (ウ) (誤) 塩化ベンゼンジアゾニウムは、アニリンに塩酸酸性の条件 てアミドという。 下で、亜硝酸ナトリウムを反応させて得られる。 (エ) (誤) 塩化鉄(Ⅲ)水溶液による呈色は、フェノール類が示す反応 である。アニリンは、さらし粉水溶液を加えると赤紫色を呈する。 (オ) (正) 弱塩基のアニリンの塩であるアニリン塩酸塩に、強塩基の 水酸化ナトリウムを加えると、弱塩基のアニリンが遊離する。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題484"
+  },
+  {
+    "id": "pdfbook_485",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "485. ジアゾ化とアゾ染料▶次の文を読み、下の各問いに答えよ。 ① アニリンは無水酢酸と反応して、解熱作用のある( A )を生じる。この反応は、 アニリンの( ア )とよばれる。また、アニリンを塩酸に溶かしたのち、 ② 氷冷しなが ら亜硝酸ナトリウム水溶液を加えると、( B )が生成する。この反応は、( イ )と よばれる。フェノールを水酸化ナトリウム水溶液に溶かし、(B)の水溶液に加えると ( ウ )が進行し、橙色の( C )が生成する。 (1) 文中の空欄(ア)〜(ウ)にあてはまる反応の名称を記せ。 (2) 文中の空欄(A)〜(C)にあてはまる化合物を構造式で示せ。 (3) 化合物(C)の分子内には N N が存在する。この官能基の名称を記せ。 (4) 下線部①の変化を化学反応式で表せ。 (5) 下線部②の反応を冷却しながら行う理由を説明せよ。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-09.jpg",
+    "imageAlt": "問題 485 の掲載ページ",
+    "modelAnswer": "(1) (ア) アセチル化 (イ) ジアゾ化",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "485. ジアゾ化とアゾ染料 (1) (ア) アセチル化 (イ) ジアゾ化 (ウ) ジアゾカップリング(カップリング) (2) (A) (B) (C) (3) アゾ基 (4) C6H5NH2+(CH3CO)2O → C6H5NHCOCH3+CH3COOH (5) 塩化ベンゼンジアゾニウムは不安定で、高温の水溶液中では分解し やすいから。 ❶CH3CO をアセチル ❶ アニリンは無水酢酸によってアセチル化 され、アセトアニリ 基といい、アセチル基を ドを生じる。 導入する反応をアセチル 化という。 341 問題 486 ▶ 488 ア ニ リ ン を 塩 酸 に 溶 か し た の ち、氷 冷 し な が ら 亜 硝 酸 ナ ト リ ウ ム NaNO2 水溶液を加えると、ジアゾ化がおこり、塩化ベンゼンジアゾニウ ムが得られる。 塩化ベンゼンジアゾニウムは不安定で、高温の水溶液中では窒素を放出 してフェノールになる。 塩化ベンゼンジアゾニウムにナトリウムフェノキシドを反応させるとジ アゾカップリングがおこり、橙色のp-ヒドロキシアゾベンゼン(p-フェ ニルアゾフェノール)を生じる。これは、アゾ染料に用いられる。 ❷ N N をアゾ基と いい、アゾ基をもつ化合 物をアゾ化合物という。 アゾ染料の合成 アゾ基 N N をもつ色素をアゾ染料という。アゾ染料を合成するには、まず、芳香族アミン から酸性で亜硝酸塩を用いてジアゾニウム塩をつくり(ジアゾ化)、次いで、フェノール類などと 結合(ジアゾカップリング)させる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題485"
+  },
+  {
+    "id": "pdfbook_486",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "486. 芳香族化合物の特徴▶次の(1)〜(5)の記述にあてはまる化合物を下から選べ。 (1) 加熱すると分子内で容易に脱水する。 (2) 水にはあまり溶けないが、塩酸には塩をつくってよく溶ける。 (3) 水酸化ナトリウム水溶液にはよく溶けるが、炭酸水素ナトリウム水溶液には溶け にくい。 (4) 水溶液を加熱すると、分解して窒素が発生する。 (5) 塩酸にも水酸化ナトリウム水溶液にもほとんど溶けない。 (ア) o-クレゾール (イ) アニリン (ウ) 塩化ベンゼンジアゾニウム (エ) p-キシレン (オ) フタル酸 (カ) アセチルサリチル酸 290",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-09.jpg",
+    "imageAlt": "問題 486 の掲載ページ",
+    "modelAnswer": "(1) (オ) (2) (イ) (3) (ア) (4) (ウ) (5) (エ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "486. 芳香族化合物の特徴 (1) (オ) (2) (イ) (3) (ア) (4) (ウ) (5) (エ) (1) フタル酸を加熱すると、分子内で脱水して無水フタル酸 を生じる。 ❶ このような反応は、マレイン酸 にもみられる。 ❶マレイン酸も加熱によ (2) アニリンは水には溶けにくいが、塩酸には水溶性のアニリン塩酸 って分子内で脱水し、無 塩をつくってよく溶ける。 水マレイン酸を生じる。 (3) 炭酸よりも弱い酸であるフェノール類が示す性質である。 (4) 塩化ベンゼンジアゾニウムは熱に不安定で、温度が上昇すると分 解して窒素とフェノールを生じる。 (5) (ア)の o-クレゾールや(オ)のフタル酸、(カ)のアセチルサリチル 酸などの酸は水酸化ナトリウム水溶液に塩をつくって溶ける。一方、 (イ)のアニリンなどの塩基は塩酸に塩をつくって溶ける。また、(ウ)の 塩化ベンゼンジアゾニウムは塩であり、水溶性である。したがって、塩 酸にも水酸化ナトリウム水溶液にも溶けにくいのは炭化水素である(エ) の p-キシレンである。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題486"
+  },
+  {
+    "id": "pdfbook_487",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "487. 芳香族化合物の識別▶次の(1)〜(4)の各組み合わせの化合物を識別できる試薬を下 の(ア)〜(オ)から 1 つずつ選べ。 (1) アニリンとニトロベンゼン (2) ベンゼンとベンズアルデヒド (3) フェノールとサリチル酸 (4) サリチル酸とアセチルサリチル酸 (ア) 水酸化ナトリウム水溶液 (イ) 炭酸水素ナトリウム水溶液 (ウ) 塩化鉄(Ⅲ)水溶液 (エ) アンモニア性硝酸銀水溶液 (オ) さらし粉水溶液",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-09.jpg",
+    "imageAlt": "問題 487 の掲載ページ",
+    "modelAnswer": "(1) (オ) (2) (エ) (3) (イ) (4) (ウ)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "487. 芳香族化合物の識別 (1) (オ) (2) (エ) (3) (イ) (4) (ウ) (1) アニリンはさらし粉水溶液で赤紫色に呈色する。 (2) ベンズアルデヒドはホルミル基をもち、還元作用を示すので、アン 342 モニア性硝酸銀水溶液と反応して銀を生成する(銀鏡反応)。 (3) フェノールもサリチル酸も酸なので、水酸化 ナトリウム水溶液に溶ける。また、いずれもフェノ ール性ヒドロキシ基をもち、塩化鉄(Ⅲ)水溶液で呈 ❶酸の強さは、カルボン 色する。しかし、炭酸水素ナトリウム水溶液に溶ける 酸>(炭酸)>フェノール ❶ のは、カルボキシ基をもつサリチル酸だけである 。 類である。 (4) サリチル酸とアセチルサリチル酸はいずれも カルボキシ基をもつので、水酸化ナトリウム水溶液 ❷アセチルサリチル酸で や炭酸水素ナトリウム水溶液に溶ける。しかし、塩 は、ヒドロキシ基がアセ 化鉄(Ⅲ)水溶液で呈色するのは、フェノール性ヒド チル化されており、塩化 ロキシ基をもつサリチル酸だけである❷。 鉄(Ⅲ)水溶液を加えても 呈色しない。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題487"
+  },
+  {
+    "id": "pdfbook_488",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "488. 芳香族化合物の反応▶次の各記述のうちから、下線をつけた部分が誤りであるもの を 2 つ選び、下線部を正しい記述に改めよ。 (ア) 塩化ベンゼンジアゾニウムの水溶液を冷却して、フェノールの塩基性水溶液を加 えると、橙色の生成物が得られる。 (イ) サリチル酸のメタノール溶液に濃硫酸を加えて加熱すると、アセチルサリチル酸 が生じる。 第 (ウ) トルエンを濃硫酸と濃硝酸の混合物で十分にニトロ化すると、メチル基 CH3 6 はオルト・パラ配向性の官能基なので、3,5-ジニトロトルエンが生じる。 章 (エ) フェノールと無水酢酸を反応させると、アセチル化して酢酸フェニルが生じる。 (オ) ニトロベンゼンをニトロ化すると、ニトロ基 NO2 はメタ配向性の官能基なので、 有 機 おもに m-ジニトロベンゼンが生じる。 化 合 物",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-10.jpg",
+    "imageAlt": "問題 488 の掲載ページ",
+    "modelAnswer": "(イ)、サリチル酸メチル (ウ)、2,4,6-トリニトロトルエン",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "488. 芳香族化合物の反応 (イ)、サリチル酸メチル (ウ)、2,4,6-トリニトロトルエン (ア) (正) 塩基性水溶液中でフェノールはフェノキシドイオン になっている。これを塩化ベンゼンジアゾニウムと反応させると、橙色 第 6 の p-ヒドロキシアゾベンゼン(p-フェニルアゾフェノール)が得られる。 章 有 機 (イ) (誤) サリチル酸とメタノールの反応で生じるエステルはサリチ 化 ル酸メチルである。 合 物 アセチルサリチル酸は、サリチル酸と無水酢酸の反応で生じる。 (ウ) (誤) CH3 は、オルト、パラ配向性の官能基で、トルエンを十 ❶ 分にニトロ化すると、2,4,6-トリニトロトルエン(TNT) を生じる。 ❶トルエンはオルト位、 パラ位で置換反応がおこ りやすい。 同じオルト、パラ配向性の官能基である OH をもつフェノールをニト ❷ ❷ ロ化すると、ピクリン酸 (2,4,6-トリニトロフェノール)が生じる。 (エ) (正) フェノールを無水酢酸と反応させると、アセチル化がおこ り、酢酸フェニルを生じる。 (オ) (正) ニトロ基 NO2 は、メタ配向性の官能基であり、ニトロベ ンゼンをニトロ化すると、メタ位にニトロ基が置換され、m-ジニトロベ ンゼンが生じる。 343 問題 489 ▶ 491",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題488"
+  },
+  {
+    "id": "pdfbook_489",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "489. 解熱鎮痛剤▶次の文中の化合物A〜 C の名称と構造式を記せ。 市販の解熱鎮痛剤をよく砕き、水酸化ナトリウム水溶液中で加熱して反応させた。得 られた水溶液に希硫酸を加えると、白色の結晶Aと酢酸が生成した。Aはナトリウムフ ェノキシドに高温・高圧で二酸化炭素を作用させて合成される化合物である。このこと から、この解熱鎮痛剤の有効成分は、Aと酢酸とのエステルである B と推定される。 Aをメタノールに溶かし、濃硫酸を加えて加熱すると、芳香をもつ油状物質 C が得ら れた。この油状物質は消炎塗布剤として用いられる。",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-10.jpg",
+    "imageAlt": "問題 489 の掲載ページ",
+    "modelAnswer": "A サリチル酸 B アセチルサリチル酸 C サリチル酸メチル",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "489. 解熱鎮痛剤 A サリチル酸 B アセチルサリチル酸 C サリチル酸メチル 問題文中のA、 B 、 C の関係をまとめると、次のようになる。 ナトリウムフェノキシドと二酸化炭素との反応で得られる化合物 A は、 サリチル酸である。サリチル酸をメタノールでエステル化して得られる 化合物 C は、サリチル酸メチルであり、消炎塗布剤として用いられる。 化合物 B をけん化したのち、酸性にすると、サリチル酸と酢酸が得られ ることから、化合物 B はサリチル酸と酢酸が結合したアセチルサリチル 酸と判断できる。アセチルサリチル酸は、解熱鎮痛剤の有効成分して用 いられる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題489"
+  },
+  {
+    "id": "pdfbook_490",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "490. 芳香族化合物の分離▶次の(1)〜(4)の分離操作を行いたい。最も適当な操作を、 (ア)〜(エ)から 1 つずつ選べ。ただし、同じものを繰り返し選んでもよい。 (1) ニトロベンゼンとアニリンを含むエーテル溶液から、アニリンを除く。 (2) フェノールとトルエンを含むエーテル溶液から、フェノールを除く。 (3) 安息香酸とフェノールを含むエーテル溶液から、安息香酸を除く。 (4) サリチル酸とサリチル酸メチルを含むエーテル溶液から、サリチル酸を除く。 (ア) 塩酸を加えて抽出する。 (イ) 水酸化ナトリウム水溶液を加えて抽出する。 (ウ) 塩化ナトリウム水溶液を加えて抽出する。 (エ) 炭酸水素ナトリウム水溶液を加えて抽出する。 291 発展例題 39 芳香族化合物の置換基の配向性 ➡問題 493 一般に、オルト位 o -やパラ位 p -で置換反応をおこしやすい官能基をもつ物質には次の ものがある。 一方、メタ位 m-で置換反応をおこしやすい官能基をもつ物質には次のものがある。 このことを利用すれば、目的の化合物を効率よくつくることができる。 この情報をもとに、除草剤の原料であるm-クロロアニリンを、次のようにベンゼンから 化合物A、 B を経て合成する実験を計画した。 操作 1 〜 3 として最も適当なものを、次の園〜怨のうちからそれぞれ 1 つずつ選べ。 園 濃硫酸を加えて加熱する。 堰 固体の水酸化ナトリウムと混合して加熱融解する。 奄 鉄を触媒にして塩素を反応させる。 宴 光をあてて塩素を反応させる。 延 濃硫酸と濃硝酸を加えて加熱する。 怨 スズと濃塩酸を加えて反応させたのち、水酸化ナトリウム水溶液を加える。 アミノ基はニトロ基を還 クロロベンゼンは奄の塩素化で生じる。アミノ基はニトロ基を還元 元して生成するので、ニ すればよいので、延のニトロ化を行ったのち、怨の還元をすればよい。 トロ基と Cl がメタ位 Cl はオルト・パラ配向性なので、塩素化をしたのちにニトロ化を になる条件を考える。 行うと、オルト位、パラ位に NO2 が入ってしまう。そこで、まず 園〜怨の操作では次のよ ベンゼンをニトロ化してニトロベンゼンとし、次に塩素化を行うと、 うな変化がおこる。 ニトロ基はメタ配向性なので、m-クロロニトロベンゼンが得られる。 園 スルホン化 これを還元すると、m-クロロアニリンとなる。 堰 アルカリ融解 奄 塩素化(置換) 宴 塩素化(付加) 延 ニトロ化 操作 1 ：延 操作 2 ：奄 操作 3 ：怨 怨 還元 例題 292 解説動画 発展例題 40 芳香族化合物の分離 ➡問題 494･495 図は、アニリン、サリチル酸、フェノールおよびニトロベンゼンの混合物を含むエーテ ル溶液から、各化合物を分離する手順を示したものである。下の各問いに答えよ。 第 6 章 (1) 水層Ⅰ〜Ⅲに含まれる芳香族化合物の塩の示性式を記せ。 (2) (A)〜(D)で分離される芳香族化合物の名称を記せ。 有 機 化 合 溶解性の差と、酸・塩基の強弱 操作①：塩基であるアニリンだけが塩酸と反応して塩をつく 物 を利用して、芳香族化合物を分 り、水層に溶解する。 離していく。 C6H5NH2+HCl → C6H5NH3Cl 水に溶けにくい化合物も、塩に 操作②：NaOH 水溶液を加えると、アニリンが遊離する。 なると水に溶けやすくなる。 C6H5NH3Cl+NaOH → C6H5NH2+H2O+NaCl ・アニリン…塩基性物質 操作③：酸の強弱がカルボン酸>炭酸>フェノールなので、 塩酸と塩をつくる カルボキシ基だけが反応して塩をつくる。 ・サリチル酸…酸性物質 C6H4(OH)COOH+NaHCO3 NaOH、NaHCO3と塩をつくる。 → C6H4(OH)COONa+H2O+CO2 ・フェノール…酸性物質 操作④：希塩酸を加えると、カルボン酸が遊離する。 NaOH と 塩 を つ く る。し か C6H4(OH)COONa+HCl → C6H4(OH)COOH+NaCl し、炭酸よりも弱い酸なので、 操作⑤：酸であるフェノールは NaOH と反応して、水に溶け CO2 を通じると遊離する。 やすいナトリウムフェノキシドを生じる。 ・ニト…（続きは画像を参照）",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-10.jpg",
+    "imageAlt": "問題 490 の掲載ページ",
+    "modelAnswer": "(1) (ア) (2) (イ) (3) (エ) (4) (エ) けにくく、エーテルに溶",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "490. 芳香族化合物の分離 芳香族化合物は、水に溶 (1) (ア) (2) (イ) (3) (エ) (4) (エ) けにくく、エーテルに溶 (1) アニリンは塩基性の物質なので、塩酸を加えるとアニリ けやすいものが多いが、 ン塩酸塩になり、水層に抽出される。 塩をつくると水に溶けや (2) フェノールは酸性の物質なので、水酸化ナトリウム水溶液を加え すくなる。 るとナトリウム塩になり、水層に抽出される。 (3) 安息香酸もフェノールも酸性の物質であるが、安息香酸は炭酸よ りも強い酸、フェノールは弱い酸なので、炭酸水素ナトリウム水溶液を 加えると、安息香酸だけがナトリウム塩になり、水層に抽出される。 (4) サリチル酸の分子内にはカルボキシ基とフェノ ール性ヒドロキシ基があり、サリチル酸メチルの分子 内にはフェノール性ヒドロキシ基はあるが、カルボキ シ基はエステル化されている。したがって、炭酸水素 ナトリウム水溶液を加えると、サリチル酸のみがナト リウム塩になり、水層に抽出される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題490"
+  },
+  {
+    "id": "pdfbook_491",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "491. 芳香族化合物の反応▶次の反応経路図について、下の各問いに答えよ。 (1) 芳香族化合物A〜 G の物質名と構造式を記せ。 (2) (ア)〜(キ)に適する反応の名称を記せ。 (21 東京理科大)",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-12.jpg",
+    "imageAlt": "問題 491 の掲載ページ",
+    "modelAnswer": "(1) A B C",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "491. 芳香族化合物の反応 (1) A B C 344 D E F G (2) (ア) ニトロ化 (イ) アセチル化 (ウ) ジアゾ化 (エ) スルホン化 (オ) ジアゾカップリング(カップリング) (カ) エステル化 (キ) アセチル化 (ア) ベンゼンを濃硝酸と濃硫酸の混合物(混酸)と反応させる と、ニトロ化がおこり、ニトロベンゼンが生じる。 ❶ (イ) アニリンに無水酢酸を反応させると、アセチル化 がおこり、ア ❶アセチル基 CH3CO ❷ ミド であるアセトアニリドが生じる。 を導入する反応をアセチ ル化という。 第 6 章 (ウ) アニリンに、氷冷しながら塩酸と亜硝酸ナトリウムを反応させる ❷アミド結合 NHCO と、ジアゾ化がおこり、塩化ベンゼンジアゾニウムが生じる。 をもつ化合物をアミドと いう。 有 機 化 塩化ベンゼンジアゾニウムは、高温では不安定であり、加水分解して窒 合 物 素とフェノールを生じる。 (エ) ベンゼンに濃硫酸を反応させると、スルホン化がおこり、ベンゼ ンスルホン酸が生じる。 (オ) 塩化ベンゼンジアゾニウムとナトリウムフェノキシドを反応させ ると、ジアゾカップリングがおこり、橙色の p-ヒドロキシアゾベンゼン (p-フェニルアゾフェノール)が生じる。 (カ) サリチル酸に濃硫酸の触媒下でメタノールを反応させると、エス テル化がおこり、サリチル酸メチルが生じる。 (キ) サリチル酸に無水酢酸を反応させると、アセチル化がおこり、エ ステルであるアセチルサリチル酸が生じる。 345 問題 492 ▶ 494",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題491"
+  },
+  {
+    "id": "pdfbook_492",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "492. フェノールとその誘導体▶次の文章を読み、下の各問いに答えよ。 フェノールは、工業的にはベンゼンとプロペンを原料として合成されている。この合 成法の最初の段階で得られる( ア )を酸素で酸化すると化合物Aが生成する。化合物 Aを希硫酸で分解するとフェノールが生産される。このとき( イ )も一緒に生産され る。このフェノール合成法は(ア)法とよばれ、(イ)の工業的製法でもある。 フェノールはベンゼンから別の方法によっても合成できる。 ⒜ ベンゼンに鉄粉を加え、 塩素を作用させるとクロロベンゼンが生成する。クロロベンゼンを高温･高圧のもとで 水酸化ナトリウムの水溶液と反応させるとナトリウムフェノキシドが生成する。 ⒝ ナト リウムフェノキシドの水溶液に二酸化炭素を通じるとフェノールが得られる。 ナトリウムフェノキシドの水溶液を( ウ )の水溶液に加えると、橙赤色の化合物B が得られる。 ⒞ アニリンの希塩酸溶液に 0 〜 5 ℃で亜硝酸ナトリウム水溶液を加えると、 (ウ)の水溶液が得られる。(ウ)は 5 ℃以下の水溶液中では安定であるが、 ⒟ 温度が高い と分解してフェノールを生成する。 (1) (ア)〜(ウ)にあてはまる化合物の名称を答えよ。 (2) 化合物Aと化合物 B の構造式を記せ。 (3) 下線部(a)の反応では、鉄粉と塩素から生じた化合物 C が触媒として働いている。 また、サリチル酸に化合物 C の水溶液を加えると赤紫色を呈する。化合物 C の化学式 を記せ。 (4) 下線部(a)〜(d)の反応を化学反応式で記せ。 (12 大阪市立大 改) 294",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-13.jpg",
+    "imageAlt": "問題 492 の掲載ページ",
+    "modelAnswer": "(1) (ア) クメン (イ) アセトン",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "492. フェノールとその誘導体 (1) (ア) クメン (イ) アセトン (ウ) 塩化ベンゼンジアゾニウム (2) A B (3) (4) (a) (b) (c) (d) フェノールの工業的製法は、クメン法とよばれる。クメン法に よるフェノールの合成の流れを次に示す。 また、フェノールは、高温・高圧下でのクロロベンゼンと水酸化ナトリ ❶ ウム水溶液との反応でもつくることができる 。 ❶フェノールの合成法に は、このほかベンゼンス ルホン酸ナトリウムのア (3) ベンゼンの塩素化では、鉄が塩化鉄(Ⅲ)となり触媒として働く。 ルカリ融解もある。 また、フェノール類は塩化鉄(Ⅲ)水溶液で青紫〜赤紫の呈色を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題492"
+  },
+  {
+    "id": "pdfbook_493",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "493. 置換基の配向性▶図の 3 段階の反 応を行い、トルエンから化合物 C を合 成した。図の操作 1 、 2 について最も 適切な操作を、次の①〜⑥から 1 つず つ選べ。また、図の化合物Aと B の構 造 式 を 記 せ。た だ し、 CH3 は オ ル ト・パ ラ 配 向 性 を 示 し、 COOH、 NO2 はメタ配向性を示す。 ① 白金を触媒に用いて水素を反応させる。 ② 過マンガン酸カリウム水溶液を加えて加熱後、硫酸を加えて酸性にする。 ③ 無水酢酸と反応させる。 ④ エタノールと少量の濃硫酸を加えて加熱する。 ⑤ 濃硝酸と濃硫酸を加えて加熱する。 第 ⑥ スズと濃塩酸を加えて加熱後、塩基を加える。 (21 広島大 改) 6 章",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-13.jpg",
+    "imageAlt": "問題 493 の掲載ページ",
+    "modelAnswer": "操作 1 ：② 操作 2 ：⑤",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "493. 置換基の配向性 操作 1 ：② 操作 2 ：⑤ 化合物A： 化合物 B ： トルエンから操作 1 によって化合物Aを合成し、化合物Aから 操作 2 によって化合物 B を合成する。そして、化合物 B からエステル化 によって化合物 C にする。化合物 C はメタ位に COO CH2 CH3 と NO2 をもつエステルである。 トルエンから 3 つの操作を経て、化合物 C (m-ニトロ安息香酸エチル) を合成するには、トルエンの CH3 を酸化して安息香酸にすることと、 ニトロ化によってメタ位にニトロ基を導入する操作が必要である。ここ で、メチル基 CH3 はオルト・パラ配向性で、カルボキシ基 COOH は ❶トルエンを十分にニト ❶ メタ配向性なので、はじめにニトロ化を行う と、オルト位またはパラ ロ化すると、2,4,6-トリ 位にニトロ基が入り、メタ位にニトロ基がある化合物 C を合成できない。 ニ ト ロ ト ル エ ン (TNT) したがって、トルエンを安息香酸に酸化して、メタ配向性の COOH に が生じることからも、オ 変換したのちニトロ化を行えばよい。 ルト・パラ配向性である ことがわかる。 346 操作 1 の酸化の操作は、②であり、操作 2 のニトロ化の操作は⑤である。 なお、操作 3 のエステル化の操作は④である。 第",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題493"
+  },
+  {
+    "id": "pdfbook_494",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "494. 芳香族化合物の分離▶次の文を読み、下の各問いに答えよ。 トルエン、フェノール、アニリン、安息香酸が溶けているジエチルエーテ 有 機 ル溶液がある。ここに、塩酸を加えてよく振り混ぜ、水層Ⅰとエーテル層Ⅰ 化 合 を得た。これを分離したのち、エーテル層Ⅰに炭酸水素ナトリウム水溶液を 物 加えてよく振り混ぜ、水層Ⅱとエーテル層Ⅱを得た。これを分離したのち、 エーテル層Ⅱに水酸化ナトリウム水溶液を加えて分離して、水層Ⅲとエーテ ル層Ⅲを得た。 (1) 分離に用いる図の器具の名称を答えよ。 (2) 水層Ⅰ〜Ⅲ、エーテル層Ⅲに含まれる各化合物の構造式を示せ。 (09 南山大 改)",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-14.jpg",
+    "imageAlt": "問題 494 の掲載ページ",
+    "modelAnswer": "章",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "494. 芳香族化合物の分離 6 章 (1) 分液ろうと (2) 有 機 化 (1) 有機化合物の有機溶媒(エーテルなど)と水への溶解性の 合 ❶ 物 差を利用し、分液ろうとを用いて有機化合物を分離する 。一般に、芳 ❶ジエチルエーテルは水 香族化合物は水に溶けにくいが、塩をつくると水に溶けるようになるた よりも密度が小さいので、 め、水層中に抽出させて分離することができる。 エーテル層は上層になる。 (2) トルエン、フェノール、アニリン、安息香酸を含むジエチルエーテ ル溶液に塩酸を加えると、塩基性のアニリンは塩酸と反応してアニリン 塩酸塩をつくり、水層Ⅰ(下層)へ移る。 トルエン、フェノール、安息香酸は塩酸と反応しないので、エーテル層 Ⅰ(上層)に残る。これを分離したのち、エーテル層Ⅰに炭酸水素ナトリ ウム水溶液を加えてよく振り混ぜると、安息香酸は炭酸水素ナトリウム と反応してナトリウム塩をつくり、水層Ⅱへ移る。 フェノールは炭酸よりも弱い酸であり、炭酸水素ナトリウムとは反応し ない。また、トルエンも反応しないので、エーテル層Ⅱにはフェノール とトルエンが残る。これを分離したのち、エーテル層Ⅱに水酸化ナトリ ウム水溶液を加えると、フェノールが塩をつくり、水層Ⅲへ移る。 したがって、エーテル層Ⅲにはトルエンが残る。 347 問題 495 ▶ 496",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題494"
+  },
+  {
+    "id": "pdfbook_495",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "495. 芳香族化合物の分離▶化合物 A 〜 D はベンゼン環に官能基 OH、 NH2、 NO2、 COOH のいずれか 1 つのみをもつ。A 〜 D を図のようにエーテルによる抽出操作に よって分離したところ、エーテル層①〜④にそれぞれ A、B、C、D が含まれた。図の操 作 a 〜 d にあてはまるものを 1 つず つ選べ。 ア 塩酸を加え、振り混ぜる。 イ 塩酸を加えた後、エーテルを加 えて振り混ぜる。 ウ 二酸化炭素を吹き込んだ後、エ ーテルを加えて振り混ぜる。 エ 水酸化ナトリウム水溶液を加え た後、エーテルを加えて振り混ぜ る。 (25 自治医科大) 295",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-14.jpg",
+    "imageAlt": "問題 495 の掲載ページ",
+    "modelAnswer": "a ウ b イ c ア d エ",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "495. 芳香族化合物の分離 a ウ b イ c ア d エ 安息香酸とフェノールは酸性の物質、アニリンは塩基性の物質、 ❶化合物A〜 D は、 ❶ ニトロベンゼンは中性の物質である 。有機化合物は、分子の状態では フェノール(C6H5-OH) エーテルなどの有機溶媒に溶けやすいが、塩(イオン)になると水に溶け アニリン(C6H5-NH2) ❷ やすくなる。この性質を利用して分離していく 。 ニトロベンゼン(C6H5-NO2) 最初の操作(NaOH 水溶液を加える)では、酸性の官能基をもつフェノー 安息香酸(C6H5-COOH) ル C6H5OH と安息香酸 C6H5COOH がナトリウム塩になって水層に移動 のいずれかである。 し、アニリンとニトロベンゼンはエーテル層に残る。操作 a によって、 ❷通常の問題では具体的 一方だけがエーテル層①に移動しているので、これが酸として遊離し、 な操作を示し、各操作で もう一方は塩のまま水層に残ったと考えられる。フェノールと安息香酸 分離された物質を答える の塩について、一方だけを酸として遊離させるには、酸としてフェノー が、本問ではエーテル層 ❸ ルよりも強くカルボン酸よりも弱い CO2 を通じればよい 。このとき、 ①〜④に含まれる物質を ❹ 炭酸よりも弱い酸であるフェノールが次式のように遊離する 。 示して、分離操作を考え C6H5ONa+CO2+H2O → C6H5OH+NaHCO3 るという設定になってい ここにエーテルを加えて振り混ぜるとエーテル層①にフェノール(A)が る。なお、水層に対して 移動する。 行う操作を選ぶ際には、 水層①には安息香酸ナトリウムが含まれる。これをエーテル層②に抽出 エーテルを加える必要が するには、カルボン酸よりも強い酸の水溶液(ここでは塩酸)を加えて安 あることに注意。 息香酸( B )を遊離させ、続いてエーテルを加えて振り混ぜればよい。 ❸ CO2 は 水 中 で は 次 の C6H5COONa+HCl → C6H5COOH+NaCl ように電離して酸として 最初の操作で得られたエーテル層にはアニリン C6H5NH2 とニトロベン 働く。 ゼン C6H5NO2 が含まれる。ニトロベンゼンは酸や塩基と反応せず、ア CO2+H2O ニリンは酸と反応して塩となるので、操作 c では塩酸を加えればよい。 ⇄ H++HCO3− C6H5NH2+HCl → C6H5NH3Cl ❹酸としての強さは このとき、エーテル層③にはニトロベンゼン( C )が含まれ、水層③にア カルボン酸>炭酸>フェ ニリン塩酸塩が移動する。 ノール類 操作 d ではアニリン( D )を遊離させてエーテルで抽出するので、強塩基 なので、二酸化炭素を通 である水酸化ナトリウム水溶液とエーテルを加えて振り混ぜる。このと じるとフェノールだけが き、次式のような反応がおこる。 遊離し、安息香酸は塩の C6H5NH3Cl+NaOH → C6H5NH2+NaCl+H2O まま水溶液中に残る。 最後に、本問の操作全体をまとめた図を示す。 348 第 6",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題495"
+  },
+  {
+    "id": "pdfbook_496",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "496. 医薬品の合成▶次の文を読み、下の各問いに答えよ。 解熱・鎮痛作用を示すアセトアミノフェンは、次のように合成される。まず、 ① スズ と濃塩酸を用いて p-ニトロフェノールの( ア )基を( イ )したのち、アンモニア 水を加えると化合物Aが生じる。 ② Aに化合物 B を作用させると、アセトアミノフェン と有機化合物 C が生成する。なお、 B は C の縮合によって得られる。 (1) 文中の(ア)、(イ)に適切な語句を記せ。 (2) 下線部①の反応によって生成した有機化合物の構造式を記せ。 (3) (2)の化合物とアンモニアから化合物Aが生成する反応を、化学反応式で表せ。 (4) 下線部②の反応の反応名を記せ。 (5) 有機化合物 B 、 C の名称と構造式を記せ。 (摂南大 改)",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-14.jpg",
+    "imageAlt": "問題 496 の掲載ページ",
+    "modelAnswer": "(1) (ア) ニトロ (イ) 還元 (2)",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "496. 医薬品の合成 章 (1) (ア) ニトロ (イ) 還元 (2) 有 (3) 機 化 (4) アセチル化 合 物 (5) B：無水酢酸 C：酢酸 出発物質である p-ニトロフェノールの構造とアセトアミノフ ェンの構造を比べながら考える。フェノール性ヒドロキシ基は変化して いないので、ニトロベンゼン C6H5NO2 からアニリン C6H5NH2 を経てア セトアニリド C6H5NHCOCH3 を合成する変化と同様に、ニトロ基 NO2 をアミノ基 NH2 に変化させて、これをアセチル化して NHCOCH3 にすればよいと推測できる。 塩酸中で p-ニトロフェノールをスズによって還元すると、ニトロ基 NO2 がアミノ基 NH2 に変化するが、この時点では、アミノ基の部分 は塩酸塩 NH3Cl となっている(反応 1 )。 ここにアミノ基よりも強い塩基性を示す物質を加えれば、 NH3Cl をア ミノ基 NH2 にすることができるが、酸性の官能基であるフェノール性 ヒドロキシ基まで塩にすることを避けるために、比較的弱い塩基である アンモニアを用いている。一般に、ベンゼン環に結合したアミノ基の塩 ❶ 基性は、アンモニアよりも弱い 。したがって、ここでは弱塩基の遊離 ❶塩基性の強さの比較 がおこり、p-アミノフェノール(化合物A)が生成する(反応 2 )。 NaOH>NH3>C6H5NH2 349 問題 497 ▶ 498 アミノ基 NH2 をアセチル化する反応は、酢酸を用いてもゆっくりでは あるが進行する。しかし、問題文中の化合物 B と C の関係から、 B が無 水酢酸であることが推測できる(反応 3 )。 p-アミノフェノール分子内で無水酢酸と反応する可能性がある官能基 はフェノール性ヒドロキシ基とアミノ基であるが、無水酢酸との反応性 ❷ はアミノ基の方が圧倒的に大きい 。したがって、反応 3 では、アミノ ❷アセチル化のされやす 基のアセチル化のみが進行してアセトアミノフェンが得られる。 さ アセトアミノフェン アミノ基>フェノール性 アセトアミノフェンは、かぜ薬の成分の 1 つであ ヒドロキシ基 り、解熱・鎮痛作用を示す。かつては、アセトア ニリドが解熱剤として広く用いられていたが、 これは赤血球を溶解するなどの副作用があった ❸フェナセチンも、長期 ため、現在は用いられていない。このアセトア 間服用したときに、腎臓 ニリドの構造の一部を変化させ、副作用を に障害を生じるなどの副 弱めて、効能を高めた医薬品がアセトアミ 作用があることがわかり、 ノフェンやフェナセチン❸である。 現在、用いられていない。 有機化合物の合成 無機試薬から反応を推測する。 濃硝酸と濃硫酸  ニトロ化 スズと塩酸  ニトロ基の還元 過マンガン酸カリウム  ベンゼン環に結合した炭化水素基の酸化 ❶酸化剤であるニトロベ",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題496"
+  },
+  {
+    "id": "pdfbook_497",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "497. メチルレッドの合成▶次の文を読み、下の各問いに答えよ。 ベンゼン C6H6 と混酸(濃硝酸と濃硫酸の混合物)の反応により、ニトロベンゼン C6H5NO2 が得られた。 ① ニトロベンゼンにスズと濃塩酸を加えて加熱し、反応が完結し たことを確かめたのち、 ② 適切な実験操作を行うことでアニリン C6H5NH2 が得られた。 トルエン C7H8 と混酸の反応により、分子式 C7H7NO2 の芳香族化合物Aとその構造異 性体 B がおもに得られた。さらにAと混酸を反応させると、分子式 C7H6N2O4 の芳香族 化合物 C とその構造異性体 D の混合物が得られた。一方、 B と混酸を反応させると、 D がおもに得られた。化合物 C および D と混酸の反応では、いずれの場合も 2,4,6-トリニ トロトルエンが生じた。化合物Aを中性の過マンガン酸カリウム水溶液中で加熱すると、 化合物 E が得られた。化合物 E にスズと濃塩酸を加え、適切な処理を行うことで化合物 F が得られた。 F の希塩酸溶液を冷やしながら亜硝酸ナトリウム水溶液に加えると、化 合物 G が得られ、その水溶液にジメチルアニリン C6H5N(CH3)2 を加えると、化合物 H が 得られた。化合物 H はメチルレッドとよばれる合成染料である。 (1) 下線部①の反応の生成物の 1 つは SnCl4 である。この反応を化学反応式で表せ。 (2) 下線部②について、以下の実験操作を(ⅰ)→(ⅱ)→(ⅲ)→(ⅳ)の順に行うことが 適切である。ある日、操作(ⅰ)を行わずに、(ⅱ)→(ⅲ)→(ⅳ)の順で操作を行ったと ころ、アニリンはほとんど得られなかった。次の【 】内の語句をすべて用いてその 理由を簡潔に記せ。 【 溶解性、水、ジエチルエーテル 】 操作(ⅰ)：水酸化ナトリウム水溶液を反応液が塩基性になるまで加える。 操作(ⅱ)：ジエチルエーテルを加え、分液ろうとに入れて振り混ぜる。 操作(ⅲ)：水層を流し出してから、ジエチルエーテル層を蒸発皿に移す。 操作(ⅳ)：ジエチルエーテルを蒸発させる。 (3) 化合物 D 、 F および H の構造式を記せ。 (20 名古屋大 改) 296",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-15.jpg",
+    "imageAlt": "問題 497 の掲載ページ",
+    "modelAnswer": "(1) は以下のように考える。",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "497. メチルレッドの合成 ンゼンの反応式①の係数 (1) は以下のように考える。 まずニトロベンゼンと、 C6H5NH3+ の係数を 1 と (2) 操作(ⅰ)を行わず塩基性にしなかったことから、アニリンはアニリ する。次に、酸素原子の ン塩酸塩となっている。アニリン塩酸塩は水への溶解性が大きく、ジエ 数 に 注 目 し て H2O の 係 チルエーテルにはほとんど溶解せず、抽出できなかったから。 数を決め、さらに水素原 (3) D F H 子の数に注目して H+ の 係数を決める。最後に、 両辺の電荷を等しくする ように e− の係数を決め (1) 塩酸中でスズを還元剤としてニトロベンゼンを還元する場 る。 合、ニトロベンゼンは C6H5NH3+、スズはスズ(Ⅳ)イオンに変化する。 スズのイオンには Sn2+ ❶ それぞれの変化を電子 e− を含む反応式で表すと、次のようになる 。 と Sn4+ があるが、Sn2+ にはニトロベンゼンを還 元する性質があるため、 Sn → Sn4+ + 4e− ② Sn2+ はこの反応の生成 電子の数が揃うように ①×2+②×3 を行うと、次のイオン反応式が得 物にならない。 られる。 350 この式の両辺に 14Cl− を加えると、解答の化学反応式が完成する。この とき、問題文にあるように、Sn4+は SnCl4 になる。 (2) 操作(ⅰ)は、生成したアニリン塩酸塩を塩基性にしてアニリンを 遊離させ(弱塩基の遊離)、水層からジエチルエーテル層へアニリンを抽 出するために行う。この操作(ⅰ)を行わないと、水溶性のアニリン塩酸 ❷ニトロ基はメタ配向性 塩が水に溶けたままになるので、ジエチルエーテル層に抽出されない。 を示すので、次のような (3) トルエンのメチル基はオルト・パラ配向性を示す。トルエンを混 化合物は得られにくい。 酸(濃硝酸+濃硫酸)でニトロ化すると、 NO2 が 1 つ導入された化合物 Aと B が得られた。Aと B をさらにニトロ化すると、Aからは化合物 C ❷ と D の 2 種類が得られ、 B からは化合物 D のみが得られた 。 第 6 章 以上のことから、化合物 A は o-ニトロトルエン、化合物 B は p-ニトロ トルエンであり、化合物 C は 2,6-ジニトロトルエン、化合物 D は2,4-ジ ニトロトルエンであることがわかる。 有 機 化合物 A を酸化するとトルエンのメチル基 CH3 が酸化されてカルボ 化 キシ基 COOH になった化合物 E になる。これを還元するとニトロ基 合 物 がアミノ基になった化合物 F が得られる。さらにジアゾ化によって化合 物 G が得られる。 化合物 G とジメチルアニリンをジアゾカップリング(カップリング)させ ると、化合物 H (メチルレッド)が得られる。 ジメチルアニリンのオルト位は N(CH3)2 の立体障害のため 反応しにくく、パラ位で化合物 G と反応する。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題497"
+  },
+  {
+    "id": "pdfbook_498",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "498. 二置換体の構造異性体▶次の文を読み、下の各問いに答えよ。 芳香族化合物Aは炭素、水素、酸素からなり、ベンゼン環に 2 つの置換基が結合して いる。化合物Aのベンゼン環の水素原子のうち 1 つを塩素原子で置き換えた化合物は 2 種類存在する。化合物Aの分子量は200以下であることがわかっている。221 mg の化合 物Aを完全燃焼させると、572 mg の二酸化炭素と 117 mg の水が生成した。化合物Aに 塩化鉄(Ⅲ)水溶液を加えると、紫色の呈色があった。化合物Aにヨウ素と水酸化ナトリ ウム水溶液を加えて温めると、 ① 特有の臭いをもつ黄色沈殿が生じた。 芳香族化合物 B および C はいずれも化合物Aの構造異性体であり、ベンゼン環に 2 つ の置換基が結合している。 ② 化合物 B に炭酸水素ナトリウム水溶液を加えると、二酸化 炭素が発生した。化合物 C にアンモニア性硝酸銀水溶液を加えて温めると、銀が析出し た。化合物 C に塩化鉄(Ⅲ)水溶液を加えても呈色はなかった。化合物 B および C それぞ れを、過マンガン酸カリウム水溶液で酸化すると、いずれの場合も二価カルボン酸であ る D が得られた。化合物 D のベンゼン環の水素原子のうち 1 つを塩素原子で置き換えた 第 化合物は 3 種類存在する。 6 (1) 化合物Aの分子式を記せ。 章 (2) 下線部①の化合物の分子式を記せ。 (3) 化合物A、 C 、 D の構造式をそれぞれ記せ。 有 機 (4) 下線部②について、構造式を使ってその化学反応式を記せ。 (20 立教大) 化 合 物",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-15.jpg",
+    "imageAlt": "問題 498 の掲載ページ",
+    "modelAnswer": "(1) C8H8O2 (2) CHI3",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "498. 二置換体の構造異性体 (1) C8H8O2 (2) CHI3 (3) A C D 351 問題 499 (4) (1) 芳香族化合物Aは、炭素、水素、酸素からなり、ベンゼン 環に 2 つの置換基が結合している。この 2 つの置換基を X 、 Y とすると、 化合物Aのベンゼン環の水素原子のうち 1 つを塩素原子で置き換えた化 合物が 2 種類存在することから、 X 、 Y はパラ位にあることがわかる。 C 、 H 、 O の各質量は、次のようになる。 12 炭素 C ：572 mg× =156 mg 44 2.0 水素 H ：117 mg× =13 mg 18 酸素 O ：221 mg−(156mg+13mg)=52 mg したがって、 C 、 H 、 O の組成比は次のように求められる。 ❶不飽和度は次のように 156 13 52 求められる。 C：H：O= ： ： =4：4：1 12 1.0 16 不飽和度= 化合物 A の組成式は (C4H4O) =68n となる。A はベンゼン環(C6H 2×8+2−8 ＝5 =72+1.0 m(m=1〜4))を含み、分子量は200以下なので、次式が成り 2 立つ。 ベンゼン環の不飽和度は 72+1.0 m≦68n≦200 n=2 4 なので、ベンゼン環以 ❶ 外に二重結合または環状 したがって、Aの分子式は C8H8O2 である。 構造を含むことがわかる。 (2)、(3) 化合物Aに塩化鉄(Ⅲ)水溶液を加えると、紫色を示すことか ら、Aにはフェノール性のヒドロキシ基がある。また、Aにヨウ素と水 酸化ナトリウム水溶液を加えて温めると、特有の臭いをもつ黄色沈殿(ヨ ードホルム CHI3)が生じることから、A は CH3 CH(OH) もしくは CH3 CO の構造をもつ。A の分子式 C8H8O2 から C6H4 および OH を 除くと、C2H3O が残り、これは CH3 CO であるとわかる。 したがって、Aは OHと COCH3 をパラ位にもつことか ら、図のような構造式で書ける。 芳香族化合物 B 、 C は、いずれも A の構造異性体であり、 ベンゼン環に 2 つの置換基が結合している。 B に炭酸水 素ナトリウム水溶液を加えると、二酸化炭素を発生するこ ❷ とから、 B にはカルボキシ基 COOH が存在する 。 ❷酸の強さ 一方、化合物 C にアンモニア性硝酸銀溶液を加えて温めると、銀が析出 カルボン酸>(炭酸)>フ することから(銀鏡反応)、 C は還元性を示すホルミル基 CHO をもつ ェノール ことがわかる。また、 C は塩化鉄(Ⅲ)水溶液での呈色を示さなかったの で、フェノール性ヒドロキシ基をもたない。 352 さらに、 B 、 C を過マンガン酸 カリウムで酸化すると、二価カ ルボン酸 D が得られた。 D の ベンゼン環の水素原子のうち、 1 つを塩素原子で置き換えた 化合物が 3 種類存在すること から、D の 2 つのカルボキシ基 は、メタ位にあることがわかる。 以上のことから、 C 、D の構造 式は図のようになる。 (4) (3)から、化合物 B は、メタ位にカルボキシ基とメチル基をもつの で、化学反応式は次のように示される。 第 6 章",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題498"
+  },
+  {
+    "id": "pdfbook_499",
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "499. 芳香族化合物の構造推定▶次の文を読み、下の各問いに答えよ。 分子式が C18H16O4 である芳香族化合物 A を酸性条件下でおだやかに加水分解したと ころ、 3 種類の化合物( B 、 C 、 D )が得られた。 B と C は同じ分子式をもち、ともにベ ンゼン環を含んでいた。また、 D は水溶性の化合物であり、その組成式は CHO(原子数 の比 C：H：O=1：1：1)であった。これらの化合物を用いて以下の実験を行った。 実験 1 ：化合物 B (108 mg)を完全燃焼させると、308 mg の二酸化炭素と 72 mg の水が得 られた。 実験 2 ：化合物 B を塩化鉄(Ⅲ)水溶液と反応させると、青色を呈した。一方、化合物 C を塩化鉄(Ⅲ)水溶液に加えても、呈色しなかった。 実験 3 ：化合物 B を過マンガン酸カリウム水溶液で酸化すると、サリチル酸が得られた。 実験 4 ：化合物 D (116 mg)を160℃に加熱すると、18 mg の水が発生するとともに五員環 構造を含む化合物 E が 98 mg 得られた。 (1) 化合物 B と C の構造式を記せ。 (2) 加水分解後に B と C は混合物として得られる。 B と C を、分液ろうとを使って確 実に分離するには水層に何を加えればよいか、物質名を記せ。 (3) 化合物A、 D 、 E の構造式を記せ。 (20 大阪大 改) 297",
+    "image": "./assets/question-pages/p282-297_24_芳香族化合物-16.jpg",
+    "imageAlt": "問題 499 の掲載ページ",
+    "modelAnswer": "機",
+    "criteria": [
+      "自分の解答と模範解答の結論が一致している",
+      "必要な化学式・構造式・計算過程を示している",
+      "解説を読み、誤りや不足を説明できる"
+    ],
+    "explanation": "499. 芳香族化合物の構造推定 有 機 (1) B C (2) 水酸化ナトリウム 化 (水酸化カリウム) 合 物 (3) A D E (1) 分子式が C18H16O4 である化合物Aを、酸性条件下でおだ やかに加水分解すると、 3 種類の化合物( B 、 C 、 D )が得られた。 A(C18H16O4) → B + C + D …① 実験 1 の化合物 B の元素分析から、各原子の質量は、 12 C ：308 mg× =84.0 mg 44 ❶不飽和度は次のように 2.0 求められる。 H ：72 mg× =8.0 mg 18 不飽和度= O ：108 mg−(84.0 mg+8.0 mg)=16 mg 2×7+2−8 したがって、 C 、 H 、 O の原子数の比は、次のようになる。 =4 2 84.0 8.0 16 ベンゼン環の不飽和度は C：H：O= ： ： =7：8：1 12 1.0 16 4 なので、ベンゼン環以 B および C の組成式は C7H8O であり、分子式は(C7H8O) となる。Aの 外には二重結合や環状構 ❶ 分子式から、n=2 になることはないので、分子式も C7H8O と決まる。 造は含まれていない。 353 問題 500 C7H8O の化合物には、次のものがある。 実験 2 から、 B はフェノール性のヒドロキシ基をもち、 C はフェノール 性のヒドロキシ基をもたないことがわかる。 実験 3 から、 B を酸化するとオルト位に官能基をもつサリチル酸が得ら れるので、 B もオルト位に官能基をもつことがわかる。その官能基は、 C7H8O (C6H4 OH)=CH3 となり、 B は o-クレゾールと決まる。 C としてアニソールとベンジルアルコールが考えられるが、アニソール はエステル結合が形成できないので、 C はベンジルアルコールとなる。 (2) B はフェノール性ヒドロキシ基をもつので、水酸化ナトリウム水 ❷ 溶液 でナトリウム塩を生じて水溶性となる。 ❷水酸化カリウム水溶液 でもよい。 一方、 C は水に不溶であり、水酸化ナトリウム水溶液にも溶けないので、 分液ろうとを用いて分離できる。 (3) 次の関係から、化合物 D の分子式を求める。 C18H16O4+2H2O → C7H8O + C7H8O + D …② A B C D=C18H16O4+2H2O−2(C7H8O)=C4H4O4 ❸ 分子式から、 D はマレイン酸またはフマル酸であると推測できる 。 ❸C4H4O4 の不飽和度は ここで、実験 4 から、 D を加熱すると、五員環の環状構造をもつ E が得 次のようになる。 られたことから、シス形の位置にカルボキシ基を 2 つもつマレイン酸が 4×2+2−4 =3 ❹ 脱水して無水マレイン酸(酸無水物 )になったことがわかる。 2 ここまでの条件から 2 つ のカルボキシ基をもつと 考えられるので、C C 結合を 1 つもつと推測で きる。 ❹分子内の 2 つのカルボ キシ基から 1 分子の水が したがって、 D がマレイン酸、 E が無水マレイン酸である。 脱離して生じる化合物の なお、116 mg の D を160℃に加熱すると、18 mg の水と、五員環構造を含 ことを酸無水物という。 む化合物 E が 98 mg 得られたことから、質量の関係は次のようになる。 なお、フマル酸はトラン C4H4O4−H2O=C4H2O3 ス 形 の 位 置 に COOH 分子量 116 18 98 をもち、分子内での脱水 質量 116 mg 18 mg 98 mg はおこりにくい。 化合物Aは、 B のヒドロキシ基と C のヒドロキシ基を、 D の 2 つのカル ボキシ基と脱水縮合させたジエステルであり、次の構造をもつ。 354 有機化合物の構造推定 (p.298 〜 301)",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "p282-297 24 芳香族化合物・問題499"
+  },
+  {
+    "id": "pdfbook_500",
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 24,
+    "prompt": "500. C6H12O の化合物の構造推定▶化合物 A は分子式が C6H12O で、鏡像異性体が存在 する。A はヨードホルム反応には活性を示すが、フェーリング液を還元しない。また、 A にナトリウムを加えても、水素は発生しない。化合物 B は分子式が C6H12O で、 6 つ の炭素からなる環状の構造をもち、ナトリウムを加えると水素が発生する。 B を濃硫酸 と加熱すると、分子式 C6H10 で表される化合物 C と、分子式 C12H22O で表される化合物 D が生じた。次の各問いに答えよ。 (1) 化合物Aの構造式を記せ。ただし、不斉炭素原子には＊印をつけよ。 (2) 化合物 B 、 C 、 D の構造式をそれぞれ記せ。 (11 山口大)",
+    "image": "./assets/question-pages/p298-301_特集_有機化合物の構造推定-3.jpg",
+    "imageAlt": "構造推定 問題 500 の掲載ページ",
+    "modelAnswer": "この3問は解答資料が未添付のため、現段階では自分の解答を保存して先生と確認してください。",
+    "criteria": [
+      "条件を一つずつ構造に反映した",
+      "すべての構造式を過不足なく示した",
+      "不斉炭素原子・官能基・反応性を確認した"
+    ],
+    "explanation": "問題500〜502は問題資料のみが含まれており、対応する解答・解説PDFは今回の資料にはありません。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定・問題500"
+  },
+  {
+    "id": "pdfbook_501",
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 24,
+    "prompt": "501. C9H10O2 の芳香族化合物の構造推定▶化合物 A、B、C は分子式が C9H10O2 で表さ れるベンゼン環をもつ化合物である。A は芳香族カルボン酸であり、過マンガン酸カリ ウム水溶液で酸化すると、PET ボトルの製造原料の 1 つとなる化合物が得られた。 B 第 と C はエステル結合をもち、それぞれに希塩酸を加えて加熱すると、どちらも加水分解 6 が進行した。B の加水分解生成物の 1 つは、塩化鉄(Ⅲ)水溶液を加えると呈色する化合 章 物 D であった。また、D はベンゼンの一置換体である。一方、 C の加水分解生成物の 1 つは、ヨードホルム反応を示し、ベンゼン環をもつアルコール E であった。 有 機 (1) A〜 E の構造式を記せ。 化 合 (2) E のヨードホルム反応によって生成した沈殿をろ過したろ液に、十分な量の塩酸 物 を加えると白色沈殿が生成した。この白色沈殿の構造式を記せ。 (25 東京薬科大 改)",
+    "image": "./assets/question-pages/p298-301_特集_有機化合物の構造推定-4.jpg",
+    "imageAlt": "構造推定 問題 501 の掲載ページ",
+    "modelAnswer": "この3問は解答資料が未添付のため、現段階では自分の解答を保存して先生と確認してください。",
+    "criteria": [
+      "条件を一つずつ構造に反映した",
+      "すべての構造式を過不足なく示した",
+      "不斉炭素原子・官能基・反応性を確認した"
+    ],
+    "explanation": "問題500〜502は問題資料のみが含まれており、対応する解答・解説PDFは今回の資料にはありません。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定・問題501"
+  },
+  {
+    "id": "pdfbook_502",
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 24,
+    "prompt": "502. C6H10 のアルケンの構造推定▶次の文を読み、下の各問いに答えよ。 化合物A〜 D は、分子式がいずれも C6H10 で、五員環と二重結合を 1 つずつもつ化合 物である。A と B は、それぞれ非対称な構造をもち、A は不斉炭素原子をもつ。一方、 C と D は対称な構造をもつ。A〜 D を加熱しながら過マンガン酸カリウムで酸化したと ころ、A〜 C は E 〜 G をそれぞれ生成した。一方、 D の酸化では H と I を生成した。 H はさらに酸化されて二酸化炭素と水になった。 E 〜 H は酸性を示す化合物であった。ま た、F はヨードホルム反応に陽性で、 G と I は対称な構造をもつ化合物であった。二重 結合は上のような条件で酸化されると、式 1 のように結合が切れて、カルボニル基に変 わる。生成物がアルデヒドの場合には、さらに酸化されてカルボン酸を生成する。 (1) 化合物A〜 I の構造式を記せ。 (2) E 〜 I の中には、P4O10 と反応して環状化合物 J および K をそれぞれ生成するもの が見られた。 J は不斉炭素原子をもつが、 K は不斉炭素原子をもたなかった。また、 J と K は水と反応すると、もとの構造にもどる性質をもつ。 J および K を生成するものは E 〜 I のどれか。該当するものを記号で答えよ。 J および K の構造式を記せ。 (12 お茶の水女子大 改) 301",
+    "image": "./assets/question-pages/p298-301_特集_有機化合物の構造推定-4.jpg",
+    "imageAlt": "構造推定 問題 502 の掲載ページ",
+    "modelAnswer": "この3問は解答資料が未添付のため、現段階では自分の解答を保存して先生と確認してください。",
+    "criteria": [
+      "条件を一つずつ構造に反映した",
+      "すべての構造式を過不足なく示した",
+      "不斉炭素原子・官能基・反応性を確認した"
+    ],
+    "explanation": "問題500〜502は問題資料のみが含まれており、対応する解答・解説PDFは今回の資料にはありません。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定・問題502"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "メタンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₁₀H₈",
+      "CH₄",
+      "CH₃COOCH₃",
+      "CH₃CH(OH)CH₃"
+    ],
+    "answer": 1,
+    "explanation": "メタンは CH₄ と表される。分類はアルカンである。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0001"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "メタンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルカン",
+      "第一級アルコール",
+      "不飽和ジカルボン酸",
+      "芳香族アミン塩"
+    ],
+    "answer": 0,
+    "explanation": "メタン（CH₄）はアルカンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0002"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₄",
+    "acceptedAnswers": [
+      "メタン",
+      "メタン"
+    ],
+    "explanation": "CH₄ はメタンである。天然ガスの主成分で、完全燃焼すると二酸化炭素と水を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0003"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "メタンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "天然ガスの主成分で、完全燃焼すると二酸化炭素と水を生じる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "メタン（CH₄）はアルカンであり、天然ガスの主成分で、完全燃焼すると二酸化炭素と水を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0004"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エタンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₃H₈",
+      "C₂H₆",
+      "C₂H₄",
+      "C₂H₂"
+    ],
+    "answer": 1,
+    "explanation": "エタンは C₂H₆ と表される。分類はアルカンである。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0005"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エタンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "二価カルボン酸",
+      "二価アルコール",
+      "アルカン",
+      "第二級アルコール"
+    ],
+    "answer": 2,
+    "explanation": "エタン（C₂H₆）はアルカンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0006"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₂H₆",
+    "acceptedAnswers": [
+      "エタン",
+      "エタン"
+    ],
+    "explanation": "C₂H₆ はエタンである。炭素間に単結合だけをもつ飽和炭化水素である",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0007"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エタンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "炭素間に単結合だけをもつ飽和炭化水素である",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "エタン（C₂H₆）はアルカンであり、炭素間に単結合だけをもつ飽和炭化水素である",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0008"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロパンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃COCH₃",
+      "CH₃CH₂CH₂OH",
+      "C₆H₅N₂Cl",
+      "C₃H₈"
+    ],
+    "answer": 3,
+    "explanation": "プロパンは C₃H₈ と表される。分類はアルカンである。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0009"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロパンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "第二級アルコール",
+      "アルキン",
+      "芳香族アルケン",
+      "アルカン"
+    ],
+    "answer": 3,
+    "explanation": "プロパン（C₃H₈）はアルカンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0010"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₃H₈",
+    "acceptedAnswers": [
+      "プロパン",
+      "プロパン"
+    ],
+    "explanation": "C₃H₈ はプロパンである。液化石油ガス（LPガス）の主成分の一つである",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0011"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "プロパンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "液化石油ガス（LPガス）の主成分の一つである",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "プロパン（C₃H₈）はアルカンであり、液化石油ガス（LPガス）の主成分の一つである",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0012"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ブタンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₄(CO)₂O",
+      "CH₄",
+      "C₄H₁₀",
+      "C₆H₅OH"
+    ],
+    "answer": 2,
+    "explanation": "ブタンは C₄H₁₀ と表される。分類はアルカンである。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0013"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ブタンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "カルボン酸",
+      "縮合芳香族炭化水素",
+      "芳香族アルケン",
+      "アルカン"
+    ],
+    "answer": 3,
+    "explanation": "ブタン（C₄H₁₀）はアルカンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0014"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₄H₁₀",
+    "acceptedAnswers": [
+      "ブタン",
+      "ブタン"
+    ],
+    "explanation": "C₄H₁₀ はブタンである。直鎖形と枝分かれ形の構造異性体をもつ",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0015"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ブタンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "直鎖形と枝分かれ形の構造異性体をもつ",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ブタン（C₄H₁₀）はアルカンであり、直鎖形と枝分かれ形の構造異性体をもつ",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0016"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エチレンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₂H₄",
+      "C₂H₅OH",
+      "CH₃COCH₃",
+      "CH₃OH"
+    ],
+    "answer": 0,
+    "explanation": "エチレンは C₂H₄ と表される。分類はアルケンである。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0017"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エチレンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族カルボン酸",
+      "ジアゾニウム塩",
+      "第二級アルコール",
+      "アルケン"
+    ],
+    "answer": 3,
+    "explanation": "エチレン（C₂H₄）はアルケンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0018"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₂H₄",
+    "acceptedAnswers": [
+      "エチレン",
+      "エチレン"
+    ],
+    "explanation": "C₂H₄ はエチレンである。臭素水を脱色し、付加重合してポリエチレンになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0019"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エチレンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "臭素水を脱色し、付加重合してポリエチレンになる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "エチレン（C₂H₄）はアルケンであり、臭素水を脱色し、付加重合してポリエチレンになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0020"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロピレンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "高級脂肪酸のグリセリンエステル",
+      "C₂H₅OH",
+      "HOC₆H₄COOCH₃",
+      "C₃H₆"
+    ],
+    "answer": 3,
+    "explanation": "プロピレンは C₃H₆ と表される。分類はアルケンである。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0021"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロピレンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "不飽和ジカルボン酸",
+      "アルカン",
+      "アルケン",
+      "アゾ化合物"
+    ],
+    "answer": 2,
+    "explanation": "プロピレン（C₃H₆）はアルケンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0022"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₃H₆",
+    "acceptedAnswers": [
+      "プロピレン",
+      "プロピレン"
+    ],
+    "explanation": "C₃H₆ はプロピレンである。付加重合してポリプロピレンになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0023"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "プロピレンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "付加重合してポリプロピレンになる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "プロピレン（C₃H₆）はアルケンであり、付加重合してポリプロピレンになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0024"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセチレンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₂H₆",
+      "C₂H₅OC₂H₅",
+      "C₂H₂",
+      "CH₃COOCH₃"
+    ],
+    "answer": 2,
+    "explanation": "アセチレンは C₂H₂ と表される。分類はアルキンである。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0025"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセチレンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族エステル",
+      "カルボン酸",
+      "アルキン",
+      "アゾ化合物"
+    ],
+    "answer": 2,
+    "explanation": "アセチレン（C₂H₂）はアルキンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0026"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₂H₂",
+    "acceptedAnswers": [
+      "アセチレン",
+      "アセチレン"
+    ],
+    "explanation": "C₂H₂ はアセチレンである。三重結合をもち、臭素を付加する",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0027"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アセチレンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "三重結合をもち、臭素を付加する",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "アセチレン（C₂H₂）はアルキンであり、三重結合をもち、臭素を付加する",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0028"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ベンゼンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃COOCH₃",
+      "C₂H₄",
+      "C₂H₅OC₂H₅",
+      "C₆H₆"
+    ],
+    "answer": 3,
+    "explanation": "ベンゼンは C₆H₆ と表される。分類は芳香族炭化水素である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0029"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ベンゼンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "高級脂肪酸塩",
+      "芳香族炭化水素",
+      "ケトン",
+      "芳香族ヒドロキシ酸"
+    ],
+    "answer": 1,
+    "explanation": "ベンゼン（C₆H₆）は芳香族炭化水素に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0030"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₆",
+    "acceptedAnswers": [
+      "ベンゼン",
+      "ベンゼン"
+    ],
+    "explanation": "C₆H₆ はベンゼンである。置換反応を起こしやすく、通常は臭素水を脱色しない",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0031"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ベンゼンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "置換反応を起こしやすく、通常は臭素水を脱色しない",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ベンゼン（C₆H₆）は芳香族炭化水素であり、置換反応を起こしやすく、通常は臭素水を脱色しない",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0032"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "トルエンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₂H₆",
+      "C₂H₅OH",
+      "C₆H₅CH₃",
+      "CH₃CH₂CHO"
+    ],
+    "answer": 2,
+    "explanation": "トルエンは C₆H₅CH₃ と表される。分類は芳香族炭化水素である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0033"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "トルエンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族炭化水素",
+      "ニトロ化合物",
+      "芳香族アルケン",
+      "アルカン"
+    ],
+    "answer": 0,
+    "explanation": "トルエン（C₆H₅CH₃）は芳香族炭化水素に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0034"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅CH₃",
+    "acceptedAnswers": [
+      "トルエン",
+      "トルエン"
+    ],
+    "explanation": "C₆H₅CH₃ はトルエンである。側鎖を強く酸化すると安息香酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0035"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "トルエンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "側鎖を強く酸化すると安息香酸になる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "トルエン（C₆H₅CH₃）は芳香族炭化水素であり、側鎖を強く酸化すると安息香酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0036"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "キシレンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₃H₈",
+      "C₆H₄(CH₃)₂",
+      "C₆H₅NH₃Cl",
+      "C₆H₅N=NC₆H₅"
+    ],
+    "answer": 1,
+    "explanation": "キシレンは C₆H₄(CH₃)₂ と表される。分類は芳香族炭化水素である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0037"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "キシレンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族炭化水素",
+      "不飽和ジカルボン酸",
+      "エーテル",
+      "ケトン"
+    ],
+    "answer": 0,
+    "explanation": "キシレン（C₆H₄(CH₃)₂）は芳香族炭化水素に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0038"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₄(CH₃)₂",
+    "acceptedAnswers": [
+      "キシレン",
+      "キシレン"
+    ],
+    "explanation": "C₆H₄(CH₃)₂ はキシレンである。o-、m-、p-の3種類の位置異性体をもつ",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0039"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "キシレンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "o-、m-、p-の3種類の位置異性体をもつ",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "キシレン（C₆H₄(CH₃)₂）は芳香族炭化水素であり、o-、m-、p-の3種類の位置異性体をもつ",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0040"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "メタノールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "HOC₆H₄COOH",
+      "CH₃OCH₃",
+      "C₂H₆",
+      "CH₃OH"
+    ],
+    "answer": 3,
+    "explanation": "メタノールは CH₃OH と表される。分類は第一級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0041"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "メタノールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "フェノール類",
+      "酸無水物",
+      "第一級アルコール",
+      "エステル"
+    ],
+    "answer": 2,
+    "explanation": "メタノール（CH₃OH）は第一級アルコールに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0042"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃OH",
+    "acceptedAnswers": [
+      "メタノール",
+      "メタノール"
+    ],
+    "explanation": "CH₃OH はメタノールである。酸化されるとホルムアルデヒドを経てギ酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0043"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "メタノールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "酸化されるとホルムアルデヒドを経てギ酸になる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "メタノール（CH₃OH）は第一級アルコールであり、酸化されるとホルムアルデヒドを経てギ酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0044"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エタノールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅NH₃Cl",
+      "C₂H₅OH",
+      "CH₃CH₂CH₂OH",
+      "trans-HOOCCH=CHCOOH"
+    ],
+    "answer": 1,
+    "explanation": "エタノールは C₂H₅OH と表される。分類は第一級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0045"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エタノールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "ニトロ化合物",
+      "第一級アルコール",
+      "フェノール類",
+      "カルボン酸"
+    ],
+    "answer": 1,
+    "explanation": "エタノール（C₂H₅OH）は第一級アルコールに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0046"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₂H₅OH",
+    "acceptedAnswers": [
+      "エタノール",
+      "エタノール"
+    ],
+    "explanation": "C₂H₅OH はエタノールである。ナトリウムと反応して水素を発生する",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0047"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エタノールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "ナトリウムと反応して水素を発生する",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "エタノール（C₂H₅OH）は第一級アルコールであり、ナトリウムと反応して水素を発生する",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0048"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "1-プロパノールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅NH₃Cl",
+      "CH₃COOC₂H₅",
+      "CH₃CH₂CH₂OH",
+      "CH₃C₆H₄OH"
+    ],
+    "answer": 2,
+    "explanation": "1-プロパノールは CH₃CH₂CH₂OH と表される。分類は第一級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0049"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "1-プロパノールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "二価カルボン酸",
+      "芳香族エステル",
+      "芳香族ヒドロキシ酸",
+      "第一級アルコール"
+    ],
+    "answer": 3,
+    "explanation": "1-プロパノール（CH₃CH₂CH₂OH）は第一級アルコールに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0050"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃CH₂CH₂OH",
+    "acceptedAnswers": [
+      "1-プロパノール",
+      "１－プロパノール"
+    ],
+    "explanation": "CH₃CH₂CH₂OH は1-プロパノールである。酸化されるとプロパナールを経てプロピオン酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0051"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1-プロパノールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "酸化されるとプロパナールを経てプロピオン酸になる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "1-プロパノール（CH₃CH₂CH₂OH）は第一級アルコールであり、酸化されるとプロパナールを経てプロピオン酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0052"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "2-プロパノールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃CH(OH)CH₃",
+      "cis-HOOCCH=CHCOOH",
+      "C₃H₈",
+      "CH₃COOCH₃"
+    ],
+    "answer": 0,
+    "explanation": "2-プロパノールは CH₃CH(OH)CH₃ と表される。分類は第二級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0053"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "2-プロパノールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルデヒド",
+      "第二級アルコール",
+      "芳香族アミン",
+      "アルキン"
+    ],
+    "answer": 1,
+    "explanation": "2-プロパノール（CH₃CH(OH)CH₃）は第二級アルコールに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0054"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃CH(OH)CH₃",
+    "acceptedAnswers": [
+      "2-プロパノール",
+      "２－プロパノール"
+    ],
+    "explanation": "CH₃CH(OH)CH₃ は2-プロパノールである。酸化されるとアセトンになる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0055"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2-プロパノールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "酸化されるとアセトンになる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "2-プロパノール（CH₃CH(OH)CH₃）は第二級アルコールであり、酸化されるとアセトンになる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0056"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エチレングリコールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃COOH",
+      "CH₃CHO",
+      "HOCH₂CH₂OH",
+      "C₆H₅N₂Cl"
+    ],
+    "answer": 2,
+    "explanation": "エチレングリコールは HOCH₂CH₂OH と表される。分類は二価アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0057"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "エチレングリコールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "カルボン酸",
+      "芳香族アルケン",
+      "二価アルコール",
+      "第一級アルコール"
+    ],
+    "answer": 2,
+    "explanation": "エチレングリコール（HOCH₂CH₂OH）は二価アルコールに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0058"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：HOCH₂CH₂OH",
+    "acceptedAnswers": [
+      "エチレングリコール",
+      "エチレングリコール"
+    ],
+    "explanation": "HOCH₂CH₂OH はエチレングリコールである。水酸基を2個もち、不凍液などに用いられる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0059"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エチレングリコールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "水酸基を2個もち、不凍液などに用いられる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "エチレングリコール（HOCH₂CH₂OH）は二価アルコールであり、水酸基を2個もち、不凍液などに用いられる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0060"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "グリセリンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₃H₅(OH)₃",
+      "cis-HOOCCH=CHCOOH",
+      "C₆H₅COOH",
+      "C₆H₅CH=CH₂"
+    ],
+    "answer": 0,
+    "explanation": "グリセリンは C₃H₅(OH)₃ と表される。分類は三価アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0061"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "グリセリンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルケン",
+      "三価アルコール",
+      "アルカン",
+      "芳香族アミン"
+    ],
+    "answer": 1,
+    "explanation": "グリセリン（C₃H₅(OH)₃）は三価アルコールに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0062"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₃H₅(OH)₃",
+    "acceptedAnswers": [
+      "グリセリン",
+      "グリセリン"
+    ],
+    "explanation": "C₃H₅(OH)₃ はグリセリンである。水酸基を3個もち、水に溶けやすい粘性液体である",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0063"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "グリセリンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "水酸基を3個もち、水に溶けやすい粘性液体である",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "グリセリン（C₃H₅(OH)₃）は三価アルコールであり、水酸基を3個もち、水に溶けやすい粘性液体である",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0064"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ジメチルエーテルの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃OCH₃",
+      "CH₃CHO",
+      "trans-HOOCCH=CHCOOH",
+      "CH₃C₆H₄OH"
+    ],
+    "answer": 0,
+    "explanation": "ジメチルエーテルは CH₃OCH₃ と表される。分類はエーテルである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0065"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ジメチルエーテルの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族エステル",
+      "三価アルコール",
+      "第二級アルコール",
+      "エーテル"
+    ],
+    "answer": 3,
+    "explanation": "ジメチルエーテル（CH₃OCH₃）はエーテルに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0066"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃OCH₃",
+    "acceptedAnswers": [
+      "ジメチルエーテル",
+      "ジメチルエーテル"
+    ],
+    "explanation": "CH₃OCH₃ はジメチルエーテルである。エタノールとは官能基異性体の関係にある",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0067"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ジメチルエーテルの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "エタノールとは官能基異性体の関係にある",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ジメチルエーテル（CH₃OCH₃）はエーテルであり、エタノールとは官能基異性体の関係にある",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0068"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ジエチルエーテルの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₂H₅OC₂H₅",
+      "C₄H₁₀",
+      "HOC₆H₄COOH",
+      "C₆H₅OH"
+    ],
+    "answer": 0,
+    "explanation": "ジエチルエーテルは C₂H₅OC₂H₅ と表される。分類はエーテルである。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0069"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ジエチルエーテルの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "第一級アルコール",
+      "エーテル",
+      "フェノール類",
+      "ケトン"
+    ],
+    "answer": 1,
+    "explanation": "ジエチルエーテル（C₂H₅OC₂H₅）はエーテルに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0070"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₂H₅OC₂H₅",
+    "acceptedAnswers": [
+      "ジエチルエーテル",
+      "ジエチルエーテル"
+    ],
+    "explanation": "C₂H₅OC₂H₅ はジエチルエーテルである。揮発性が高く、水に溶けにくい",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0071"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ジエチルエーテルの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "揮発性が高く、水に溶けにくい",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ジエチルエーテル（C₂H₅OC₂H₅）はエーテルであり、揮発性が高く、水に溶けにくい",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0072"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ホルムアルデヒドの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "HCHO",
+      "C₂H₅OC₂H₅",
+      "CH₃CHO",
+      "C₂H₂"
+    ],
+    "answer": 0,
+    "explanation": "ホルムアルデヒドは HCHO と表される。分類はアルデヒドである。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0073"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ホルムアルデヒドの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "酸無水物",
+      "アルデヒド",
+      "エステル",
+      "ニトロ化合物"
+    ],
+    "answer": 1,
+    "explanation": "ホルムアルデヒド（HCHO）はアルデヒドに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0074"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：HCHO",
+    "acceptedAnswers": [
+      "ホルムアルデヒド",
+      "ホルムアルデヒド"
+    ],
+    "explanation": "HCHO はホルムアルデヒドである。銀鏡反応とフェーリング反応を示す",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0075"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ホルムアルデヒドの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "銀鏡反応とフェーリング反応を示す",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ホルムアルデヒド（HCHO）はアルデヒドであり、銀鏡反応とフェーリング反応を示す",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0076"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセトアルデヒドの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₂H₅OC₂H₅",
+      "高級脂肪酸のグリセリンエステル",
+      "CH₃CHO",
+      "C₂H₂"
+    ],
+    "answer": 2,
+    "explanation": "アセトアルデヒドは CH₃CHO と表される。分類はアルデヒドである。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0077"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセトアルデヒドの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "エーテル",
+      "アルキン",
+      "第一級アルコール",
+      "アルデヒド"
+    ],
+    "answer": 3,
+    "explanation": "アセトアルデヒド（CH₃CHO）はアルデヒドに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0078"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃CHO",
+    "acceptedAnswers": [
+      "アセトアルデヒド",
+      "アセトアルデヒド"
+    ],
+    "explanation": "CH₃CHO はアセトアルデヒドである。銀鏡反応とヨードホルム反応を示す",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0079"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アセトアルデヒドの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "銀鏡反応とヨードホルム反応を示す",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "アセトアルデヒド（CH₃CHO）はアルデヒドであり、銀鏡反応とヨードホルム反応を示す",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0080"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロパナールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅N₂Cl",
+      "HCHO",
+      "CH₃COOC₂H₅",
+      "CH₃CH₂CHO"
+    ],
+    "answer": 3,
+    "explanation": "プロパナールは CH₃CH₂CHO と表される。分類はアルデヒドである。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0081"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロパナールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルデヒド",
+      "芳香族カルボン酸",
+      "高級脂肪酸塩",
+      "芳香族アミン"
+    ],
+    "answer": 0,
+    "explanation": "プロパナール（CH₃CH₂CHO）はアルデヒドに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0082"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃CH₂CHO",
+    "acceptedAnswers": [
+      "プロパナール",
+      "プロパナール"
+    ],
+    "explanation": "CH₃CH₂CHO はプロパナールである。酸化されるとプロピオン酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0083"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "プロパナールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "酸化されるとプロピオン酸になる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "プロパナール（CH₃CH₂CHO）はアルデヒドであり、酸化されるとプロピオン酸になる",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0084"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセトンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃COOC₂H₅",
+      "CH₃OH",
+      "cis-HOOCCH=CHCOOH",
+      "CH₃COCH₃"
+    ],
+    "answer": 3,
+    "explanation": "アセトンは CH₃COCH₃ と表される。分類はケトンである。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0085"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセトンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルケン",
+      "ケトン",
+      "カルボン酸",
+      "エステル"
+    ],
+    "answer": 1,
+    "explanation": "アセトン（CH₃COCH₃）はケトンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0086"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃COCH₃",
+    "acceptedAnswers": [
+      "アセトン",
+      "アセトン"
+    ],
+    "explanation": "CH₃COCH₃ はアセトンである。ヨードホルム反応を示すが銀鏡反応は示さない",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0087"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アセトンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "ヨードホルム反応を示すが銀鏡反応は示さない",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "アセトン（CH₃COCH₃）はケトンであり、ヨードホルム反応を示すが銀鏡反応は示さない",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0088"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ギ酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃CH(OH)CH₃",
+      "C₉H₈O₄",
+      "C₂H₅OH",
+      "HCOOH"
+    ],
+    "answer": 3,
+    "explanation": "ギ酸は HCOOH と表される。分類はカルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0089"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ギ酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族アミン塩",
+      "芳香族炭化水素",
+      "三価アルコール",
+      "カルボン酸"
+    ],
+    "answer": 3,
+    "explanation": "ギ酸（HCOOH）はカルボン酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0090"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：HCOOH",
+    "acceptedAnswers": [
+      "ギ酸",
+      "ギ酸"
+    ],
+    "explanation": "HCOOH はギ酸である。カルボン酸でありながら銀鏡反応を示す",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0091"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ギ酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "カルボン酸でありながら銀鏡反応を示す",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ギ酸（HCOOH）はカルボン酸であり、カルボン酸でありながら銀鏡反応を示す",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0092"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "酢酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃COOH",
+      "CH₄",
+      "C₂H₂",
+      "RCOO⁻Na⁺"
+    ],
+    "answer": 0,
+    "explanation": "酢酸は CH₃COOH と表される。分類はカルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0093"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "酢酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "エーテル",
+      "カルボン酸",
+      "芳香族アルケン",
+      "二価アルコール"
+    ],
+    "answer": 1,
+    "explanation": "酢酸（CH₃COOH）はカルボン酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0094"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃COOH",
+    "acceptedAnswers": [
+      "酢酸",
+      "酢酸"
+    ],
+    "explanation": "CH₃COOH は酢酸である。エタノールとエステル化して酢酸エチルを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0095"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "酢酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "エタノールとエステル化して酢酸エチルを生じる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "酢酸（CH₃COOH）はカルボン酸であり、エタノールとエステル化して酢酸エチルを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0096"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロピオン酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅NH₂",
+      "CH₃CH₂COOH",
+      "CH₃OCH₃",
+      "C₆H₅N=NC₆H₅"
+    ],
+    "answer": 1,
+    "explanation": "プロピオン酸は CH₃CH₂COOH と表される。分類はカルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0097"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "プロピオン酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "二価アルコール",
+      "カルボン酸",
+      "芳香族アルケン",
+      "三価アルコール"
+    ],
+    "answer": 1,
+    "explanation": "プロピオン酸（CH₃CH₂COOH）はカルボン酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0098"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃CH₂COOH",
+    "acceptedAnswers": [
+      "プロピオン酸",
+      "プロピオン酸"
+    ],
+    "explanation": "CH₃CH₂COOH はプロピオン酸である。水溶液中で弱酸として電離する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0099"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "プロピオン酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "水溶液中で弱酸として電離する",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "プロピオン酸（CH₃CH₂COOH）はカルボン酸であり、水溶液中で弱酸として電離する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0100"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "シュウ酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₁₀H₈",
+      "cis-HOOCCH=CHCOOH",
+      "RCOO⁻Na⁺",
+      "(COOH)₂"
+    ],
+    "answer": 3,
+    "explanation": "シュウ酸は (COOH)₂ と表される。分類は二価カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0101"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "シュウ酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "二価カルボン酸",
+      "第一級アルコール",
+      "アルデヒド",
+      "フェノール類"
+    ],
+    "answer": 0,
+    "explanation": "シュウ酸（(COOH)₂）は二価カルボン酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0102"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：(COOH)₂",
+    "acceptedAnswers": [
+      "シュウ酸",
+      "シュウ酸"
+    ],
+    "explanation": "(COOH)₂ はシュウ酸である。還元性をもち、酸性条件で過マンガン酸イオンを還元する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0103"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "シュウ酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "還元性をもち、酸性条件で過マンガン酸イオンを還元する",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "シュウ酸（(COOH)₂）は二価カルボン酸であり、還元性をもち、酸性条件で過マンガン酸イオンを還元する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0104"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "マレイン酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "高級脂肪酸のグリセリンエステル",
+      "C₂H₅OC₂H₅",
+      "cis-HOOCCH=CHCOOH",
+      "C₄H₁₀"
+    ],
+    "answer": 2,
+    "explanation": "マレイン酸は cis-HOOCCH=CHCOOH と表される。分類は不飽和ジカルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0105"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "マレイン酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "ケトン",
+      "第一級アルコール",
+      "不飽和ジカルボン酸",
+      "アルデヒド"
+    ],
+    "answer": 2,
+    "explanation": "マレイン酸（cis-HOOCCH=CHCOOH）は不飽和ジカルボン酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0106"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：cis-HOOCCH=CHCOOH",
+    "acceptedAnswers": [
+      "マレイン酸",
+      "マレイン酸"
+    ],
+    "explanation": "cis-HOOCCH=CHCOOH はマレイン酸である。シス形で分子内脱水しやすい",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0107"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "マレイン酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "シス形で分子内脱水しやすい",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "マレイン酸（cis-HOOCCH=CHCOOH）は不飽和ジカルボン酸であり、シス形で分子内脱水しやすい",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0108"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "フマル酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅NH₂",
+      "trans-HOOCCH=CHCOOH",
+      "CH₃CH₂CH₂OH",
+      "CH₃CH(OH)CH₃"
+    ],
+    "answer": 1,
+    "explanation": "フマル酸は trans-HOOCCH=CHCOOH と表される。分類は不飽和ジカルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0109"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "フマル酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族炭化水素",
+      "アゾ化合物",
+      "高級脂肪酸塩",
+      "不飽和ジカルボン酸"
+    ],
+    "answer": 3,
+    "explanation": "フマル酸（trans-HOOCCH=CHCOOH）は不飽和ジカルボン酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0110"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：trans-HOOCCH=CHCOOH",
+    "acceptedAnswers": [
+      "フマル酸",
+      "フマル酸"
+    ],
+    "explanation": "trans-HOOCCH=CHCOOH はフマル酸である。トランス形で、マレイン酸より融点が高い",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0111"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "フマル酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "トランス形で、マレイン酸より融点が高い",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "フマル酸（trans-HOOCCH=CHCOOH）は不飽和ジカルボン酸であり、トランス形で、マレイン酸より融点が高い",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0112"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "酢酸エチルの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅OH",
+      "CH₃COOC₂H₅",
+      "C₁₀H₈",
+      "C₃H₆"
+    ],
+    "answer": 1,
+    "explanation": "酢酸エチルは CH₃COOC₂H₅ と表される。分類はエステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0113"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "酢酸エチルの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "ジアゾニウム塩",
+      "第一級アルコール",
+      "エステル",
+      "芳香族アミン塩"
+    ],
+    "answer": 2,
+    "explanation": "酢酸エチル（CH₃COOC₂H₅）はエステルに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0114"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃COOC₂H₅",
+    "acceptedAnswers": [
+      "酢酸エチル",
+      "酢酸エチル"
+    ],
+    "explanation": "CH₃COOC₂H₅ は酢酸エチルである。酢酸とエタノールのエステル化で得られる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0115"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "酢酸エチルの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "酢酸とエタノールのエステル化で得られる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "酢酸エチル（CH₃COOC₂H₅）はエステルであり、酢酸とエタノールのエステル化で得られる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0116"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "酢酸メチルの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₃H₈",
+      "CH₃COOCH₃",
+      "(COOH)₂",
+      "trans-HOOCCH=CHCOOH"
+    ],
+    "answer": 1,
+    "explanation": "酢酸メチルは CH₃COOCH₃ と表される。分類はエステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0117"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "酢酸メチルの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "第一級アルコール",
+      "エステル",
+      "二価アルコール",
+      "酸無水物"
+    ],
+    "answer": 1,
+    "explanation": "酢酸メチル（CH₃COOCH₃）はエステルに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0118"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃COOCH₃",
+    "acceptedAnswers": [
+      "酢酸メチル",
+      "酢酸メチル"
+    ],
+    "explanation": "CH₃COOCH₃ は酢酸メチルである。加水分解すると酢酸とメタノールを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0119"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "酢酸メチルの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "加水分解すると酢酸とメタノールを生じる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "酢酸メチル（CH₃COOCH₃）はエステルであり、加水分解すると酢酸とメタノールを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0120"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "油脂の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃COOC₂H₅",
+      "CH₃OCH₃",
+      "高級脂肪酸のグリセリンエステル",
+      "HOCH₂CH₂OH"
+    ],
+    "answer": 2,
+    "explanation": "油脂は 高級脂肪酸のグリセリンエステル と表される。分類はエステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0121"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "油脂の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "エステル",
+      "芳香族ヒドロキシ酸",
+      "芳香族アミン塩",
+      "縮合芳香族炭化水素"
+    ],
+    "answer": 0,
+    "explanation": "油脂（高級脂肪酸のグリセリンエステル）はエステルに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0122"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：高級脂肪酸のグリセリンエステル",
+    "acceptedAnswers": [
+      "油脂",
+      "油脂"
+    ],
+    "explanation": "高級脂肪酸のグリセリンエステル は油脂である。けん化すると高級脂肪酸塩とグリセリンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0123"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "油脂の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "けん化すると高級脂肪酸塩とグリセリンを生じる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "油脂（高級脂肪酸のグリセリンエステル）はエステルであり、けん化すると高級脂肪酸塩とグリセリンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0124"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "セッケンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "RCOO⁻Na⁺",
+      "C₆H₆",
+      "C₆H₅CH=CH₂",
+      "CH₃CH₂COOH"
+    ],
+    "answer": 0,
+    "explanation": "セッケンは RCOO⁻Na⁺ と表される。分類は高級脂肪酸塩である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0125"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "セッケンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "高級脂肪酸塩",
+      "ニトロ化合物",
+      "アルデヒド",
+      "フェノール類"
+    ],
+    "answer": 0,
+    "explanation": "セッケン（RCOO⁻Na⁺）は高級脂肪酸塩に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0126"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：RCOO⁻Na⁺",
+    "acceptedAnswers": [
+      "セッケン",
+      "セッケン"
+    ],
+    "explanation": "RCOO⁻Na⁺ はセッケンである。疎水基と親水基をもち、ミセルを形成する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0127"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "セッケンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "疎水基と親水基をもち、ミセルを形成する",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "セッケン（RCOO⁻Na⁺）は高級脂肪酸塩であり、疎水基と親水基をもち、ミセルを形成する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0128"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "フェノールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₂H₆",
+      "C₆H₅OH",
+      "C₆H₅N=NC₆H₅",
+      "HCHO"
+    ],
+    "answer": 1,
+    "explanation": "フェノールは C₆H₅OH と表される。分類はフェノール類である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0129"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "フェノールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルカン",
+      "芳香族アミン塩",
+      "フェノール類",
+      "ジアゾニウム塩"
+    ],
+    "answer": 2,
+    "explanation": "フェノール（C₆H₅OH）はフェノール類に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0130"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅OH",
+    "acceptedAnswers": [
+      "フェノール",
+      "フェノール"
+    ],
+    "explanation": "C₆H₅OH はフェノールである。塩化鉄(III)水溶液で呈色し、臭素水から白色沈殿を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0131"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "フェノールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "塩化鉄(III)水溶液で呈色し、臭素水から白色沈殿を生じる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "フェノール（C₆H₅OH）はフェノール類であり、塩化鉄(III)水溶液で呈色し、臭素水から白色沈殿を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0132"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "クレゾールの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "HOC₆H₄COOH",
+      "CH₃C₆H₄OH",
+      "C₂H₂",
+      "C₉H₈O₄"
+    ],
+    "answer": 1,
+    "explanation": "クレゾールは CH₃C₆H₄OH と表される。分類はフェノール類である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0133"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "クレゾールの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "フェノール類",
+      "アルケン",
+      "アルカン",
+      "芳香族アルケン"
+    ],
+    "answer": 0,
+    "explanation": "クレゾール（CH₃C₆H₄OH）はフェノール類に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0134"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：CH₃C₆H₄OH",
+    "acceptedAnswers": [
+      "クレゾール",
+      "クレゾール"
+    ],
+    "explanation": "CH₃C₆H₄OH はクレゾールである。ベンゼン環にメチル基とヒドロキシ基をもつ",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0135"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "クレゾールの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "ベンゼン環にメチル基とヒドロキシ基をもつ",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "クレゾール（CH₃C₆H₄OH）はフェノール類であり、ベンゼン環にメチル基とヒドロキシ基をもつ",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0136"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "安息香酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅NH₃Cl",
+      "CH₃OH",
+      "C₆H₅COOH",
+      "C₆H₅NH₂"
+    ],
+    "answer": 2,
+    "explanation": "安息香酸は C₆H₅COOH と表される。分類は芳香族カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0137"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "安息香酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルカン",
+      "ケトン",
+      "芳香族アルケン",
+      "芳香族カルボン酸"
+    ],
+    "answer": 3,
+    "explanation": "安息香酸（C₆H₅COOH）は芳香族カルボン酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0138"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅COOH",
+    "acceptedAnswers": [
+      "安息香酸",
+      "安息香酸"
+    ],
+    "explanation": "C₆H₅COOH は安息香酸である。炭酸水素ナトリウムと反応して二酸化炭素を発生する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0139"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "安息香酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "炭酸水素ナトリウムと反応して二酸化炭素を発生する",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "安息香酸（C₆H₅COOH）は芳香族カルボン酸であり、炭酸水素ナトリウムと反応して二酸化炭素を発生する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0140"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "サリチル酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "高級脂肪酸のグリセリンエステル",
+      "HOC₆H₄COOH",
+      "C₂H₅OH",
+      "HOCH₂CH₂OH"
+    ],
+    "answer": 1,
+    "explanation": "サリチル酸は HOC₆H₄COOH と表される。分類は芳香族ヒドロキシ酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0141"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "サリチル酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "縮合芳香族炭化水素",
+      "アゾ化合物",
+      "エステル",
+      "芳香族ヒドロキシ酸"
+    ],
+    "answer": 3,
+    "explanation": "サリチル酸（HOC₆H₄COOH）は芳香族ヒドロキシ酸に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0142"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：HOC₆H₄COOH",
+    "acceptedAnswers": [
+      "サリチル酸",
+      "サリチル酸"
+    ],
+    "explanation": "HOC₆H₄COOH はサリチル酸である。塩化鉄(III)水溶液で呈色し、カルボキシ基ももつ",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0143"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "サリチル酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "塩化鉄(III)水溶液で呈色し、カルボキシ基ももつ",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "サリチル酸（HOC₆H₄COOH）は芳香族ヒドロキシ酸であり、塩化鉄(III)水溶液で呈色し、カルボキシ基ももつ",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0144"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセチルサリチル酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "RCOO⁻Na⁺",
+      "C₂H₅OH",
+      "C₉H₈O₄",
+      "CH₃COOC₂H₅"
+    ],
+    "answer": 2,
+    "explanation": "アセチルサリチル酸は C₉H₈O₄ と表される。分類は芳香族エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0145"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アセチルサリチル酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルケン",
+      "芳香族エステル",
+      "アゾ化合物",
+      "芳香族アミン塩"
+    ],
+    "answer": 1,
+    "explanation": "アセチルサリチル酸（C₉H₈O₄）は芳香族エステルに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0146"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₉H₈O₄",
+    "acceptedAnswers": [
+      "アセチルサリチル酸",
+      "アセチルサリチル酸"
+    ],
+    "explanation": "C₉H₈O₄ はアセチルサリチル酸である。サリチル酸のフェノール性ヒドロキシ基をアセチル化して得る",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0147"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アセチルサリチル酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "サリチル酸のフェノール性ヒドロキシ基をアセチル化して得る",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "アセチルサリチル酸（C₉H₈O₄）は芳香族エステルであり、サリチル酸のフェノール性ヒドロキシ基をアセチル化して得る",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0148"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "サリチル酸メチルの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃OH",
+      "CH₃CH₂CH₂OH",
+      "HOC₆H₄COOCH₃",
+      "C₂H₅OH"
+    ],
+    "answer": 2,
+    "explanation": "サリチル酸メチルは HOC₆H₄COOCH₃ と表される。分類は芳香族エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0149"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "サリチル酸メチルの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "エーテル",
+      "ケトン",
+      "エステル",
+      "芳香族エステル"
+    ],
+    "answer": 3,
+    "explanation": "サリチル酸メチル（HOC₆H₄COOCH₃）は芳香族エステルに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0150"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：HOC₆H₄COOCH₃",
+    "acceptedAnswers": [
+      "サリチル酸メチル",
+      "サリチル酸メチル"
+    ],
+    "explanation": "HOC₆H₄COOCH₃ はサリチル酸メチルである。サリチル酸とメタノールのエステル化で得られる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0151"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "サリチル酸メチルの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "サリチル酸とメタノールのエステル化で得られる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "サリチル酸メチル（HOC₆H₄COOCH₃）は芳香族エステルであり、サリチル酸とメタノールのエステル化で得られる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0152"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アニリンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₄(CH₃)₂",
+      "C₂H₄",
+      "(COOH)₂",
+      "C₆H₅NH₂"
+    ],
+    "answer": 3,
+    "explanation": "アニリンは C₆H₅NH₂ と表される。分類は芳香族アミンである。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0153"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アニリンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "三価アルコール",
+      "縮合芳香族炭化水素",
+      "芳香族アミン",
+      "ニトロ化合物"
+    ],
+    "answer": 2,
+    "explanation": "アニリン（C₆H₅NH₂）は芳香族アミンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0154"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅NH₂",
+    "acceptedAnswers": [
+      "アニリン",
+      "アニリン"
+    ],
+    "explanation": "C₆H₅NH₂ はアニリンである。弱塩基性を示し、塩酸と反応して水溶性の塩をつくる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0155"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アニリンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "弱塩基性を示し、塩酸と反応して水溶性の塩をつくる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "アニリン（C₆H₅NH₂）は芳香族アミンであり、弱塩基性を示し、塩酸と反応して水溶性の塩をつくる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0156"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アニリン塩酸塩の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃CH(OH)CH₃",
+      "CH₃COOH",
+      "C₆H₆",
+      "C₆H₅NH₃Cl"
+    ],
+    "answer": 3,
+    "explanation": "アニリン塩酸塩は C₆H₅NH₃Cl と表される。分類は芳香族アミン塩である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0157"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アニリン塩酸塩の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族アミン塩",
+      "アルケン",
+      "アルキン",
+      "エステル"
+    ],
+    "answer": 0,
+    "explanation": "アニリン塩酸塩（C₆H₅NH₃Cl）は芳香族アミン塩に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0158"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅NH₃Cl",
+    "acceptedAnswers": [
+      "アニリン塩酸塩",
+      "アニリン塩酸塩"
+    ],
+    "explanation": "C₆H₅NH₃Cl はアニリン塩酸塩である。水酸化ナトリウムを加えるとアニリンが遊離する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0159"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アニリン塩酸塩の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "水酸化ナトリウムを加えるとアニリンが遊離する",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "アニリン塩酸塩（C₆H₅NH₃Cl）は芳香族アミン塩であり、水酸化ナトリウムを加えるとアニリンが遊離する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0160"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ニトロベンゼンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅N=NC₆H₅",
+      "C₆H₅NO₂",
+      "RCOO⁻Na⁺",
+      "CH₃OH"
+    ],
+    "answer": 1,
+    "explanation": "ニトロベンゼンは C₆H₅NO₂ と表される。分類はニトロ化合物である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0161"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ニトロベンゼンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族エステル",
+      "酸無水物",
+      "アルケン",
+      "ニトロ化合物"
+    ],
+    "answer": 3,
+    "explanation": "ニトロベンゼン（C₆H₅NO₂）はニトロ化合物に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0162"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅NO₂",
+    "acceptedAnswers": [
+      "ニトロベンゼン",
+      "ニトロベンゼン"
+    ],
+    "explanation": "C₆H₅NO₂ はニトロベンゼンである。還元するとアニリンになる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0163"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "還元するとアニリンになる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ニトロベンゼン（C₆H₅NO₂）はニトロ化合物であり、還元するとアニリンになる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0164"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ベンゼンジアゾニウム塩化物の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅N₂Cl",
+      "C₃H₆",
+      "HOC₆H₄COOCH₃",
+      "C₉H₈O₄"
+    ],
+    "answer": 0,
+    "explanation": "ベンゼンジアゾニウム塩化物は C₆H₅N₂Cl と表される。分類はジアゾニウム塩である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0165"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ベンゼンジアゾニウム塩化物の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "ケトン",
+      "フェノール類",
+      "二価アルコール",
+      "ジアゾニウム塩"
+    ],
+    "answer": 3,
+    "explanation": "ベンゼンジアゾニウム塩化物（C₆H₅N₂Cl）はジアゾニウム塩に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0166"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅N₂Cl",
+    "acceptedAnswers": [
+      "ベンゼンジアゾニウム塩化物",
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "explanation": "C₆H₅N₂Cl はベンゼンジアゾニウム塩化物である。低温で生成し、フェノール類とカップリング反応をする",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0167"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ベンゼンジアゾニウム塩化物の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "低温で生成し、フェノール類とカップリング反応をする",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ベンゼンジアゾニウム塩化物（C₆H₅N₂Cl）はジアゾニウム塩であり、低温で生成し、フェノール類とカップリング反応をする",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0168"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アゾベンゼンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃CH₂COOH",
+      "C₆H₆",
+      "C₆H₅N=NC₆H₅",
+      "CH₃COOC₂H₅"
+    ],
+    "answer": 2,
+    "explanation": "アゾベンゼンは C₆H₅N=NC₆H₅ と表される。分類はアゾ化合物である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0169"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アゾベンゼンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "二価カルボン酸",
+      "アゾ化合物",
+      "エステル",
+      "不飽和ジカルボン酸"
+    ],
+    "answer": 1,
+    "explanation": "アゾベンゼン（C₆H₅N=NC₆H₅）はアゾ化合物に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0170"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅N=NC₆H₅",
+    "acceptedAnswers": [
+      "アゾベンゼン",
+      "アゾベンゼン"
+    ],
+    "explanation": "C₆H₅N=NC₆H₅ はアゾベンゼンである。アゾ基 −N=N− をもつ有色化合物である",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0171"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アゾベンゼンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "アゾ基 −N=N− をもつ有色化合物である",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "アゾベンゼン（C₆H₅N=NC₆H₅）はアゾ化合物であり、アゾ基 −N=N− をもつ有色化合物である",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0172"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "スチレンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "HCHO",
+      "CH₃C₆H₄OH",
+      "C₆H₅CH=CH₂",
+      "高級脂肪酸のグリセリンエステル"
+    ],
+    "answer": 2,
+    "explanation": "スチレンは C₆H₅CH=CH₂ と表される。分類は芳香族アルケンである。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0173"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "スチレンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "三価アルコール",
+      "芳香族アルケン",
+      "芳香族カルボン酸",
+      "第二級アルコール"
+    ],
+    "answer": 1,
+    "explanation": "スチレン（C₆H₅CH=CH₂）は芳香族アルケンに分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0174"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₅CH=CH₂",
+    "acceptedAnswers": [
+      "スチレン",
+      "スチレン"
+    ],
+    "explanation": "C₆H₅CH=CH₂ はスチレンである。付加重合してポリスチレンになる",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0175"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "スチレンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "付加重合してポリスチレンになる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "スチレン（C₆H₅CH=CH₂）は芳香族アルケンであり、付加重合してポリスチレンになる",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0176"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ナフタレンの化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₄",
+      "CH₃OH",
+      "C₆H₅NH₃Cl",
+      "C₁₀H₈"
+    ],
+    "answer": 3,
+    "explanation": "ナフタレンは C₁₀H₈ と表される。分類は縮合芳香族炭化水素である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0177"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "ナフタレンの分類として最も適切なものを選びなさい。",
+    "choices": [
+      "芳香族アルケン",
+      "縮合芳香族炭化水素",
+      "ジアゾニウム塩",
+      "アゾ化合物"
+    ],
+    "answer": 1,
+    "explanation": "ナフタレン（C₁₀H₈）は縮合芳香族炭化水素に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0178"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₁₀H₈",
+    "acceptedAnswers": [
+      "ナフタレン",
+      "ナフタレン"
+    ],
+    "explanation": "C₁₀H₈ はナフタレンである。昇華性を示す芳香族化合物である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0179"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ナフタレンの代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "昇華性を示す芳香族化合物である",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "ナフタレン（C₁₀H₈）は縮合芳香族炭化水素であり、昇華性を示す芳香族化合物である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0180"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "無水フタル酸の化学式・示性式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₄(CO)₂O",
+      "C₂H₆",
+      "CH₃C₆H₄OH",
+      "C₆H₅CH₃"
+    ],
+    "answer": 0,
+    "explanation": "無水フタル酸は C₆H₄(CO)₂O と表される。分類は酸無水物である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0181"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "無水フタル酸の分類として最も適切なものを選びなさい。",
+    "choices": [
+      "二価カルボン酸",
+      "二価アルコール",
+      "酸無水物",
+      "芳香族カルボン酸"
+    ],
+    "answer": 2,
+    "explanation": "無水フタル酸（C₆H₄(CO)₂O）は酸無水物に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0182"
+  },
+  {
+    "type": "short",
+    "difficulty": 1,
+    "baseXp": 10,
+    "prompt": "次の化学式・示性式で表される化合物の名称を答えなさい：C₆H₄(CO)₂O",
+    "acceptedAnswers": [
+      "無水フタル酸",
+      "無水フタル酸"
+    ],
+    "explanation": "C₆H₄(CO)₂O は無水フタル酸である。o-フタル酸を加熱すると分子内脱水して生じる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0183"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "無水フタル酸の代表的な性質または反応を1つ説明しなさい。",
+    "modelAnswer": "o-フタル酸を加熱すると分子内脱水して生じる",
+    "criteria": [
+      "化合物名と性質の対応が正しい",
+      "反応物・生成物または試薬を必要に応じて示した",
+      "高校化学として意味が通る説明になっている"
+    ],
+    "explanation": "無水フタル酸（C₆H₄(CO)₂O）は酸無水物であり、o-フタル酸を加熱すると分子内脱水して生じる",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に細分化",
+    "id": "orgx_0184"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「メタンの完全燃焼」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O",
+      "C₆H₅OH + NaOH → C₆H₅ONa + H₂O"
+    ],
+    "answer": 1,
+    "explanation": "メタンの完全燃焼：CH₄ + 2O₂ → CO₂ + 2H₂O。炭化水素の完全燃焼では炭素はCO₂、水素はH₂Oになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0185"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "choices": [
+      "メタンの完全燃焼",
+      "ベンゼンの臭素化",
+      "第二級アルコールの酸化",
+      "フェノールと水酸化ナトリウム"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「メタンの完全燃焼」である。炭化水素の完全燃焼では炭素はCO₂、水素はH₂Oになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0186"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「メタンの完全燃焼」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "CH₄+2O₂→CO₂+2H₂O"
+    ],
+    "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O。炭化水素の完全燃焼では炭素はCO₂、水素はH₂Oになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0187"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「メタンの完全燃焼」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "CH₄ + 2O₂ → CO₂ + 2H₂O。炭化水素の完全燃焼では炭素はCO₂、水素はH₂Oになる",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O。炭化水素の完全燃焼では炭素はCO₂、水素はH₂Oになる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0188"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エチレンへの臭素の付加」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br",
+      "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O",
+      "HC≡CH + 2H₂ → CH₃CH₃",
+      "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O"
+    ],
+    "answer": 0,
+    "explanation": "エチレンへの臭素の付加：CH₂=CH₂ + Br₂ → CH₂BrCH₂Br。炭素間二重結合が開いて臭素原子が付加する",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0189"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：CH₂=CH₂ + Br₂ → CH₂BrCH₂Br",
+    "choices": [
+      "エチレンへの臭素の付加",
+      "酢酸とエタノールのエステル化",
+      "エチレンの水和",
+      "安息香酸と炭酸水素ナトリウム"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「エチレンへの臭素の付加」である。炭素間二重結合が開いて臭素原子が付加する",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0190"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エチレンへの臭素の付加」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br",
+      "CH₂=CH₂+Br₂→CH₂BrCH₂Br"
+    ],
+    "explanation": "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br。炭素間二重結合が開いて臭素原子が付加する",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0191"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エチレンへの臭素の付加」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br。炭素間二重結合が開いて臭素原子が付加する",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br。炭素間二重結合が開いて臭素原子が付加する",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0192"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「アセチレンへの水素の付加」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr",
+      "HC≡CH + 2H₂ → CH₃CH₃",
+      "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH",
+      "C₂H₅OH → C₂H₄ + H₂O"
+    ],
+    "answer": 1,
+    "explanation": "アセチレンへの水素の付加：HC≡CH + 2H₂ → CH₃CH₃。十分な水素を付加すると三重結合は単結合になる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0193"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：HC≡CH + 2H₂ → CH₃CH₃",
+    "choices": [
+      "アセチレンへの水素の付加",
+      "酢酸エチルの加水分解",
+      "ニトロベンゼンの還元",
+      "ジアゾ化"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「アセチレンへの水素の付加」である。十分な水素を付加すると三重結合は単結合になる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0194"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「アセチレンへの水素の付加」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "HC≡CH + 2H₂ → CH₃CH₃",
+      "HC≡CH+2H₂→CH₃CH₃"
+    ],
+    "explanation": "HC≡CH + 2H₂ → CH₃CH₃。十分な水素を付加すると三重結合は単結合になる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0195"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「アセチレンへの水素の付加」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "HC≡CH + 2H₂ → CH₃CH₃。十分な水素を付加すると三重結合は単結合になる",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "HC≡CH + 2H₂ → CH₃CH₃。十分な水素を付加すると三重結合は単結合になる",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0196"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エチレンの水和」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "RCH₂OH → RCHO → RCOOH",
+      "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂",
+      "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O",
+      "CH₂=CH₂ + H₂O → CH₃CH₂OH"
+    ],
+    "answer": 3,
+    "explanation": "エチレンの水和：CH₂=CH₂ + H₂O → CH₃CH₂OH。酸触媒存在下でエタノールを生じる付加反応である",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0197"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：CH₂=CH₂ + H₂O → CH₃CH₂OH",
+    "choices": [
+      "アニリンの塩形成",
+      "エタノールの分子間脱水",
+      "エチレンの水和",
+      "エチレンへの臭素の付加"
+    ],
+    "answer": 2,
+    "explanation": "この反応は「エチレンの水和」である。酸触媒存在下でエタノールを生じる付加反応である",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0198"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エチレンの水和」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "CH₂=CH₂ + H₂O → CH₃CH₂OH",
+      "CH₂=CH₂+H₂O→CH₃CH₂OH"
+    ],
+    "explanation": "CH₂=CH₂ + H₂O → CH₃CH₂OH。酸触媒存在下でエタノールを生じる付加反応である",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0199"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エチレンの水和」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "CH₂=CH₂ + H₂O → CH₃CH₂OH。酸触媒存在下でエタノールを生じる付加反応である",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "CH₂=CH₂ + H₂O → CH₃CH₂OH。酸触媒存在下でエタノールを生じる付加反応である",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0200"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールとナトリウム」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br",
+      "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂"
+    ],
+    "answer": 3,
+    "explanation": "エタノールとナトリウム：2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂。O-H結合の水素がナトリウムで置換される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0201"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂",
+    "choices": [
+      "アセチレンへの水素の付加",
+      "エタノールとナトリウム",
+      "サリチル酸のアセチル化",
+      "メタンの完全燃焼"
+    ],
+    "answer": 1,
+    "explanation": "この反応は「エタノールとナトリウム」である。O-H結合の水素がナトリウムで置換される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0202"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールとナトリウム」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂",
+      "2C₂H₅OH+2Na→2C₂H₅ONa+H₂"
+    ],
+    "explanation": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂。O-H結合の水素がナトリウムで置換される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0203"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エタノールとナトリウム」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂。O-H結合の水素がナトリウムで置換される",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂。O-H結合の水素がナトリウムで置換される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0204"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールの分子内脱水」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅OH + NaOH → C₆H₅ONa + H₂O",
+      "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂",
+      "C₂H₅OH → C₂H₄ + H₂O",
+      "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O"
+    ],
+    "answer": 2,
+    "explanation": "エタノールの分子内脱水：C₂H₅OH → C₂H₄ + H₂O。濃硫酸・約170 ℃でエチレンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0205"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₂H₅OH → C₂H₄ + H₂O",
+    "choices": [
+      "酢酸とエタノールのエステル化",
+      "フェノールと水酸化ナトリウム",
+      "エタノールの分子内脱水",
+      "第二級アルコールの酸化"
+    ],
+    "answer": 2,
+    "explanation": "この反応は「エタノールの分子内脱水」である。濃硫酸・約170 ℃でエチレンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0206"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールの分子内脱水」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₂H₅OH → C₂H₄ + H₂O",
+      "C₂H₅OH→C₂H₄+H₂O"
+    ],
+    "explanation": "C₂H₅OH → C₂H₄ + H₂O。濃硫酸・約170 ℃でエチレンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0207"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エタノールの分子内脱水」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₂H₅OH → C₂H₄ + H₂O。濃硫酸・約170 ℃でエチレンを生じる",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₂H₅OH → C₂H₄ + H₂O。濃硫酸・約170 ℃でエチレンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0208"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールの分子間脱水」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "HC≡CH + 2H₂ → CH₃CH₃",
+      "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O",
+      "RCH₂OH → RCHO → RCOOH",
+      "R₂CHOH → R₂CO"
+    ],
+    "answer": 1,
+    "explanation": "エタノールの分子間脱水：2C₂H₅OH → C₂H₅OC₂H₅ + H₂O。濃硫酸・約140 ℃でジエチルエーテルを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0209"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：2C₂H₅OH → C₂H₅OC₂H₅ + H₂O",
+    "choices": [
+      "エタノールの分子内脱水",
+      "エタノールの分子間脱水",
+      "銀鏡反応",
+      "フェノールと臭素"
+    ],
+    "answer": 1,
+    "explanation": "この反応は「エタノールの分子間脱水」である。濃硫酸・約140 ℃でジエチルエーテルを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0210"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールの分子間脱水」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O",
+      "2C₂H₅OH→C₂H₅OC₂H₅+H₂O"
+    ],
+    "explanation": "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O。濃硫酸・約140 ℃でジエチルエーテルを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0211"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エタノールの分子間脱水」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O。濃硫酸・約140 ℃でジエチルエーテルを生じる",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O。濃硫酸・約140 ℃でジエチルエーテルを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0212"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「第一級アルコールの酸化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "RCH₂OH → RCHO → RCOOH",
+      "HC≡CH + 2H₂ → CH₃CH₃",
+      "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O",
+      "C₂H₅OH → C₂H₄ + H₂O"
+    ],
+    "answer": 0,
+    "explanation": "第一級アルコールの酸化：RCH₂OH → RCHO → RCOOH。アルデヒドを経てカルボン酸まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0213"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：RCH₂OH → RCHO → RCOOH",
+    "choices": [
+      "第一級アルコールの酸化",
+      "ベンゼンの臭素化",
+      "酢酸とエタノールのエステル化",
+      "メタンの完全燃焼"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「第一級アルコールの酸化」である。アルデヒドを経てカルボン酸まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0214"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「第一級アルコールの酸化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "RCH₂OH → RCHO → RCOOH",
+      "RCH₂OH→RCHO→RCOOH"
+    ],
+    "explanation": "RCH₂OH → RCHO → RCOOH。アルデヒドを経てカルボン酸まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0215"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「第一級アルコールの酸化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "RCH₂OH → RCHO → RCOOH。アルデヒドを経てカルボン酸まで酸化される",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "RCH₂OH → RCHO → RCOOH。アルデヒドを経てカルボン酸まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0216"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「第二級アルコールの酸化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₆ + Br₂ → C₆H₅Br + HBr",
+      "R₂CHOH → R₂CO",
+      "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O",
+      "CH₂=CH₂ + H₂O → CH₃CH₂OH"
+    ],
+    "answer": 1,
+    "explanation": "第二級アルコールの酸化：R₂CHOH → R₂CO。ケトンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0217"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：R₂CHOH → R₂CO",
+    "choices": [
+      "エチレンの水和",
+      "アセチレンへの水素の付加",
+      "トルエン側鎖の酸化",
+      "第二級アルコールの酸化"
+    ],
+    "answer": 3,
+    "explanation": "この反応は「第二級アルコールの酸化」である。ケトンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0218"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「第二級アルコールの酸化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "R₂CHOH → R₂CO",
+      "R₂CHOH→R₂CO"
+    ],
+    "explanation": "R₂CHOH → R₂CO。ケトンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0219"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「第二級アルコールの酸化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "R₂CHOH → R₂CO。ケトンを生じる",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "R₂CHOH → R₂CO。ケトンを生じる",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0220"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「銀鏡反応」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₂=CH₂ + H₂O → CH₃CH₂OH",
+      "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O",
+      "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl",
+      "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O"
+    ],
+    "answer": 1,
+    "explanation": "銀鏡反応：RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O。アルデヒドが酸化され、銀イオンが金属銀に還元される",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0221"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O",
+    "choices": [
+      "銀鏡反応",
+      "ベンゼンの臭素化",
+      "酢酸とエタノールのエステル化",
+      "エチレンの水和"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「銀鏡反応」である。アルデヒドが酸化され、銀イオンが金属銀に還元される",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0222"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「銀鏡反応」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O",
+      "RCHO+2[Ag(NH₃)₂]⁺+3OH⁻→RCOO⁻+2Ag+4NH₃+2H₂O"
+    ],
+    "explanation": "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O。アルデヒドが酸化され、銀イオンが金属銀に還元される",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0223"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「銀鏡反応」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O。アルデヒドが酸化され、銀イオンが金属銀に還元される",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O。アルデヒドが酸化され、銀イオンが金属銀に還元される",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0224"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「酢酸とエタノールのエステル化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "RCH₂OH → RCHO → RCOOH",
+      "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "C₆H₆ + Br₂ → C₆H₅Br + HBr"
+    ],
+    "answer": 1,
+    "explanation": "酢酸とエタノールのエステル化：CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O。濃硫酸を触媒・脱水剤として用いる可逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0225"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O",
+    "choices": [
+      "トルエン側鎖の酸化",
+      "フェノールと水酸化ナトリウム",
+      "酢酸とエタノールのエステル化",
+      "エチレンの水和"
+    ],
+    "answer": 2,
+    "explanation": "この反応は「酢酸とエタノールのエステル化」である。濃硫酸を触媒・脱水剤として用いる可逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0226"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「酢酸とエタノールのエステル化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O",
+      "CH₃COOH+C₂H₅OH⇄CH₃COOC₂H₅+H₂O"
+    ],
+    "explanation": "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O。濃硫酸を触媒・脱水剤として用いる可逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0227"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「酢酸とエタノールのエステル化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O。濃硫酸を触媒・脱水剤として用いる可逆反応である",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O。濃硫酸を触媒・脱水剤として用いる可逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0228"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「酢酸エチルの加水分解」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br",
+      "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O",
+      "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH",
+      "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O"
+    ],
+    "answer": 2,
+    "explanation": "酢酸エチルの加水分解：CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH。エステル化の逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0229"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH",
+    "choices": [
+      "安息香酸と炭酸水素ナトリウム",
+      "カップリング反応",
+      "フェノールと臭素",
+      "酢酸エチルの加水分解"
+    ],
+    "answer": 3,
+    "explanation": "この反応は「酢酸エチルの加水分解」である。エステル化の逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0230"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「酢酸エチルの加水分解」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH",
+      "CH₃COOC₂H₅+H₂O⇄CH₃COOH+C₂H₅OH"
+    ],
+    "explanation": "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH。エステル化の逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0231"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「酢酸エチルの加水分解」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH。エステル化の逆反応である",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH。エステル化の逆反応である",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0232"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「油脂のけん化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr",
+      "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂",
+      "油脂 + 3NaOH → グリセリン + 3RCOONa",
+      "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O"
+    ],
+    "answer": 2,
+    "explanation": "油脂のけん化：油脂 + 3NaOH → グリセリン + 3RCOONa。塩基性条件でエステル結合を加水分解する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0233"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：油脂 + 3NaOH → グリセリン + 3RCOONa",
+    "choices": [
+      "油脂のけん化",
+      "ジアゾ化",
+      "フェノールと水酸化ナトリウム",
+      "エチレンへの臭素の付加"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「油脂のけん化」である。塩基性条件でエステル結合を加水分解する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0234"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「油脂のけん化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "油脂 + 3NaOH → グリセリン + 3RCOONa",
+      "油脂+3NaOH→グリセリン+3RCOONa"
+    ],
+    "explanation": "油脂 + 3NaOH → グリセリン + 3RCOONa。塩基性条件でエステル結合を加水分解する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0235"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「油脂のけん化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "油脂 + 3NaOH → グリセリン + 3RCOONa。塩基性条件でエステル結合を加水分解する",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "油脂 + 3NaOH → グリセリン + 3RCOONa。塩基性条件でエステル結合を加水分解する",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0236"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェノールと臭素」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr",
+      "C₆H₆ + Br₂ → C₆H₅Br + HBr",
+      "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O",
+      "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl"
+    ],
+    "answer": 0,
+    "explanation": "フェノールと臭素：C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr。2,4,6-トリブロモフェノールの白色沈殿を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0237"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr",
+    "choices": [
+      "油脂のけん化",
+      "フェノールと臭素",
+      "第一級アルコールの酸化",
+      "エタノールとナトリウム"
+    ],
+    "answer": 1,
+    "explanation": "この反応は「フェノールと臭素」である。2,4,6-トリブロモフェノールの白色沈殿を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0238"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェノールと臭素」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr",
+      "C₆H₅OH+3Br₂→C₆H₂Br₃OH+3HBr"
+    ],
+    "explanation": "C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr。2,4,6-トリブロモフェノールの白色沈殿を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0239"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「フェノールと臭素」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr。2,4,6-トリブロモフェノールの白色沈殿を生じる",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr。2,4,6-トリブロモフェノールの白色沈殿を生じる",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0240"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェノールと水酸化ナトリウム」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "RCH₂OH → RCHO → RCOOH",
+      "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O",
+      "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O",
+      "C₆H₅OH + NaOH → C₆H₅ONa + H₂O"
+    ],
+    "answer": 3,
+    "explanation": "フェノールと水酸化ナトリウム：C₆H₅OH + NaOH → C₆H₅ONa + H₂O。フェノールは弱酸性を示し、強塩基と反応する",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0241"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₅OH + NaOH → C₆H₅ONa + H₂O",
+    "choices": [
+      "フェノールと水酸化ナトリウム",
+      "サリチル酸のアセチル化",
+      "ニトロベンゼンの還元",
+      "エタノールとナトリウム"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「フェノールと水酸化ナトリウム」である。フェノールは弱酸性を示し、強塩基と反応する",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0242"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェノールと水酸化ナトリウム」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₅OH + NaOH → C₆H₅ONa + H₂O",
+      "C₆H₅OH+NaOH→C₆H₅ONa+H₂O"
+    ],
+    "explanation": "C₆H₅OH + NaOH → C₆H₅ONa + H₂O。フェノールは弱酸性を示し、強塩基と反応する",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0243"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「フェノールと水酸化ナトリウム」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₅OH + NaOH → C₆H₅ONa + H₂O。フェノールは弱酸性を示し、強塩基と反応する",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₅OH + NaOH → C₆H₅ONa + H₂O。フェノールは弱酸性を示し、強塩基と反応する",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0244"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ベンゼンのニトロ化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
+      "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl",
+      "ジアゾニウム塩 + フェノール類 → アゾ化合物"
+    ],
+    "answer": 1,
+    "explanation": "ベンゼンのニトロ化：C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O。濃硫酸存在下で起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0245"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
+    "choices": [
+      "ベンゼンの臭素化",
+      "エチレンへの臭素の付加",
+      "サリチル酸のアセチル化",
+      "ベンゼンのニトロ化"
+    ],
+    "answer": 3,
+    "explanation": "この反応は「ベンゼンのニトロ化」である。濃硫酸存在下で起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0246"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ベンゼンのニトロ化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
+      "C₆H₆+HNO₃→C₆H₅NO₂+H₂O"
+    ],
+    "explanation": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O。濃硫酸存在下で起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0247"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ベンゼンのニトロ化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O。濃硫酸存在下で起こる置換反応である",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O。濃硫酸存在下で起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0248"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ベンゼンの臭素化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
+      "C₆H₆ + Br₂ → C₆H₅Br + HBr",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "CH₃COOH + C₂H₅OH ⇄ CH₃COOC₂H₅ + H₂O"
+    ],
+    "answer": 1,
+    "explanation": "ベンゼンの臭素化：C₆H₆ + Br₂ → C₆H₅Br + HBr。鉄粉などを触媒として起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0249"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₆ + Br₂ → C₆H₅Br + HBr",
+    "choices": [
+      "エチレンの水和",
+      "エチレンへの臭素の付加",
+      "アニリンの塩形成",
+      "ベンゼンの臭素化"
+    ],
+    "answer": 3,
+    "explanation": "この反応は「ベンゼンの臭素化」である。鉄粉などを触媒として起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0250"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ベンゼンの臭素化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₆ + Br₂ → C₆H₅Br + HBr",
+      "C₆H₆+Br₂→C₆H₅Br+HBr"
+    ],
+    "explanation": "C₆H₆ + Br₂ → C₆H₅Br + HBr。鉄粉などを触媒として起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0251"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ベンゼンの臭素化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₆ + Br₂ → C₆H₅Br + HBr。鉄粉などを触媒として起こる置換反応である",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₆ + Br₂ → C₆H₅Br + HBr。鉄粉などを触媒として起こる置換反応である",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0252"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「トルエン側鎖の酸化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O",
+      "2C₂H₅OH → C₂H₅OC₂H₅ + H₂O",
+      "C₂H₅OH → C₂H₄ + H₂O",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O"
+    ],
+    "answer": 0,
+    "explanation": "トルエン側鎖の酸化：C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O。側鎖の炭素が安息香酸のカルボキシ基まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0253"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O",
+    "choices": [
+      "トルエン側鎖の酸化",
+      "エチレンの水和",
+      "カップリング反応",
+      "第一級アルコールの酸化"
+    ],
+    "answer": 0,
+    "explanation": "この反応は「トルエン側鎖の酸化」である。側鎖の炭素が安息香酸のカルボキシ基まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0254"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「トルエン側鎖の酸化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O",
+      "C₆H₅CH₃+3[O]→C₆H₅COOH+H₂O"
+    ],
+    "explanation": "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O。側鎖の炭素が安息香酸のカルボキシ基まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0255"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「トルエン側鎖の酸化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O。側鎖の炭素が安息香酸のカルボキシ基まで酸化される",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₅CH₃ + 3[O] → C₆H₅COOH + H₂O。側鎖の炭素が安息香酸のカルボキシ基まで酸化される",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0256"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ニトロベンゼンの還元」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH",
+      "ジアゾニウム塩 + フェノール類 → アゾ化合物",
+      "C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O",
+      "サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸"
+    ],
+    "answer": 2,
+    "explanation": "ニトロベンゼンの還元：C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O。スズと塩酸などで還元してアニリンを得る",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0257"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O",
+    "choices": [
+      "ジアゾ化",
+      "ベンゼンのニトロ化",
+      "酢酸とエタノールのエステル化",
+      "ニトロベンゼンの還元"
+    ],
+    "answer": 3,
+    "explanation": "この反応は「ニトロベンゼンの還元」である。スズと塩酸などで還元してアニリンを得る",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0258"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ニトロベンゼンの還元」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O",
+      "C₆H₅NO₂+6[H]→C₆H₅NH₂+2H₂O"
+    ],
+    "explanation": "C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O。スズと塩酸などで還元してアニリンを得る",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0259"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ニトロベンゼンの還元」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O。スズと塩酸などで還元してアニリンを得る",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O。スズと塩酸などで還元してアニリンを得る",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0260"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「アニリンの塩形成」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₂H₅OH → C₂H₄ + H₂O",
+      "HC≡CH + 2H₂ → CH₃CH₃",
+      "サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸",
+      "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl"
+    ],
+    "answer": 3,
+    "explanation": "アニリンの塩形成：C₆H₅NH₂ + HCl → C₆H₅NH₃Cl。アニリンの弱塩基性による反応である",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0261"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₅NH₂ + HCl → C₆H₅NH₃Cl",
+    "choices": [
+      "エタノールの分子間脱水",
+      "アニリンの塩形成",
+      "ジアゾ化",
+      "エタノールの分子内脱水"
+    ],
+    "answer": 1,
+    "explanation": "この反応は「アニリンの塩形成」である。アニリンの弱塩基性による反応である",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0262"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「アニリンの塩形成」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl",
+      "C₆H₅NH₂+HCl→C₆H₅NH₃Cl"
+    ],
+    "explanation": "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl。アニリンの弱塩基性による反応である",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0263"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「アニリンの塩形成」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl。アニリンの弱塩基性による反応である",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl。アニリンの弱塩基性による反応である",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0264"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ジアゾ化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O",
+      "R₂CHOH → R₂CO",
+      "C₆H₅NH₂ + HCl → C₆H₅NH₃Cl",
+      "ジアゾニウム塩 + フェノール類 → アゾ化合物"
+    ],
+    "answer": 0,
+    "explanation": "ジアゾ化：C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O。0〜5 ℃程度の低温で行う",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0265"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O",
+    "choices": [
+      "エチレンの水和",
+      "ジアゾ化",
+      "フェノールと水酸化ナトリウム",
+      "エタノールの分子間脱水"
+    ],
+    "answer": 1,
+    "explanation": "この反応は「ジアゾ化」である。0〜5 ℃程度の低温で行う",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0266"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ジアゾ化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O",
+      "C₆H₅NH₂+NaNO₂+2HCl→C₆H₅N₂Cl+NaCl+2H₂O"
+    ],
+    "explanation": "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O。0〜5 ℃程度の低温で行う",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0267"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ジアゾ化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O。0〜5 ℃程度の低温で行う",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O。0〜5 ℃程度の低温で行う",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0268"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「カップリング反応」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "ジアゾニウム塩 + フェノール類 → アゾ化合物",
+      "CH₃COOC₂H₅ + H₂O ⇄ CH₃COOH + C₂H₅OH",
+      "RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag + 4NH₃ + 2H₂O",
+      "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O"
+    ],
+    "answer": 0,
+    "explanation": "カップリング反応：ジアゾニウム塩 + フェノール類 → アゾ化合物。アゾ基をもつ有色化合物が生成する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0269"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：ジアゾニウム塩 + フェノール類 → アゾ化合物",
+    "choices": [
+      "エタノールとナトリウム",
+      "カップリング反応",
+      "ベンゼンのニトロ化",
+      "フェノールと水酸化ナトリウム"
+    ],
+    "answer": 1,
+    "explanation": "この反応は「カップリング反応」である。アゾ基をもつ有色化合物が生成する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0270"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「カップリング反応」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "ジアゾニウム塩 + フェノール類 → アゾ化合物",
+      "ジアゾニウム塩+フェノール類→アゾ化合物"
+    ],
+    "explanation": "ジアゾニウム塩 + フェノール類 → アゾ化合物。アゾ基をもつ有色化合物が生成する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0271"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「カップリング反応」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "ジアゾニウム塩 + フェノール類 → アゾ化合物。アゾ基をもつ有色化合物が生成する",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "ジアゾニウム塩 + フェノール類 → アゾ化合物。アゾ基をもつ有色化合物が生成する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0272"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「安息香酸と炭酸水素ナトリウム」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "油脂 + 3NaOH → グリセリン + 3RCOONa",
+      "C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂Cl + NaCl + 2H₂O",
+      "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O",
+      "CH₂=CH₂ + H₂O → CH₃CH₂OH"
+    ],
+    "answer": 2,
+    "explanation": "安息香酸と炭酸水素ナトリウム：C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O。カルボン酸が炭酸より強い酸であるため反応する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0273"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O",
+    "choices": [
+      "ジアゾ化",
+      "酢酸エチルの加水分解",
+      "安息香酸と炭酸水素ナトリウム",
+      "エタノールの分子間脱水"
+    ],
+    "answer": 2,
+    "explanation": "この反応は「安息香酸と炭酸水素ナトリウム」である。カルボン酸が炭酸より強い酸であるため反応する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0274"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「安息香酸と炭酸水素ナトリウム」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O",
+      "C₆H₅COOH+NaHCO₃→C₆H₅COONa+CO₂+H₂O"
+    ],
+    "explanation": "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O。カルボン酸が炭酸より強い酸であるため反応する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0275"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「安息香酸と炭酸水素ナトリウム」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O。カルボン酸が炭酸より強い酸であるため反応する",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O。カルボン酸が炭酸より強い酸であるため反応する",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0276"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「サリチル酸のアセチル化」を表す反応式として最も適切なものを選びなさい。",
+    "choices": [
+      "R₂CHOH → R₂CO",
+      "CH₂=CH₂ + H₂O → CH₃CH₂OH",
+      "RCH₂OH → RCHO → RCOOH",
+      "サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸"
+    ],
+    "answer": 3,
+    "explanation": "サリチル酸のアセチル化：サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸。フェノール性ヒドロキシ基がエステル化される",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0277"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の反応式・反応内容に対応する反応名を選びなさい：サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸",
+    "choices": [
+      "エタノールとナトリウム",
+      "サリチル酸のアセチル化",
+      "フェノールと臭素",
+      "ジアゾ化"
+    ],
+    "answer": 1,
+    "explanation": "この反応は「サリチル酸のアセチル化」である。フェノール性ヒドロキシ基がエステル化される",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0278"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「サリチル酸のアセチル化」の反応式を書きなさい。",
+    "acceptedAnswers": [
+      "サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸",
+      "サリチル酸+無水酢酸→アセチルサリチル酸+酢酸"
+    ],
+    "explanation": "サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸。フェノール性ヒドロキシ基がエステル化される",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0279"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「サリチル酸のアセチル化」について、反応の種類・条件・生成物のいずれかを含めて説明しなさい。",
+    "modelAnswer": "サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸。フェノール性ヒドロキシ基がエステル化される",
+    "criteria": [
+      "反応物と生成物の関係が正しい",
+      "反応の特徴または条件に触れている",
+      "化学用語を適切に用いている"
+    ],
+    "explanation": "サリチル酸 + 無水酢酸 → アセチルサリチル酸 + 酢酸。フェノール性ヒドロキシ基がエステル化される",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応別に細分化",
+    "id": "orgx_0280"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "臭素水を速やかに脱色する炭化水素をすべて選びなさい。",
+    "choices": [
+      "エチレン",
+      "アセチレン",
+      "エタン",
+      "ベンゼン"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "二重結合や三重結合をもつ不飽和炭化水素は臭素を付加する。通常の条件でベンゼンは臭素水を脱色しない。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0281"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "銀鏡反応を示す物質をすべて選びなさい。",
+    "choices": [
+      "ホルムアルデヒド",
+      "アセトアルデヒド",
+      "アセトン",
+      "ギ酸"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "アルデヒドとギ酸は還元性を示し、銀鏡反応が陽性である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0282"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ヨードホルム反応を示す物質をすべて選びなさい。",
+    "choices": [
+      "エタノール",
+      "2-プロパノール",
+      "アセトン",
+      "メタノール"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "CH₃CH(OH)- または CH₃CO- の構造をもつ化合物が陽性になりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0283"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "塩化鉄(III)水溶液で呈色する物質をすべて選びなさい。",
+    "choices": [
+      "フェノール",
+      "サリチル酸",
+      "安息香酸",
+      "酢酸"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "フェノール性ヒドロキシ基をもつ化合物が呈色する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0284"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "炭酸水素ナトリウム水溶液と反応して二酸化炭素を発生する物質をすべて選びなさい。",
+    "choices": [
+      "酢酸",
+      "安息香酸",
+      "フェノール",
+      "エタノール"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "カルボン酸は炭酸より強い酸であり、NaHCO₃と反応する。フェノールやアルコールは通常反応しない。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0285"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "水酸化ナトリウム水溶液と反応する物質をすべて選びなさい。",
+    "choices": [
+      "フェノール",
+      "酢酸",
+      "エタノール",
+      "安息香酸"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "フェノールとカルボン酸はNaOHと中和するが、エタノールは通常中和しない。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0286"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "官能基異性体の組合せを選びなさい。",
+    "choices": [
+      "エタノールとジメチルエーテル",
+      "1-プロパノールと2-プロパノール",
+      "マレイン酸とフマル酸",
+      "ベンゼンとシクロヘキサン"
+    ],
+    "answer": 0,
+    "explanation": "エタノールとジメチルエーテルは分子式C₂H₆Oが同じで、官能基が異なる。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0287"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "幾何異性体の組合せを選びなさい。",
+    "choices": [
+      "マレイン酸とフマル酸",
+      "エタノールとジメチルエーテル",
+      "ブタンと2-メチルプロパン",
+      "ベンゼンとトルエン"
+    ],
+    "answer": 0,
+    "explanation": "マレイン酸はシス形、フマル酸はトランス形である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に概念横断問題として追加",
+    "id": "orgx_0288"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「天然ガスの主成分で、完全燃焼すると二酸化炭素と水を生じる」",
+    "choices": [
+      "メタン",
+      "キシレン",
+      "サリチル酸",
+      "ジエチルエーテル"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはメタン（CH₄）である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0289"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「炭素間に単結合だけをもつ飽和炭化水素である」",
+    "choices": [
+      "フェノール",
+      "油脂",
+      "エタン",
+      "無水フタル酸"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはエタン（C₂H₆）である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0290"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「液化石油ガス（LPガス）の主成分の一つである」",
+    "choices": [
+      "アセトアルデヒド",
+      "ニトロベンゼン",
+      "プロパン",
+      "フェノール"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはプロパン（C₃H₈）である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0291"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「直鎖形と枝分かれ形の構造異性体をもつ」",
+    "choices": [
+      "無水フタル酸",
+      "ホルムアルデヒド",
+      "ブタン",
+      "ナフタレン"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはブタン（C₄H₁₀）である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0292"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「臭素水を脱色し、付加重合してポリエチレンになる」",
+    "choices": [
+      "サリチル酸メチル",
+      "エチレン",
+      "キシレン",
+      "ベンゼン"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはエチレン（C₂H₄）である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0293"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「付加重合してポリプロピレンになる」",
+    "choices": [
+      "プロパン",
+      "グリセリン",
+      "アニリン",
+      "プロピレン"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはプロピレン（C₃H₆）である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0294"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「三重結合をもち、臭素を付加する」",
+    "choices": [
+      "アセチルサリチル酸",
+      "アセチレン",
+      "プロピオン酸",
+      "アセトン"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはアセチレン（C₂H₂）である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0295"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「置換反応を起こしやすく、通常は臭素水を脱色しない」",
+    "choices": [
+      "メタノール",
+      "ベンゼン",
+      "酢酸エチル",
+      "セッケン"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはベンゼン（C₆H₆）である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0296"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「側鎖を強く酸化すると安息香酸になる」",
+    "choices": [
+      "トルエン",
+      "メタノール",
+      "エチレングリコール",
+      "アニリン塩酸塩"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはトルエン（C₆H₅CH₃）である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0297"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「o-、m-、p-の3種類の位置異性体をもつ」",
+    "choices": [
+      "キシレン",
+      "マレイン酸",
+      "酢酸エチル",
+      "トルエン"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはキシレン（C₆H₄(CH₃)₂）である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0298"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「酸化されるとホルムアルデヒドを経てギ酸になる」",
+    "choices": [
+      "ギ酸",
+      "プロピレン",
+      "アセチルサリチル酸",
+      "メタノール"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはメタノール（CH₃OH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0299"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「ナトリウムと反応して水素を発生する」",
+    "choices": [
+      "エタノール",
+      "アゾベンゼン",
+      "エタン",
+      "エチレングリコール"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはエタノール（C₂H₅OH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0300"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「酸化されるとプロパナールを経てプロピオン酸になる」",
+    "choices": [
+      "エチレングリコール",
+      "プロパン",
+      "キシレン",
+      "1-プロパノール"
+    ],
+    "answer": 3,
+    "explanation": "該当するのは1-プロパノール（CH₃CH₂CH₂OH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0301"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「酸化されるとアセトンになる」",
+    "choices": [
+      "無水フタル酸",
+      "ジメチルエーテル",
+      "2-プロパノール",
+      "グリセリン"
+    ],
+    "answer": 2,
+    "explanation": "該当するのは2-プロパノール（CH₃CH(OH)CH₃）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0302"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「水酸基を2個もち、不凍液などに用いられる」",
+    "choices": [
+      "無水フタル酸",
+      "エチレングリコール",
+      "エタノール",
+      "酢酸"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはエチレングリコール（HOCH₂CH₂OH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0303"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「水酸基を3個もち、水に溶けやすい粘性液体である」",
+    "choices": [
+      "酢酸エチル",
+      "アニリン塩酸塩",
+      "グリセリン",
+      "油脂"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはグリセリン（C₃H₅(OH)₃）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0304"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「エタノールとは官能基異性体の関係にある」",
+    "choices": [
+      "ジメチルエーテル",
+      "シュウ酸",
+      "プロピレン",
+      "無水フタル酸"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはジメチルエーテル（CH₃OCH₃）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0305"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「揮発性が高く、水に溶けにくい」",
+    "choices": [
+      "ジエチルエーテル",
+      "ジメチルエーテル",
+      "エチレン",
+      "油脂"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはジエチルエーテル（C₂H₅OC₂H₅）である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0306"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「銀鏡反応とフェーリング反応を示す」",
+    "choices": [
+      "ホルムアルデヒド",
+      "アセトアルデヒド",
+      "アゾベンゼン",
+      "セッケン"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはホルムアルデヒド（HCHO）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0307"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「銀鏡反応とヨードホルム反応を示す」",
+    "choices": [
+      "フマル酸",
+      "アセトアルデヒド",
+      "アセチレン",
+      "プロピオン酸"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはアセトアルデヒド（CH₃CHO）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0308"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「酸化されるとプロピオン酸になる」",
+    "choices": [
+      "クレゾール",
+      "プロパナール",
+      "エチレン",
+      "ナフタレン"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはプロパナール（CH₃CH₂CHO）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0309"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「ヨードホルム反応を示すが銀鏡反応は示さない」",
+    "choices": [
+      "ナフタレン",
+      "アセトン",
+      "アセトアルデヒド",
+      "酢酸"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはアセトン（CH₃COCH₃）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0310"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「カルボン酸でありながら銀鏡反応を示す」",
+    "choices": [
+      "ホルムアルデヒド",
+      "アゾベンゼン",
+      "クレゾール",
+      "ギ酸"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはギ酸（HCOOH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0311"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「エタノールとエステル化して酢酸エチルを生じる」",
+    "choices": [
+      "酢酸",
+      "フェノール",
+      "アニリン",
+      "エタノール"
+    ],
+    "answer": 0,
+    "explanation": "該当するのは酢酸（CH₃COOH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0312"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「水溶液中で弱酸として電離する」",
+    "choices": [
+      "ベンゼンジアゾニウム塩化物",
+      "フェノール",
+      "2-プロパノール",
+      "プロピオン酸"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはプロピオン酸（CH₃CH₂COOH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0313"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「還元性をもち、酸性条件で過マンガン酸イオンを還元する」",
+    "choices": [
+      "酢酸メチル",
+      "エチレングリコール",
+      "シュウ酸",
+      "アセトン"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはシュウ酸（(COOH)₂）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0314"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「シス形で分子内脱水しやすい」",
+    "choices": [
+      "油脂",
+      "酢酸エチル",
+      "マレイン酸",
+      "アセトアルデヒド"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはマレイン酸（cis-HOOCCH=CHCOOH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0315"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「トランス形で、マレイン酸より融点が高い」",
+    "choices": [
+      "フマル酸",
+      "ギ酸",
+      "無水フタル酸",
+      "ホルムアルデヒド"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはフマル酸（trans-HOOCCH=CHCOOH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0316"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「酢酸とエタノールのエステル化で得られる」",
+    "choices": [
+      "サリチル酸",
+      "ベンゼン",
+      "アセトアルデヒド",
+      "酢酸エチル"
+    ],
+    "answer": 3,
+    "explanation": "該当するのは酢酸エチル（CH₃COOC₂H₅）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0317"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「加水分解すると酢酸とメタノールを生じる」",
+    "choices": [
+      "プロピオン酸",
+      "酢酸メチル",
+      "アセトアルデヒド",
+      "トルエン"
+    ],
+    "answer": 1,
+    "explanation": "該当するのは酢酸メチル（CH₃COOCH₃）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0318"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「けん化すると高級脂肪酸塩とグリセリンを生じる」",
+    "choices": [
+      "サリチル酸メチル",
+      "無水フタル酸",
+      "ベンゼンジアゾニウム塩化物",
+      "油脂"
+    ],
+    "answer": 3,
+    "explanation": "該当するのは油脂（高級脂肪酸のグリセリンエステル）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0319"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「疎水基と親水基をもち、ミセルを形成する」",
+    "choices": [
+      "マレイン酸",
+      "無水フタル酸",
+      "安息香酸",
+      "セッケン"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはセッケン（RCOO⁻Na⁺）である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0320"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「塩化鉄(III)水溶液で呈色し、臭素水から白色沈殿を生じる」",
+    "choices": [
+      "アセチレン",
+      "メタン",
+      "アゾベンゼン",
+      "フェノール"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはフェノール（C₆H₅OH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0321"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「ベンゼン環にメチル基とヒドロキシ基をもつ」",
+    "choices": [
+      "酢酸メチル",
+      "無水フタル酸",
+      "ベンゼン",
+      "クレゾール"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはクレゾール（CH₃C₆H₄OH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0322"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「炭酸水素ナトリウムと反応して二酸化炭素を発生する」",
+    "choices": [
+      "油脂",
+      "安息香酸",
+      "グリセリン",
+      "エタン"
+    ],
+    "answer": 1,
+    "explanation": "該当するのは安息香酸（C₆H₅COOH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0323"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「塩化鉄(III)水溶液で呈色し、カルボキシ基ももつ」",
+    "choices": [
+      "フェノール",
+      "ベンゼンジアゾニウム塩化物",
+      "サリチル酸",
+      "安息香酸"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはサリチル酸（HOC₆H₄COOH）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0324"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「サリチル酸のフェノール性ヒドロキシ基をアセチル化して得る」",
+    "choices": [
+      "アニリン塩酸塩",
+      "クレゾール",
+      "2-プロパノール",
+      "アセチルサリチル酸"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはアセチルサリチル酸（C₉H₈O₄）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0325"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「サリチル酸とメタノールのエステル化で得られる」",
+    "choices": [
+      "サリチル酸メチル",
+      "アセトン",
+      "メタン",
+      "サリチル酸"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはサリチル酸メチル（HOC₆H₄COOCH₃）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0326"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「弱塩基性を示し、塩酸と反応して水溶性の塩をつくる」",
+    "choices": [
+      "ホルムアルデヒド",
+      "無水フタル酸",
+      "アニリン",
+      "プロパナール"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはアニリン（C₆H₅NH₂）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0327"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「水酸化ナトリウムを加えるとアニリンが遊離する」",
+    "choices": [
+      "ベンゼン",
+      "アニリン塩酸塩",
+      "トルエン",
+      "2-プロパノール"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはアニリン塩酸塩（C₆H₅NH₃Cl）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0328"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「還元するとアニリンになる」",
+    "choices": [
+      "プロピオン酸",
+      "ナフタレン",
+      "ニトロベンゼン",
+      "エタノール"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはニトロベンゼン（C₆H₅NO₂）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0329"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「低温で生成し、フェノール類とカップリング反応をする」",
+    "choices": [
+      "アニリン",
+      "ナフタレン",
+      "酢酸エチル",
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "answer": 3,
+    "explanation": "該当するのはベンゼンジアゾニウム塩化物（C₆H₅N₂Cl）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0330"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「アゾ基 −N=N− をもつ有色化合物である」",
+    "choices": [
+      "アゾベンゼン",
+      "ニトロベンゼン",
+      "無水フタル酸",
+      "クレゾール"
+    ],
+    "answer": 0,
+    "explanation": "該当するのはアゾベンゼン（C₆H₅N=NC₆H₅）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0331"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「付加重合してポリスチレンになる」",
+    "choices": [
+      "プロピレン",
+      "酢酸メチル",
+      "スチレン",
+      "エチレングリコール"
+    ],
+    "answer": 2,
+    "explanation": "該当するのはスチレン（C₆H₅CH=CH₂）である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0332"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「昇華性を示す芳香族化合物である」",
+    "choices": [
+      "酢酸エチル",
+      "ナフタレン",
+      "ホルムアルデヒド",
+      "ジメチルエーテル"
+    ],
+    "answer": 1,
+    "explanation": "該当するのはナフタレン（C₁₀H₈）である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0333"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の記述に当てはまる化合物を選びなさい：「o-フタル酸を加熱すると分子内脱水して生じる」",
+    "choices": [
+      "ベンゼンジアゾニウム塩化物",
+      "無水フタル酸",
+      "プロパン",
+      "アセチルサリチル酸"
+    ],
+    "answer": 1,
+    "explanation": "該当するのは無水フタル酸（C₆H₄(CO)₂O）である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に性質別に細分化",
+    "id": "orgx_0334"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アルカンの一般式として最も適切なものを選びなさい。",
+    "choices": [
+      "CₙH₂ₙ₊₂",
+      "CₙH₂ₙO₂",
+      "CₙH₂ₙO",
+      "CₙH₂ₙ"
+    ],
+    "answer": 0,
+    "explanation": "アルカンの一般式は CₙH₂ₙ₊₂ である。鎖式飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0001"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一般式 CₙH₂ₙ₊₂ で表される化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "アルキン",
+      "アルカン",
+      "単環シクロアルカン",
+      "一価飽和アルコール"
+    ],
+    "answer": 1,
+    "explanation": "CₙH₂ₙ₊₂ はアルカンの一般式である。鎖式飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0002"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アルカンの一般式と、その一般式になる理由を簡潔に説明しなさい。",
+    "modelAnswer": "一般式は CₙH₂ₙ₊₂。鎖式飽和炭化水素であり、炭素骨格と結合の種類から水素数が決まる。",
+    "criteria": [
+      "一般式が正しい",
+      "結合の種類または官能基に触れている",
+      "水素数との関係を説明している"
+    ],
+    "explanation": "アルカンの一般式は CₙH₂ₙ₊₂ である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0003"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アルケンの一般式として最も適切なものを選びなさい。",
+    "choices": [
+      "CₙH₂ₙ₊₂O",
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙO₂"
+    ],
+    "answer": 1,
+    "explanation": "アルケンの一般式は CₙH₂ₙ である。炭素間二重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0004"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一般式 CₙH₂ₙ で表される化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "アルカン",
+      "アルキン",
+      "一価飽和アルコール",
+      "アルケン"
+    ],
+    "answer": 3,
+    "explanation": "CₙH₂ₙ はアルケンの一般式である。炭素間二重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0005"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アルケンの一般式と、その一般式になる理由を簡潔に説明しなさい。",
+    "modelAnswer": "一般式は CₙH₂ₙ。炭素間二重結合を1個もつ鎖式炭化水素であり、炭素骨格と結合の種類から水素数が決まる。",
+    "criteria": [
+      "一般式が正しい",
+      "結合の種類または官能基に触れている",
+      "水素数との関係を説明している"
+    ],
+    "explanation": "アルケンの一般式は CₙH₂ₙ である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0006"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "アルキンの一般式として最も適切なものを選びなさい。",
+    "choices": [
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ₊₂",
+      "CₙH₂ₙO₂"
+    ],
+    "answer": 1,
+    "explanation": "アルキンの一般式は CₙH₂ₙ₋₂ である。炭素間三重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0007"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一般式 CₙH₂ₙ₋₂ で表される化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "一価飽和アルコール",
+      "アルカン",
+      "飽和一価アルデヒド・ケトン",
+      "アルキン"
+    ],
+    "answer": 3,
+    "explanation": "CₙH₂ₙ₋₂ はアルキンの一般式である。炭素間三重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0008"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アルキンの一般式と、その一般式になる理由を簡潔に説明しなさい。",
+    "modelAnswer": "一般式は CₙH₂ₙ₋₂。炭素間三重結合を1個もつ鎖式炭化水素であり、炭素骨格と結合の種類から水素数が決まる。",
+    "criteria": [
+      "一般式が正しい",
+      "結合の種類または官能基に触れている",
+      "水素数との関係を説明している"
+    ],
+    "explanation": "アルキンの一般式は CₙH₂ₙ₋₂ である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0009"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "単環シクロアルカンの一般式として最も適切なものを選びなさい。",
+    "choices": [
+      "CₙH₂ₙO",
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ₊₂O",
+      "CₙH₂ₙ"
+    ],
+    "answer": 3,
+    "explanation": "単環シクロアルカンの一般式は CₙH₂ₙ である。炭素原子が環状につながった飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0010"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一般式 CₙH₂ₙ で表される化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "アルカン",
+      "単環シクロアルカン",
+      "飽和一価アルデヒド・ケトン",
+      "アルケン"
+    ],
+    "answer": 1,
+    "explanation": "CₙH₂ₙ は単環シクロアルカンの一般式である。炭素原子が環状につながった飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0011"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "単環シクロアルカンの一般式と、その一般式になる理由を簡潔に説明しなさい。",
+    "modelAnswer": "一般式は CₙH₂ₙ。炭素原子が環状につながった飽和炭化水素であり、炭素骨格と結合の種類から水素数が決まる。",
+    "criteria": [
+      "一般式が正しい",
+      "結合の種類または官能基に触れている",
+      "水素数との関係を説明している"
+    ],
+    "explanation": "単環シクロアルカンの一般式は CₙH₂ₙ である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0012"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一価飽和アルコールの一般式として最も適切なものを選びなさい。",
+    "choices": [
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ",
+      "CₙH₂ₙO₂",
+      "CₙH₂ₙ₊₂O"
+    ],
+    "answer": 3,
+    "explanation": "一価飽和アルコールの一般式は CₙH₂ₙ₊₂O である。ヒドロキシ基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0013"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一般式 CₙH₂ₙ₊₂O で表される化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "アルキン",
+      "単環シクロアルカン",
+      "飽和一価カルボン酸・エステル",
+      "一価飽和アルコール"
+    ],
+    "answer": 3,
+    "explanation": "CₙH₂ₙ₊₂O は一価飽和アルコールの一般式である。ヒドロキシ基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0014"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "一価飽和アルコールの一般式と、その一般式になる理由を簡潔に説明しなさい。",
+    "modelAnswer": "一般式は CₙH₂ₙ₊₂O。ヒドロキシ基を1個もつ飽和鎖式化合物であり、炭素骨格と結合の種類から水素数が決まる。",
+    "criteria": [
+      "一般式が正しい",
+      "結合の種類または官能基に触れている",
+      "水素数との関係を説明している"
+    ],
+    "explanation": "一価飽和アルコールの一般式は CₙH₂ₙ₊₂O である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0015"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "飽和一価アルデヒド・ケトンの一般式として最も適切なものを選びなさい。",
+    "choices": [
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₊₂O",
+      "CₙH₂ₙO",
+      "CₙH₂ₙ"
+    ],
+    "answer": 2,
+    "explanation": "飽和一価アルデヒド・ケトンの一般式は CₙH₂ₙO である。カルボニル基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0016"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一般式 CₙH₂ₙO で表される化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "単環シクロアルカン",
+      "飽和一価アルデヒド・ケトン",
+      "アルキン",
+      "アルカン"
+    ],
+    "answer": 1,
+    "explanation": "CₙH₂ₙO は飽和一価アルデヒド・ケトンの一般式である。カルボニル基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0017"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "飽和一価アルデヒド・ケトンの一般式と、その一般式になる理由を簡潔に説明しなさい。",
+    "modelAnswer": "一般式は CₙH₂ₙO。カルボニル基を1個もつ飽和鎖式化合物であり、炭素骨格と結合の種類から水素数が決まる。",
+    "criteria": [
+      "一般式が正しい",
+      "結合の種類または官能基に触れている",
+      "水素数との関係を説明している"
+    ],
+    "explanation": "飽和一価アルデヒド・ケトンの一般式は CₙH₂ₙO である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0018"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "飽和一価カルボン酸・エステルの一般式として最も適切なものを選びなさい。",
+    "choices": [
+      "CₙH₂ₙO₂",
+      "CₙH₂ₙ₊₂O",
+      "CₙH₂ₙ",
+      "CₙH₂ₙ"
+    ],
+    "answer": 0,
+    "explanation": "飽和一価カルボン酸・エステルの一般式は CₙH₂ₙO₂ である。カルボキシ基またはエステル結合を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0019"
+  },
+  {
+    "type": "single",
+    "difficulty": 1,
+    "baseXp": 8,
+    "prompt": "一般式 CₙH₂ₙO₂ で表される化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "アルケン",
+      "飽和一価カルボン酸・エステル",
+      "一価飽和アルコール",
+      "アルキン"
+    ],
+    "answer": 1,
+    "explanation": "CₙH₂ₙO₂ は飽和一価カルボン酸・エステルの一般式である。カルボキシ基またはエステル結合を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0020"
+  },
+  {
+    "type": "written",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "飽和一価カルボン酸・エステルの一般式と、その一般式になる理由を簡潔に説明しなさい。",
+    "modelAnswer": "一般式は CₙH₂ₙO₂。カルボキシ基またはエステル結合を1個もつ飽和鎖式化合物であり、炭素骨格と結合の種類から水素数が決まる。",
+    "criteria": [
+      "一般式が正しい",
+      "結合の種類または官能基に触れている",
+      "水素数との関係を説明している"
+    ],
+    "explanation": "飽和一価カルボン酸・エステルの一般式は CₙH₂ₙO₂ である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に一般式問題へ細分化",
+    "id": "orgy_0021"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₄H₁₀ から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルカン",
+      "不飽和度4をもつ炭化水素",
+      "一価飽和アルコールまたはエーテル",
+      "飽和一価カルボン酸またはエステル"
+    ],
+    "answer": 0,
+    "explanation": "C₄H₁₀ の炭素数・水素数・酸素数を一般式と照合すると、アルカンと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0022"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₅H₁₀ から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルケンまたは単環シクロアルカン",
+      "不飽和度4をもつ芳香族炭化水素の候補",
+      "飽和アルデヒドまたはケトン",
+      "飽和一価カルボン酸またはエステル"
+    ],
+    "answer": 0,
+    "explanation": "C₅H₁₀ の炭素数・水素数・酸素数を一般式と照合すると、アルケンまたは単環シクロアルカンと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0023"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₄H₆ から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "飽和アルデヒドまたはケトン",
+      "アルキンなど不飽和度2の炭化水素",
+      "アルケンまたは単環シクロアルカン",
+      "飽和一価カルボン酸またはエステル"
+    ],
+    "answer": 1,
+    "explanation": "C₄H₆ の炭素数・水素数・酸素数を一般式と照合すると、アルキンなど不飽和度2の炭化水素と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0024"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₃H₈O から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "一価飽和アルコールまたはエーテル",
+      "アルキンなど不飽和度2の炭化水素",
+      "不飽和度4をもつ炭化水素",
+      "アルカン"
+    ],
+    "answer": 0,
+    "explanation": "C₃H₈O の炭素数・水素数・酸素数を一般式と照合すると、一価飽和アルコールまたはエーテルと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0025"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₃H₆O から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "不飽和度4をもつ炭化水素",
+      "アルケンまたは単環シクロアルカン",
+      "飽和アルデヒドまたはケトン",
+      "アルキンなど不飽和度2の炭化水素"
+    ],
+    "answer": 2,
+    "explanation": "C₃H₆O の炭素数・水素数・酸素数を一般式と照合すると、飽和アルデヒドまたはケトンと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0026"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₄H₈O₂ から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "一価飽和アルコールまたはエーテル",
+      "アルカン",
+      "飽和一価カルボン酸またはエステル",
+      "不飽和度4をもつ炭化水素"
+    ],
+    "answer": 2,
+    "explanation": "C₄H₈O₂ の炭素数・水素数・酸素数を一般式と照合すると、飽和一価カルボン酸またはエステルと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0027"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₆H₆ から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルケンまたは単環シクロアルカン",
+      "不飽和度4をもつ芳香族炭化水素の候補",
+      "不飽和度4をもつ炭化水素",
+      "一価飽和アルコールまたはエーテル"
+    ],
+    "answer": 2,
+    "explanation": "C₆H₆ の炭素数・水素数・酸素数を一般式と照合すると、不飽和度4をもつ炭化水素と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0028"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₇H₈ から考えられる分類として最も適切なものを選びなさい。",
+    "choices": [
+      "一価飽和アルコールまたはエーテル",
+      "不飽和度4をもつ芳香族炭化水素の候補",
+      "アルケンまたは単環シクロアルカン",
+      "飽和一価カルボン酸またはエステル"
+    ],
+    "answer": 1,
+    "explanation": "C₇H₈ の炭素数・水素数・酸素数を一般式と照合すると、不飽和度4をもつ芳香族炭化水素の候補と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分子式判定問題へ細分化",
+    "id": "orgy_0029"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₄H₁₀ について、ここに示す代表的な構造異性体の数として適切なものを選びなさい。",
+    "choices": [
+      "2",
+      "4",
+      "1",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "代表例は ブタン、2-メチルプロパン で、合計2種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0030"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "分子式 C₄H₁₀ の異性体を、名称または構造が分かる形でできるだけ挙げなさい。",
+    "modelAnswer": "ブタン、2-メチルプロパン",
+    "criteria": [
+      "分子式が一致している",
+      "異なる構造を区別できている",
+      "名称または構造式が高校化学として正しい"
+    ],
+    "explanation": "代表的な異性体は ブタン、2-メチルプロパン である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0031"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₃H₈O について、ここに示す代表的な構造異性体の数として適切なものを選びなさい。",
+    "choices": [
+      "5",
+      "4",
+      "2",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "代表例は 1-プロパノール、2-プロパノール、メトキシエタン で、合計3種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0032"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "分子式 C₃H₈O の異性体を、名称または構造が分かる形でできるだけ挙げなさい。",
+    "modelAnswer": "1-プロパノール、2-プロパノール、メトキシエタン",
+    "criteria": [
+      "分子式が一致している",
+      "異なる構造を区別できている",
+      "名称または構造式が高校化学として正しい"
+    ],
+    "explanation": "代表的な異性体は 1-プロパノール、2-プロパノール、メトキシエタン である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0033"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₄H₈ について、ここに示す代表的な構造異性体の数として適切なものを選びなさい。",
+    "choices": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 2,
+    "explanation": "代表例は 1-ブテン、2-ブテン、2-メチルプロペン、シクロブタン、メチルシクロプロパン で、合計5種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0034"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "分子式 C₄H₈ の異性体を、名称または構造が分かる形でできるだけ挙げなさい。",
+    "modelAnswer": "1-ブテン、2-ブテン、2-メチルプロペン、シクロブタン、メチルシクロプロパン",
+    "criteria": [
+      "分子式が一致している",
+      "異なる構造を区別できている",
+      "名称または構造式が高校化学として正しい"
+    ],
+    "explanation": "代表的な異性体は 1-ブテン、2-ブテン、2-メチルプロペン、シクロブタン、メチルシクロプロパン である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0035"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₂H₆O について、ここに示す代表的な官能基異性体の数として適切なものを選びなさい。",
+    "choices": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "代表例は エタノール、ジメチルエーテル で、合計2種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0036"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "分子式 C₂H₆O の異性体を、名称または構造が分かる形でできるだけ挙げなさい。",
+    "modelAnswer": "エタノール、ジメチルエーテル",
+    "criteria": [
+      "分子式が一致している",
+      "異なる構造を区別できている",
+      "名称または構造式が高校化学として正しい"
+    ],
+    "explanation": "代表的な異性体は エタノール、ジメチルエーテル である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0037"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₃H₆O について、ここに示す代表的な官能基異性体の数として適切なものを選びなさい。",
+    "choices": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": 2,
+    "explanation": "代表例は プロパナール、アセトン で、合計2種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0038"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "分子式 C₃H₆O の異性体を、名称または構造が分かる形でできるだけ挙げなさい。",
+    "modelAnswer": "プロパナール、アセトン",
+    "criteria": [
+      "分子式が一致している",
+      "異なる構造を区別できている",
+      "名称または構造式が高校化学として正しい"
+    ],
+    "explanation": "代表的な異性体は プロパナール、アセトン である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0039"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "分子式 C₄H₈O₂ について、ここに示す代表的なカルボン酸とエステルを含む構造異性体の数として適切なものを選びなさい。",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "answer": 1,
+    "explanation": "代表例は 酪酸、2-メチルプロパン酸、酢酸エチル、プロピオン酸メチル で、合計4種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0040"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "分子式 C₄H₈O₂ の異性体を、名称または構造が分かる形でできるだけ挙げなさい。",
+    "modelAnswer": "酪酸、2-メチルプロパン酸、酢酸エチル、プロピオン酸メチル",
+    "criteria": [
+      "分子式が一致している",
+      "異なる構造を区別できている",
+      "名称または構造式が高校化学として正しい"
+    ],
+    "explanation": "代表的な異性体は 酪酸、2-メチルプロパン酸、酢酸エチル、プロピオン酸メチル である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0041"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "o-キシレンの構造上の表現として最も適切なものを選びなさい。",
+    "choices": [
+      "trans-ブテン二酸",
+      "1,2-ジメチルベンゼン",
+      "1,4-ジメチルベンゼン",
+      "cis-ブテン二酸"
+    ],
+    "answer": 1,
+    "explanation": "o-キシレンは 1,2-ジメチルベンゼン を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0042"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "m-キシレンの構造上の表現として最も適切なものを選びなさい。",
+    "choices": [
+      "1,2-ジメチルベンゼン",
+      "1,4-ジメチルベンゼン",
+      "1,3-ジメチルベンゼン",
+      "trans-ブテン二酸"
+    ],
+    "answer": 2,
+    "explanation": "m-キシレンは 1,3-ジメチルベンゼン を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0043"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "p-キシレンの構造上の表現として最も適切なものを選びなさい。",
+    "choices": [
+      "trans-ブテン二酸",
+      "cis-ブテン二酸",
+      "1,2-ジメチルベンゼン",
+      "1,4-ジメチルベンゼン"
+    ],
+    "answer": 3,
+    "explanation": "p-キシレンは 1,4-ジメチルベンゼン を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0044"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "マレイン酸の構造上の表現として最も適切なものを選びなさい。",
+    "choices": [
+      "cis-ブテン二酸",
+      "1,2-ジメチルベンゼン",
+      "1,3-ジメチルベンゼン",
+      "1,4-ジメチルベンゼン"
+    ],
+    "answer": 0,
+    "explanation": "マレイン酸は cis-ブテン二酸 を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0045"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フマル酸の構造上の表現として最も適切なものを選びなさい。",
+    "choices": [
+      "trans-ブテン二酸",
+      "1,2-ジメチルベンゼン",
+      "1,4-ジメチルベンゼン",
+      "1,3-ジメチルベンゼン"
+    ],
+    "answer": 0,
+    "explanation": "フマル酸は trans-ブテン二酸 を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に異性体問題へ細分化",
+    "id": "orgy_0046"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エタノールを濃硫酸と約170 ℃で加熱",
+    "choices": [
+      "ニトロベンゼン",
+      "2,4,6-トリブロモフェノール",
+      "アセトン",
+      "エチレン"
+    ],
+    "answer": 3,
+    "explanation": "エタノールを濃硫酸と約170 ℃で加熱と、エチレンが生成する。反応の種類は分子内脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0047"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールを濃硫酸と約170 ℃で加熱」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "分子内脱水",
+      "ニトロ化",
+      "第一級アルコールの酸化",
+      "アルデヒドの酸化"
+    ],
+    "answer": 0,
+    "explanation": "生成物はエチレンであり、この反応は分子内脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0048"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エタノールを濃硫酸と約170 ℃で加熱」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はエチレンであり、反応の種類は分子内脱水である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "エタノールを濃硫酸と約170 ℃で加熱と、エチレンが生成する。分子内脱水に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0049"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エタノールを濃硫酸と約140 ℃で加熱",
+    "choices": [
+      "アセトン",
+      "酢酸",
+      "アセチルサリチル酸",
+      "ジエチルエーテル"
+    ],
+    "answer": 3,
+    "explanation": "エタノールを濃硫酸と約140 ℃で加熱と、ジエチルエーテルが生成する。反応の種類は分子間脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0050"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールを濃硫酸と約140 ℃で加熱」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "分子間脱水",
+      "分子内脱水",
+      "側鎖酸化",
+      "水和"
+    ],
+    "answer": 0,
+    "explanation": "生成物はジエチルエーテルであり、この反応は分子間脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0051"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エタノールを濃硫酸と約140 ℃で加熱」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はジエチルエーテルであり、反応の種類は分子間脱水である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "エタノールを濃硫酸と約140 ℃で加熱と、ジエチルエーテルが生成する。分子間脱水に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0052"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エタノールを穏やかに酸化",
+    "choices": [
+      "エチレン",
+      "アセトアルデヒド",
+      "ベンゼンジアゾニウム塩化物",
+      "酢酸ナトリウムとエタノール"
+    ],
+    "answer": 1,
+    "explanation": "エタノールを穏やかに酸化と、アセトアルデヒドが生成する。反応の種類は第一級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0053"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールを穏やかに酸化」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "水和",
+      "第一級アルコールの酸化",
+      "ニトロ化",
+      "第二級アルコールの酸化"
+    ],
+    "answer": 1,
+    "explanation": "生成物はアセトアルデヒドであり、この反応は第一級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0054"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エタノールを穏やかに酸化」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はアセトアルデヒドであり、反応の種類は第一級アルコールの酸化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "エタノールを穏やかに酸化と、アセトアルデヒドが生成する。第一級アルコールの酸化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0055"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：アセトアルデヒドをさらに酸化",
+    "choices": [
+      "安息香酸",
+      "酢酸",
+      "2,4,6-トリブロモフェノール",
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "answer": 1,
+    "explanation": "アセトアルデヒドをさらに酸化と、酢酸が生成する。反応の種類はアルデヒドの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0056"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「アセトアルデヒドをさらに酸化」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルデヒドの酸化",
+      "置換反応",
+      "水素付加",
+      "還元"
+    ],
+    "answer": 0,
+    "explanation": "生成物は酢酸であり、この反応はアルデヒドの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0057"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「アセトアルデヒドをさらに酸化」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物は酢酸であり、反応の種類はアルデヒドの酸化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "アセトアルデヒドをさらに酸化と、酢酸が生成する。アルデヒドの酸化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0058"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：2-プロパノールを酸化",
+    "choices": [
+      "エタン",
+      "ベンゼンジアゾニウム塩化物",
+      "エタノール",
+      "アセトン"
+    ],
+    "answer": 3,
+    "explanation": "2-プロパノールを酸化と、アセトンが生成する。反応の種類は第二級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0059"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「2-プロパノールを酸化」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "側鎖酸化",
+      "還元",
+      "第二級アルコールの酸化",
+      "置換反応"
+    ],
+    "answer": 2,
+    "explanation": "生成物はアセトンであり、この反応は第二級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0060"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「2-プロパノールを酸化」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はアセトンであり、反応の種類は第二級アルコールの酸化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "2-プロパノールを酸化と、アセトンが生成する。第二級アルコールの酸化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0061"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：酢酸とエタノールを濃硫酸存在下で加熱",
+    "choices": [
+      "ベンゼンジアゾニウム塩化物",
+      "エチレン",
+      "アセトン",
+      "酢酸エチル"
+    ],
+    "answer": 3,
+    "explanation": "酢酸とエタノールを濃硫酸存在下で加熱と、酢酸エチルが生成する。反応の種類はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0062"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「酢酸とエタノールを濃硫酸存在下で加熱」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "ニトロ化",
+      "エステル化",
+      "アセチル化",
+      "側鎖酸化"
+    ],
+    "answer": 1,
+    "explanation": "生成物は酢酸エチルであり、この反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0063"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「酢酸とエタノールを濃硫酸存在下で加熱」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物は酢酸エチルであり、反応の種類はエステル化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "酢酸とエタノールを濃硫酸存在下で加熱と、酢酸エチルが生成する。エステル化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0064"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：酢酸エチルを水酸化ナトリウム水溶液で加熱",
+    "choices": [
+      "酢酸ナトリウムとエタノール",
+      "アニリン",
+      "酢酸",
+      "ニトロベンゼン"
+    ],
+    "answer": 0,
+    "explanation": "酢酸エチルを水酸化ナトリウム水溶液で加熱と、酢酸ナトリウムとエタノールが生成する。反応の種類はけん化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0065"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「酢酸エチルを水酸化ナトリウム水溶液で加熱」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "アルデヒドの酸化",
+      "第一級アルコールの酸化",
+      "ニトロ化",
+      "けん化"
+    ],
+    "answer": 3,
+    "explanation": "生成物は酢酸ナトリウムとエタノールであり、この反応はけん化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0066"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「酢酸エチルを水酸化ナトリウム水溶液で加熱」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物は酢酸ナトリウムとエタノールであり、反応の種類はけん化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "酢酸エチルを水酸化ナトリウム水溶液で加熱と、酢酸ナトリウムとエタノールが生成する。けん化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0067"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エチレンに水を付加",
+    "choices": [
+      "1,2-ジブロモエタン",
+      "アニリン",
+      "エチレン",
+      "エタノール"
+    ],
+    "answer": 3,
+    "explanation": "エチレンに水を付加と、エタノールが生成する。反応の種類は水和である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0068"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エチレンに水を付加」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "付加反応",
+      "水和",
+      "アルデヒドの酸化",
+      "エステル化"
+    ],
+    "answer": 1,
+    "explanation": "生成物はエタノールであり、この反応は水和である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0069"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エチレンに水を付加」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はエタノールであり、反応の種類は水和である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "エチレンに水を付加と、エタノールが生成する。水和に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0070"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エチレンに臭素を付加",
+    "choices": [
+      "1,2-ジブロモエタン",
+      "酢酸ナトリウムとエタノール",
+      "サリチル酸メチル",
+      "安息香酸"
+    ],
+    "answer": 0,
+    "explanation": "エチレンに臭素を付加と、1,2-ジブロモエタンが生成する。反応の種類は付加反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0071"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エチレンに臭素を付加」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "分子間脱水",
+      "付加反応",
+      "還元",
+      "水素付加"
+    ],
+    "answer": 1,
+    "explanation": "生成物は1,2-ジブロモエタンであり、この反応は付加反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0072"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エチレンに臭素を付加」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物は1,2-ジブロモエタンであり、反応の種類は付加反応である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "エチレンに臭素を付加と、1,2-ジブロモエタンが生成する。付加反応に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0073"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：アセチレンに十分な水素を付加",
+    "choices": [
+      "2,4,6-トリブロモフェノール",
+      "ジエチルエーテル",
+      "酢酸",
+      "エタン"
+    ],
+    "answer": 3,
+    "explanation": "アセチレンに十分な水素を付加と、エタンが生成する。反応の種類は水素付加である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0074"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「アセチレンに十分な水素を付加」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "第一級アルコールの酸化",
+      "水素付加",
+      "還元",
+      "アセチル化"
+    ],
+    "answer": 1,
+    "explanation": "生成物はエタンであり、この反応は水素付加である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0075"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「アセチレンに十分な水素を付加」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はエタンであり、反応の種類は水素付加である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "アセチレンに十分な水素を付加と、エタンが生成する。水素付加に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0076"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：ベンゼンを濃硝酸・濃硫酸で加熱",
+    "choices": [
+      "酢酸",
+      "アセチルサリチル酸",
+      "ジエチルエーテル",
+      "ニトロベンゼン"
+    ],
+    "answer": 3,
+    "explanation": "ベンゼンを濃硝酸・濃硫酸で加熱と、ニトロベンゼンが生成する。反応の種類はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0077"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ベンゼンを濃硝酸・濃硫酸で加熱」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "エステル化",
+      "けん化",
+      "分子間脱水",
+      "ニトロ化"
+    ],
+    "answer": 3,
+    "explanation": "生成物はニトロベンゼンであり、この反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0078"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ベンゼンを濃硝酸・濃硫酸で加熱」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はニトロベンゼンであり、反応の種類はニトロ化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "ベンゼンを濃硝酸・濃硫酸で加熱と、ニトロベンゼンが生成する。ニトロ化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0079"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：ニトロベンゼンをスズと塩酸で還元後、塩基性にする",
+    "choices": [
+      "ベンゼンジアゾニウム塩化物",
+      "1,2-ジブロモエタン",
+      "アニリン",
+      "ジエチルエーテル"
+    ],
+    "answer": 2,
+    "explanation": "ニトロベンゼンをスズと塩酸で還元後、塩基性にすると、アニリンが生成する。反応の種類は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0080"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ニトロベンゼンをスズと塩酸で還元後、塩基性にする」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "側鎖酸化",
+      "ジアゾ化",
+      "還元",
+      "ニトロ化"
+    ],
+    "answer": 2,
+    "explanation": "生成物はアニリンであり、この反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0081"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ニトロベンゼンをスズと塩酸で還元後、塩基性にする」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はアニリンであり、反応の種類は還元である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "ニトロベンゼンをスズと塩酸で還元後、塩基性にすると、アニリンが生成する。還元に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0082"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つ",
+    "choices": [
+      "アセトアルデヒド",
+      "酢酸",
+      "ベンゼンジアゾニウム塩化物",
+      "安息香酸"
+    ],
+    "answer": 2,
+    "explanation": "アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つと、ベンゼンジアゾニウム塩化物が生成する。反応の種類はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0083"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つ」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "ジアゾ化",
+      "分子間脱水",
+      "アルデヒドの酸化",
+      "アセチル化"
+    ],
+    "answer": 0,
+    "explanation": "生成物はベンゼンジアゾニウム塩化物であり、この反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0084"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つ」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はベンゼンジアゾニウム塩化物であり、反応の種類はジアゾ化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つと、ベンゼンジアゾニウム塩化物が生成する。ジアゾ化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0085"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：トルエンの側鎖を強く酸化",
+    "choices": [
+      "酢酸",
+      "ニトロベンゼン",
+      "アセトン",
+      "安息香酸"
+    ],
+    "answer": 3,
+    "explanation": "トルエンの側鎖を強く酸化と、安息香酸が生成する。反応の種類は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0086"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「トルエンの側鎖を強く酸化」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "水素付加",
+      "ジアゾ化",
+      "還元",
+      "側鎖酸化"
+    ],
+    "answer": 3,
+    "explanation": "生成物は安息香酸であり、この反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0087"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「トルエンの側鎖を強く酸化」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物は安息香酸であり、反応の種類は側鎖酸化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "トルエンの側鎖を強く酸化と、安息香酸が生成する。側鎖酸化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0088"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：フェノールに臭素水を加える",
+    "choices": [
+      "エタン",
+      "エタノール",
+      "2,4,6-トリブロモフェノール",
+      "酢酸"
+    ],
+    "answer": 2,
+    "explanation": "フェノールに臭素水を加えると、2,4,6-トリブロモフェノールが生成する。反応の種類は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0089"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェノールに臭素水を加える」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "置換反応",
+      "分子内脱水",
+      "分子間脱水",
+      "エステル化"
+    ],
+    "answer": 0,
+    "explanation": "生成物は2,4,6-トリブロモフェノールであり、この反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0090"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「フェノールに臭素水を加える」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物は2,4,6-トリブロモフェノールであり、反応の種類は置換反応である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "フェノールに臭素水を加えると、2,4,6-トリブロモフェノールが生成する。置換反応に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0091"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：サリチル酸を無水酢酸で処理",
+    "choices": [
+      "アニリン",
+      "アセチルサリチル酸",
+      "アセトン",
+      "ニトロベンゼン"
+    ],
+    "answer": 1,
+    "explanation": "サリチル酸を無水酢酸で処理と、アセチルサリチル酸が生成する。反応の種類はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0092"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「サリチル酸を無水酢酸で処理」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "アセチル化",
+      "分子内脱水",
+      "還元",
+      "付加反応"
+    ],
+    "answer": 0,
+    "explanation": "生成物はアセチルサリチル酸であり、この反応はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0093"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「サリチル酸を無水酢酸で処理」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はアセチルサリチル酸であり、反応の種類はアセチル化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "サリチル酸を無水酢酸で処理と、アセチルサリチル酸が生成する。アセチル化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0094"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：サリチル酸とメタノールを酸触媒下で加熱",
+    "choices": [
+      "ジエチルエーテル",
+      "ベンゼンジアゾニウム塩化物",
+      "サリチル酸メチル",
+      "アセチルサリチル酸"
+    ],
+    "answer": 2,
+    "explanation": "サリチル酸とメタノールを酸触媒下で加熱と、サリチル酸メチルが生成する。反応の種類はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0095"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「サリチル酸とメタノールを酸触媒下で加熱」で起こる反応の種類として最も適切なものを選びなさい。",
+    "choices": [
+      "分子内脱水",
+      "エステル化",
+      "第二級アルコールの酸化",
+      "アセチル化"
+    ],
+    "answer": 1,
+    "explanation": "生成物はサリチル酸メチルであり、この反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0096"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「サリチル酸とメタノールを酸触媒下で加熱」について、生成物と反応の特徴を説明しなさい。",
+    "modelAnswer": "主生成物はサリチル酸メチルであり、反応の種類はエステル化である。",
+    "criteria": [
+      "生成物が正しい",
+      "反応の種類が正しい",
+      "必要に応じて条件や官能基の変化を説明している"
+    ],
+    "explanation": "サリチル酸とメタノールを酸触媒下で加熱と、サリチル酸メチルが生成する。エステル化に分類される。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応経路問題へ細分化",
+    "id": "orgy_0097"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "臭素水を用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "フェノール",
+      "エチレン",
+      "アニリン",
+      "フェノール"
+    ],
+    "answer": 1,
+    "explanation": "エチレンは臭素水により「脱色する」。これは炭素間二重結合への付加による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0098"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンに臭素水を加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "脱色する",
+      "赤色沈殿を生じる",
+      "二酸化炭素を発生する",
+      "塩をつくって水層に移る"
+    ],
+    "answer": 0,
+    "explanation": "観察は「脱色する」。根拠は炭素間二重結合への付加である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0099"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレンを他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "臭素水を加えると脱色するため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "エチレンは臭素水で脱色する。炭素間二重結合への付加を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0100"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アンモニア性硝酸銀水溶液を用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "フェノール",
+      "アセトアルデヒド",
+      "アセトン",
+      "アニリン"
+    ],
+    "answer": 1,
+    "explanation": "アセトアルデヒドはアンモニア性硝酸銀水溶液により「銀鏡を生じる」。これはアルデヒドの還元性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0101"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセトアルデヒドにアンモニア性硝酸銀水溶液を加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "塩をつくって水層に移る",
+      "黄色沈殿を生じる",
+      "赤色沈殿を生じる",
+      "銀鏡を生じる"
+    ],
+    "answer": 3,
+    "explanation": "観察は「銀鏡を生じる」。根拠はアルデヒドの還元性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0102"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセトアルデヒドを他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "アンモニア性硝酸銀水溶液を加えると銀鏡を生じるため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "アセトアルデヒドはアンモニア性硝酸銀水溶液で銀鏡を生じる。アルデヒドの還元性を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0103"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェーリング液を用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "アセトン",
+      "安息香酸",
+      "ホルムアルデヒド",
+      "フェノール"
+    ],
+    "answer": 2,
+    "explanation": "ホルムアルデヒドはフェーリング液により「赤色沈殿を生じる」。これはアルデヒドの還元性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0104"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ホルムアルデヒドにフェーリング液を加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "赤色沈殿を生じる",
+      "二酸化炭素を発生する",
+      "黄色沈殿を生じる",
+      "塩をつくって水層に移る"
+    ],
+    "answer": 0,
+    "explanation": "観察は「赤色沈殿を生じる」。根拠はアルデヒドの還元性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0105"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ホルムアルデヒドを他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "フェーリング液を加えると赤色沈殿を生じるため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "ホルムアルデヒドはフェーリング液で赤色沈殿を生じる。アルデヒドの還元性を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0106"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ヨウ素と水酸化ナトリウムを用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "アセトン",
+      "安息香酸",
+      "フェノール",
+      "アセトアルデヒド"
+    ],
+    "answer": 0,
+    "explanation": "アセトンはヨウ素と水酸化ナトリウムにより「黄色沈殿を生じる」。これはヨードホルム反応による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0107"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセトンにヨウ素と水酸化ナトリウムを加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "銀鏡を生じる",
+      "塩をつくって水層に移る",
+      "塩をつくって水層に移る",
+      "黄色沈殿を生じる"
+    ],
+    "answer": 3,
+    "explanation": "観察は「黄色沈殿を生じる」。根拠はヨードホルム反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0108"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセトンを他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "ヨウ素と水酸化ナトリウムを加えると黄色沈殿を生じるため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "アセトンはヨウ素と水酸化ナトリウムで黄色沈殿を生じる。ヨードホルム反応を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0109"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "塩化鉄(III)水溶液を用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "アニリン",
+      "アセトン",
+      "フェノール",
+      "アセトアルデヒド"
+    ],
+    "answer": 2,
+    "explanation": "フェノールは塩化鉄(III)水溶液により「紫色系に呈色する」。これはフェノール性ヒドロキシ基による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0110"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールに塩化鉄(III)水溶液を加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "二酸化炭素を発生する",
+      "紫色系に呈色する",
+      "銀鏡を生じる",
+      "脱色する"
+    ],
+    "answer": 1,
+    "explanation": "観察は「紫色系に呈色する」。根拠はフェノール性ヒドロキシ基である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0111"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "フェノールを他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "塩化鉄(III)水溶液を加えると紫色系に呈色するため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "フェノールは塩化鉄(III)水溶液で紫色系に呈色する。フェノール性ヒドロキシ基を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0112"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "炭酸水素ナトリウム水溶液を用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "ホルムアルデヒド",
+      "アセトン",
+      "フェノール",
+      "安息香酸"
+    ],
+    "answer": 3,
+    "explanation": "安息香酸は炭酸水素ナトリウム水溶液により「二酸化炭素を発生する」。これはカルボキシ基の酸性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0113"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "安息香酸に炭酸水素ナトリウム水溶液を加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "黄色沈殿を生じる",
+      "二酸化炭素を発生する",
+      "塩をつくって水層に移る",
+      "銀鏡を生じる"
+    ],
+    "answer": 1,
+    "explanation": "観察は「二酸化炭素を発生する」。根拠はカルボキシ基の酸性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0114"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "安息香酸を他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "炭酸水素ナトリウム水溶液を加えると二酸化炭素を発生するため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "安息香酸は炭酸水素ナトリウム水溶液で二酸化炭素を発生する。カルボキシ基の酸性を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0115"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "塩酸を用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "アニリン",
+      "アセトアルデヒド",
+      "フェノール",
+      "安息香酸"
+    ],
+    "answer": 0,
+    "explanation": "アニリンは塩酸により「塩をつくって水層に移る」。これはアミノ基の塩基性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0116"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンに塩酸を加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "塩をつくって水層に移る",
+      "銀鏡を生じる",
+      "脱色する",
+      "紫色系に呈色する"
+    ],
+    "answer": 0,
+    "explanation": "観察は「塩をつくって水層に移る」。根拠はアミノ基の塩基性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0117"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アニリンを他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "塩酸を加えると塩をつくって水層に移るため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "アニリンは塩酸で塩をつくって水層に移る。アミノ基の塩基性を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0118"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "水酸化ナトリウム水溶液を用いて特徴的な反応を示す物質として最も適切なものを選びなさい。",
+    "choices": [
+      "アセトン",
+      "フェノール",
+      "アニリン",
+      "アセトアルデヒド"
+    ],
+    "answer": 1,
+    "explanation": "フェノールは水酸化ナトリウム水溶液により「塩をつくって水層に移る」。これはフェノールの弱酸性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0119"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールに水酸化ナトリウム水溶液を加えたときの観察として最も適切なものを選びなさい。",
+    "choices": [
+      "二酸化炭素を発生する",
+      "脱色する",
+      "塩をつくって水層に移る",
+      "紫色系に呈色する"
+    ],
+    "answer": 2,
+    "explanation": "観察は「塩をつくって水層に移る」。根拠はフェノールの弱酸性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0120"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "フェノールを他の有機化合物から識別する方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "水酸化ナトリウム水溶液を加えると塩をつくって水層に移るため、識別できる。",
+    "criteria": [
+      "試薬が適切",
+      "観察結果が正しい",
+      "識別の根拠が説明されている"
+    ],
+    "explanation": "フェノールは水酸化ナトリウム水溶液で塩をつくって水層に移る。フェノールの弱酸性を利用した識別である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に識別問題へ細分化",
+    "id": "orgy_0121"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのメタン（CH₄）を完全燃焼させるのに必要なO₂は何molか。",
+    "value": 2,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "完全燃焼式の係数比より、1 molのメタンには2 molのO₂が必要である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0122"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのメタン（CH₄）を完全燃焼させたときに生じるCO₂は何molか。",
+    "value": 1,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "炭素原子数と物質量から、CO₂は1 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0123"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのメタン（CH₄）を完全燃焼させたときに生じるH₂Oは何molか。",
+    "value": 2,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "水素原子数と物質量から、H₂Oは2 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0124"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのエタン（C₂H₆）を完全燃焼させるのに必要なO₂は何molか。",
+    "value": 3.5,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "完全燃焼式の係数比より、2 molのエタンには3.5 molのO₂が必要である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0125"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのエタン（C₂H₆）を完全燃焼させたときに生じるCO₂は何molか。",
+    "value": 2,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "炭素原子数と物質量から、CO₂は2 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0126"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのエタン（C₂H₆）を完全燃焼させたときに生じるH₂Oは何molか。",
+    "value": 3,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "水素原子数と物質量から、H₂Oは3 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0127"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのプロパン（C₃H₈）を完全燃焼させるのに必要なO₂は何molか。",
+    "value": 5,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "完全燃焼式の係数比より、1 molのプロパンには5 molのO₂が必要である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0128"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのプロパン（C₃H₈）を完全燃焼させたときに生じるCO₂は何molか。",
+    "value": 3,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "炭素原子数と物質量から、CO₂は3 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0129"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのプロパン（C₃H₈）を完全燃焼させたときに生じるH₂Oは何molか。",
+    "value": 4,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "水素原子数と物質量から、H₂Oは4 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0130"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのブタン（C₄H₁₀）を完全燃焼させるのに必要なO₂は何molか。",
+    "value": 13,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "完全燃焼式の係数比より、2 molのブタンには13 molのO₂が必要である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0131"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのブタン（C₄H₁₀）を完全燃焼させたときに生じるCO₂は何molか。",
+    "value": 8,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "炭素原子数と物質量から、CO₂は8 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0132"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのブタン（C₄H₁₀）を完全燃焼させたときに生じるH₂Oは何molか。",
+    "value": 10,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "水素原子数と物質量から、H₂Oは10 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0133"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのエチレン（C₂H₄）を完全燃焼させるのに必要なO₂は何molか。",
+    "value": 3,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "完全燃焼式の係数比より、1 molのエチレンには3 molのO₂が必要である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0134"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのエチレン（C₂H₄）を完全燃焼させたときに生じるCO₂は何molか。",
+    "value": 2,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "炭素原子数と物質量から、CO₂は2 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0135"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのエチレン（C₂H₄）を完全燃焼させたときに生じるH₂Oは何molか。",
+    "value": 2,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "水素原子数と物質量から、H₂Oは2 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0136"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのアセチレン（C₂H₂）を完全燃焼させるのに必要なO₂は何molか。",
+    "value": 5,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "完全燃焼式の係数比より、2 molのアセチレンには5 molのO₂が必要である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0137"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのアセチレン（C₂H₂）を完全燃焼させたときに生じるCO₂は何molか。",
+    "value": 4,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "炭素原子数と物質量から、CO₂は4 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0138"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "2 molのアセチレン（C₂H₂）を完全燃焼させたときに生じるH₂Oは何molか。",
+    "value": 2,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "水素原子数と物質量から、H₂Oは2 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0139"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのエタノール（C₂H₅OH）を完全燃焼させるのに必要なO₂は何molか。",
+    "value": 3,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "完全燃焼式の係数比より、1 molのエタノールには3 molのO₂が必要である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0140"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのエタノール（C₂H₅OH）を完全燃焼させたときに生じるCO₂は何molか。",
+    "value": 2,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "炭素原子数と物質量から、CO₂は2 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0141"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "1 molのエタノール（C₂H₅OH）を完全燃焼させたときに生じるH₂Oは何molか。",
+    "value": 3,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "水素原子数と物質量から、H₂Oは3 mol生じる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に燃焼計算へ細分化",
+    "id": "orgy_0142"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルカンで最も起こりやすい代表的反応として最も適切なものを選びなさい。",
+    "choices": [
+      "ケトンのカルボニル基",
+      "フェノール類",
+      "付加反応",
+      "置換反応"
+    ],
+    "answer": 3,
+    "explanation": "正答は「置換反応」。光照射下でハロゲン化が進む。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0143"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルカンで最も起こりやすい代表的反応を答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "置換反応。光照射下でハロゲン化が進む。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0144"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：アルカンで最も起こりやすい代表的反応",
+    "modelAnswer": "置換反応。光照射下でハロゲン化が進む。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "置換反応。光照射下でハロゲン化が進む。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0145"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルケンで最も特徴的な反応として最も適切なものを選びなさい。",
+    "choices": [
+      "カルボキシラート部分",
+      "付加反応",
+      "塩を形成してイオンになるため",
+      "アルデヒド基"
+    ],
+    "answer": 1,
+    "explanation": "正答は「付加反応」。二重結合が開いて原子や原子団が付加する。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0146"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルケンで最も特徴的な反応を答えなさい。",
+    "acceptedAnswers": [
+      "付加反応"
+    ],
+    "explanation": "付加反応。二重結合が開いて原子や原子団が付加する。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0147"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：アルケンで最も特徴的な反応",
+    "modelAnswer": "付加反応。二重結合が開いて原子や原子団が付加する。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "付加反応。二重結合が開いて原子や原子団が付加する。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0148"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンで最も起こりやすい代表的反応として最も適切なものを選びなさい。",
+    "choices": [
+      "フェノール類",
+      "付加反応",
+      "置換反応",
+      "アルデヒド基"
+    ],
+    "answer": 2,
+    "explanation": "正答は「置換反応」。芳香族性を保つため付加より置換が起こりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0149"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンで最も起こりやすい代表的反応を答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "置換反応。芳香族性を保つため付加より置換が起こりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0150"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：ベンゼンで最も起こりやすい代表的反応",
+    "modelAnswer": "置換反応。芳香族性を保つため付加より置換が起こりやすい。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "置換反応。芳香族性を保つため付加より置換が起こりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0151"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "第一級アルコールの酸化で最初に生じる官能基として最も適切なものを選びなさい。",
+    "choices": [
+      "フェノキシドイオンが共鳴で安定化されるため",
+      "カルボキシラート部分",
+      "アルデヒド基",
+      "ケトンのカルボニル基"
+    ],
+    "answer": 2,
+    "explanation": "正答は「アルデヒド基」。さらに酸化されるとカルボキシ基になる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0152"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "第一級アルコールの酸化で最初に生じる官能基を答えなさい。",
+    "acceptedAnswers": [
+      "アルデヒド基"
+    ],
+    "explanation": "アルデヒド基。さらに酸化されるとカルボキシ基になる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0153"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：第一級アルコールの酸化で最初に生じる官能基",
+    "modelAnswer": "アルデヒド基。さらに酸化されるとカルボキシ基になる。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "アルデヒド基。さらに酸化されるとカルボキシ基になる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0154"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "第二級アルコールの酸化で生じる官能基として最も適切なものを選びなさい。",
+    "choices": [
+      "置換反応",
+      "フェノキシドイオンが共鳴で安定化されるため",
+      "長い炭化水素基",
+      "ケトンのカルボニル基"
+    ],
+    "answer": 3,
+    "explanation": "正答は「ケトンのカルボニル基」。炭素鎖を保ったままケトンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0155"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "第二級アルコールの酸化で生じる官能基を答えなさい。",
+    "acceptedAnswers": [
+      "ケトンのカルボニル基"
+    ],
+    "explanation": "ケトンのカルボニル基。炭素鎖を保ったままケトンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0156"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：第二級アルコールの酸化で生じる官能基",
+    "modelAnswer": "ケトンのカルボニル基。炭素鎖を保ったままケトンになる。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "ケトンのカルボニル基。炭素鎖を保ったままケトンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0157"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "カルボン酸とアルコールから生成する結合として最も適切なものを選びなさい。",
+    "choices": [
+      "ケトンのカルボニル基",
+      "塩を形成してイオンになるため",
+      "エステル結合",
+      "アルデヒド基"
+    ],
+    "answer": 2,
+    "explanation": "正答は「エステル結合」。水が取れてエステルが生成する。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0158"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "カルボン酸とアルコールから生成する結合を答えなさい。",
+    "acceptedAnswers": [
+      "エステル結合"
+    ],
+    "explanation": "エステル結合。水が取れてエステルが生成する。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0159"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：カルボン酸とアルコールから生成する結合",
+    "modelAnswer": "エステル結合。水が取れてエステルが生成する。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "エステル結合。水が取れてエステルが生成する。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0160"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケン分子の水になじむ部分として最も適切なものを選びなさい。",
+    "choices": [
+      "付加反応",
+      "長い炭化水素基",
+      "カルボキシラート部分",
+      "ケトンのカルボニル基"
+    ],
+    "answer": 2,
+    "explanation": "正答は「カルボキシラート部分」。イオン性の親水基として働く。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0161"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケン分子の水になじむ部分を答えなさい。",
+    "acceptedAnswers": [
+      "カルボキシラート部分"
+    ],
+    "explanation": "カルボキシラート部分。イオン性の親水基として働く。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0162"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：セッケン分子の水になじむ部分",
+    "modelAnswer": "カルボキシラート部分。イオン性の親水基として働く。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "カルボキシラート部分。イオン性の親水基として働く。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0163"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケン分子の油になじむ部分として最も適切なものを選びなさい。",
+    "choices": [
+      "付加反応",
+      "フェノール類",
+      "長い炭化水素基",
+      "フェノキシドイオンが共鳴で安定化されるため"
+    ],
+    "answer": 2,
+    "explanation": "正答は「長い炭化水素基」。疎水基として油を取り囲む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0164"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケン分子の油になじむ部分を答えなさい。",
+    "acceptedAnswers": [
+      "長い炭化水素基"
+    ],
+    "explanation": "長い炭化水素基。疎水基として油を取り囲む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0165"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：セッケン分子の油になじむ部分",
+    "modelAnswer": "長い炭化水素基。疎水基として油を取り囲む。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "長い炭化水素基。疎水基として油を取り囲む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0166"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールがエタノールより酸性を示す理由として最も適切なものを選びなさい。",
+    "choices": [
+      "ジアゾニウム塩が高温で分解しやすいため",
+      "アルデヒド基",
+      "フェノキシドイオンが共鳴で安定化されるため",
+      "塩を形成してイオンになるため"
+    ],
+    "answer": 2,
+    "explanation": "正答は「フェノキシドイオンが共鳴で安定化されるため」。負電荷がベンゼン環に非局在化する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0167"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールがエタノールより酸性を示す理由を答えなさい。",
+    "acceptedAnswers": [
+      "フェノキシドイオンが共鳴で安定化されるため"
+    ],
+    "explanation": "フェノキシドイオンが共鳴で安定化されるため。負電荷がベンゼン環に非局在化する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0168"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：フェノールがエタノールより酸性を示す理由",
+    "modelAnswer": "フェノキシドイオンが共鳴で安定化されるため。負電荷がベンゼン環に非局在化する。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "フェノキシドイオンが共鳴で安定化されるため。負電荷がベンゼン環に非局在化する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0169"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンが塩酸に溶ける理由として最も適切なものを選びなさい。",
+    "choices": [
+      "塩を形成してイオンになるため",
+      "置換反応",
+      "置換反応",
+      "カルボキシラート部分"
+    ],
+    "answer": 0,
+    "explanation": "正答は「塩を形成してイオンになるため」。アニリニウム塩となり水溶性が増す。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0170"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンが塩酸に溶ける理由を答えなさい。",
+    "acceptedAnswers": [
+      "塩を形成してイオンになるため"
+    ],
+    "explanation": "塩を形成してイオンになるため。アニリニウム塩となり水溶性が増す。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0171"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：アニリンが塩酸に溶ける理由",
+    "modelAnswer": "塩を形成してイオンになるため。アニリニウム塩となり水溶性が増す。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "塩を形成してイオンになるため。アニリニウム塩となり水溶性が増す。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0172"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ジアゾ化を低温で行う理由として最も適切なものを選びなさい。",
+    "choices": [
+      "長い炭化水素基",
+      "フェノキシドイオンが共鳴で安定化されるため",
+      "エステル結合",
+      "ジアゾニウム塩が高温で分解しやすいため"
+    ],
+    "answer": 3,
+    "explanation": "正答は「ジアゾニウム塩が高温で分解しやすいため」。通常0〜5 ℃程度に保つ。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0173"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ジアゾ化を低温で行う理由を答えなさい。",
+    "acceptedAnswers": [
+      "ジアゾニウム塩が高温で分解しやすいため"
+    ],
+    "explanation": "ジアゾニウム塩が高温で分解しやすいため。通常0〜5 ℃程度に保つ。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0174"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：ジアゾ化を低温で行う理由",
+    "modelAnswer": "ジアゾニウム塩が高温で分解しやすいため。通常0〜5 ℃程度に保つ。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "ジアゾニウム塩が高温で分解しやすいため。通常0〜5 ℃程度に保つ。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0175"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼン環に直接結合したOHをもつ化合物群として最も適切なものを選びなさい。",
+    "choices": [
+      "長い炭化水素基",
+      "フェノール類",
+      "フェノキシドイオンが共鳴で安定化されるため",
+      "塩を形成してイオンになるため"
+    ],
+    "answer": 1,
+    "explanation": "正答は「フェノール類」。アルコールとは異なる性質を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0176"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼン環に直接結合したOHをもつ化合物群を答えなさい。",
+    "acceptedAnswers": [
+      "フェノール類"
+    ],
+    "explanation": "フェノール類。アルコールとは異なる性質を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0177"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の内容を理由も含めて説明しなさい：ベンゼン環に直接結合したOHをもつ化合物群",
+    "modelAnswer": "フェノール類。アルコールとは異なる性質を示す。",
+    "criteria": [
+      "結論が正しい",
+      "理由または構造上の根拠に触れている",
+      "用語が適切"
+    ],
+    "explanation": "フェノール類。アルコールとは異なる性質を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高頻度知識へ細分化",
+    "id": "orgy_0178"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₂H₆O。ナトリウムと反応して水素を発生する。",
+    "choices": [
+      "ベンジルアルコール",
+      "酢酸",
+      "ジメチルエーテル",
+      "エタノール"
+    ],
+    "answer": 3,
+    "explanation": "正答はエタノール。O-H結合をもつアルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0179"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₂H₆O。ナトリウムと反応して水素を発生する。",
+    "modelAnswer": "エタノール。O-H結合をもつアルコールである。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "エタノールと推定できる。O-H結合をもつアルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0180"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₂H₆O。ナトリウムと反応せず、常温で気体になりやすい。",
+    "choices": [
+      "アセトン",
+      "ジメチルエーテル",
+      "ベンジルアルコール",
+      "クレゾール"
+    ],
+    "answer": 1,
+    "explanation": "正答はジメチルエーテル。O-H結合をもたないエーテルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0181"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₂H₆O。ナトリウムと反応せず、常温で気体になりやすい。",
+    "modelAnswer": "ジメチルエーテル。O-H結合をもたないエーテルである。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "ジメチルエーテルと推定できる。O-H結合をもたないエーテルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0182"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₃H₆O。銀鏡反応を示す。",
+    "choices": [
+      "プロパナール",
+      "クレゾール",
+      "ジメチルエーテル",
+      "酢酸"
+    ],
+    "answer": 0,
+    "explanation": "正答はプロパナール。アルデヒド基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0183"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₃H₆O。銀鏡反応を示す。",
+    "modelAnswer": "プロパナール。アルデヒド基をもつ。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "プロパナールと推定できる。アルデヒド基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0184"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₃H₆O。銀鏡反応を示さず、ヨードホルム反応を示す。",
+    "choices": [
+      "エタノール",
+      "クレゾール",
+      "アセトン",
+      "酢酸"
+    ],
+    "answer": 2,
+    "explanation": "正答はアセトン。メチルケトン構造をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0185"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₃H₆O。銀鏡反応を示さず、ヨードホルム反応を示す。",
+    "modelAnswer": "アセトン。メチルケトン構造をもつ。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "アセトンと推定できる。メチルケトン構造をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0186"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₂H₄O₂。炭酸水素ナトリウムと反応して気体を生じる。",
+    "choices": [
+      "クレゾール",
+      "ジメチルエーテル",
+      "アセトン",
+      "酢酸"
+    ],
+    "answer": 3,
+    "explanation": "正答は酢酸。カルボキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0187"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₂H₄O₂。炭酸水素ナトリウムと反応して気体を生じる。",
+    "modelAnswer": "酢酸。カルボキシ基をもつ。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "酢酸と推定できる。カルボキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0188"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₇H₈O。塩化鉄(III)水溶液で呈色する。",
+    "choices": [
+      "エタノール",
+      "ジメチルエーテル",
+      "ベンジルアルコール",
+      "クレゾール"
+    ],
+    "answer": 3,
+    "explanation": "正答はクレゾール。フェノール性ヒドロキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0189"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₇H₈O。塩化鉄(III)水溶液で呈色する。",
+    "modelAnswer": "クレゾール。フェノール性ヒドロキシ基をもつ。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "クレゾールと推定できる。フェノール性ヒドロキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0190"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₇H₈O。ナトリウムとは反応するが塩化鉄(III)では呈色しない。",
+    "choices": [
+      "ベンジルアルコール",
+      "エタノール",
+      "クレゾール",
+      "アセトン"
+    ],
+    "answer": 0,
+    "explanation": "正答はベンジルアルコール。OHがベンゼン環に直接結合していない。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0191"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₇H₈O。ナトリウムとは反応するが塩化鉄(III)では呈色しない。",
+    "modelAnswer": "ベンジルアルコール。OHがベンゼン環に直接結合していない。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "ベンジルアルコールと推定できる。OHがベンゼン環に直接結合していない。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0192"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の条件に当てはまる化合物として最も適切なものを選びなさい：分子式C₇H₇NO₂。還元すると弱塩基性物質を生じる。",
+    "choices": [
+      "ジメチルエーテル",
+      "アセトン",
+      "酢酸",
+      "ニトロトルエンのいずれか"
+    ],
+    "answer": 3,
+    "explanation": "正答はニトロトルエンのいずれか。ニトロ基がアミノ基へ還元される。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0193"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、根拠を説明しなさい：分子式C₇H₇NO₂。還元すると弱塩基性物質を生じる。",
+    "modelAnswer": "ニトロトルエンのいずれか。ニトロ基がアミノ基へ還元される。",
+    "criteria": [
+      "化合物の推定が正しい",
+      "各試験結果を官能基と結び付けている",
+      "分子式との整合性を確認している"
+    ],
+    "explanation": "ニトロトルエンのいずれかと推定できる。ニトロ基がアミノ基へ還元される。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgy_0194"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "アルカンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ₊₂"
+    ],
+    "explanation": "アルカンの一般式は CₙH₂ₙ₊₂ である。鎖式飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0195"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ₊₂ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "アルカン"
+    ],
+    "explanation": "CₙH₂ₙ₊₂ はアルカンの一般式である。鎖式飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0196"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "アルケンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ"
+    ],
+    "explanation": "アルケンの一般式は CₙH₂ₙ である。炭素間二重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0197"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "アルケン"
+    ],
+    "explanation": "CₙH₂ₙ はアルケンの一般式である。炭素間二重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0198"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "アルキンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ₋₂"
+    ],
+    "explanation": "アルキンの一般式は CₙH₂ₙ₋₂ である。炭素間三重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0199"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ₋₂ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "アルキン"
+    ],
+    "explanation": "CₙH₂ₙ₋₂ はアルキンの一般式である。炭素間三重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0200"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "単環シクロアルカンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ"
+    ],
+    "explanation": "単環シクロアルカンの一般式は CₙH₂ₙ である。炭素原子が環状につながった飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0201"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "単環シクロアルカン"
+    ],
+    "explanation": "CₙH₂ₙ は単環シクロアルカンの一般式である。炭素原子が環状につながった飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0202"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一価飽和アルコールの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ₊₂O"
+    ],
+    "explanation": "一価飽和アルコールの一般式は CₙH₂ₙ₊₂O である。ヒドロキシ基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0203"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ₊₂O で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "一価飽和アルコール"
+    ],
+    "explanation": "CₙH₂ₙ₊₂O は一価飽和アルコールの一般式である。ヒドロキシ基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0204"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "飽和一価アルデヒド・ケトンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙO"
+    ],
+    "explanation": "飽和一価アルデヒド・ケトンの一般式は CₙH₂ₙO である。カルボニル基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0205"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙO で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "飽和一価アルデヒド・ケトン"
+    ],
+    "explanation": "CₙH₂ₙO は飽和一価アルデヒド・ケトンの一般式である。カルボニル基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0206"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "飽和一価カルボン酸・エステルの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙO₂"
+    ],
+    "explanation": "飽和一価カルボン酸・エステルの一般式は CₙH₂ₙO₂ である。カルボキシ基またはエステル結合を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0207"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙO₂ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "飽和一価カルボン酸・エステル"
+    ],
+    "explanation": "CₙH₂ₙO₂ は飽和一価カルボン酸・エステルの一般式である。カルボキシ基またはエステル結合を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0208"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₄H₁₀ から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "アルカン"
+    ],
+    "explanation": "C₄H₁₀ の炭素数・水素数・酸素数を一般式と照合すると、アルカンと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0209"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₅H₁₀ から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "アルケンまたは単環シクロアルカン"
+    ],
+    "explanation": "C₅H₁₀ の炭素数・水素数・酸素数を一般式と照合すると、アルケンまたは単環シクロアルカンと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0210"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₄H₆ から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "アルキンなど不飽和度2の炭化水素"
+    ],
+    "explanation": "C₄H₆ の炭素数・水素数・酸素数を一般式と照合すると、アルキンなど不飽和度2の炭化水素と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0211"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₃H₈O から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "一価飽和アルコールまたはエーテル"
+    ],
+    "explanation": "C₃H₈O の炭素数・水素数・酸素数を一般式と照合すると、一価飽和アルコールまたはエーテルと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0212"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₃H₆O から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "飽和アルデヒドまたはケトン"
+    ],
+    "explanation": "C₃H₆O の炭素数・水素数・酸素数を一般式と照合すると、飽和アルデヒドまたはケトンと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0213"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₄H₈O₂ から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "飽和一価カルボン酸またはエステル"
+    ],
+    "explanation": "C₄H₈O₂ の炭素数・水素数・酸素数を一般式と照合すると、飽和一価カルボン酸またはエステルと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0214"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₆H₆ から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "不飽和度4をもつ炭化水素"
+    ],
+    "explanation": "C₆H₆ の炭素数・水素数・酸素数を一般式と照合すると、不飽和度4をもつ炭化水素と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0215"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₇H₈ から考えられる分類として答えなさい。",
+    "acceptedAnswers": [
+      "不飽和度4をもつ芳香族炭化水素の候補"
+    ],
+    "explanation": "C₇H₈ の炭素数・水素数・酸素数を一般式と照合すると、不飽和度4をもつ芳香族炭化水素の候補と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0216"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₄H₁₀ について、ここに示す代表的な構造異性体の数として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "2"
+    ],
+    "explanation": "代表例は ブタン、2-メチルプロパン で、合計2種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0217"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₃H₈O について、ここに示す代表的な構造異性体の数として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "3"
+    ],
+    "explanation": "代表例は 1-プロパノール、2-プロパノール、メトキシエタン で、合計3種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0218"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₄H₈ について、ここに示す代表的な構造異性体の数として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "5"
+    ],
+    "explanation": "代表例は 1-ブテン、2-ブテン、2-メチルプロペン、シクロブタン、メチルシクロプロパン で、合計5種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0219"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₂H₆O について、ここに示す代表的な官能基異性体の数として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "2"
+    ],
+    "explanation": "代表例は エタノール、ジメチルエーテル で、合計2種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0220"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₃H₆O について、ここに示す代表的な官能基異性体の数として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "2"
+    ],
+    "explanation": "代表例は プロパナール、アセトン で、合計2種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0221"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "分子式 C₄H₈O₂ について、ここに示す代表的なカルボン酸とエステルを含む構造異性体の数として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "4"
+    ],
+    "explanation": "代表例は 酪酸、2-メチルプロパン酸、酢酸エチル、プロピオン酸メチル で、合計4種類である。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0222"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "o-キシレンの構造上の表現として答えなさい。",
+    "acceptedAnswers": [
+      "1,2-ジメチルベンゼン"
+    ],
+    "explanation": "o-キシレンは 1,2-ジメチルベンゼン を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0223"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "m-キシレンの構造上の表現として答えなさい。",
+    "acceptedAnswers": [
+      "1,3-ジメチルベンゼン"
+    ],
+    "explanation": "m-キシレンは 1,3-ジメチルベンゼン を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0224"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "p-キシレンの構造上の表現として答えなさい。",
+    "acceptedAnswers": [
+      "1,4-ジメチルベンゼン"
+    ],
+    "explanation": "p-キシレンは 1,4-ジメチルベンゼン を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0225"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "マレイン酸の構造上の表現として答えなさい。",
+    "acceptedAnswers": [
+      "cis-ブテン二酸"
+    ],
+    "explanation": "マレイン酸は cis-ブテン二酸 を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0226"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フマル酸の構造上の表現として答えなさい。",
+    "acceptedAnswers": [
+      "trans-ブテン二酸"
+    ],
+    "explanation": "フマル酸は trans-ブテン二酸 を表す。",
+    "unitWeights": [
+      {
+        "id": "chem_isomer",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0227"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エタノールを濃硫酸と約170 ℃で加熱",
+    "acceptedAnswers": [
+      "エチレン"
+    ],
+    "explanation": "エタノールを濃硫酸と約170 ℃で加熱と、エチレンが生成する。反応の種類は分子内脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0228"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エタノールを濃硫酸と約170 ℃で加熱」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "分子内脱水"
+    ],
+    "explanation": "生成物はエチレンであり、この反応は分子内脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0229"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エタノールを濃硫酸と約140 ℃で加熱",
+    "acceptedAnswers": [
+      "ジエチルエーテル"
+    ],
+    "explanation": "エタノールを濃硫酸と約140 ℃で加熱と、ジエチルエーテルが生成する。反応の種類は分子間脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0230"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エタノールを濃硫酸と約140 ℃で加熱」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "分子間脱水"
+    ],
+    "explanation": "生成物はジエチルエーテルであり、この反応は分子間脱水である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0231"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エタノールを穏やかに酸化",
+    "acceptedAnswers": [
+      "アセトアルデヒド"
+    ],
+    "explanation": "エタノールを穏やかに酸化と、アセトアルデヒドが生成する。反応の種類は第一級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0232"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エタノールを穏やかに酸化」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "第一級アルコールの酸化"
+    ],
+    "explanation": "生成物はアセトアルデヒドであり、この反応は第一級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0233"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：アセトアルデヒドをさらに酸化",
+    "acceptedAnswers": [
+      "酢酸"
+    ],
+    "explanation": "アセトアルデヒドをさらに酸化と、酢酸が生成する。反応の種類はアルデヒドの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0234"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「アセトアルデヒドをさらに酸化」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "アルデヒドの酸化"
+    ],
+    "explanation": "生成物は酢酸であり、この反応はアルデヒドの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0235"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：2-プロパノールを酸化",
+    "acceptedAnswers": [
+      "アセトン"
+    ],
+    "explanation": "2-プロパノールを酸化と、アセトンが生成する。反応の種類は第二級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0236"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「2-プロパノールを酸化」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "第二級アルコールの酸化"
+    ],
+    "explanation": "生成物はアセトンであり、この反応は第二級アルコールの酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0237"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：酢酸とエタノールを濃硫酸存在下で加熱",
+    "acceptedAnswers": [
+      "酢酸エチル"
+    ],
+    "explanation": "酢酸とエタノールを濃硫酸存在下で加熱と、酢酸エチルが生成する。反応の種類はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0238"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「酢酸とエタノールを濃硫酸存在下で加熱」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "エステル化"
+    ],
+    "explanation": "生成物は酢酸エチルであり、この反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0239"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：酢酸エチルを水酸化ナトリウム水溶液で加熱",
+    "acceptedAnswers": [
+      "酢酸ナトリウムとエタノール"
+    ],
+    "explanation": "酢酸エチルを水酸化ナトリウム水溶液で加熱と、酢酸ナトリウムとエタノールが生成する。反応の種類はけん化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0240"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「酢酸エチルを水酸化ナトリウム水溶液で加熱」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "けん化"
+    ],
+    "explanation": "生成物は酢酸ナトリウムとエタノールであり、この反応はけん化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0241"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エチレンに水を付加",
+    "acceptedAnswers": [
+      "エタノール"
+    ],
+    "explanation": "エチレンに水を付加と、エタノールが生成する。反応の種類は水和である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0242"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エチレンに水を付加」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "水和"
+    ],
+    "explanation": "生成物はエタノールであり、この反応は水和である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0243"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：エチレンに臭素を付加",
+    "acceptedAnswers": [
+      "1,2-ジブロモエタン"
+    ],
+    "explanation": "エチレンに臭素を付加と、1,2-ジブロモエタンが生成する。反応の種類は付加反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0244"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エチレンに臭素を付加」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "付加反応"
+    ],
+    "explanation": "生成物は1,2-ジブロモエタンであり、この反応は付加反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0245"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：アセチレンに十分な水素を付加",
+    "acceptedAnswers": [
+      "エタン"
+    ],
+    "explanation": "アセチレンに十分な水素を付加と、エタンが生成する。反応の種類は水素付加である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0246"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「アセチレンに十分な水素を付加」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "水素付加"
+    ],
+    "explanation": "生成物はエタンであり、この反応は水素付加である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0247"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：ベンゼンを濃硝酸・濃硫酸で加熱",
+    "acceptedAnswers": [
+      "ニトロベンゼン"
+    ],
+    "explanation": "ベンゼンを濃硝酸・濃硫酸で加熱と、ニトロベンゼンが生成する。反応の種類はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0248"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「ベンゼンを濃硝酸・濃硫酸で加熱」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "ニトロ化"
+    ],
+    "explanation": "生成物はニトロベンゼンであり、この反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0249"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：ニトロベンゼンをスズと塩酸で還元後、塩基性にする",
+    "acceptedAnswers": [
+      "アニリン"
+    ],
+    "explanation": "ニトロベンゼンをスズと塩酸で還元後、塩基性にすると、アニリンが生成する。反応の種類は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0250"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「ニトロベンゼンをスズと塩酸で還元後、塩基性にする」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "還元"
+    ],
+    "explanation": "生成物はアニリンであり、この反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0251"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つ",
+    "acceptedAnswers": [
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "explanation": "アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つと、ベンゼンジアゾニウム塩化物が生成する。反応の種類はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0252"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「アニリンを亜硝酸ナトリウムと塩酸で0〜5 ℃に保つ」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "ジアゾ化"
+    ],
+    "explanation": "生成物はベンゼンジアゾニウム塩化物であり、この反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0253"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：トルエンの側鎖を強く酸化",
+    "acceptedAnswers": [
+      "安息香酸"
+    ],
+    "explanation": "トルエンの側鎖を強く酸化と、安息香酸が生成する。反応の種類は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0254"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「トルエンの側鎖を強く酸化」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "側鎖酸化"
+    ],
+    "explanation": "生成物は安息香酸であり、この反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0255"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：フェノールに臭素水を加える",
+    "acceptedAnswers": [
+      "2,4,6-トリブロモフェノール"
+    ],
+    "explanation": "フェノールに臭素水を加えると、2,4,6-トリブロモフェノールが生成する。反応の種類は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0256"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「フェノールに臭素水を加える」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "生成物は2,4,6-トリブロモフェノールであり、この反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0257"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：サリチル酸を無水酢酸で処理",
+    "acceptedAnswers": [
+      "アセチルサリチル酸"
+    ],
+    "explanation": "サリチル酸を無水酢酸で処理と、アセチルサリチル酸が生成する。反応の種類はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0258"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「サリチル酸を無水酢酸で処理」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "アセチル化"
+    ],
+    "explanation": "生成物はアセチルサリチル酸であり、この反応はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0259"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "次の操作で主に得られる生成物を選びなさい：サリチル酸とメタノールを酸触媒下で加熱",
+    "acceptedAnswers": [
+      "サリチル酸メチル"
+    ],
+    "explanation": "サリチル酸とメタノールを酸触媒下で加熱と、サリチル酸メチルが生成する。反応の種類はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0260"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「サリチル酸とメタノールを酸触媒下で加熱」で起こる反応の種類として答えなさい。",
+    "acceptedAnswers": [
+      "エステル化"
+    ],
+    "explanation": "生成物はサリチル酸メチルであり、この反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0261"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "臭素水を用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "エチレン"
+    ],
+    "explanation": "エチレンは臭素水により「脱色する」。これは炭素間二重結合への付加による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0262"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンに臭素水を加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "脱色する"
+    ],
+    "explanation": "観察は「脱色する」。根拠は炭素間二重結合への付加である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0263"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アンモニア性硝酸銀水溶液を用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "アセトアルデヒド"
+    ],
+    "explanation": "アセトアルデヒドはアンモニア性硝酸銀水溶液により「銀鏡を生じる」。これはアルデヒドの還元性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0264"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセトアルデヒドにアンモニア性硝酸銀水溶液を加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "銀鏡を生じる"
+    ],
+    "explanation": "観察は「銀鏡を生じる」。根拠はアルデヒドの還元性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0265"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェーリング液を用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "ホルムアルデヒド"
+    ],
+    "explanation": "ホルムアルデヒドはフェーリング液により「赤色沈殿を生じる」。これはアルデヒドの還元性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0266"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ホルムアルデヒドにフェーリング液を加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "赤色沈殿を生じる"
+    ],
+    "explanation": "観察は「赤色沈殿を生じる」。根拠はアルデヒドの還元性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0267"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ヨウ素と水酸化ナトリウムを用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "アセトン"
+    ],
+    "explanation": "アセトンはヨウ素と水酸化ナトリウムにより「黄色沈殿を生じる」。これはヨードホルム反応による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0268"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセトンにヨウ素と水酸化ナトリウムを加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "黄色沈殿を生じる"
+    ],
+    "explanation": "観察は「黄色沈殿を生じる」。根拠はヨードホルム反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0269"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "塩化鉄(III)水溶液を用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "フェノール"
+    ],
+    "explanation": "フェノールは塩化鉄(III)水溶液により「紫色系に呈色する」。これはフェノール性ヒドロキシ基による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0270"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールに塩化鉄(III)水溶液を加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "紫色系に呈色する"
+    ],
+    "explanation": "観察は「紫色系に呈色する」。根拠はフェノール性ヒドロキシ基である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0271"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "炭酸水素ナトリウム水溶液を用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸"
+    ],
+    "explanation": "安息香酸は炭酸水素ナトリウム水溶液により「二酸化炭素を発生する」。これはカルボキシ基の酸性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0272"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "安息香酸に炭酸水素ナトリウム水溶液を加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "二酸化炭素を発生する"
+    ],
+    "explanation": "観察は「二酸化炭素を発生する」。根拠はカルボキシ基の酸性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0273"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "塩酸を用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "アニリン"
+    ],
+    "explanation": "アニリンは塩酸により「塩をつくって水層に移る」。これはアミノ基の塩基性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0274"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンに塩酸を加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "塩をつくって水層に移る"
+    ],
+    "explanation": "観察は「塩をつくって水層に移る」。根拠はアミノ基の塩基性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0275"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "水酸化ナトリウム水溶液を用いて特徴的な反応を示す物質として答えなさい。",
+    "acceptedAnswers": [
+      "フェノール"
+    ],
+    "explanation": "フェノールは水酸化ナトリウム水溶液により「塩をつくって水層に移る」。これはフェノールの弱酸性による。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0276"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールに水酸化ナトリウム水溶液を加えたときの観察として答えなさい。",
+    "acceptedAnswers": [
+      "塩をつくって水層に移る"
+    ],
+    "explanation": "観察は「塩をつくって水層に移る」。根拠はフェノールの弱酸性である。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0277"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アルカンで最も起こりやすい代表的反応として答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "正答は「置換反応」。光照射下でハロゲン化が進む。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0278"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アルカンで最も起こりやすい代表的反応を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "置換反応。置換反応。光照射下でハロゲン化が進む。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "置換反応。光照射下でハロゲン化が進む。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0279"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アルケンで最も特徴的な反応として答えなさい。",
+    "acceptedAnswers": [
+      "付加反応"
+    ],
+    "explanation": "正答は「付加反応」。二重結合が開いて原子や原子団が付加する。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0280"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アルケンで最も特徴的な反応を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "付加反応。付加反応。二重結合が開いて原子や原子団が付加する。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "付加反応。二重結合が開いて原子や原子団が付加する。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0281"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンで最も起こりやすい代表的反応として答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "正答は「置換反応」。芳香族性を保つため付加より置換が起こりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0282"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ベンゼンで最も起こりやすい代表的反応を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "置換反応。置換反応。芳香族性を保つため付加より置換が起こりやすい。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "置換反応。芳香族性を保つため付加より置換が起こりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0283"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "第一級アルコールの酸化で最初に生じる官能基として答えなさい。",
+    "acceptedAnswers": [
+      "アルデヒド基"
+    ],
+    "explanation": "正答は「アルデヒド基」。さらに酸化されるとカルボキシ基になる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0284"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "第一級アルコールの酸化で最初に生じる官能基を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "アルデヒド基。アルデヒド基。さらに酸化されるとカルボキシ基になる。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "アルデヒド基。さらに酸化されるとカルボキシ基になる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0285"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "第二級アルコールの酸化で生じる官能基として答えなさい。",
+    "acceptedAnswers": [
+      "ケトンのカルボニル基"
+    ],
+    "explanation": "正答は「ケトンのカルボニル基」。炭素鎖を保ったままケトンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0286"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "第二級アルコールの酸化で生じる官能基を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "ケトンのカルボニル基。ケトンのカルボニル基。炭素鎖を保ったままケトンになる。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "ケトンのカルボニル基。炭素鎖を保ったままケトンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0287"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "カルボン酸とアルコールから生成する結合として答えなさい。",
+    "acceptedAnswers": [
+      "エステル結合"
+    ],
+    "explanation": "正答は「エステル結合」。水が取れてエステルが生成する。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0288"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "カルボン酸とアルコールから生成する結合を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "エステル結合。エステル結合。水が取れてエステルが生成する。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "エステル結合。水が取れてエステルが生成する。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0289"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "セッケン分子の水になじむ部分として答えなさい。",
+    "acceptedAnswers": [
+      "カルボキシラート部分"
+    ],
+    "explanation": "正答は「カルボキシラート部分」。イオン性の親水基として働く。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0290"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "セッケン分子の水になじむ部分を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "カルボキシラート部分。カルボキシラート部分。イオン性の親水基として働く。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "カルボキシラート部分。イオン性の親水基として働く。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0291"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "セッケン分子の油になじむ部分として答えなさい。",
+    "acceptedAnswers": [
+      "長い炭化水素基"
+    ],
+    "explanation": "正答は「長い炭化水素基」。疎水基として油を取り囲む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0292"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "セッケン分子の油になじむ部分を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "長い炭化水素基。長い炭化水素基。疎水基として油を取り囲む。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "長い炭化水素基。疎水基として油を取り囲む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0293"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールがエタノールより酸性を示す理由として答えなさい。",
+    "acceptedAnswers": [
+      "フェノキシドイオンが共鳴で安定化されるため"
+    ],
+    "explanation": "正答は「フェノキシドイオンが共鳴で安定化されるため」。負電荷がベンゼン環に非局在化する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0294"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "フェノールがエタノールより酸性を示す理由を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "フェノキシドイオンが共鳴で安定化されるため。フェノキシドイオンが共鳴で安定化されるため。負電荷がベンゼン環に非局在化する。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "フェノキシドイオンが共鳴で安定化されるため。負電荷がベンゼン環に非局在化する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0295"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンが塩酸に溶ける理由として答えなさい。",
+    "acceptedAnswers": [
+      "塩を形成してイオンになるため"
+    ],
+    "explanation": "正答は「塩を形成してイオンになるため」。アニリニウム塩となり水溶性が増す。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0296"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アニリンが塩酸に溶ける理由を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "塩を形成してイオンになるため。塩を形成してイオンになるため。アニリニウム塩となり水溶性が増す。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "塩を形成してイオンになるため。アニリニウム塩となり水溶性が増す。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0297"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ジアゾ化を低温で行う理由として答えなさい。",
+    "acceptedAnswers": [
+      "ジアゾニウム塩が高温で分解しやすいため"
+    ],
+    "explanation": "正答は「ジアゾニウム塩が高温で分解しやすいため」。通常0〜5 ℃程度に保つ。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0298"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ジアゾ化を低温で行う理由を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "ジアゾニウム塩が高温で分解しやすいため。ジアゾニウム塩が高温で分解しやすいため。通常0〜5 ℃程度に保つ。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "ジアゾニウム塩が高温で分解しやすいため。通常0〜5 ℃程度に保つ。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0299"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼン環に直接結合したOHをもつ化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "フェノール類"
+    ],
+    "explanation": "正答は「フェノール類」。アルコールとは異なる性質を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0300"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ベンゼン環に直接結合したOHをもつ化合物群を答えなさい。 さらに、その根拠も説明しなさい。",
+    "modelAnswer": "フェノール類。フェノール類。アルコールとは異なる性質を示す。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が示されている",
+      "化学用語が適切"
+    ],
+    "explanation": "フェノール類。アルコールとは異なる性質を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題から記述問題へ再構成",
+    "id": "orgy_0301"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₂H₆O。ナトリウムと反応して水素を発生する。",
+    "acceptedAnswers": [
+      "エタノール"
+    ],
+    "explanation": "正答はエタノール。O-H結合をもつアルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0302"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₂H₆O。ナトリウムと反応せず、常温で気体になりやすい。",
+    "acceptedAnswers": [
+      "ジメチルエーテル"
+    ],
+    "explanation": "正答はジメチルエーテル。O-H結合をもたないエーテルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0303"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₃H₆O。銀鏡反応を示す。",
+    "acceptedAnswers": [
+      "プロパナール"
+    ],
+    "explanation": "正答はプロパナール。アルデヒド基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0304"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₃H₆O。銀鏡反応を示さず、ヨードホルム反応を示す。",
+    "acceptedAnswers": [
+      "アセトン"
+    ],
+    "explanation": "正答はアセトン。メチルケトン構造をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0305"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₂H₄O₂。炭酸水素ナトリウムと反応して気体を生じる。",
+    "acceptedAnswers": [
+      "酢酸"
+    ],
+    "explanation": "正答は酢酸。カルボキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0306"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₇H₈O。塩化鉄(III)水溶液で呈色する。",
+    "acceptedAnswers": [
+      "クレゾール"
+    ],
+    "explanation": "正答はクレゾール。フェノール性ヒドロキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0307"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₇H₈O。ナトリウムとは反応するが塩化鉄(III)では呈色しない。",
+    "acceptedAnswers": [
+      "ベンジルアルコール"
+    ],
+    "explanation": "正答はベンジルアルコール。OHがベンゼン環に直接結合していない。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0308"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の条件に当てはまる化合物として選びなさい：分子式C₇H₇NO₂。還元すると弱塩基性物質を生じる。",
+    "acceptedAnswers": [
+      "ニトロトルエンのいずれか"
+    ],
+    "explanation": "正答はニトロトルエンのいずれか。ニトロ基がアミノ基へ還元される。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0309"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "アルカンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ₊₂"
+    ],
+    "explanation": "アルカンの一般式は CₙH₂ₙ₊₂ である。鎖式飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0310"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ₊₂ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "アルカン"
+    ],
+    "explanation": "CₙH₂ₙ₊₂ はアルカンの一般式である。鎖式飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0311"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "アルケンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ"
+    ],
+    "explanation": "アルケンの一般式は CₙH₂ₙ である。炭素間二重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0312"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "アルケン"
+    ],
+    "explanation": "CₙH₂ₙ はアルケンの一般式である。炭素間二重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0313"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "アルキンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ₋₂"
+    ],
+    "explanation": "アルキンの一般式は CₙH₂ₙ₋₂ である。炭素間三重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0314"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ₋₂ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "アルキン"
+    ],
+    "explanation": "CₙH₂ₙ₋₂ はアルキンの一般式である。炭素間三重結合を1個もつ鎖式炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0315"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "単環シクロアルカンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ"
+    ],
+    "explanation": "単環シクロアルカンの一般式は CₙH₂ₙ である。炭素原子が環状につながった飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0316"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "単環シクロアルカン"
+    ],
+    "explanation": "CₙH₂ₙ は単環シクロアルカンの一般式である。炭素原子が環状につながった飽和炭化水素。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0317"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一価飽和アルコールの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙ₊₂O"
+    ],
+    "explanation": "一価飽和アルコールの一般式は CₙH₂ₙ₊₂O である。ヒドロキシ基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0318"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "一般式 CₙH₂ₙ₊₂O で表される化合物群として答えなさい。",
+    "acceptedAnswers": [
+      "一価飽和アルコール"
+    ],
+    "explanation": "CₙH₂ₙ₊₂O は一価飽和アルコールの一般式である。ヒドロキシ基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0319"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 10,
+    "prompt": "飽和一価アルデヒド・ケトンの一般式として答えなさい。",
+    "acceptedAnswers": [
+      "CₙH₂ₙO"
+    ],
+    "explanation": "飽和一価アルデヒド・ケトンの一般式は CₙH₂ₙO である。カルボニル基を1個もつ飽和鎖式化合物。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に選択問題から短答問題へ再構成",
+    "id": "orgy_0320"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンに「濃硝酸・濃硫酸」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "安息香酸メチル",
+      "ニトロベンゼン",
+      "アニリン",
+      "ブロモベンゼン"
+    ],
+    "answer": 1,
+    "explanation": "ベンゼンに濃硝酸・濃硫酸を作用させるとニトロベンゼンが生じる。反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0001"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからニトロベンゼンを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "側鎖酸化",
+      "臭素化",
+      "ニトロ化",
+      "カップリング反応"
+    ],
+    "answer": 2,
+    "explanation": "ベンゼンに濃硝酸・濃硫酸を作用させてニトロベンゼンを得る反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0002"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからニトロベンゼンを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "強い酸化剤",
+      "濃硝酸・濃硫酸",
+      "メタノール・濃硫酸",
+      "フェノール、弱塩基性"
+    ],
+    "answer": 1,
+    "explanation": "必要な試薬・条件は濃硝酸・濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0003"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ベンゼンからニトロベンゼンを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "濃硝酸・濃硫酸を用い、ニトロ化によってニトロベンゼンを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "ベンゼン + 濃硝酸・濃硫酸 → ニトロベンゼン。ニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0004"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンに「臭素・鉄粉」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "アセチルサリチル酸",
+      "ピクリン酸",
+      "ブロモベンゼン",
+      "安息香酸"
+    ],
+    "answer": 2,
+    "explanation": "ベンゼンに臭素・鉄粉を作用させるとブロモベンゼンが生じる。反応は臭素化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0005"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからブロモベンゼンを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "置換反応",
+      "還元",
+      "臭素化",
+      "カップリング反応"
+    ],
+    "answer": 2,
+    "explanation": "ベンゼンに臭素・鉄粉を作用させてブロモベンゼンを得る反応は臭素化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0006"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからブロモベンゼンを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "臭素・鉄粉",
+      "濃硝酸・濃硫酸",
+      "塩化メチル・塩化アルミニウム",
+      "臭素水"
+    ],
+    "answer": 0,
+    "explanation": "必要な試薬・条件は臭素・鉄粉である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0007"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ベンゼンからブロモベンゼンを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "臭素・鉄粉を用い、臭素化によってブロモベンゼンを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "ベンゼン + 臭素・鉄粉 → ブロモベンゼン。臭素化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0008"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンに「濃硫酸」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "安息香酸メチル",
+      "ニトロベンゼン",
+      "ベンゼンスルホン酸",
+      "ブロモベンゼン"
+    ],
+    "answer": 2,
+    "explanation": "ベンゼンに濃硫酸を作用させるとベンゼンスルホン酸が生じる。反応はスルホン化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0009"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからベンゼンスルホン酸を得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "フリーデル・クラフツ反応",
+      "カップリング反応",
+      "スルホン化",
+      "アセチル化"
+    ],
+    "answer": 2,
+    "explanation": "ベンゼンに濃硫酸を作用させてベンゼンスルホン酸を得る反応はスルホン化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0010"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからベンゼンスルホン酸を得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "無水酢酸",
+      "濃硫酸",
+      "スズ・塩酸、その後塩基性",
+      "塩化メチル・塩化アルミニウム"
+    ],
+    "answer": 1,
+    "explanation": "必要な試薬・条件は濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0011"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ベンゼンからベンゼンスルホン酸を得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "濃硫酸を用い、スルホン化によってベンゼンスルホン酸を得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "ベンゼン + 濃硫酸 → ベンゼンスルホン酸。スルホン化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0012"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンに「塩化メチル・塩化アルミニウム」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "トルエン",
+      "アセチルサリチル酸",
+      "安息香酸メチル",
+      "ニトロベンゼン"
+    ],
+    "answer": 0,
+    "explanation": "ベンゼンに塩化メチル・塩化アルミニウムを作用させるとトルエンが生じる。反応はフリーデル・クラフツ反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0013"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからトルエンを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "アセチル化",
+      "置換反応",
+      "フリーデル・クラフツ反応",
+      "ジアゾ化"
+    ],
+    "answer": 2,
+    "explanation": "ベンゼンに塩化メチル・塩化アルミニウムを作用させてトルエンを得る反応はフリーデル・クラフツ反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0014"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからトルエンを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "フェノール、弱塩基性",
+      "臭素・鉄粉",
+      "メタノール・濃硫酸",
+      "塩化メチル・塩化アルミニウム"
+    ],
+    "answer": 3,
+    "explanation": "必要な試薬・条件は塩化メチル・塩化アルミニウムである。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0015"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ベンゼンからトルエンを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "塩化メチル・塩化アルミニウムを用い、フリーデル・クラフツ反応によってトルエンを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "ベンゼン + 塩化メチル・塩化アルミニウム → トルエン。フリーデル・クラフツ反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0016"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "トルエンに「強い酸化剤」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "安息香酸",
+      "ベンゼンスルホン酸",
+      "サリチル酸メチル",
+      "安息香酸メチル"
+    ],
+    "answer": 0,
+    "explanation": "トルエンに強い酸化剤を作用させると安息香酸が生じる。反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0017"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "トルエンから安息香酸を得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "ジアゾ化",
+      "置換反応",
+      "還元",
+      "側鎖酸化"
+    ],
+    "answer": 3,
+    "explanation": "トルエンに強い酸化剤を作用させて安息香酸を得る反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0018"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "トルエンから安息香酸を得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "スズ・塩酸、その後塩基性",
+      "強い酸化剤",
+      "臭素水",
+      "無水酢酸"
+    ],
+    "answer": 1,
+    "explanation": "必要な試薬・条件は強い酸化剤である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0019"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "トルエンから安息香酸を得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "強い酸化剤を用い、側鎖酸化によって安息香酸を得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "トルエン + 強い酸化剤 → 安息香酸。側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0020"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールに「臭素水」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "アゾ化合物",
+      "2,4,6-トリブロモフェノール",
+      "トルエン",
+      "ベンゼンスルホン酸"
+    ],
+    "answer": 1,
+    "explanation": "フェノールに臭素水を作用させると2,4,6-トリブロモフェノールが生じる。反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0021"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "臭素化",
+      "側鎖酸化",
+      "置換反応",
+      "ニトロ化"
+    ],
+    "answer": 2,
+    "explanation": "フェノールに臭素水を作用させて2,4,6-トリブロモフェノールを得る反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0022"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "メタノール・濃硫酸",
+      "臭素水",
+      "塩化メチル・塩化アルミニウム",
+      "濃硝酸・濃硫酸"
+    ],
+    "answer": 1,
+    "explanation": "必要な試薬・条件は臭素水である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0023"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "臭素水を用い、置換反応によって2,4,6-トリブロモフェノールを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "フェノール + 臭素水 → 2,4,6-トリブロモフェノール。置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0024"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールに「濃硝酸」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "2,4,6-トリブロモアニリン",
+      "ピクリン酸",
+      "2,4,6-トリブロモフェノール",
+      "ブロモベンゼン"
+    ],
+    "answer": 1,
+    "explanation": "フェノールに濃硝酸を作用させるとピクリン酸が生じる。反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0025"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールからピクリン酸を得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "エステル化",
+      "還元",
+      "カップリング反応",
+      "ニトロ化"
+    ],
+    "answer": 3,
+    "explanation": "フェノールに濃硝酸を作用させてピクリン酸を得る反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0026"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールからピクリン酸を得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "濃硝酸",
+      "濃硫酸",
+      "無水酢酸",
+      "スズ・塩酸、その後塩基性"
+    ],
+    "answer": 0,
+    "explanation": "必要な試薬・条件は濃硝酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0027"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "フェノールからピクリン酸を得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "濃硝酸を用い、ニトロ化によってピクリン酸を得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "フェノール + 濃硝酸 → ピクリン酸。ニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0028"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンに「臭素水」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "安息香酸メチル",
+      "ベンゼンスルホン酸",
+      "2,4,6-トリブロモアニリン",
+      "2,4,6-トリブロモフェノール"
+    ],
+    "answer": 2,
+    "explanation": "アニリンに臭素水を作用させると2,4,6-トリブロモアニリンが生じる。反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0029"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンから2,4,6-トリブロモアニリンを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "スルホン化",
+      "アセチル化",
+      "置換反応",
+      "還元"
+    ],
+    "answer": 2,
+    "explanation": "アニリンに臭素水を作用させて2,4,6-トリブロモアニリンを得る反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0030"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンから2,4,6-トリブロモアニリンを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "亜硝酸ナトリウム・塩酸、0〜5℃",
+      "濃硝酸・濃硫酸",
+      "強い酸化剤",
+      "臭素水"
+    ],
+    "answer": 3,
+    "explanation": "必要な試薬・条件は臭素水である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0031"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アニリンから2,4,6-トリブロモアニリンを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "臭素水を用い、置換反応によって2,4,6-トリブロモアニリンを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "アニリン + 臭素水 → 2,4,6-トリブロモアニリン。置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0032"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ニトロベンゼンに「スズ・塩酸、その後塩基性」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "アニリン",
+      "アゾ化合物",
+      "安息香酸",
+      "安息香酸メチル"
+    ],
+    "answer": 0,
+    "explanation": "ニトロベンゼンにスズ・塩酸、その後塩基性を作用させるとアニリンが生じる。反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0033"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ニトロベンゼンからアニリンを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "置換反応",
+      "還元",
+      "臭素化",
+      "フリーデル・クラフツ反応"
+    ],
+    "answer": 1,
+    "explanation": "ニトロベンゼンにスズ・塩酸、その後塩基性を作用させてアニリンを得る反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0034"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ニトロベンゼンからアニリンを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "スズ・塩酸、その後塩基性",
+      "メタノール・濃硫酸",
+      "亜硝酸ナトリウム・塩酸、0〜5℃",
+      "無水酢酸"
+    ],
+    "answer": 0,
+    "explanation": "必要な試薬・条件はスズ・塩酸、その後塩基性である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0035"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ニトロベンゼンからアニリンを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "スズ・塩酸、その後塩基性を用い、還元によってアニリンを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "ニトロベンゼン + スズ・塩酸、その後塩基性 → アニリン。還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0036"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンに「亜硝酸ナトリウム・塩酸、0〜5℃」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "アニリン",
+      "ピクリン酸",
+      "ベンゼンジアゾニウム塩化物",
+      "ニトロベンゼン"
+    ],
+    "answer": 2,
+    "explanation": "アニリンに亜硝酸ナトリウム・塩酸、0〜5℃を作用させるとベンゼンジアゾニウム塩化物が生じる。反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0037"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "側鎖酸化",
+      "臭素化",
+      "フリーデル・クラフツ反応",
+      "ジアゾ化"
+    ],
+    "answer": 3,
+    "explanation": "アニリンに亜硝酸ナトリウム・塩酸、0〜5℃を作用させてベンゼンジアゾニウム塩化物を得る反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0038"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "亜硝酸ナトリウム・塩酸、0〜5℃",
+      "濃硝酸",
+      "メタノール・濃硫酸",
+      "濃硝酸・濃硫酸"
+    ],
+    "answer": 0,
+    "explanation": "必要な試薬・条件は亜硝酸ナトリウム・塩酸、0〜5℃である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0039"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "亜硝酸ナトリウム・塩酸、0〜5℃を用い、ジアゾ化によってベンゼンジアゾニウム塩化物を得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "アニリン + 亜硝酸ナトリウム・塩酸、0〜5℃ → ベンゼンジアゾニウム塩化物。ジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0040"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンジアゾニウム塩化物に「フェノール、弱塩基性」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "ピクリン酸",
+      "ニトロベンゼン",
+      "アニリン",
+      "アゾ化合物"
+    ],
+    "answer": 3,
+    "explanation": "ベンゼンジアゾニウム塩化物にフェノール、弱塩基性を作用させるとアゾ化合物が生じる。反応はカップリング反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0041"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンジアゾニウム塩化物からアゾ化合物を得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "カップリング反応",
+      "臭素化",
+      "ジアゾ化",
+      "スルホン化"
+    ],
+    "answer": 0,
+    "explanation": "ベンゼンジアゾニウム塩化物にフェノール、弱塩基性を作用させてアゾ化合物を得る反応はカップリング反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0042"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンジアゾニウム塩化物からアゾ化合物を得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "フェノール、弱塩基性",
+      "濃硝酸・濃硫酸",
+      "濃硫酸",
+      "塩化メチル・塩化アルミニウム"
+    ],
+    "answer": 0,
+    "explanation": "必要な試薬・条件はフェノール、弱塩基性である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0043"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ベンゼンジアゾニウム塩化物からアゾ化合物を得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "フェノール、弱塩基性を用い、カップリング反応によってアゾ化合物を得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "ベンゼンジアゾニウム塩化物 + フェノール、弱塩基性 → アゾ化合物。カップリング反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0044"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "安息香酸に「メタノール・濃硫酸」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "安息香酸メチル",
+      "アニリン",
+      "ブロモベンゼン",
+      "ピクリン酸"
+    ],
+    "answer": 0,
+    "explanation": "安息香酸にメタノール・濃硫酸を作用させると安息香酸メチルが生じる。反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0045"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "安息香酸から安息香酸メチルを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "還元",
+      "エステル化",
+      "スルホン化",
+      "アセチル化"
+    ],
+    "answer": 1,
+    "explanation": "安息香酸にメタノール・濃硫酸を作用させて安息香酸メチルを得る反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0046"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "安息香酸から安息香酸メチルを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "亜硝酸ナトリウム・塩酸、0〜5℃",
+      "濃硝酸",
+      "メタノール・濃硫酸",
+      "強い酸化剤"
+    ],
+    "answer": 2,
+    "explanation": "必要な試薬・条件はメタノール・濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0047"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "安息香酸から安息香酸メチルを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "メタノール・濃硫酸を用い、エステル化によって安息香酸メチルを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "安息香酸 + メタノール・濃硫酸 → 安息香酸メチル。エステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0048"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸に「無水酢酸」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "ベンゼンジアゾニウム塩化物",
+      "アセチルサリチル酸",
+      "アニリン",
+      "ベンゼンスルホン酸"
+    ],
+    "answer": 1,
+    "explanation": "サリチル酸に無水酢酸を作用させるとアセチルサリチル酸が生じる。反応はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0049"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸からアセチルサリチル酸を得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "臭素化",
+      "アセチル化",
+      "フリーデル・クラフツ反応",
+      "側鎖酸化"
+    ],
+    "answer": 1,
+    "explanation": "サリチル酸に無水酢酸を作用させてアセチルサリチル酸を得る反応はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0050"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸からアセチルサリチル酸を得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "メタノール・濃硫酸",
+      "濃硫酸",
+      "無水酢酸",
+      "臭素・鉄粉"
+    ],
+    "answer": 2,
+    "explanation": "必要な試薬・条件は無水酢酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0051"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "サリチル酸からアセチルサリチル酸を得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "無水酢酸を用い、アセチル化によってアセチルサリチル酸を得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "サリチル酸 + 無水酢酸 → アセチルサリチル酸。アセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0052"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸に「メタノール・濃硫酸」を作用させたときの主生成物を選びなさい。",
+    "choices": [
+      "サリチル酸メチル",
+      "2,4,6-トリブロモアニリン",
+      "アゾ化合物",
+      "トルエン"
+    ],
+    "answer": 0,
+    "explanation": "サリチル酸にメタノール・濃硫酸を作用させるとサリチル酸メチルが生じる。反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0053"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸からサリチル酸メチルを得る反応の名称として最も適切なものを選びなさい。",
+    "choices": [
+      "ニトロ化",
+      "エステル化",
+      "臭素化",
+      "ジアゾ化"
+    ],
+    "answer": 1,
+    "explanation": "サリチル酸にメタノール・濃硫酸を作用させてサリチル酸メチルを得る反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0054"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸からサリチル酸メチルを得るために用いる試薬・条件を選びなさい。",
+    "choices": [
+      "臭素水",
+      "強い酸化剤",
+      "濃硝酸",
+      "メタノール・濃硫酸"
+    ],
+    "answer": 3,
+    "explanation": "必要な試薬・条件はメタノール・濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0055"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "サリチル酸からサリチル酸メチルを得る反応について、試薬・条件と反応の種類を説明しなさい。",
+    "modelAnswer": "メタノール・濃硫酸を用い、エステル化によってサリチル酸メチルを得る。",
+    "criteria": [
+      "試薬または条件が正しい",
+      "生成物が正しい",
+      "反応の種類が正しい"
+    ],
+    "explanation": "サリチル酸 + メタノール・濃硫酸 → サリチル酸メチル。エステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に芳香族反応問題へ細分化",
+    "id": "orgz_0056"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "炭素間二重結合を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "ヨウ素・水酸化ナトリウム",
+      "臭素水",
+      "アンモニア性硝酸銀水溶液",
+      "フェーリング液"
+    ],
+    "answer": 1,
+    "explanation": "炭素間二重結合は臭素水により確認でき、観察は「脱色」である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0057"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "炭素間二重結合をもつ化合物に臭素水を加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "脱色",
+      "水溶性の塩形成",
+      "黄色沈殿",
+      "二酸化炭素発生"
+    ],
+    "answer": 0,
+    "explanation": "観察は「脱色」。反応は付加反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0058"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "炭素間二重結合を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "臭素水"
+    ],
+    "explanation": "臭素水を用いる。観察は脱色。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0059"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "炭素間二重結合の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "臭素水を加えると脱色ため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "炭素間二重結合は臭素水により脱色。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0060"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルデヒド基を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "ヨウ素・水酸化ナトリウム",
+      "アンモニア性硝酸銀水溶液",
+      "フェーリング液",
+      "塩化鉄(III)水溶液"
+    ],
+    "answer": 1,
+    "explanation": "アルデヒド基はアンモニア性硝酸銀水溶液により確認でき、観察は「銀鏡」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0061"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルデヒド基をもつ化合物にアンモニア性硝酸銀水溶液を加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "黄色沈殿",
+      "銀鏡",
+      "カルボン酸塩とアルコール",
+      "赤色沈殿"
+    ],
+    "answer": 1,
+    "explanation": "観察は「銀鏡」。反応は酸化還元反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0062"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルデヒド基を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "アンモニア性硝酸銀水溶液"
+    ],
+    "explanation": "アンモニア性硝酸銀水溶液を用いる。観察は銀鏡。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0063"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アルデヒド基の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "アンモニア性硝酸銀水溶液を加えると銀鏡ため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "アルデヒド基はアンモニア性硝酸銀水溶液により銀鏡。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0064"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルデヒド基を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "塩酸",
+      "フェーリング液",
+      "炭酸水素ナトリウム水溶液",
+      "水酸化ナトリウム水溶液・加熱"
+    ],
+    "answer": 1,
+    "explanation": "アルデヒド基はフェーリング液により確認でき、観察は「赤色沈殿」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0065"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルデヒド基をもつ化合物にフェーリング液を加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "赤色沈殿",
+      "黄色沈殿",
+      "カルボン酸塩とアルコール",
+      "銀鏡"
+    ],
+    "answer": 0,
+    "explanation": "観察は「赤色沈殿」。反応は酸化還元反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0066"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アルデヒド基を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "フェーリング液"
+    ],
+    "explanation": "フェーリング液を用いる。観察は赤色沈殿。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0067"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アルデヒド基の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "フェーリング液を加えると赤色沈殿ため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "アルデヒド基はフェーリング液により赤色沈殿。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0068"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "メチルケトン構造を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "フェーリング液",
+      "炭酸水素ナトリウム水溶液",
+      "水酸化ナトリウム水溶液・加熱",
+      "ヨウ素・水酸化ナトリウム"
+    ],
+    "answer": 3,
+    "explanation": "メチルケトン構造はヨウ素・水酸化ナトリウムにより確認でき、観察は「黄色沈殿」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0069"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "メチルケトン構造をもつ化合物にヨウ素・水酸化ナトリウムを加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "赤色沈殿",
+      "黄色沈殿",
+      "カルボン酸塩とアルコール",
+      "二酸化炭素発生"
+    ],
+    "answer": 1,
+    "explanation": "観察は「黄色沈殿」。反応はヨードホルム反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0070"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "メチルケトン構造を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "ヨウ素・水酸化ナトリウム"
+    ],
+    "explanation": "ヨウ素・水酸化ナトリウムを用いる。観察は黄色沈殿。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0071"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "メチルケトン構造の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "ヨウ素・水酸化ナトリウムを加えると黄色沈殿ため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "メチルケトン構造はヨウ素・水酸化ナトリウムにより黄色沈殿。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0072"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノール性ヒドロキシ基を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "塩酸",
+      "水酸化ナトリウム水溶液・加熱",
+      "塩化鉄(III)水溶液",
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "answer": 2,
+    "explanation": "フェノール性ヒドロキシ基は塩化鉄(III)水溶液により確認でき、観察は「紫色系の呈色」である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0073"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノール性ヒドロキシ基をもつ化合物に塩化鉄(III)水溶液を加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "赤色沈殿",
+      "カルボン酸塩とアルコール",
+      "二酸化炭素発生",
+      "紫色系の呈色"
+    ],
+    "answer": 3,
+    "explanation": "観察は「紫色系の呈色」。反応は錯体形成である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0074"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノール性ヒドロキシ基を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "塩化鉄(III)水溶液"
+    ],
+    "explanation": "塩化鉄(III)水溶液を用いる。観察は紫色系の呈色。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0075"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "フェノール性ヒドロキシ基の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "塩化鉄(III)水溶液を加えると紫色系の呈色ため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "フェノール性ヒドロキシ基は塩化鉄(III)水溶液により紫色系の呈色。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0076"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "カルボキシ基を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "塩化鉄(III)水溶液",
+      "炭酸水素ナトリウム水溶液",
+      "アンモニア性硝酸銀水溶液",
+      "塩酸"
+    ],
+    "answer": 1,
+    "explanation": "カルボキシ基は炭酸水素ナトリウム水溶液により確認でき、観察は「二酸化炭素発生」である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0077"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "カルボキシ基をもつ化合物に炭酸水素ナトリウム水溶液を加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "二酸化炭素発生",
+      "赤色沈殿",
+      "黄色沈殿",
+      "銀鏡"
+    ],
+    "answer": 0,
+    "explanation": "観察は「二酸化炭素発生」。反応は酸と塩基の反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0078"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "カルボキシ基を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "explanation": "炭酸水素ナトリウム水溶液を用いる。観察は二酸化炭素発生。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0079"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "カルボキシ基の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "炭酸水素ナトリウム水溶液を加えると二酸化炭素発生ため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "カルボキシ基は炭酸水素ナトリウム水溶液により二酸化炭素発生。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0080"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アミノ基を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "ヨウ素・水酸化ナトリウム",
+      "臭素水",
+      "炭酸水素ナトリウム水溶液",
+      "塩酸"
+    ],
+    "answer": 3,
+    "explanation": "アミノ基は塩酸により確認でき、観察は「水溶性の塩形成」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0081"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アミノ基をもつ化合物に塩酸を加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "赤色沈殿",
+      "水溶性の塩形成",
+      "カルボン酸塩とアルコール",
+      "紫色系の呈色"
+    ],
+    "answer": 1,
+    "explanation": "観察は「水溶性の塩形成」。反応は中和反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0082"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アミノ基を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "塩酸"
+    ],
+    "explanation": "塩酸を用いる。観察は水溶性の塩形成。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0083"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アミノ基の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "塩酸を加えると水溶性の塩形成ため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "アミノ基は塩酸により水溶性の塩形成。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0084"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エステル結合を確認するために最も適切な試薬を選びなさい。",
+    "choices": [
+      "水酸化ナトリウム水溶液・加熱",
+      "炭酸水素ナトリウム水溶液",
+      "ヨウ素・水酸化ナトリウム",
+      "フェーリング液"
+    ],
+    "answer": 0,
+    "explanation": "エステル結合は水酸化ナトリウム水溶液・加熱により確認でき、観察は「カルボン酸塩とアルコール」である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0085"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エステル結合をもつ化合物に水酸化ナトリウム水溶液・加熱を加えたときの観察として適切なものを選びなさい。",
+    "choices": [
+      "カルボン酸塩とアルコール",
+      "二酸化炭素発生",
+      "銀鏡",
+      "紫色系の呈色"
+    ],
+    "answer": 0,
+    "explanation": "観察は「カルボン酸塩とアルコール」。反応はけん化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0086"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エステル結合を確認する試薬を1つ答えなさい。",
+    "acceptedAnswers": [
+      "水酸化ナトリウム水溶液・加熱"
+    ],
+    "explanation": "水酸化ナトリウム水溶液・加熱を用いる。観察はカルボン酸塩とアルコール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0087"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エステル結合の確認方法を、試薬と観察結果を含めて説明しなさい。",
+    "modelAnswer": "水酸化ナトリウム水溶液・加熱を加えるとカルボン酸塩とアルコールため確認できる。",
+    "criteria": [
+      "試薬が正しい",
+      "観察結果が正しい",
+      "官能基との対応が説明されている"
+    ],
+    "explanation": "エステル結合は水酸化ナトリウム水溶液・加熱によりカルボン酸塩とアルコール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に官能基識別問題へ細分化",
+    "id": "orgz_0088"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸とナフタレンを分離するために最初に用いる試薬として最も適切なものを選びなさい。",
+    "choices": [
+      "希塩酸",
+      "水酸化ナトリウム水溶液",
+      "水酸化ナトリウム水溶液",
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "answer": 3,
+    "explanation": "炭酸水素ナトリウム水溶液を用いると、安息香酸だけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0089"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸とナフタレンに炭酸水素ナトリウム水溶液を加えたときに起こる変化として最も適切なものを選びなさい。",
+    "choices": [
+      "アニリンが遊離する",
+      "安息香酸が遊離して析出しやすくなる",
+      "安息香酸だけが塩となって水層へ移る",
+      "フェノールだけが塩となって水層へ移る"
+    ],
+    "answer": 2,
+    "explanation": "安息香酸だけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0090"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "安息香酸とナフタレンを酸・塩基反応を利用して分離する方法を説明しなさい。",
+    "modelAnswer": "炭酸水素ナトリウム水溶液を加える。安息香酸だけが塩となって水層へ移る。その後、水層と有機層を分け、必要に応じて中和して目的物を回収する。",
+    "criteria": [
+      "適切な試薬を選んでいる",
+      "水層・有機層への移動を説明している",
+      "回収操作まで触れている"
+    ],
+    "explanation": "炭酸水素ナトリウム水溶液を用いて塩形成の差を利用する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0091"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "フェノールとナフタレンを分離するために最初に用いる試薬として最も適切なものを選びなさい。",
+    "choices": [
+      "塩酸",
+      "水酸化ナトリウム水溶液",
+      "炭酸水素ナトリウム水溶液",
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "answer": 1,
+    "explanation": "水酸化ナトリウム水溶液を用いると、フェノールだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0092"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "フェノールとナフタレンに水酸化ナトリウム水溶液を加えたときに起こる変化として最も適切なものを選びなさい。",
+    "choices": [
+      "アニリンが遊離する",
+      "安息香酸だけが反応する",
+      "安息香酸が遊離して析出しやすくなる",
+      "フェノールだけが塩となって水層へ移る"
+    ],
+    "answer": 3,
+    "explanation": "フェノールだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0093"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "フェノールとナフタレンを酸・塩基反応を利用して分離する方法を説明しなさい。",
+    "modelAnswer": "水酸化ナトリウム水溶液を加える。フェノールだけが塩となって水層へ移る。その後、水層と有機層を分け、必要に応じて中和して目的物を回収する。",
+    "criteria": [
+      "適切な試薬を選んでいる",
+      "水層・有機層への移動を説明している",
+      "回収操作まで触れている"
+    ],
+    "explanation": "水酸化ナトリウム水溶液を用いて塩形成の差を利用する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0094"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アニリンとナフタレンを分離するために最初に用いる試薬として最も適切なものを選びなさい。",
+    "choices": [
+      "水酸化ナトリウム水溶液",
+      "炭酸水素ナトリウム水溶液",
+      "水酸化ナトリウム水溶液",
+      "希塩酸"
+    ],
+    "answer": 3,
+    "explanation": "希塩酸を用いると、アニリンだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0095"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アニリンとナフタレンに希塩酸を加えたときに起こる変化として最も適切なものを選びなさい。",
+    "choices": [
+      "アニリンだけが塩となって水層へ移る",
+      "安息香酸だけが塩となって水層へ移る",
+      "アニリンが遊離する",
+      "フェノールだけが塩となって水層へ移る"
+    ],
+    "answer": 0,
+    "explanation": "アニリンだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0096"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "アニリンとナフタレンを酸・塩基反応を利用して分離する方法を説明しなさい。",
+    "modelAnswer": "希塩酸を加える。アニリンだけが塩となって水層へ移る。その後、水層と有機層を分け、必要に応じて中和して目的物を回収する。",
+    "criteria": [
+      "適切な試薬を選んでいる",
+      "水層・有機層への移動を説明している",
+      "回収操作まで触れている"
+    ],
+    "explanation": "希塩酸を用いて塩形成の差を利用する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0097"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸とフェノールを分離するために最初に用いる試薬として最も適切なものを選びなさい。",
+    "choices": [
+      "水酸化ナトリウム水溶液",
+      "塩酸",
+      "希塩酸",
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "answer": 3,
+    "explanation": "炭酸水素ナトリウム水溶液を用いると、安息香酸だけが反応する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0098"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸とフェノールに炭酸水素ナトリウム水溶液を加えたときに起こる変化として最も適切なものを選びなさい。",
+    "choices": [
+      "安息香酸だけが反応する",
+      "アニリンだけが塩となって水層へ移る",
+      "安息香酸だけが塩となって水層へ移る",
+      "アニリンが遊離する"
+    ],
+    "answer": 0,
+    "explanation": "安息香酸だけが反応する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0099"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "安息香酸とフェノールを酸・塩基反応を利用して分離する方法を説明しなさい。",
+    "modelAnswer": "炭酸水素ナトリウム水溶液を加える。安息香酸だけが反応する。その後、水層と有機層を分け、必要に応じて中和して目的物を回収する。",
+    "criteria": [
+      "適切な試薬を選んでいる",
+      "水層・有機層への移動を説明している",
+      "回収操作まで触れている"
+    ],
+    "explanation": "炭酸水素ナトリウム水溶液を用いて塩形成の差を利用する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0100"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アニリン塩酸塩水溶液を分離するために最初に用いる試薬として最も適切なものを選びなさい。",
+    "choices": [
+      "水酸化ナトリウム水溶液",
+      "希塩酸",
+      "炭酸水素ナトリウム水溶液",
+      "塩酸"
+    ],
+    "answer": 0,
+    "explanation": "水酸化ナトリウム水溶液を用いると、アニリンが遊離する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0101"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アニリン塩酸塩水溶液に水酸化ナトリウム水溶液を加えたときに起こる変化として最も適切なものを選びなさい。",
+    "choices": [
+      "安息香酸が遊離して析出しやすくなる",
+      "アニリンが遊離する",
+      "安息香酸だけが反応する",
+      "フェノールだけが塩となって水層へ移る"
+    ],
+    "answer": 1,
+    "explanation": "アニリンが遊離する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0102"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "アニリン塩酸塩水溶液を酸・塩基反応を利用して分離する方法を説明しなさい。",
+    "modelAnswer": "水酸化ナトリウム水溶液を加える。アニリンが遊離する。その後、水層と有機層を分け、必要に応じて中和して目的物を回収する。",
+    "criteria": [
+      "適切な試薬を選んでいる",
+      "水層・有機層への移動を説明している",
+      "回収操作まで触れている"
+    ],
+    "explanation": "水酸化ナトリウム水溶液を用いて塩形成の差を利用する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0103"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸ナトリウム水溶液を分離するために最初に用いる試薬として最も適切なものを選びなさい。",
+    "choices": [
+      "希塩酸",
+      "塩酸",
+      "炭酸水素ナトリウム水溶液",
+      "水酸化ナトリウム水溶液"
+    ],
+    "answer": 1,
+    "explanation": "塩酸を用いると、安息香酸が遊離して析出しやすくなる。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0104"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸ナトリウム水溶液に塩酸を加えたときに起こる変化として最も適切なものを選びなさい。",
+    "choices": [
+      "安息香酸が遊離して析出しやすくなる",
+      "アニリンが遊離する",
+      "安息香酸だけが反応する",
+      "フェノールだけが塩となって水層へ移る"
+    ],
+    "answer": 0,
+    "explanation": "安息香酸が遊離して析出しやすくなる。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0105"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "安息香酸ナトリウム水溶液を酸・塩基反応を利用して分離する方法を説明しなさい。",
+    "modelAnswer": "塩酸を加える。安息香酸が遊離して析出しやすくなる。その後、水層と有機層を分け、必要に応じて中和して目的物を回収する。",
+    "criteria": [
+      "適切な試薬を選んでいる",
+      "水層・有機層への移動を説明している",
+      "回収操作まで触れている"
+    ],
+    "explanation": "塩酸を用いて塩形成の差を利用する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に分離操作問題へ細分化",
+    "id": "orgz_0106"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "油脂の構造として最も適切なものを選びなさい。",
+    "choices": [
+      "常温で液体になりやすい",
+      "グリセリンと高級脂肪酸のエステル",
+      "疎水基を内側、親水基を外側に向けて油を取り込む",
+      "グリセリンと高級脂肪酸塩"
+    ],
+    "answer": 1,
+    "explanation": "グリセリンと高級脂肪酸のエステル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0107"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "油脂の構造を答えなさい。",
+    "acceptedAnswers": [
+      "グリセリンと高級脂肪酸のエステル"
+    ],
+    "explanation": "グリセリンと高級脂肪酸のエステル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0108"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "油脂の構造について理由も含めて説明しなさい。",
+    "modelAnswer": "グリセリンと高級脂肪酸のエステル。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "グリセリンと高級脂肪酸のエステル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0109"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "油脂のけん化生成物として最も適切なものを選びなさい。",
+    "choices": [
+      "カルボキシラート部分",
+      "グリセリンと高級脂肪酸のエステル",
+      "長い炭化水素鎖",
+      "グリセリンと高級脂肪酸塩"
+    ],
+    "answer": 3,
+    "explanation": "グリセリンと高級脂肪酸塩。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0110"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "油脂のけん化生成物を答えなさい。",
+    "acceptedAnswers": [
+      "グリセリンと高級脂肪酸塩"
+    ],
+    "explanation": "グリセリンと高級脂肪酸塩。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0111"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "油脂のけん化生成物について理由も含めて説明しなさい。",
+    "modelAnswer": "グリセリンと高級脂肪酸塩。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "グリセリンと高級脂肪酸塩。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0112"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "硬化油の製造として最も適切なものを選びなさい。",
+    "choices": [
+      "長い炭化水素鎖",
+      "グリセリンと高級脂肪酸のエステル",
+      "グリセリンと高級脂肪酸塩",
+      "不飽和結合への水素付加"
+    ],
+    "answer": 3,
+    "explanation": "不飽和結合への水素付加。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0113"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "硬化油の製造を答えなさい。",
+    "acceptedAnswers": [
+      "不飽和結合への水素付加"
+    ],
+    "explanation": "不飽和結合への水素付加。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0114"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "硬化油の製造について理由も含めて説明しなさい。",
+    "modelAnswer": "不飽和結合への水素付加。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "不飽和結合への水素付加。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0115"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケンの親水基として最も適切なものを選びなさい。",
+    "choices": [
+      "グリセリンと高級脂肪酸のエステル",
+      "長い炭化水素鎖",
+      "カルボキシラート部分",
+      "不飽和結合への水素付加"
+    ],
+    "answer": 2,
+    "explanation": "カルボキシラート部分。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0116"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケンの親水基を答えなさい。",
+    "acceptedAnswers": [
+      "カルボキシラート部分"
+    ],
+    "explanation": "カルボキシラート部分。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0117"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "セッケンの親水基について理由も含めて説明しなさい。",
+    "modelAnswer": "カルボキシラート部分。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "カルボキシラート部分。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0118"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケンの疎水基として最も適切なものを選びなさい。",
+    "choices": [
+      "常温で液体になりやすい",
+      "不飽和結合への水素付加",
+      "長い炭化水素鎖",
+      "Ca²⁺やMg²⁺と難溶性塩をつくるため"
+    ],
+    "answer": 2,
+    "explanation": "長い炭化水素鎖。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0119"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "セッケンの疎水基を答えなさい。",
+    "acceptedAnswers": [
+      "長い炭化水素鎖"
+    ],
+    "explanation": "長い炭化水素鎖。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0120"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "セッケンの疎水基について理由も含めて説明しなさい。",
+    "modelAnswer": "長い炭化水素鎖。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "長い炭化水素鎖。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0121"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "硬水中でセッケンの洗浄力が低下する理由として最も適切なものを選びなさい。",
+    "choices": [
+      "不飽和結合への水素付加",
+      "Ca²⁺やMg²⁺と難溶性塩をつくるため",
+      "疎水基を内側、親水基を外側に向けて油を取り込む",
+      "常温で液体になりやすい"
+    ],
+    "answer": 1,
+    "explanation": "Ca²⁺やMg²⁺と難溶性塩をつくるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0122"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "硬水中でセッケンの洗浄力が低下する理由を答えなさい。",
+    "acceptedAnswers": [
+      "Ca²⁺やMg²⁺と難溶性塩をつくるため"
+    ],
+    "explanation": "Ca²⁺やMg²⁺と難溶性塩をつくるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0123"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "硬水中でセッケンの洗浄力が低下する理由について理由も含めて説明しなさい。",
+    "modelAnswer": "Ca²⁺やMg²⁺と難溶性塩をつくるため。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "Ca²⁺やMg²⁺と難溶性塩をつくるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0124"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ミセル形成の意味として最も適切なものを選びなさい。",
+    "choices": [
+      "カルボキシラート部分",
+      "長い炭化水素鎖",
+      "グリセリンと高級脂肪酸のエステル",
+      "疎水基を内側、親水基を外側に向けて油を取り込む"
+    ],
+    "answer": 3,
+    "explanation": "疎水基を内側、親水基を外側に向けて油を取り込む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0125"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ミセル形成の意味を答えなさい。",
+    "acceptedAnswers": [
+      "疎水基を内側、親水基を外側に向けて油を取り込む"
+    ],
+    "explanation": "疎水基を内側、親水基を外側に向けて油を取り込む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0126"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ミセル形成の意味について理由も含めて説明しなさい。",
+    "modelAnswer": "疎水基を内側、親水基を外側に向けて油を取り込む。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "疎水基を内側、親水基を外側に向けて油を取り込む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0127"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "不飽和脂肪酸を多く含む油脂の特徴として最も適切なものを選びなさい。",
+    "choices": [
+      "常温で液体になりやすい",
+      "長い炭化水素鎖",
+      "カルボキシラート部分",
+      "疎水基を内側、親水基を外側に向けて油を取り込む"
+    ],
+    "answer": 0,
+    "explanation": "常温で液体になりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0128"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "不飽和脂肪酸を多く含む油脂の特徴を答えなさい。",
+    "acceptedAnswers": [
+      "常温で液体になりやすい"
+    ],
+    "explanation": "常温で液体になりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0129"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "不飽和脂肪酸を多く含む油脂の特徴について理由も含めて説明しなさい。",
+    "modelAnswer": "常温で液体になりやすい。",
+    "criteria": [
+      "結論が正しい",
+      "構造または反応に基づく説明がある",
+      "用語が適切"
+    ],
+    "explanation": "常温で液体になりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に油脂・セッケン問題へ細分化",
+    "id": "orgz_0130"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₄H₈O₂。炭酸水素ナトリウムと反応する。光学異性体はもたない。",
+    "choices": [
+      "アニリン",
+      "安息香酸メチル",
+      "酪酸または2-メチルプロパン酸",
+      "クレゾール"
+    ],
+    "answer": 2,
+    "explanation": "酪酸または2-メチルプロパン酸。カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0131"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₄H₈O₂。炭酸水素ナトリウムと反応する。光学異性体はもたない。",
+    "modelAnswer": "酪酸または2-メチルプロパン酸。カルボン酸である。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "酪酸または2-メチルプロパン酸と推定できる。カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0132"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₄H₈O₂。加水分解で酢酸とエタノールを生じる。",
+    "choices": [
+      "安息香酸メチル",
+      "クレゾール",
+      "酢酸エチル",
+      "メチル安息香酸のいずれか"
+    ],
+    "answer": 2,
+    "explanation": "酢酸エチル。エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0133"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₄H₈O₂。加水分解で酢酸とエタノールを生じる。",
+    "modelAnswer": "酢酸エチル。エステルである。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "酢酸エチルと推定できる。エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0134"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₃H₈O。酸化するとアセトンになる。",
+    "choices": [
+      "2-プロパノール",
+      "メチル安息香酸のいずれか",
+      "クレゾール",
+      "酢酸エチル"
+    ],
+    "answer": 0,
+    "explanation": "2-プロパノール。第二級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0135"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₃H₈O。酸化するとアセトンになる。",
+    "modelAnswer": "2-プロパノール。第二級アルコールである。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "2-プロパノールと推定できる。第二級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0136"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₃H₈O。酸化するとプロパナールを経てプロピオン酸になる。",
+    "choices": [
+      "1-プロパノール",
+      "2-プロパノール",
+      "アニリン",
+      "ベンジルアルコール"
+    ],
+    "answer": 0,
+    "explanation": "1-プロパノール。第一級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0137"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₃H₈O。酸化するとプロパナールを経てプロピオン酸になる。",
+    "modelAnswer": "1-プロパノール。第一級アルコールである。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "1-プロパノールと推定できる。第一級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0138"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₇H₈O。塩化鉄(III)水溶液で呈色する。",
+    "choices": [
+      "ベンジルアルコール",
+      "クレゾール",
+      "1-プロパノール",
+      "フェノール"
+    ],
+    "answer": 1,
+    "explanation": "クレゾール。フェノール類である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0139"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₇H₈O。塩化鉄(III)水溶液で呈色する。",
+    "modelAnswer": "クレゾール。フェノール類である。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "クレゾールと推定できる。フェノール類である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0140"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₇H₈O。ナトリウムとは反応するが塩化鉄(III)では呈色しない。",
+    "choices": [
+      "ベンジルアルコール",
+      "フェノール",
+      "安息香酸メチル",
+      "アニリン"
+    ],
+    "answer": 0,
+    "explanation": "ベンジルアルコール。アルコールでありフェノールではない。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0141"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₇H₈O。ナトリウムとは反応するが塩化鉄(III)では呈色しない。",
+    "modelAnswer": "ベンジルアルコール。アルコールでありフェノールではない。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "ベンジルアルコールと推定できる。アルコールでありフェノールではない。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0142"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₈H₈O₂。加水分解で安息香酸とメタノールを生じる。",
+    "choices": [
+      "アニリン",
+      "酢酸エチル",
+      "2-プロパノール",
+      "安息香酸メチル"
+    ],
+    "answer": 3,
+    "explanation": "安息香酸メチル。芳香族エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0143"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₈H₈O₂。加水分解で安息香酸とメタノールを生じる。",
+    "modelAnswer": "安息香酸メチル。芳香族エステルである。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "安息香酸メチルと推定できる。芳香族エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0144"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₈H₈O₂。炭酸水素ナトリウムと反応し、ベンゼン環をもつ。",
+    "choices": [
+      "クレゾール",
+      "メチル安息香酸のいずれか",
+      "2-プロパノール",
+      "酢酸エチル"
+    ],
+    "answer": 1,
+    "explanation": "メチル安息香酸のいずれか。芳香族カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0145"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₈H₈O₂。炭酸水素ナトリウムと反応し、ベンゼン環をもつ。",
+    "modelAnswer": "メチル安息香酸のいずれか。芳香族カルボン酸である。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "メチル安息香酸のいずれかと推定できる。芳香族カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0146"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₆H₆O。臭素水で白色沈殿、塩化鉄(III)で呈色する。",
+    "choices": [
+      "1-プロパノール",
+      "アニリン",
+      "フェノール",
+      "メチル安息香酸のいずれか"
+    ],
+    "answer": 2,
+    "explanation": "フェノール。フェノール性ヒドロキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0147"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₆H₆O。臭素水で白色沈殿、塩化鉄(III)で呈色する。",
+    "modelAnswer": "フェノール。フェノール性ヒドロキシ基をもつ。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "フェノールと推定できる。フェノール性ヒドロキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0148"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₆H₇N。塩酸に溶け、臭素水で白色沈殿を生じる。",
+    "choices": [
+      "メチル安息香酸のいずれか",
+      "アニリン",
+      "酢酸エチル",
+      "酪酸または2-メチルプロパン酸"
+    ],
+    "answer": 1,
+    "explanation": "アニリン。芳香族アミンである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0149"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の情報から化合物を推定し、その根拠を説明しなさい：分子式C₆H₇N。塩酸に溶け、臭素水で白色沈殿を生じる。",
+    "modelAnswer": "アニリン。芳香族アミンである。",
+    "criteria": [
+      "分子式との整合性がある",
+      "試験結果と官能基を対応させている",
+      "候補を論理的に絞り込んでいる"
+    ],
+    "explanation": "アニリンと推定できる。芳香族アミンである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orgz_0150"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "メタン1.0 molの完全燃焼に必要なO₂を答えなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0151"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "メタン1.0 molの完全燃焼に必要なO₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 2.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0152"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エタン1.0 molの完全燃焼に必要なO₂を答えなさい。",
+    "value": 3.5,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 3.5 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0153"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタン1.0 molの完全燃焼に必要なO₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 3.5 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 3.5 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0154"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "プロパン1.0 molの完全燃焼に必要なO₂を答えなさい。",
+    "value": 5.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 5.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0155"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "プロパン1.0 molの完全燃焼に必要なO₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 5.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 5.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0156"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ブタン1.0 molの完全燃焼に必要なO₂を答えなさい。",
+    "value": 6.5,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 6.5 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0157"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ブタン1.0 molの完全燃焼に必要なO₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 6.5 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 6.5 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0158"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エチレン1.0 molの完全燃焼で生じるCO₂を答えなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0159"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレン1.0 molの完全燃焼で生じるCO₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 2.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0160"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エタノール1.0 molの完全燃焼で生じるH₂Oを答えなさい。",
+    "value": 3.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 3.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0161"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール1.0 molの完全燃焼で生じるH₂Oを、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 3.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 3.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0162"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "酢酸1.0 molとエタノール1.0 molが完全に反応したときの酢酸エチルの理論生成量を答えなさい。",
+    "value": 1.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 1.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0163"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "酢酸1.0 molとエタノール1.0 molが完全に反応したときの酢酸エチルの理論生成量を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 1.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 1.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0164"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "油脂1.0 molのけん化に必要なNaOHを答えなさい。",
+    "value": 3.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 3.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0165"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "油脂1.0 molのけん化に必要なNaOHを、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 3.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 3.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0166"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エタノール2.0 molとNaが十分反応したときに生じるH₂を答えなさい。",
+    "value": 1.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 1.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0167"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール2.0 molとNaが十分反応したときに生じるH₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 1.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 1.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0168"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アセチレン1.0 molに十分なH₂を付加してエタンにするのに必要なH₂を答えなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0169"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセチレン1.0 molに十分なH₂を付加してエタンにするのに必要なH₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "反応式の係数比より 2.0 mol。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "計算結果が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orgz_0170"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "臭素水を脱色する物質をすべて選びなさい。",
+    "choices": [
+      "エチレン",
+      "アセチレン",
+      "ベンゼン",
+      "エタン"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "不飽和結合をもつエチレンとアセチレンが付加反応を起こす。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に複数選択問題へ再構成",
+    "id": "orgz_0171"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "銀鏡反応を示す物質をすべて選びなさい。",
+    "choices": [
+      "ホルムアルデヒド",
+      "アセトアルデヒド",
+      "アセトン",
+      "ギ酸"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "アルデヒドとギ酸が還元性を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に複数選択問題へ再構成",
+    "id": "orgz_0172"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "ヨードホルム反応を示す物質をすべて選びなさい。",
+    "choices": [
+      "エタノール",
+      "2-プロパノール",
+      "アセトン",
+      "メタノール"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "CH₃CH(OH)- または CH₃CO- をもつ化合物が陽性。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に複数選択問題へ再構成",
+    "id": "orgz_0173"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "塩化鉄(III)水溶液で呈色する物質をすべて選びなさい。",
+    "choices": [
+      "フェノール",
+      "サリチル酸",
+      "安息香酸",
+      "エタノール"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "フェノール性ヒドロキシ基をもつ物質が呈色する。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に複数選択問題へ再構成",
+    "id": "orgz_0174"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "炭酸水素ナトリウムと反応する物質をすべて選びなさい。",
+    "choices": [
+      "酢酸",
+      "安息香酸",
+      "フェノール",
+      "エタノール"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "カルボン酸が反応してCO₂を発生する。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に複数選択問題へ再構成",
+    "id": "orgz_0175"
+  },
+  {
+    "type": "multiple",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "塩酸と反応して水溶性の塩をつくる物質をすべて選びなさい。",
+    "choices": [
+      "アニリン",
+      "メチルアミン",
+      "フェノール",
+      "ベンゼン"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "アミン類は塩基性を示す。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に複数選択問題へ再構成",
+    "id": "orgz_0176"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「濃硝酸・濃硫酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ニトロベンゼン"
+    ],
+    "explanation": "ベンゼンに濃硝酸・濃硫酸を作用させるとニトロベンゼンが生じる。反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0177"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからニトロベンゼンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "ニトロ化"
+    ],
+    "explanation": "ベンゼンに濃硝酸・濃硫酸を作用させてニトロベンゼンを得る反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0178"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからニトロベンゼンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "濃硝酸・濃硫酸"
+    ],
+    "explanation": "必要な試薬・条件は濃硝酸・濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0179"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「臭素・鉄粉」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ブロモベンゼン"
+    ],
+    "explanation": "ベンゼンに臭素・鉄粉を作用させるとブロモベンゼンが生じる。反応は臭素化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0180"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからブロモベンゼンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "臭素化"
+    ],
+    "explanation": "ベンゼンに臭素・鉄粉を作用させてブロモベンゼンを得る反応は臭素化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0181"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからブロモベンゼンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "臭素・鉄粉"
+    ],
+    "explanation": "必要な試薬・条件は臭素・鉄粉である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0182"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「濃硫酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ベンゼンスルホン酸"
+    ],
+    "explanation": "ベンゼンに濃硫酸を作用させるとベンゼンスルホン酸が生じる。反応はスルホン化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0183"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからベンゼンスルホン酸を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "スルホン化"
+    ],
+    "explanation": "ベンゼンに濃硫酸を作用させてベンゼンスルホン酸を得る反応はスルホン化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0184"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからベンゼンスルホン酸を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "濃硫酸"
+    ],
+    "explanation": "必要な試薬・条件は濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0185"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「塩化メチル・塩化アルミニウム」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "トルエン"
+    ],
+    "explanation": "ベンゼンに塩化メチル・塩化アルミニウムを作用させるとトルエンが生じる。反応はフリーデル・クラフツ反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0186"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからトルエンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "フリーデル・クラフツ反応"
+    ],
+    "explanation": "ベンゼンに塩化メチル・塩化アルミニウムを作用させてトルエンを得る反応はフリーデル・クラフツ反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0187"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからトルエンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "塩化メチル・塩化アルミニウム"
+    ],
+    "explanation": "必要な試薬・条件は塩化メチル・塩化アルミニウムである。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0188"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンに「強い酸化剤」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸"
+    ],
+    "explanation": "トルエンに強い酸化剤を作用させると安息香酸が生じる。反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0189"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンから安息香酸を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "側鎖酸化"
+    ],
+    "explanation": "トルエンに強い酸化剤を作用させて安息香酸を得る反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0190"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンから安息香酸を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "強い酸化剤"
+    ],
+    "explanation": "必要な試薬・条件は強い酸化剤である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0191"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールに「臭素水」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6-トリブロモフェノール"
+    ],
+    "explanation": "フェノールに臭素水を作用させると2,4,6-トリブロモフェノールが生じる。反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0192"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "フェノールに臭素水を作用させて2,4,6-トリブロモフェノールを得る反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0193"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "臭素水"
+    ],
+    "explanation": "必要な試薬・条件は臭素水である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0194"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールに「濃硝酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ピクリン酸"
+    ],
+    "explanation": "フェノールに濃硝酸を作用させるとピクリン酸が生じる。反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0195"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールからピクリン酸を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "ニトロ化"
+    ],
+    "explanation": "フェノールに濃硝酸を作用させてピクリン酸を得る反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0196"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールからピクリン酸を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "濃硝酸"
+    ],
+    "explanation": "必要な試薬・条件は濃硝酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0197"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンに「臭素水」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6-トリブロモアニリン"
+    ],
+    "explanation": "アニリンに臭素水を作用させると2,4,6-トリブロモアニリンが生じる。反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0198"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンから2,4,6-トリブロモアニリンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "アニリンに臭素水を作用させて2,4,6-トリブロモアニリンを得る反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0199"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンから2,4,6-トリブロモアニリンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "臭素水"
+    ],
+    "explanation": "必要な試薬・条件は臭素水である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0200"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンに「スズ・塩酸、その後塩基性」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アニリン"
+    ],
+    "explanation": "ニトロベンゼンにスズ・塩酸、その後塩基性を作用させるとアニリンが生じる。反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0201"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンからアニリンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "還元"
+    ],
+    "explanation": "ニトロベンゼンにスズ・塩酸、その後塩基性を作用させてアニリンを得る反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0202"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンからアニリンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "スズ・塩酸、その後塩基性"
+    ],
+    "explanation": "必要な試薬・条件はスズ・塩酸、その後塩基性である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0203"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンに「亜硝酸ナトリウム・塩酸、0〜5℃」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "explanation": "アニリンに亜硝酸ナトリウム・塩酸、0〜5℃を作用させるとベンゼンジアゾニウム塩化物が生じる。反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0204"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "ジアゾ化"
+    ],
+    "explanation": "アニリンに亜硝酸ナトリウム・塩酸、0〜5℃を作用させてベンゼンジアゾニウム塩化物を得る反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0205"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "亜硝酸ナトリウム・塩酸、0〜5℃"
+    ],
+    "explanation": "必要な試薬・条件は亜硝酸ナトリウム・塩酸、0〜5℃である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0206"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンジアゾニウム塩化物に「フェノール、弱塩基性」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アゾ化合物"
+    ],
+    "explanation": "ベンゼンジアゾニウム塩化物にフェノール、弱塩基性を作用させるとアゾ化合物が生じる。反応はカップリング反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0207"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンジアゾニウム塩化物からアゾ化合物を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "カップリング反応"
+    ],
+    "explanation": "ベンゼンジアゾニウム塩化物にフェノール、弱塩基性を作用させてアゾ化合物を得る反応はカップリング反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0208"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンジアゾニウム塩化物からアゾ化合物を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "フェノール、弱塩基性"
+    ],
+    "explanation": "必要な試薬・条件はフェノール、弱塩基性である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0209"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "安息香酸に「メタノール・濃硫酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸メチル"
+    ],
+    "explanation": "安息香酸にメタノール・濃硫酸を作用させると安息香酸メチルが生じる。反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0210"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "安息香酸から安息香酸メチルを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "エステル化"
+    ],
+    "explanation": "安息香酸にメタノール・濃硫酸を作用させて安息香酸メチルを得る反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0211"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "安息香酸から安息香酸メチルを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "メタノール・濃硫酸"
+    ],
+    "explanation": "必要な試薬・条件はメタノール・濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0212"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸に「無水酢酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アセチルサリチル酸"
+    ],
+    "explanation": "サリチル酸に無水酢酸を作用させるとアセチルサリチル酸が生じる。反応はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0213"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸からアセチルサリチル酸を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "アセチル化"
+    ],
+    "explanation": "サリチル酸に無水酢酸を作用させてアセチルサリチル酸を得る反応はアセチル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0214"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸からアセチルサリチル酸を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "無水酢酸"
+    ],
+    "explanation": "必要な試薬・条件は無水酢酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0215"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸に「メタノール・濃硫酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "サリチル酸メチル"
+    ],
+    "explanation": "サリチル酸にメタノール・濃硫酸を作用させるとサリチル酸メチルが生じる。反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0216"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸からサリチル酸メチルを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "エステル化"
+    ],
+    "explanation": "サリチル酸にメタノール・濃硫酸を作用させてサリチル酸メチルを得る反応はエステル化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0217"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸からサリチル酸メチルを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "メタノール・濃硫酸"
+    ],
+    "explanation": "必要な試薬・条件はメタノール・濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0218"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "炭素間二重結合を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "臭素水"
+    ],
+    "explanation": "炭素間二重結合は臭素水により確認でき、観察は「脱色」である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0219"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "炭素間二重結合をもつ化合物に臭素水を加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "脱色"
+    ],
+    "explanation": "観察は「脱色」。反応は付加反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0220"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "炭素間二重結合を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "臭素水。臭素水を用いる。観察は脱色。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "臭素水を用いる。観察は脱色。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0221"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アルデヒド基を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "アンモニア性硝酸銀水溶液"
+    ],
+    "explanation": "アルデヒド基はアンモニア性硝酸銀水溶液により確認でき、観察は「銀鏡」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0222"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アルデヒド基をもつ化合物にアンモニア性硝酸銀水溶液を加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "銀鏡"
+    ],
+    "explanation": "観察は「銀鏡」。反応は酸化還元反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0223"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アルデヒド基を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "アンモニア性硝酸銀水溶液。アンモニア性硝酸銀水溶液を用いる。観察は銀鏡。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "アンモニア性硝酸銀水溶液を用いる。観察は銀鏡。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0224"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アルデヒド基を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "フェーリング液"
+    ],
+    "explanation": "アルデヒド基はフェーリング液により確認でき、観察は「赤色沈殿」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0225"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アルデヒド基をもつ化合物にフェーリング液を加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "赤色沈殿"
+    ],
+    "explanation": "観察は「赤色沈殿」。反応は酸化還元反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0226"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アルデヒド基を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "フェーリング液。フェーリング液を用いる。観察は赤色沈殿。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "フェーリング液を用いる。観察は赤色沈殿。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0227"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "メチルケトン構造を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "ヨウ素・水酸化ナトリウム"
+    ],
+    "explanation": "メチルケトン構造はヨウ素・水酸化ナトリウムにより確認でき、観察は「黄色沈殿」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0228"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "メチルケトン構造をもつ化合物にヨウ素・水酸化ナトリウムを加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "黄色沈殿"
+    ],
+    "explanation": "観察は「黄色沈殿」。反応はヨードホルム反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0229"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "メチルケトン構造を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "ヨウ素・水酸化ナトリウム。ヨウ素・水酸化ナトリウムを用いる。観察は黄色沈殿。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "ヨウ素・水酸化ナトリウムを用いる。観察は黄色沈殿。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0230"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノール性ヒドロキシ基を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "塩化鉄(III)水溶液"
+    ],
+    "explanation": "フェノール性ヒドロキシ基は塩化鉄(III)水溶液により確認でき、観察は「紫色系の呈色」である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0231"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノール性ヒドロキシ基をもつ化合物に塩化鉄(III)水溶液を加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "紫色系の呈色"
+    ],
+    "explanation": "観察は「紫色系の呈色」。反応は錯体形成である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0232"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "フェノール性ヒドロキシ基を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "塩化鉄(III)水溶液。塩化鉄(III)水溶液を用いる。観察は紫色系の呈色。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "塩化鉄(III)水溶液を用いる。観察は紫色系の呈色。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0233"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "カルボキシ基を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "explanation": "カルボキシ基は炭酸水素ナトリウム水溶液により確認でき、観察は「二酸化炭素発生」である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0234"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "カルボキシ基をもつ化合物に炭酸水素ナトリウム水溶液を加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "二酸化炭素発生"
+    ],
+    "explanation": "観察は「二酸化炭素発生」。反応は酸と塩基の反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0235"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "カルボキシ基を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "炭酸水素ナトリウム水溶液。炭酸水素ナトリウム水溶液を用いる。観察は二酸化炭素発生。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "炭酸水素ナトリウム水溶液を用いる。観察は二酸化炭素発生。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0236"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アミノ基を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "塩酸"
+    ],
+    "explanation": "アミノ基は塩酸により確認でき、観察は「水溶性の塩形成」である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0237"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アミノ基をもつ化合物に塩酸を加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "水溶性の塩形成"
+    ],
+    "explanation": "観察は「水溶性の塩形成」。反応は中和反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0238"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アミノ基を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "塩酸。塩酸を用いる。観察は水溶性の塩形成。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "塩酸を用いる。観察は水溶性の塩形成。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0239"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エステル結合を確認するために最も適切な試薬を答えなさい。",
+    "acceptedAnswers": [
+      "水酸化ナトリウム水溶液・加熱"
+    ],
+    "explanation": "エステル結合は水酸化ナトリウム水溶液・加熱により確認でき、観察は「カルボン酸塩とアルコール」である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0240"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エステル結合をもつ化合物に水酸化ナトリウム水溶液・加熱を加えたときの観察として適切なものを答えなさい。",
+    "acceptedAnswers": [
+      "カルボン酸塩とアルコール"
+    ],
+    "explanation": "観察は「カルボン酸塩とアルコール」。反応はけん化である。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0241"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "エステル結合を確認する試薬を1つ答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "水酸化ナトリウム水溶液・加熱。水酸化ナトリウム水溶液・加熱を用いる。観察はカルボン酸塩とアルコール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "水酸化ナトリウム水溶液・加熱を用いる。観察はカルボン酸塩とアルコール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0242"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "安息香酸とナフタレンを分離するために最初に用いる試薬として答えなさい。",
+    "acceptedAnswers": [
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "explanation": "炭酸水素ナトリウム水溶液を用いると、安息香酸だけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0243"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "安息香酸とナフタレンに炭酸水素ナトリウム水溶液を加えたときに起こる変化として答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸だけが塩となって水層へ移る"
+    ],
+    "explanation": "安息香酸だけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0244"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "フェノールとナフタレンを分離するために最初に用いる試薬として答えなさい。",
+    "acceptedAnswers": [
+      "水酸化ナトリウム水溶液"
+    ],
+    "explanation": "水酸化ナトリウム水溶液を用いると、フェノールだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0245"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "フェノールとナフタレンに水酸化ナトリウム水溶液を加えたときに起こる変化として答えなさい。",
+    "acceptedAnswers": [
+      "フェノールだけが塩となって水層へ移る"
+    ],
+    "explanation": "フェノールだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0246"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "アニリンとナフタレンを分離するために最初に用いる試薬として答えなさい。",
+    "acceptedAnswers": [
+      "希塩酸"
+    ],
+    "explanation": "希塩酸を用いると、アニリンだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0247"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "アニリンとナフタレンに希塩酸を加えたときに起こる変化として答えなさい。",
+    "acceptedAnswers": [
+      "アニリンだけが塩となって水層へ移る"
+    ],
+    "explanation": "アニリンだけが塩となって水層へ移る。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0248"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "安息香酸とフェノールを分離するために最初に用いる試薬として答えなさい。",
+    "acceptedAnswers": [
+      "炭酸水素ナトリウム水溶液"
+    ],
+    "explanation": "炭酸水素ナトリウム水溶液を用いると、安息香酸だけが反応する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0249"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "安息香酸とフェノールに炭酸水素ナトリウム水溶液を加えたときに起こる変化として答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸だけが反応する"
+    ],
+    "explanation": "安息香酸だけが反応する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0250"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "アニリン塩酸塩水溶液を分離するために最初に用いる試薬として答えなさい。",
+    "acceptedAnswers": [
+      "水酸化ナトリウム水溶液"
+    ],
+    "explanation": "水酸化ナトリウム水溶液を用いると、アニリンが遊離する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0251"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "アニリン塩酸塩水溶液に水酸化ナトリウム水溶液を加えたときに起こる変化として答えなさい。",
+    "acceptedAnswers": [
+      "アニリンが遊離する"
+    ],
+    "explanation": "アニリンが遊離する。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0252"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "安息香酸ナトリウム水溶液を分離するために最初に用いる試薬として答えなさい。",
+    "acceptedAnswers": [
+      "塩酸"
+    ],
+    "explanation": "塩酸を用いると、安息香酸が遊離して析出しやすくなる。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0253"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "安息香酸ナトリウム水溶液に塩酸を加えたときに起こる変化として答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸が遊離して析出しやすくなる"
+    ],
+    "explanation": "安息香酸が遊離して析出しやすくなる。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0254"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "油脂の構造として答えなさい。",
+    "acceptedAnswers": [
+      "グリセリンと高級脂肪酸のエステル"
+    ],
+    "explanation": "グリセリンと高級脂肪酸のエステル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0255"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "油脂の構造を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "グリセリンと高級脂肪酸のエステル。グリセリンと高級脂肪酸のエステル。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "グリセリンと高級脂肪酸のエステル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0256"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "油脂のけん化生成物として答えなさい。",
+    "acceptedAnswers": [
+      "グリセリンと高級脂肪酸塩"
+    ],
+    "explanation": "グリセリンと高級脂肪酸塩。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0257"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "油脂のけん化生成物を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "グリセリンと高級脂肪酸塩。グリセリンと高級脂肪酸塩。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "グリセリンと高級脂肪酸塩。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0258"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "硬化油の製造として答えなさい。",
+    "acceptedAnswers": [
+      "不飽和結合への水素付加"
+    ],
+    "explanation": "不飽和結合への水素付加。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0259"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "硬化油の製造を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "不飽和結合への水素付加。不飽和結合への水素付加。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "不飽和結合への水素付加。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0260"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "セッケンの親水基として答えなさい。",
+    "acceptedAnswers": [
+      "カルボキシラート部分"
+    ],
+    "explanation": "カルボキシラート部分。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0261"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "セッケンの親水基を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "カルボキシラート部分。カルボキシラート部分。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "カルボキシラート部分。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0262"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "セッケンの疎水基として答えなさい。",
+    "acceptedAnswers": [
+      "長い炭化水素鎖"
+    ],
+    "explanation": "長い炭化水素鎖。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0263"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "セッケンの疎水基を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "長い炭化水素鎖。長い炭化水素鎖。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "長い炭化水素鎖。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0264"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "硬水中でセッケンの洗浄力が低下する理由として答えなさい。",
+    "acceptedAnswers": [
+      "Ca²⁺やMg²⁺と難溶性塩をつくるため"
+    ],
+    "explanation": "Ca²⁺やMg²⁺と難溶性塩をつくるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0265"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "硬水中でセッケンの洗浄力が低下する理由を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "Ca²⁺やMg²⁺と難溶性塩をつくるため。Ca²⁺やMg²⁺と難溶性塩をつくるため。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "Ca²⁺やMg²⁺と難溶性塩をつくるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0266"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ミセル形成の意味として答えなさい。",
+    "acceptedAnswers": [
+      "疎水基を内側、親水基を外側に向けて油を取り込む"
+    ],
+    "explanation": "疎水基を内側、親水基を外側に向けて油を取り込む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0267"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ミセル形成の意味を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "疎水基を内側、親水基を外側に向けて油を取り込む。疎水基を内側、親水基を外側に向けて油を取り込む。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "疎水基を内側、親水基を外側に向けて油を取り込む。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0268"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "不飽和脂肪酸を多く含む油脂の特徴として答えなさい。",
+    "acceptedAnswers": [
+      "常温で液体になりやすい"
+    ],
+    "explanation": "常温で液体になりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0269"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "不飽和脂肪酸を多く含む油脂の特徴を答えなさい。 さらに、根拠を説明しなさい。",
+    "modelAnswer": "常温で液体になりやすい。常温で液体になりやすい。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "常温で液体になりやすい。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述問題へ再構成",
+    "id": "orgz_0270"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₄H₈O₂。炭酸水素ナトリウムと反応する。光学異性体はもたない。",
+    "acceptedAnswers": [
+      "酪酸または2-メチルプロパン酸"
+    ],
+    "explanation": "酪酸または2-メチルプロパン酸。カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0271"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₄H₈O₂。加水分解で酢酸とエタノールを生じる。",
+    "acceptedAnswers": [
+      "酢酸エチル"
+    ],
+    "explanation": "酢酸エチル。エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0272"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₃H₈O。酸化するとアセトンになる。",
+    "acceptedAnswers": [
+      "2-プロパノール"
+    ],
+    "explanation": "2-プロパノール。第二級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0273"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₃H₈O。酸化するとプロパナールを経てプロピオン酸になる。",
+    "acceptedAnswers": [
+      "1-プロパノール"
+    ],
+    "explanation": "1-プロパノール。第一級アルコールである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0274"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₇H₈O。塩化鉄(III)水溶液で呈色する。",
+    "acceptedAnswers": [
+      "クレゾール"
+    ],
+    "explanation": "クレゾール。フェノール類である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0275"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₇H₈O。ナトリウムとは反応するが塩化鉄(III)では呈色しない。",
+    "acceptedAnswers": [
+      "ベンジルアルコール"
+    ],
+    "explanation": "ベンジルアルコール。アルコールでありフェノールではない。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0276"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₈H₈O₂。加水分解で安息香酸とメタノールを生じる。",
+    "acceptedAnswers": [
+      "安息香酸メチル"
+    ],
+    "explanation": "安息香酸メチル。芳香族エステルである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0277"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₈H₈O₂。炭酸水素ナトリウムと反応し、ベンゼン環をもつ。",
+    "acceptedAnswers": [
+      "メチル安息香酸のいずれか"
+    ],
+    "explanation": "メチル安息香酸のいずれか。芳香族カルボン酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0278"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₆H₆O。臭素水で白色沈殿、塩化鉄(III)で呈色する。",
+    "acceptedAnswers": [
+      "フェノール"
+    ],
+    "explanation": "フェノール。フェノール性ヒドロキシ基をもつ。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0279"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の情報から推定される化合物を選びなさい：分子式C₆H₇N。塩酸に溶け、臭素水で白色沈殿を生じる。",
+    "acceptedAnswers": [
+      "アニリン"
+    ],
+    "explanation": "アニリン。芳香族アミンである。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0280"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "メタン1.0 molの完全燃焼に必要なO₂を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0281"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタン1.0 molの完全燃焼に必要なO₂を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "3.5 mol。反応式の係数比から 3.5 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 3.5 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0282"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "プロパン1.0 molの完全燃焼に必要なO₂を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "5.0 mol。反応式の係数比から 5.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 5.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0283"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ブタン1.0 molの完全燃焼に必要なO₂を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "6.5 mol。反応式の係数比から 6.5 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 6.5 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0284"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレン1.0 molの完全燃焼で生じるCO₂を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0285"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール1.0 molの完全燃焼で生じるH₂Oを答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "3.0 mol。反応式の係数比から 3.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 3.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0286"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "酢酸1.0 molとエタノール1.0 molが完全に反応したときの酢酸エチルの理論生成量を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "1.0 mol。反応式の係数比から 1.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 1.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0287"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "油脂1.0 molのけん化に必要なNaOHを答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "3.0 mol。反応式の係数比から 3.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 3.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0288"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール2.0 molとNaが十分反応したときに生じるH₂を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "1.0 mol。反応式の係数比から 1.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 1.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0289"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセチレン1.0 molに十分なH₂を付加してエタンにするのに必要なH₂を答えなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述問題へ再構成",
+    "id": "orgz_0290"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「濃硝酸・濃硫酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ニトロベンゼン"
+    ],
+    "explanation": "ベンゼンに濃硝酸・濃硫酸を作用させるとニトロベンゼンが生じる。反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0291"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからニトロベンゼンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "ニトロ化"
+    ],
+    "explanation": "ベンゼンに濃硝酸・濃硫酸を作用させてニトロベンゼンを得る反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0292"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからニトロベンゼンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "濃硝酸・濃硫酸"
+    ],
+    "explanation": "必要な試薬・条件は濃硝酸・濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0293"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「臭素・鉄粉」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ブロモベンゼン"
+    ],
+    "explanation": "ベンゼンに臭素・鉄粉を作用させるとブロモベンゼンが生じる。反応は臭素化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0294"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからブロモベンゼンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "臭素化"
+    ],
+    "explanation": "ベンゼンに臭素・鉄粉を作用させてブロモベンゼンを得る反応は臭素化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0295"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからブロモベンゼンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "臭素・鉄粉"
+    ],
+    "explanation": "必要な試薬・条件は臭素・鉄粉である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0296"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「濃硫酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ベンゼンスルホン酸"
+    ],
+    "explanation": "ベンゼンに濃硫酸を作用させるとベンゼンスルホン酸が生じる。反応はスルホン化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0297"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからベンゼンスルホン酸を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "スルホン化"
+    ],
+    "explanation": "ベンゼンに濃硫酸を作用させてベンゼンスルホン酸を得る反応はスルホン化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0298"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからベンゼンスルホン酸を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "濃硫酸"
+    ],
+    "explanation": "必要な試薬・条件は濃硫酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0299"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「塩化メチル・塩化アルミニウム」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "トルエン"
+    ],
+    "explanation": "ベンゼンに塩化メチル・塩化アルミニウムを作用させるとトルエンが生じる。反応はフリーデル・クラフツ反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0300"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからトルエンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "フリーデル・クラフツ反応"
+    ],
+    "explanation": "ベンゼンに塩化メチル・塩化アルミニウムを作用させてトルエンを得る反応はフリーデル・クラフツ反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0301"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからトルエンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "塩化メチル・塩化アルミニウム"
+    ],
+    "explanation": "必要な試薬・条件は塩化メチル・塩化アルミニウムである。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0302"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンに「強い酸化剤」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸"
+    ],
+    "explanation": "トルエンに強い酸化剤を作用させると安息香酸が生じる。反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0303"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンから安息香酸を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "側鎖酸化"
+    ],
+    "explanation": "トルエンに強い酸化剤を作用させて安息香酸を得る反応は側鎖酸化である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0304"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンから安息香酸を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "強い酸化剤"
+    ],
+    "explanation": "必要な試薬・条件は強い酸化剤である。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0305"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールに「臭素水」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6-トリブロモフェノール"
+    ],
+    "explanation": "フェノールに臭素水を作用させると2,4,6-トリブロモフェノールが生じる。反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0306"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "フェノールに臭素水を作用させて2,4,6-トリブロモフェノールを得る反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0307"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "臭素水"
+    ],
+    "explanation": "必要な試薬・条件は臭素水である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0308"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールに「濃硝酸」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ピクリン酸"
+    ],
+    "explanation": "フェノールに濃硝酸を作用させるとピクリン酸が生じる。反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0309"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールからピクリン酸を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "ニトロ化"
+    ],
+    "explanation": "フェノールに濃硝酸を作用させてピクリン酸を得る反応はニトロ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0310"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールからピクリン酸を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "濃硝酸"
+    ],
+    "explanation": "必要な試薬・条件は濃硝酸である。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0311"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンに「臭素水」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6-トリブロモアニリン"
+    ],
+    "explanation": "アニリンに臭素水を作用させると2,4,6-トリブロモアニリンが生じる。反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0312"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンから2,4,6-トリブロモアニリンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "置換反応"
+    ],
+    "explanation": "アニリンに臭素水を作用させて2,4,6-トリブロモアニリンを得る反応は置換反応である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0313"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンから2,4,6-トリブロモアニリンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "臭素水"
+    ],
+    "explanation": "必要な試薬・条件は臭素水である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0314"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンに「スズ・塩酸、その後塩基性」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アニリン"
+    ],
+    "explanation": "ニトロベンゼンにスズ・塩酸、その後塩基性を作用させるとアニリンが生じる。反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0315"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンからアニリンを得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "還元"
+    ],
+    "explanation": "ニトロベンゼンにスズ・塩酸、その後塩基性を作用させてアニリンを得る反応は還元である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0316"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンからアニリンを得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "スズ・塩酸、その後塩基性"
+    ],
+    "explanation": "必要な試薬・条件はスズ・塩酸、その後塩基性である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0317"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンに「亜硝酸ナトリウム・塩酸、0〜5℃」を作用させたときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "explanation": "アニリンに亜硝酸ナトリウム・塩酸、0〜5℃を作用させるとベンゼンジアゾニウム塩化物が生じる。反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0318"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得る反応の名称として答えなさい。",
+    "acceptedAnswers": [
+      "ジアゾ化"
+    ],
+    "explanation": "アニリンに亜硝酸ナトリウム・塩酸、0〜5℃を作用させてベンゼンジアゾニウム塩化物を得る反応はジアゾ化である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0319"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得るために用いる試薬・条件を答えなさい。",
+    "acceptedAnswers": [
+      "亜硝酸ナトリウム・塩酸、0〜5℃"
+    ],
+    "explanation": "必要な試薬・条件は亜硝酸ナトリウム・塩酸、0〜5℃である。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答問題へ再構成",
+    "id": "orgz_0320"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンに「水和」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "サリチル酸メチル",
+      "エタノール",
+      "アセトアルデヒド",
+      "ポリスチレン"
+    ],
+    "answer": 1,
+    "explanation": "エチレンに水和を行うとエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0001"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンからエタノールを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "酸性加水分解",
+      "水和",
+      "還元",
+      "ニトロ化"
+    ],
+    "answer": 1,
+    "explanation": "エチレンからエタノールを得るには水和を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0002"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンに水和を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "エタノール"
+    ],
+    "explanation": "主生成物はエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0003"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレンからエタノールへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "水和によってエチレンからエタノールが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "エチレン → エタノール は水和による。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0004"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エタノールに「酸化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "フェノール",
+      "アセトアルデヒド",
+      "アニリン",
+      "酢酸エチル"
+    ],
+    "answer": 1,
+    "explanation": "エタノールに酸化を行うとアセトアルデヒドが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0005"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エタノールからアセトアルデヒドを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "水和",
+      "酸化",
+      "付加重合",
+      "メタノールとのエステル化"
+    ],
+    "answer": 1,
+    "explanation": "エタノールからアセトアルデヒドを得るには酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0006"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エタノールに酸化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アセトアルデヒド"
+    ],
+    "explanation": "主生成物はアセトアルデヒド。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0007"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノールからアセトアルデヒドへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "酸化によってエタノールからアセトアルデヒドが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "エタノール → アセトアルデヒド は酸化による。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0008"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセトアルデヒドに「酸化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸",
+      "ポリプロピレン",
+      "エタノール",
+      "ポリエチレン"
+    ],
+    "answer": 0,
+    "explanation": "アセトアルデヒドに酸化を行うと酢酸が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0009"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセトアルデヒドから酢酸を得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "エタノールとのエステル化",
+      "酸化",
+      "加水分解",
+      "付加重合"
+    ],
+    "answer": 1,
+    "explanation": "アセトアルデヒドから酢酸を得るには酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0010"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセトアルデヒドに酸化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸"
+    ],
+    "explanation": "主生成物は酢酸。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0011"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセトアルデヒドから酢酸へ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "酸化によってアセトアルデヒドから酢酸が生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "アセトアルデヒド → 酢酸 は酸化による。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0012"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸に「エタノールとのエステル化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "ポリスチレン",
+      "エチレン",
+      "酢酸エチル",
+      "サリチル酸メチル"
+    ],
+    "answer": 2,
+    "explanation": "酢酸にエタノールとのエステル化を行うと酢酸エチルが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0013"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸から酢酸エチルを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "付加重合",
+      "エタノールとのエステル化",
+      "ニトロ化",
+      "水和"
+    ],
+    "answer": 1,
+    "explanation": "酢酸から酢酸エチルを得るにはエタノールとのエステル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0014"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸にエタノールとのエステル化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸エチル"
+    ],
+    "explanation": "主生成物は酢酸エチル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0015"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "酢酸から酢酸エチルへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "エタノールとのエステル化によって酢酸から酢酸エチルが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "酢酸 → 酢酸エチル はエタノールとのエステル化による。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0016"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸エチルに「酸性加水分解」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "エチレン",
+      "ニトロベンゼン",
+      "酢酸エチル",
+      "酢酸とエタノール"
+    ],
+    "answer": 3,
+    "explanation": "酢酸エチルに酸性加水分解を行うと酢酸とエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0017"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸エチルから酢酸とエタノールを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "臭素化",
+      "ジアゾ化",
+      "還元",
+      "酸性加水分解"
+    ],
+    "answer": 3,
+    "explanation": "酢酸エチルから酢酸とエタノールを得るには酸性加水分解を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0018"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸エチルに酸性加水分解を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸とエタノール"
+    ],
+    "explanation": "主生成物は酢酸とエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0019"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "酢酸エチルから酢酸とエタノールへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "酸性加水分解によって酢酸エチルから酢酸とエタノールが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "酢酸エチル → 酢酸とエタノール は酸性加水分解による。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0020"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸エチルに「けん化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸ナトリウムとエタノール",
+      "ベンゼンジアゾニウム塩化物",
+      "2,4,6-トリブロモフェノール",
+      "ポリプロピレン"
+    ],
+    "answer": 0,
+    "explanation": "酢酸エチルにけん化を行うと酢酸ナトリウムとエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0021"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸エチルから酢酸ナトリウムとエタノールを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "エタノールとのエステル化",
+      "メタノールとのエステル化",
+      "けん化",
+      "酸性加水分解"
+    ],
+    "answer": 2,
+    "explanation": "酢酸エチルから酢酸ナトリウムとエタノールを得るにはけん化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0022"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "酢酸エチルにけん化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸ナトリウムとエタノール"
+    ],
+    "explanation": "主生成物は酢酸ナトリウムとエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0023"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "酢酸エチルから酢酸ナトリウムとエタノールへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "けん化によって酢酸エチルから酢酸ナトリウムとエタノールが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "酢酸エチル → 酢酸ナトリウムとエタノール はけん化による。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0024"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセチレンに「水素付加」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸とエタノール",
+      "アセチルサリチル酸",
+      "エチレン",
+      "酢酸エチル"
+    ],
+    "answer": 2,
+    "explanation": "アセチレンに水素付加を行うとエチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0025"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセチレンからエチレンを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "水素付加",
+      "酸性加水分解",
+      "酸化",
+      "酸化"
+    ],
+    "answer": 0,
+    "explanation": "アセチレンからエチレンを得るには水素付加を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0026"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アセチレンに水素付加を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "エチレン"
+    ],
+    "explanation": "主生成物はエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0027"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセチレンからエチレンへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "水素付加によってアセチレンからエチレンが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "アセチレン → エチレン は水素付加による。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0028"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンに「付加重合」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸ナトリウムとエタノール",
+      "ポリエチレン",
+      "酢酸",
+      "酢酸エチル"
+    ],
+    "answer": 1,
+    "explanation": "エチレンに付加重合を行うとポリエチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0029"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンからポリエチレンを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "加水分解",
+      "酸化",
+      "付加重合",
+      "けん化"
+    ],
+    "answer": 2,
+    "explanation": "エチレンからポリエチレンを得るには付加重合を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0030"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンに付加重合を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ポリエチレン"
+    ],
+    "explanation": "主生成物はポリエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0031"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレンからポリエチレンへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "付加重合によってエチレンからポリエチレンが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "エチレン → ポリエチレン は付加重合による。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0032"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "プロピレンに「付加重合」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "ポリプロピレン",
+      "アニリン",
+      "エタノール",
+      "ニトロベンゼン"
+    ],
+    "answer": 0,
+    "explanation": "プロピレンに付加重合を行うとポリプロピレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0033"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "プロピレンからポリプロピレンを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "水素付加",
+      "付加重合",
+      "酸性加水分解",
+      "エタノールとのエステル化"
+    ],
+    "answer": 1,
+    "explanation": "プロピレンからポリプロピレンを得るには付加重合を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0034"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "プロピレンに付加重合を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ポリプロピレン"
+    ],
+    "explanation": "主生成物はポリプロピレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0035"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "プロピレンからポリプロピレンへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "付加重合によってプロピレンからポリプロピレンが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "プロピレン → ポリプロピレン は付加重合による。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0036"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "スチレンに「付加重合」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "ポリエチレン",
+      "ポリスチレン",
+      "酢酸",
+      "安息香酸メチル"
+    ],
+    "answer": 1,
+    "explanation": "スチレンに付加重合を行うとポリスチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0037"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "スチレンからポリスチレンを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "還元",
+      "水素付加",
+      "付加重合",
+      "メタノールとのエステル化"
+    ],
+    "answer": 2,
+    "explanation": "スチレンからポリスチレンを得るには付加重合を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0038"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "スチレンに付加重合を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ポリスチレン"
+    ],
+    "explanation": "主生成物はポリスチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0039"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "スチレンからポリスチレンへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "付加重合によってスチレンからポリスチレンが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "スチレン → ポリスチレン は付加重合による。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0040"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンに「ニトロ化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "安息香酸メチル",
+      "アニリン",
+      "アセチルサリチル酸",
+      "ニトロベンゼン"
+    ],
+    "answer": 3,
+    "explanation": "ベンゼンにニトロ化を行うとニトロベンゼンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0041"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンからニトロベンゼンを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "ニトロ化",
+      "側鎖酸化",
+      "還元",
+      "水和"
+    ],
+    "answer": 0,
+    "explanation": "ベンゼンからニトロベンゼンを得るにはニトロ化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0042"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンにニトロ化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ニトロベンゼン"
+    ],
+    "explanation": "主生成物はニトロベンゼン。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0043"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ベンゼンからニトロベンゼンへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "ニトロ化によってベンゼンからニトロベンゼンが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "ベンゼン → ニトロベンゼン はニトロ化による。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0044"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ニトロベンゼンに「還元」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸",
+      "フェノール",
+      "ベンゼンジアゾニウム塩化物",
+      "アニリン"
+    ],
+    "answer": 3,
+    "explanation": "ニトロベンゼンに還元を行うとアニリンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0045"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ニトロベンゼンからアニリンを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "還元",
+      "アセチル化",
+      "酸化",
+      "ジアゾ化"
+    ],
+    "answer": 0,
+    "explanation": "ニトロベンゼンからアニリンを得るには還元を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0046"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ニトロベンゼンに還元を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アニリン"
+    ],
+    "explanation": "主生成物はアニリン。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0047"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ニトロベンゼンからアニリンへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "還元によってニトロベンゼンからアニリンが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "ニトロベンゼン → アニリン は還元による。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0048"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンに「ジアゾ化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸ナトリウムとエタノール",
+      "ベンゼンジアゾニウム塩化物",
+      "2,4,6-トリブロモフェノール",
+      "アセチルサリチル酸"
+    ],
+    "answer": 1,
+    "explanation": "アニリンにジアゾ化を行うとベンゼンジアゾニウム塩化物が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0049"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "臭素化",
+      "メタノールとのエステル化",
+      "水素付加",
+      "ジアゾ化"
+    ],
+    "answer": 3,
+    "explanation": "アニリンからベンゼンジアゾニウム塩化物を得るにはジアゾ化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0050"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "アニリンにジアゾ化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "explanation": "主生成物はベンゼンジアゾニウム塩化物。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0051"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物へ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "ジアゾ化によってアニリンからベンゼンジアゾニウム塩化物が生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "アニリン → ベンゼンジアゾニウム塩化物 はジアゾ化による。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0052"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンジアゾニウム塩化物に「加水分解」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "アセトアルデヒド",
+      "フェノール",
+      "ニトロベンゼン",
+      "安息香酸メチル"
+    ],
+    "answer": 1,
+    "explanation": "ベンゼンジアゾニウム塩化物に加水分解を行うとフェノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0053"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンジアゾニウム塩化物からフェノールを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "メタノールとのエステル化",
+      "酸性加水分解",
+      "メタノールとのエステル化",
+      "加水分解"
+    ],
+    "answer": 3,
+    "explanation": "ベンゼンジアゾニウム塩化物からフェノールを得るには加水分解を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0054"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ベンゼンジアゾニウム塩化物に加水分解を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "フェノール"
+    ],
+    "explanation": "主生成物はフェノール。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0055"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "ベンゼンジアゾニウム塩化物からフェノールへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "加水分解によってベンゼンジアゾニウム塩化物からフェノールが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "ベンゼンジアゾニウム塩化物 → フェノール は加水分解による。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0056"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールに「臭素化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸ナトリウムとエタノール",
+      "フェノール",
+      "安息香酸",
+      "2,4,6-トリブロモフェノール"
+    ],
+    "answer": 3,
+    "explanation": "フェノールに臭素化を行うと2,4,6-トリブロモフェノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0057"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "付加重合",
+      "メタノールとのエステル化",
+      "臭素化",
+      "けん化"
+    ],
+    "answer": 2,
+    "explanation": "フェノールから2,4,6-トリブロモフェノールを得るには臭素化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0058"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "フェノールに臭素化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6-トリブロモフェノール"
+    ],
+    "explanation": "主生成物は2,4,6-トリブロモフェノール。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0059"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "臭素化によってフェノールから2,4,6-トリブロモフェノールが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "フェノール → 2,4,6-トリブロモフェノール は臭素化による。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0060"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "トルエンに「側鎖酸化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "酢酸ナトリウムとエタノール",
+      "ベンゼンジアゾニウム塩化物",
+      "安息香酸",
+      "アセチルサリチル酸"
+    ],
+    "answer": 2,
+    "explanation": "トルエンに側鎖酸化を行うと安息香酸が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0061"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "トルエンから安息香酸を得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "ニトロ化",
+      "酸性加水分解",
+      "酸化",
+      "側鎖酸化"
+    ],
+    "answer": 3,
+    "explanation": "トルエンから安息香酸を得るには側鎖酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0062"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "トルエンに側鎖酸化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸"
+    ],
+    "explanation": "主生成物は安息香酸。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0063"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "トルエンから安息香酸へ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "側鎖酸化によってトルエンから安息香酸が生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "トルエン → 安息香酸 は側鎖酸化による。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0064"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "安息香酸に「メタノールとのエステル化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "2,4,6-トリブロモフェノール",
+      "アニリン",
+      "アセトアルデヒド",
+      "安息香酸メチル"
+    ],
+    "answer": 3,
+    "explanation": "安息香酸にメタノールとのエステル化を行うと安息香酸メチルが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0065"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "安息香酸から安息香酸メチルを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "付加重合",
+      "付加重合",
+      "メタノールとのエステル化",
+      "酸性加水分解"
+    ],
+    "answer": 2,
+    "explanation": "安息香酸から安息香酸メチルを得るにはメタノールとのエステル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0066"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "安息香酸にメタノールとのエステル化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸メチル"
+    ],
+    "explanation": "主生成物は安息香酸メチル。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0067"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "安息香酸から安息香酸メチルへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "メタノールとのエステル化によって安息香酸から安息香酸メチルが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "安息香酸 → 安息香酸メチル はメタノールとのエステル化による。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0068"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸に「アセチル化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "フェノール",
+      "ポリスチレン",
+      "アセチルサリチル酸",
+      "ポリプロピレン"
+    ],
+    "answer": 2,
+    "explanation": "サリチル酸にアセチル化を行うとアセチルサリチル酸が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0069"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸からアセチルサリチル酸を得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "アセチル化",
+      "還元",
+      "メタノールとのエステル化",
+      "付加重合"
+    ],
+    "answer": 0,
+    "explanation": "サリチル酸からアセチルサリチル酸を得るにはアセチル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0070"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸にアセチル化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アセチルサリチル酸"
+    ],
+    "explanation": "主生成物はアセチルサリチル酸。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0071"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "サリチル酸からアセチルサリチル酸へ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "アセチル化によってサリチル酸からアセチルサリチル酸が生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "サリチル酸 → アセチルサリチル酸 はアセチル化による。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0072"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸に「メタノールとのエステル化」を行ったときの主生成物を選びなさい。",
+    "choices": [
+      "サリチル酸メチル",
+      "フェノール",
+      "エチレン",
+      "ポリプロピレン"
+    ],
+    "answer": 0,
+    "explanation": "サリチル酸にメタノールとのエステル化を行うとサリチル酸メチルが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0073"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸からサリチル酸メチルを得る反応操作として最も適切なものを選びなさい。",
+    "choices": [
+      "けん化",
+      "メタノールとのエステル化",
+      "アセチル化",
+      "還元"
+    ],
+    "answer": 1,
+    "explanation": "サリチル酸からサリチル酸メチルを得るにはメタノールとのエステル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0074"
+  },
+  {
+    "type": "short",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "サリチル酸にメタノールとのエステル化を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "サリチル酸メチル"
+    ],
+    "explanation": "主生成物はサリチル酸メチル。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0075"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "サリチル酸からサリチル酸メチルへ変換する反応について、官能基または結合の変化を説明しなさい。",
+    "modelAnswer": "メタノールとのエステル化によってサリチル酸からサリチル酸メチルが生成する。反応前後の官能基・結合の変化を説明する。",
+    "criteria": [
+      "反応操作が正しい",
+      "生成物が正しい",
+      "官能基または結合の変化に触れている"
+    ],
+    "explanation": "サリチル酸 → サリチル酸メチル はメタノールとのエステル化による。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に反応ネットワーク問題へ細分化",
+    "id": "orga_0076"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールとナトリウムの反応」で適切な操作を選びなさい。",
+    "choices": [
+      "乾いた器具を用いる",
+      "0〜5 ℃に保つ",
+      "栓を押さえて振り、ときどき気体を抜く",
+      "加熱する"
+    ],
+    "answer": 0,
+    "explanation": "乾いた器具を用いる。水分があるとナトリウムが水と激しく反応するため。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0077"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エタノールとナトリウムの反応」で乾いた器具を用いる理由として最も適切なものを選びなさい。",
+    "choices": [
+      "水分があるとナトリウムが水と激しく反応するため",
+      "反応が発熱性であり、副反応を抑えるため",
+      "触媒かつ脱水剤として働くため",
+      "ジアゾニウム塩が高温で分解しやすいため"
+    ],
+    "answer": 0,
+    "explanation": "水分があるとナトリウムが水と激しく反応するため。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0078"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エタノールとナトリウムの反応」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "乾いた器具を用いる。水分があるとナトリウムが水と激しく反応するため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "乾いた器具を用いるのは、水分があるとナトリウムが水と激しく反応するため。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0079"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「銀鏡反応」で適切な操作を選びなさい。",
+    "choices": [
+      "試験管を十分に洗浄する",
+      "栓を押さえて振り、ときどき気体を抜く",
+      "0〜5 ℃に保つ",
+      "臭素水を用いる"
+    ],
+    "answer": 0,
+    "explanation": "試験管を十分に洗浄する。汚れがあると銀が均一に析出しにくいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0080"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「銀鏡反応」で試験管を十分に洗浄する理由として最も適切なものを選びなさい。",
+    "choices": [
+      "エステル結合の塩基性加水分解を進めるため",
+      "ジアゾニウム塩が高温で分解しやすいため",
+      "汚れがあると銀が均一に析出しにくいため",
+      "白色沈殿の生成を観察できるため"
+    ],
+    "answer": 2,
+    "explanation": "汚れがあると銀が均一に析出しにくいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0081"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「銀鏡反応」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "試験管を十分に洗浄する。汚れがあると銀が均一に析出しにくいため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "試験管を十分に洗浄するのは、汚れがあると銀が均一に析出しにくいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0082"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェーリング反応」で適切な操作を選びなさい。",
+    "choices": [
+      "加熱する",
+      "試験管を十分に洗浄する",
+      "乾いた器具を用いる",
+      "臭素水を用いる"
+    ],
+    "answer": 0,
+    "explanation": "加熱する。反応を進めて酸化銅(I)の赤色沈殿を生じさせるため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0083"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェーリング反応」で加熱する理由として最も適切なものを選びなさい。",
+    "choices": [
+      "ジアゾニウム塩が高温で分解しやすいため",
+      "白色沈殿の生成を観察できるため",
+      "触媒かつ脱水剤として働くため",
+      "反応を進めて酸化銅(I)の赤色沈殿を生じさせるため"
+    ],
+    "answer": 3,
+    "explanation": "反応を進めて酸化銅(I)の赤色沈殿を生じさせるため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0084"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「フェーリング反応」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "加熱する。反応を進めて酸化銅(I)の赤色沈殿を生じさせるため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "加熱するのは、反応を進めて酸化銅(I)の赤色沈殿を生じさせるため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0085"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エステル化」で適切な操作を選びなさい。",
+    "choices": [
+      "濃硫酸を少量加える",
+      "分液漏斗を用いる",
+      "加熱する",
+      "試験管を十分に洗浄する"
+    ],
+    "answer": 0,
+    "explanation": "濃硫酸を少量加える。触媒かつ脱水剤として働くため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0086"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「エステル化」で濃硫酸を少量加える理由として最も適切なものを選びなさい。",
+    "choices": [
+      "汚れがあると銀が均一に析出しにくいため",
+      "互いに混ざらない液体を密度差で分けるため",
+      "触媒かつ脱水剤として働くため",
+      "内圧上昇による危険を防ぐため"
+    ],
+    "answer": 2,
+    "explanation": "触媒かつ脱水剤として働くため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0087"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「エステル化」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "濃硫酸を少量加える。触媒かつ脱水剤として働くため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "濃硫酸を少量加えるのは、触媒かつ脱水剤として働くため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0088"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「けん化」で適切な操作を選びなさい。",
+    "choices": [
+      "加熱する",
+      "分液漏斗を用いる",
+      "水浴で温度を管理する",
+      "濃硫酸を少量加える"
+    ],
+    "answer": 0,
+    "explanation": "加熱する。エステル結合の塩基性加水分解を進めるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0089"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「けん化」で加熱する理由として最も適切なものを選びなさい。",
+    "choices": [
+      "白色沈殿の生成を観察できるため",
+      "互いに混ざらない液体を密度差で分けるため",
+      "触媒かつ脱水剤として働くため",
+      "エステル結合の塩基性加水分解を進めるため"
+    ],
+    "answer": 3,
+    "explanation": "エステル結合の塩基性加水分解を進めるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0090"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「けん化」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "加熱する。エステル結合の塩基性加水分解を進めるため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "加熱するのは、エステル結合の塩基性加水分解を進めるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0091"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ベンゼンのニトロ化」で適切な操作を選びなさい。",
+    "choices": [
+      "臭素水を用いる",
+      "分液漏斗を用いる",
+      "水浴で温度を管理する",
+      "加熱する"
+    ],
+    "answer": 2,
+    "explanation": "水浴で温度を管理する。反応が発熱性であり、副反応を抑えるため。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0092"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ベンゼンのニトロ化」で水浴で温度を管理する理由として最も適切なものを選びなさい。",
+    "choices": [
+      "内圧上昇による危険を防ぐため",
+      "白色沈殿の生成を観察できるため",
+      "反応を進めて酸化銅(I)の赤色沈殿を生じさせるため",
+      "反応が発熱性であり、副反応を抑えるため"
+    ],
+    "answer": 3,
+    "explanation": "反応が発熱性であり、副反応を抑えるため。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0093"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ベンゼンのニトロ化」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "水浴で温度を管理する。反応が発熱性であり、副反応を抑えるため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "水浴で温度を管理するのは、反応が発熱性であり、副反応を抑えるため。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0094"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ジアゾ化」で適切な操作を選びなさい。",
+    "choices": [
+      "臭素水を用いる",
+      "分液漏斗を用いる",
+      "0〜5 ℃に保つ",
+      "加熱する"
+    ],
+    "answer": 2,
+    "explanation": "0〜5 ℃に保つ。ジアゾニウム塩が高温で分解しやすいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0095"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「ジアゾ化」で0〜5 ℃に保つ理由として最も適切なものを選びなさい。",
+    "choices": [
+      "ジアゾニウム塩が高温で分解しやすいため",
+      "反応が発熱性であり、副反応を抑えるため",
+      "内圧上昇による危険を防ぐため",
+      "汚れがあると銀が均一に析出しにくいため"
+    ],
+    "answer": 0,
+    "explanation": "ジアゾニウム塩が高温で分解しやすいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0096"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「ジアゾ化」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "0〜5 ℃に保つ。ジアゾニウム塩が高温で分解しやすいため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "0〜5 ℃に保つのは、ジアゾニウム塩が高温で分解しやすいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0097"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェノールの臭素化」で適切な操作を選びなさい。",
+    "choices": [
+      "加熱する",
+      "臭素水を用いる",
+      "試験管を十分に洗浄する",
+      "分液漏斗を用いる"
+    ],
+    "answer": 1,
+    "explanation": "臭素水を用いる。白色沈殿の生成を観察できるため。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0098"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「フェノールの臭素化」で臭素水を用いる理由として最も適切なものを選びなさい。",
+    "choices": [
+      "白色沈殿の生成を観察できるため",
+      "エステル結合の塩基性加水分解を進めるため",
+      "触媒かつ脱水剤として働くため",
+      "汚れがあると銀が均一に析出しにくいため"
+    ],
+    "answer": 0,
+    "explanation": "白色沈殿の生成を観察できるため。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0099"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「フェノールの臭素化」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "臭素水を用いる。白色沈殿の生成を観察できるため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "臭素水を用いるのは、白色沈殿の生成を観察できるため。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0100"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「有機層と水層の分離」で適切な操作を選びなさい。",
+    "choices": [
+      "分液漏斗を用いる",
+      "加熱する",
+      "栓を押さえて振り、ときどき気体を抜く",
+      "加熱する"
+    ],
+    "answer": 0,
+    "explanation": "分液漏斗を用いる。互いに混ざらない液体を密度差で分けるため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0101"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「有機層と水層の分離」で分液漏斗を用いる理由として最も適切なものを選びなさい。",
+    "choices": [
+      "エステル結合の塩基性加水分解を進めるため",
+      "互いに混ざらない液体を密度差で分けるため",
+      "触媒かつ脱水剤として働くため",
+      "白色沈殿の生成を観察できるため"
+    ],
+    "answer": 1,
+    "explanation": "互いに混ざらない液体を密度差で分けるため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0102"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「有機層と水層の分離」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "分液漏斗を用いる。互いに混ざらない液体を密度差で分けるため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "分液漏斗を用いるのは、互いに混ざらない液体を密度差で分けるため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0103"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「抽出操作」で適切な操作を選びなさい。",
+    "choices": [
+      "栓を押さえて振り、ときどき気体を抜く",
+      "臭素水を用いる",
+      "水浴で温度を管理する",
+      "分液漏斗を用いる"
+    ],
+    "answer": 0,
+    "explanation": "栓を押さえて振り、ときどき気体を抜く。内圧上昇による危険を防ぐため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0104"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "「抽出操作」で栓を押さえて振り、ときどき気体を抜く理由として最も適切なものを選びなさい。",
+    "choices": [
+      "互いに混ざらない液体を密度差で分けるため",
+      "汚れがあると銀が均一に析出しにくいため",
+      "反応を進めて酸化銅(I)の赤色沈殿を生じさせるため",
+      "内圧上昇による危険を防ぐため"
+    ],
+    "answer": 3,
+    "explanation": "内圧上昇による危険を防ぐため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0105"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "「抽出操作」における注意点を1つ挙げ、その理由を説明しなさい。",
+    "modelAnswer": "栓を押さえて振り、ときどき気体を抜く。内圧上昇による危険を防ぐため。",
+    "criteria": [
+      "適切な操作または注意点を挙げている",
+      "理由が正しい",
+      "安全または反応条件との関係が説明されている"
+    ],
+    "explanation": "栓を押さえて振り、ときどき気体を抜くのは、内圧上昇による危険を防ぐため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に実験操作問題へ細分化",
+    "id": "orga_0106"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：銀鏡反応陽性、ヨードホルム反応陰性",
+    "choices": [
+      "アミノ基をもつ塩基性化合物",
+      "アルデヒド基をもつがCH₃CHO型ではない",
+      "フェノール性ヒドロキシ基をもつ",
+      "カルボキシ基をもつ"
+    ],
+    "answer": 1,
+    "explanation": "銀鏡反応陽性、ヨードホルム反応陰性ことから、アルデヒド基をもつがCH₃CHO型ではないと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0107"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：銀鏡反応陽性、ヨードホルム反応陰性",
+    "acceptedAnswers": [
+      "アルデヒド基をもつがCH₃CHO型ではない"
+    ],
+    "explanation": "推定される特徴は「アルデヒド基をもつがCH₃CHO型ではない」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0108"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：銀鏡反応陽性、ヨードホルム反応陰性",
+    "modelAnswer": "アルデヒド基をもつがCH₃CHO型ではない。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "アルデヒド基をもつがCH₃CHO型ではないと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0109"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：銀鏡反応陰性、ヨードホルム反応陽性",
+    "choices": [
+      "炭素間二重結合または三重結合をもつ",
+      "第一級アルコール",
+      "メチルケトンまたはCH₃CH(OH)-構造をもつ",
+      "第二級アルコール"
+    ],
+    "answer": 2,
+    "explanation": "銀鏡反応陰性、ヨードホルム反応陽性ことから、メチルケトンまたはCH₃CH(OH)-構造をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0110"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：銀鏡反応陰性、ヨードホルム反応陽性",
+    "acceptedAnswers": [
+      "メチルケトンまたはCH₃CH(OH)-構造をもつ"
+    ],
+    "explanation": "推定される特徴は「メチルケトンまたはCH₃CH(OH)-構造をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0111"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：銀鏡反応陰性、ヨードホルム反応陽性",
+    "modelAnswer": "メチルケトンまたはCH₃CH(OH)-構造をもつ。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "メチルケトンまたはCH₃CH(OH)-構造をもつと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0112"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：炭酸水素ナトリウムで発泡",
+    "choices": [
+      "第二級アルコール",
+      "カルボキシ基をもつ",
+      "メチルケトンまたはCH₃CH(OH)-構造をもつ",
+      "アルデヒド基をもつがCH₃CHO型ではない"
+    ],
+    "answer": 1,
+    "explanation": "炭酸水素ナトリウムで発泡ことから、カルボキシ基をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0113"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：炭酸水素ナトリウムで発泡",
+    "acceptedAnswers": [
+      "カルボキシ基をもつ"
+    ],
+    "explanation": "推定される特徴は「カルボキシ基をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0114"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：炭酸水素ナトリウムで発泡",
+    "modelAnswer": "カルボキシ基をもつ。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "カルボキシ基をもつと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0115"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：塩化鉄(III)水溶液で呈色",
+    "choices": [
+      "メチルケトンまたはCH₃CH(OH)-構造をもつ",
+      "フェノール性ヒドロキシ基をもつ",
+      "カルボキシ基をもつ",
+      "アミノ基をもつ塩基性化合物"
+    ],
+    "answer": 1,
+    "explanation": "塩化鉄(III)水溶液で呈色ことから、フェノール性ヒドロキシ基をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0116"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：塩化鉄(III)水溶液で呈色",
+    "acceptedAnswers": [
+      "フェノール性ヒドロキシ基をもつ"
+    ],
+    "explanation": "推定される特徴は「フェノール性ヒドロキシ基をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0117"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：塩化鉄(III)水溶液で呈色",
+    "modelAnswer": "フェノール性ヒドロキシ基をもつ。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "フェノール性ヒドロキシ基をもつと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0118"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：臭素水を脱色",
+    "choices": [
+      "炭素間二重結合または三重結合をもつ",
+      "アルデヒド基をもつがCH₃CHO型ではない",
+      "カルボキシ基をもつ",
+      "フェノール性ヒドロキシ基をもつ"
+    ],
+    "answer": 0,
+    "explanation": "臭素水を脱色ことから、炭素間二重結合または三重結合をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0119"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：臭素水を脱色",
+    "acceptedAnswers": [
+      "炭素間二重結合または三重結合をもつ"
+    ],
+    "explanation": "推定される特徴は「炭素間二重結合または三重結合をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0120"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：臭素水を脱色",
+    "modelAnswer": "炭素間二重結合または三重結合をもつ。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "炭素間二重結合または三重結合をもつと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0121"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：塩酸に溶け、水酸化ナトリウムで再び遊離",
+    "choices": [
+      "アルデヒド基をもつがCH₃CHO型ではない",
+      "アミノ基をもつ塩基性化合物",
+      "カルボキシ基をもつ",
+      "エステル結合をもつ"
+    ],
+    "answer": 1,
+    "explanation": "塩酸に溶け、水酸化ナトリウムで再び遊離ことから、アミノ基をもつ塩基性化合物と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0122"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：塩酸に溶け、水酸化ナトリウムで再び遊離",
+    "acceptedAnswers": [
+      "アミノ基をもつ塩基性化合物"
+    ],
+    "explanation": "推定される特徴は「アミノ基をもつ塩基性化合物」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0123"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：塩酸に溶け、水酸化ナトリウムで再び遊離",
+    "modelAnswer": "アミノ基をもつ塩基性化合物。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "アミノ基をもつ塩基性化合物と推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0124"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：加水分解でカルボン酸とアルコールを生じる",
+    "choices": [
+      "アミノ基をもつ塩基性化合物",
+      "エステル結合をもつ",
+      "第一級アルコール",
+      "カルボキシ基をもつ"
+    ],
+    "answer": 1,
+    "explanation": "加水分解でカルボン酸とアルコールを生じることから、エステル結合をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0125"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：加水分解でカルボン酸とアルコールを生じる",
+    "acceptedAnswers": [
+      "エステル結合をもつ"
+    ],
+    "explanation": "推定される特徴は「エステル結合をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0126"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：加水分解でカルボン酸とアルコールを生じる",
+    "modelAnswer": "エステル結合をもつ。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "エステル結合をもつと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0127"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：Naと反応してH₂を発生するがNaHCO₃とは反応しない",
+    "choices": [
+      "アルコール性ヒドロキシ基をもつ",
+      "アミノ基をもつ塩基性化合物",
+      "第二級アルコール",
+      "メチルケトンまたはCH₃CH(OH)-構造をもつ"
+    ],
+    "answer": 0,
+    "explanation": "Naと反応してH₂を発生するがNaHCO₃とは反応しないことから、アルコール性ヒドロキシ基をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0128"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：Naと反応してH₂を発生するがNaHCO₃とは反応しない",
+    "acceptedAnswers": [
+      "アルコール性ヒドロキシ基をもつ"
+    ],
+    "explanation": "推定される特徴は「アルコール性ヒドロキシ基をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0129"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：Naと反応してH₂を発生するがNaHCO₃とは反応しない",
+    "modelAnswer": "アルコール性ヒドロキシ基をもつ。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "アルコール性ヒドロキシ基をもつと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0130"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：酸化でケトンを生じる",
+    "choices": [
+      "第二級アルコール",
+      "第一級アルコール",
+      "フェノール性ヒドロキシ基をもつ",
+      "炭素間二重結合または三重結合をもつ"
+    ],
+    "answer": 0,
+    "explanation": "酸化でケトンを生じることから、第二級アルコールと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0131"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：酸化でケトンを生じる",
+    "acceptedAnswers": [
+      "第二級アルコール"
+    ],
+    "explanation": "推定される特徴は「第二級アルコール」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0132"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：酸化でケトンを生じる",
+    "modelAnswer": "第二級アルコール。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "第二級アルコールと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0133"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：酸化でアルデヒドを経てカルボン酸になる",
+    "choices": [
+      "フェノール性ヒドロキシ基をもつ",
+      "アルデヒド基をもつがCH₃CHO型ではない",
+      "メチルケトンまたはCH₃CH(OH)-構造をもつ",
+      "第一級アルコール"
+    ],
+    "answer": 3,
+    "explanation": "酸化でアルデヒドを経てカルボン酸になることから、第一級アルコールと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0134"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：酸化でアルデヒドを経てカルボン酸になる",
+    "acceptedAnswers": [
+      "第一級アルコール"
+    ],
+    "explanation": "推定される特徴は「第一級アルコール」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0135"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "次の実験結果から官能基を推定し、根拠を説明しなさい：酸化でアルデヒドを経てカルボン酸になる",
+    "modelAnswer": "第一級アルコール。この実験結果はその官能基・構造に特有である。",
+    "criteria": [
+      "官能基または構造の推定が正しい",
+      "実験結果との対応を説明している",
+      "他の候補を除外する根拠がある"
+    ],
+    "explanation": "第一級アルコールと推定できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化合物の構造推定PDFを基に細分化",
+    "id": "orga_0136"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "トルエンのニトロ化で主に置換される位置として最も適切なものを選びなさい。",
+    "choices": [
+      "o-体とp-体が主",
+      "m-体が主",
+      "2,4,6位",
+      "2,4,6位"
+    ],
+    "answer": 0,
+    "explanation": "o-体とp-体が主。メチル基はo,p-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0137"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "トルエンのニトロ化で主生成物の置換位置が偏る理由を説明しなさい。",
+    "modelAnswer": "o-体とp-体が主となる。メチル基はo,p-配向性。",
+    "criteria": [
+      "主な置換位置が正しい",
+      "置換基の配向性を述べている",
+      "理由が一貫している"
+    ],
+    "explanation": "メチル基はo,p-配向性ため、o-体とp-体が主となる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0138"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "フェノールの臭素化で主に置換される位置として最も適切なものを選びなさい。",
+    "choices": [
+      "m-体が主",
+      "o-体とp-体が主",
+      "2,4,6位",
+      "m-体が主"
+    ],
+    "answer": 2,
+    "explanation": "2,4,6位。ヒドロキシ基は強いo,p-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0139"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "フェノールの臭素化で主生成物の置換位置が偏る理由を説明しなさい。",
+    "modelAnswer": "2,4,6位となる。ヒドロキシ基は強いo,p-配向性。",
+    "criteria": [
+      "主な置換位置が正しい",
+      "置換基の配向性を述べている",
+      "理由が一貫している"
+    ],
+    "explanation": "ヒドロキシ基は強いo,p-配向性ため、2,4,6位となる。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0140"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アニリンの臭素化で主に置換される位置として最も適切なものを選びなさい。",
+    "choices": [
+      "m-体が主",
+      "o-体とp-体が主",
+      "m-体が主",
+      "2,4,6位"
+    ],
+    "answer": 3,
+    "explanation": "2,4,6位。アミノ基は強いo,p-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0141"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "アニリンの臭素化で主生成物の置換位置が偏る理由を説明しなさい。",
+    "modelAnswer": "2,4,6位となる。アミノ基は強いo,p-配向性。",
+    "criteria": [
+      "主な置換位置が正しい",
+      "置換基の配向性を述べている",
+      "理由が一貫している"
+    ],
+    "explanation": "アミノ基は強いo,p-配向性ため、2,4,6位となる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0142"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ニトロベンゼンの追加ニトロ化で主に置換される位置として最も適切なものを選びなさい。",
+    "choices": [
+      "m-体が主",
+      "o-体とp-体が主",
+      "2,4,6位",
+      "2,4,6位"
+    ],
+    "answer": 0,
+    "explanation": "m-体が主。ニトロ基はm-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0143"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "ニトロベンゼンの追加ニトロ化で主生成物の置換位置が偏る理由を説明しなさい。",
+    "modelAnswer": "m-体が主となる。ニトロ基はm-配向性。",
+    "criteria": [
+      "主な置換位置が正しい",
+      "置換基の配向性を述べている",
+      "理由が一貫している"
+    ],
+    "explanation": "ニトロ基はm-配向性ため、m-体が主となる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0144"
+  },
+  {
+    "type": "single",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸のニトロ化で主に置換される位置として最も適切なものを選びなさい。",
+    "choices": [
+      "o-体とp-体が主",
+      "m-体が主",
+      "2,4,6位",
+      "2,4,6位"
+    ],
+    "answer": 1,
+    "explanation": "m-体が主。カルボキシ基はm-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0145"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 22,
+    "prompt": "安息香酸のニトロ化で主生成物の置換位置が偏る理由を説明しなさい。",
+    "modelAnswer": "m-体が主となる。カルボキシ基はm-配向性。",
+    "criteria": [
+      "主な置換位置が正しい",
+      "置換基の配向性を述べている",
+      "理由が一貫している"
+    ],
+    "explanation": "カルボキシ基はm-配向性ため、m-体が主となる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に置換位置問題へ細分化",
+    "id": "orga_0146"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エチレン2.0 molにBr₂を完全付加させるのに必要なBr₂を求めなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0147"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレン2.0 molにBr₂を完全付加させるのに必要なBr₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0148"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "アセチレン1.0 molをエタンまで水素化するのに必要なH₂を求めなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0149"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセチレン1.0 molをエタンまで水素化するのに必要なH₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0150"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エタノール4.0 molとNaを反応させたときのH₂を求めなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0151"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール4.0 molとNaを反応させたときのH₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0152"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "酢酸3.0 molとエタノール2.0 molが完全反応するときの酢酸エチル最大生成量を求めなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0153"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "酢酸3.0 molとエタノール2.0 molが完全反応するときの酢酸エチル最大生成量を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0154"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "油脂2.0 molの完全けん化に必要なNaOHを求めなさい。",
+    "value": 6.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 6.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0155"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "油脂2.0 molの完全けん化に必要なNaOHを、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "6.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 6.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0156"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "メタン2.0 molの完全燃焼で生じるCO₂を求めなさい。",
+    "value": 2.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0157"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "メタン2.0 molの完全燃焼で生じるCO₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0158"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "プロパン2.0 molの完全燃焼で生じるH₂Oを求めなさい。",
+    "value": 8.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 8.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0159"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "プロパン2.0 molの完全燃焼で生じるH₂Oを、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "8.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 8.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0160"
+  },
+  {
+    "type": "numeric",
+    "difficulty": 2,
+    "baseXp": 14,
+    "prompt": "エタノール2.0 molの完全燃焼に必要なO₂を求めなさい。",
+    "value": 6.0,
+    "tolerance": 0.001,
+    "unit": "mol",
+    "explanation": "反応式の係数比から 6.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0161"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール2.0 molの完全燃焼に必要なO₂を、反応式または係数比を示して求めなさい。",
+    "modelAnswer": "6.0 mol。反応式の係数比を用いる。",
+    "criteria": [
+      "反応式または係数比が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "係数比から 6.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に量的関係問題へ細分化",
+    "id": "orga_0162"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "エチレンを重合して得られる高分子を選びなさい。",
+    "choices": [
+      "ポリプロピレン",
+      "ポリテトラフルオロエチレン",
+      "ポリ塩化ビニル",
+      "ポリエチレン"
+    ],
+    "answer": 3,
+    "explanation": "エチレンは付加重合してポリエチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0163"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ポリエチレンの単量体を選びなさい。",
+    "choices": [
+      "エチレン",
+      "スチレン",
+      "テトラフルオロエチレン",
+      "塩化ビニル"
+    ],
+    "answer": 0,
+    "explanation": "ポリエチレンの単量体はエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0164"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレンからポリエチレンが生成する反応を説明しなさい。",
+    "modelAnswer": "エチレンの不飽和結合が開き、付加重合によってポリエチレンが生成する。",
+    "criteria": [
+      "単量体と高分子の対応が正しい",
+      "重合の種類が正しい",
+      "結合の変化に触れている"
+    ],
+    "explanation": "エチレンは付加重合してポリエチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0165"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "プロピレンを重合して得られる高分子を選びなさい。",
+    "choices": [
+      "ポリプロピレン",
+      "ポリ塩化ビニル",
+      "ポリスチレン",
+      "ポリエチレン"
+    ],
+    "answer": 0,
+    "explanation": "プロピレンは付加重合してポリプロピレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0166"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ポリプロピレンの単量体を選びなさい。",
+    "choices": [
+      "プロピレン",
+      "テトラフルオロエチレン",
+      "エチレン",
+      "塩化ビニル"
+    ],
+    "answer": 0,
+    "explanation": "ポリプロピレンの単量体はプロピレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0167"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "プロピレンからポリプロピレンが生成する反応を説明しなさい。",
+    "modelAnswer": "プロピレンの不飽和結合が開き、付加重合によってポリプロピレンが生成する。",
+    "criteria": [
+      "単量体と高分子の対応が正しい",
+      "重合の種類が正しい",
+      "結合の変化に触れている"
+    ],
+    "explanation": "プロピレンは付加重合してポリプロピレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0168"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "スチレンを重合して得られる高分子を選びなさい。",
+    "choices": [
+      "ポリスチレン",
+      "ポリエチレン",
+      "ポリテトラフルオロエチレン",
+      "ポリプロピレン"
+    ],
+    "answer": 0,
+    "explanation": "スチレンは付加重合してポリスチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0169"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ポリスチレンの単量体を選びなさい。",
+    "choices": [
+      "スチレン",
+      "テトラフルオロエチレン",
+      "エチレン",
+      "プロピレン"
+    ],
+    "answer": 0,
+    "explanation": "ポリスチレンの単量体はスチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0170"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "スチレンからポリスチレンが生成する反応を説明しなさい。",
+    "modelAnswer": "スチレンの不飽和結合が開き、付加重合によってポリスチレンが生成する。",
+    "criteria": [
+      "単量体と高分子の対応が正しい",
+      "重合の種類が正しい",
+      "結合の変化に触れている"
+    ],
+    "explanation": "スチレンは付加重合してポリスチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0171"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "塩化ビニルを重合して得られる高分子を選びなさい。",
+    "choices": [
+      "ポリテトラフルオロエチレン",
+      "ポリエチレン",
+      "ポリプロピレン",
+      "ポリ塩化ビニル"
+    ],
+    "answer": 3,
+    "explanation": "塩化ビニルは付加重合してポリ塩化ビニルになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0172"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ポリ塩化ビニルの単量体を選びなさい。",
+    "choices": [
+      "塩化ビニル",
+      "プロピレン",
+      "エチレン",
+      "スチレン"
+    ],
+    "answer": 0,
+    "explanation": "ポリ塩化ビニルの単量体は塩化ビニル。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0173"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "塩化ビニルからポリ塩化ビニルが生成する反応を説明しなさい。",
+    "modelAnswer": "塩化ビニルの不飽和結合が開き、付加重合によってポリ塩化ビニルが生成する。",
+    "criteria": [
+      "単量体と高分子の対応が正しい",
+      "重合の種類が正しい",
+      "結合の変化に触れている"
+    ],
+    "explanation": "塩化ビニルは付加重合してポリ塩化ビニルになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0174"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "テトラフルオロエチレンを重合して得られる高分子を選びなさい。",
+    "choices": [
+      "ポリプロピレン",
+      "ポリエチレン",
+      "ポリ塩化ビニル",
+      "ポリテトラフルオロエチレン"
+    ],
+    "answer": 3,
+    "explanation": "テトラフルオロエチレンは付加重合してポリテトラフルオロエチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0175"
+  },
+  {
+    "type": "single",
+    "difficulty": 2,
+    "baseXp": 12,
+    "prompt": "ポリテトラフルオロエチレンの単量体を選びなさい。",
+    "choices": [
+      "テトラフルオロエチレン",
+      "エチレン",
+      "スチレン",
+      "塩化ビニル"
+    ],
+    "answer": 0,
+    "explanation": "ポリテトラフルオロエチレンの単量体はテトラフルオロエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0176"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "テトラフルオロエチレンからポリテトラフルオロエチレンが生成する反応を説明しなさい。",
+    "modelAnswer": "テトラフルオロエチレンの不飽和結合が開き、付加重合によってポリテトラフルオロエチレンが生成する。",
+    "criteria": [
+      "単量体と高分子の対応が正しい",
+      "重合の種類が正しい",
+      "結合の変化に触れている"
+    ],
+    "explanation": "テトラフルオロエチレンは付加重合してポリテトラフルオロエチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に高分子接続問題へ細分化",
+    "id": "orga_0177"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンに「水和」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "エタノール"
+    ],
+    "explanation": "エチレンに水和を行うとエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0178"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンからエタノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "水和"
+    ],
+    "explanation": "エチレンからエタノールを得るには水和を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0179"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "エチレンに水和を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "エタノール。主生成物はエタノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0180"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エタノールに「酸化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アセトアルデヒド"
+    ],
+    "explanation": "エタノールに酸化を行うとアセトアルデヒドが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0181"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エタノールからアセトアルデヒドを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "酸化"
+    ],
+    "explanation": "エタノールからアセトアルデヒドを得るには酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0182"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "エタノールに酸化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "アセトアルデヒド。主生成物はアセトアルデヒド。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はアセトアルデヒド。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0183"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセトアルデヒドに「酸化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸"
+    ],
+    "explanation": "アセトアルデヒドに酸化を行うと酢酸が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0184"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセトアルデヒドから酢酸を得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "酸化"
+    ],
+    "explanation": "アセトアルデヒドから酢酸を得るには酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0185"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アセトアルデヒドに酸化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸。主生成物は酢酸。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0186"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸に「エタノールとのエステル化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸エチル"
+    ],
+    "explanation": "酢酸にエタノールとのエステル化を行うと酢酸エチルが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0187"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸から酢酸エチルを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "エタノールとのエステル化"
+    ],
+    "explanation": "酢酸から酢酸エチルを得るにはエタノールとのエステル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0188"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "酢酸にエタノールとのエステル化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸エチル。主生成物は酢酸エチル。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸エチル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0189"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルに「酸性加水分解」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸とエタノール"
+    ],
+    "explanation": "酢酸エチルに酸性加水分解を行うと酢酸とエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0190"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルから酢酸とエタノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "酸性加水分解"
+    ],
+    "explanation": "酢酸エチルから酢酸とエタノールを得るには酸性加水分解を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0191"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "酢酸エチルに酸性加水分解を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸とエタノール。主生成物は酢酸とエタノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸とエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0192"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルに「けん化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸ナトリウムとエタノール"
+    ],
+    "explanation": "酢酸エチルにけん化を行うと酢酸ナトリウムとエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0193"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルから酢酸ナトリウムとエタノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "けん化"
+    ],
+    "explanation": "酢酸エチルから酢酸ナトリウムとエタノールを得るにはけん化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0194"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "酢酸エチルにけん化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸ナトリウムとエタノール。主生成物は酢酸ナトリウムとエタノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸ナトリウムとエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0195"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセチレンに「水素付加」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "エチレン"
+    ],
+    "explanation": "アセチレンに水素付加を行うとエチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0196"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセチレンからエチレンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "水素付加"
+    ],
+    "explanation": "アセチレンからエチレンを得るには水素付加を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0197"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アセチレンに水素付加を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "エチレン。主生成物はエチレン。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0198"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンに「付加重合」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ポリエチレン"
+    ],
+    "explanation": "エチレンに付加重合を行うとポリエチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0199"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンからポリエチレンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "付加重合"
+    ],
+    "explanation": "エチレンからポリエチレンを得るには付加重合を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0200"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "エチレンに付加重合を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "ポリエチレン。主生成物はポリエチレン。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はポリエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0201"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "プロピレンに「付加重合」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ポリプロピレン"
+    ],
+    "explanation": "プロピレンに付加重合を行うとポリプロピレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0202"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "プロピレンからポリプロピレンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "付加重合"
+    ],
+    "explanation": "プロピレンからポリプロピレンを得るには付加重合を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0203"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "プロピレンに付加重合を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "ポリプロピレン。主生成物はポリプロピレン。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はポリプロピレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0204"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "スチレンに「付加重合」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ポリスチレン"
+    ],
+    "explanation": "スチレンに付加重合を行うとポリスチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0205"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "スチレンからポリスチレンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "付加重合"
+    ],
+    "explanation": "スチレンからポリスチレンを得るには付加重合を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0206"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "スチレンに付加重合を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "ポリスチレン。主生成物はポリスチレン。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はポリスチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0207"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンに「ニトロ化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ニトロベンゼン"
+    ],
+    "explanation": "ベンゼンにニトロ化を行うとニトロベンゼンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0208"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンからニトロベンゼンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "ニトロ化"
+    ],
+    "explanation": "ベンゼンからニトロベンゼンを得るにはニトロ化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0209"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ベンゼンにニトロ化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "ニトロベンゼン。主生成物はニトロベンゼン。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はニトロベンゼン。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0210"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンに「還元」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アニリン"
+    ],
+    "explanation": "ニトロベンゼンに還元を行うとアニリンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0211"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ニトロベンゼンからアニリンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "還元"
+    ],
+    "explanation": "ニトロベンゼンからアニリンを得るには還元を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0212"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ニトロベンゼンに還元を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "アニリン。主生成物はアニリン。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はアニリン。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0213"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンに「ジアゾ化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ベンゼンジアゾニウム塩化物"
+    ],
+    "explanation": "アニリンにジアゾ化を行うとベンゼンジアゾニウム塩化物が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0214"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アニリンからベンゼンジアゾニウム塩化物を得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "ジアゾ化"
+    ],
+    "explanation": "アニリンからベンゼンジアゾニウム塩化物を得るにはジアゾ化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0215"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アニリンにジアゾ化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "ベンゼンジアゾニウム塩化物。主生成物はベンゼンジアゾニウム塩化物。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はベンゼンジアゾニウム塩化物。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0216"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンジアゾニウム塩化物に「加水分解」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "フェノール"
+    ],
+    "explanation": "ベンゼンジアゾニウム塩化物に加水分解を行うとフェノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0217"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ベンゼンジアゾニウム塩化物からフェノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "加水分解"
+    ],
+    "explanation": "ベンゼンジアゾニウム塩化物からフェノールを得るには加水分解を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0218"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "ベンゼンジアゾニウム塩化物に加水分解を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "フェノール。主生成物はフェノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はフェノール。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0219"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールに「臭素化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6-トリブロモフェノール"
+    ],
+    "explanation": "フェノールに臭素化を行うと2,4,6-トリブロモフェノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0220"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "フェノールから2,4,6-トリブロモフェノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "臭素化"
+    ],
+    "explanation": "フェノールから2,4,6-トリブロモフェノールを得るには臭素化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0221"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "フェノールに臭素化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "2,4,6-トリブロモフェノール。主生成物は2,4,6-トリブロモフェノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は2,4,6-トリブロモフェノール。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0222"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンに「側鎖酸化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸"
+    ],
+    "explanation": "トルエンに側鎖酸化を行うと安息香酸が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0223"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "トルエンから安息香酸を得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "側鎖酸化"
+    ],
+    "explanation": "トルエンから安息香酸を得るには側鎖酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0224"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "トルエンに側鎖酸化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "安息香酸。主生成物は安息香酸。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は安息香酸。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0225"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "安息香酸に「メタノールとのエステル化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "安息香酸メチル"
+    ],
+    "explanation": "安息香酸にメタノールとのエステル化を行うと安息香酸メチルが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0226"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "安息香酸から安息香酸メチルを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "メタノールとのエステル化"
+    ],
+    "explanation": "安息香酸から安息香酸メチルを得るにはメタノールとのエステル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0227"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "安息香酸にメタノールとのエステル化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "安息香酸メチル。主生成物は安息香酸メチル。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は安息香酸メチル。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0228"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸に「アセチル化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アセチルサリチル酸"
+    ],
+    "explanation": "サリチル酸にアセチル化を行うとアセチルサリチル酸が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0229"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸からアセチルサリチル酸を得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "アセチル化"
+    ],
+    "explanation": "サリチル酸からアセチルサリチル酸を得るにはアセチル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0230"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "サリチル酸にアセチル化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "アセチルサリチル酸。主生成物はアセチルサリチル酸。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はアセチルサリチル酸。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0231"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸に「メタノールとのエステル化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "サリチル酸メチル"
+    ],
+    "explanation": "サリチル酸にメタノールとのエステル化を行うとサリチル酸メチルが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0232"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "サリチル酸からサリチル酸メチルを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "メタノールとのエステル化"
+    ],
+    "explanation": "サリチル酸からサリチル酸メチルを得るにはメタノールとのエステル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0233"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "サリチル酸にメタノールとのエステル化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "サリチル酸メチル。主生成物はサリチル酸メチル。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はサリチル酸メチル。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0234"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エタノールとナトリウムの反応」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "乾いた器具を用いる"
+    ],
+    "explanation": "乾いた器具を用いる。水分があるとナトリウムが水と激しく反応するため。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0235"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エタノールとナトリウムの反応」で乾いた器具を用いる理由として答えなさい。",
+    "acceptedAnswers": [
+      "水分があるとナトリウムが水と激しく反応するため"
+    ],
+    "explanation": "水分があるとナトリウムが水と激しく反応するため。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0236"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「銀鏡反応」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "試験管を十分に洗浄する"
+    ],
+    "explanation": "試験管を十分に洗浄する。汚れがあると銀が均一に析出しにくいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0237"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「銀鏡反応」で試験管を十分に洗浄する理由として答えなさい。",
+    "acceptedAnswers": [
+      "汚れがあると銀が均一に析出しにくいため"
+    ],
+    "explanation": "汚れがあると銀が均一に析出しにくいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0238"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「フェーリング反応」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "加熱する"
+    ],
+    "explanation": "加熱する。反応を進めて酸化銅(I)の赤色沈殿を生じさせるため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0239"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「フェーリング反応」で加熱する理由として答えなさい。",
+    "acceptedAnswers": [
+      "反応を進めて酸化銅(I)の赤色沈殿を生じさせるため"
+    ],
+    "explanation": "反応を進めて酸化銅(I)の赤色沈殿を生じさせるため。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0240"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エステル化」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "濃硫酸を少量加える"
+    ],
+    "explanation": "濃硫酸を少量加える。触媒かつ脱水剤として働くため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0241"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「エステル化」で濃硫酸を少量加える理由として答えなさい。",
+    "acceptedAnswers": [
+      "触媒かつ脱水剤として働くため"
+    ],
+    "explanation": "触媒かつ脱水剤として働くため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0242"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「けん化」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "加熱する"
+    ],
+    "explanation": "加熱する。エステル結合の塩基性加水分解を進めるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0243"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「けん化」で加熱する理由として答えなさい。",
+    "acceptedAnswers": [
+      "エステル結合の塩基性加水分解を進めるため"
+    ],
+    "explanation": "エステル結合の塩基性加水分解を進めるため。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0244"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「ベンゼンのニトロ化」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "水浴で温度を管理する"
+    ],
+    "explanation": "水浴で温度を管理する。反応が発熱性であり、副反応を抑えるため。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0245"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「ベンゼンのニトロ化」で水浴で温度を管理する理由として答えなさい。",
+    "acceptedAnswers": [
+      "反応が発熱性であり、副反応を抑えるため"
+    ],
+    "explanation": "反応が発熱性であり、副反応を抑えるため。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0246"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「ジアゾ化」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "0〜5 ℃に保つ"
+    ],
+    "explanation": "0〜5 ℃に保つ。ジアゾニウム塩が高温で分解しやすいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0247"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「ジアゾ化」で0〜5 ℃に保つ理由として答えなさい。",
+    "acceptedAnswers": [
+      "ジアゾニウム塩が高温で分解しやすいため"
+    ],
+    "explanation": "ジアゾニウム塩が高温で分解しやすいため。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0248"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「フェノールの臭素化」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "臭素水を用いる"
+    ],
+    "explanation": "臭素水を用いる。白色沈殿の生成を観察できるため。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0249"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「フェノールの臭素化」で臭素水を用いる理由として答えなさい。",
+    "acceptedAnswers": [
+      "白色沈殿の生成を観察できるため"
+    ],
+    "explanation": "白色沈殿の生成を観察できるため。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0250"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「有機層と水層の分離」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "分液漏斗を用いる"
+    ],
+    "explanation": "分液漏斗を用いる。互いに混ざらない液体を密度差で分けるため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0251"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「有機層と水層の分離」で分液漏斗を用いる理由として答えなさい。",
+    "acceptedAnswers": [
+      "互いに混ざらない液体を密度差で分けるため"
+    ],
+    "explanation": "互いに混ざらない液体を密度差で分けるため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0252"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「抽出操作」で適切な操作を答えなさい。",
+    "acceptedAnswers": [
+      "栓を押さえて振り、ときどき気体を抜く"
+    ],
+    "explanation": "栓を押さえて振り、ときどき気体を抜く。内圧上昇による危険を防ぐため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0253"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "「抽出操作」で栓を押さえて振り、ときどき気体を抜く理由として答えなさい。",
+    "acceptedAnswers": [
+      "内圧上昇による危険を防ぐため"
+    ],
+    "explanation": "内圧上昇による危険を防ぐため。",
+    "unitWeights": [
+      {
+        "id": "chem_organic_separation",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0254"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：銀鏡反応陽性、ヨードホルム反応陰性",
+    "acceptedAnswers": [
+      "アルデヒド基をもつがCH₃CHO型ではない"
+    ],
+    "explanation": "銀鏡反応陽性、ヨードホルム反応陰性ことから、アルデヒド基をもつがCH₃CHO型ではないと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0255"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：銀鏡反応陽性、ヨードホルム反応陰性 根拠も説明しなさい。",
+    "modelAnswer": "アルデヒド基をもつがCH₃CHO型ではない。推定される特徴は「アルデヒド基をもつがCH₃CHO型ではない」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「アルデヒド基をもつがCH₃CHO型ではない」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0256"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：銀鏡反応陰性、ヨードホルム反応陽性",
+    "acceptedAnswers": [
+      "メチルケトンまたはCH₃CH(OH)-構造をもつ"
+    ],
+    "explanation": "銀鏡反応陰性、ヨードホルム反応陽性ことから、メチルケトンまたはCH₃CH(OH)-構造をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0257"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：銀鏡反応陰性、ヨードホルム反応陽性 根拠も説明しなさい。",
+    "modelAnswer": "メチルケトンまたはCH₃CH(OH)-構造をもつ。推定される特徴は「メチルケトンまたはCH₃CH(OH)-構造をもつ」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「メチルケトンまたはCH₃CH(OH)-構造をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0258"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：炭酸水素ナトリウムで発泡",
+    "acceptedAnswers": [
+      "カルボキシ基をもつ"
+    ],
+    "explanation": "炭酸水素ナトリウムで発泡ことから、カルボキシ基をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0259"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：炭酸水素ナトリウムで発泡 根拠も説明しなさい。",
+    "modelAnswer": "カルボキシ基をもつ。推定される特徴は「カルボキシ基をもつ」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「カルボキシ基をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0260"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：塩化鉄(III)水溶液で呈色",
+    "acceptedAnswers": [
+      "フェノール性ヒドロキシ基をもつ"
+    ],
+    "explanation": "塩化鉄(III)水溶液で呈色ことから、フェノール性ヒドロキシ基をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0261"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：塩化鉄(III)水溶液で呈色 根拠も説明しなさい。",
+    "modelAnswer": "フェノール性ヒドロキシ基をもつ。推定される特徴は「フェノール性ヒドロキシ基をもつ」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「フェノール性ヒドロキシ基をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0262"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：臭素水を脱色",
+    "acceptedAnswers": [
+      "炭素間二重結合または三重結合をもつ"
+    ],
+    "explanation": "臭素水を脱色ことから、炭素間二重結合または三重結合をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0263"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：臭素水を脱色 根拠も説明しなさい。",
+    "modelAnswer": "炭素間二重結合または三重結合をもつ。推定される特徴は「炭素間二重結合または三重結合をもつ」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「炭素間二重結合または三重結合をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0264"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：塩酸に溶け、水酸化ナトリウムで再び遊離",
+    "acceptedAnswers": [
+      "アミノ基をもつ塩基性化合物"
+    ],
+    "explanation": "塩酸に溶け、水酸化ナトリウムで再び遊離ことから、アミノ基をもつ塩基性化合物と判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0265"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：塩酸に溶け、水酸化ナトリウムで再び遊離 根拠も説明しなさい。",
+    "modelAnswer": "アミノ基をもつ塩基性化合物。推定される特徴は「アミノ基をもつ塩基性化合物」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「アミノ基をもつ塩基性化合物」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0266"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：加水分解でカルボン酸とアルコールを生じる",
+    "acceptedAnswers": [
+      "エステル結合をもつ"
+    ],
+    "explanation": "加水分解でカルボン酸とアルコールを生じることから、エステル結合をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0267"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：加水分解でカルボン酸とアルコールを生じる 根拠も説明しなさい。",
+    "modelAnswer": "エステル結合をもつ。推定される特徴は「エステル結合をもつ」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「エステル結合をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0268"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：Naと反応してH₂を発生するがNaHCO₃とは反応しない",
+    "acceptedAnswers": [
+      "アルコール性ヒドロキシ基をもつ"
+    ],
+    "explanation": "Naと反応してH₂を発生するがNaHCO₃とは反応しないことから、アルコール性ヒドロキシ基をもつと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0269"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：Naと反応してH₂を発生するがNaHCO₃とは反応しない 根拠も説明しなさい。",
+    "modelAnswer": "アルコール性ヒドロキシ基をもつ。推定される特徴は「アルコール性ヒドロキシ基をもつ」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「アルコール性ヒドロキシ基をもつ」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0270"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：酸化でケトンを生じる",
+    "acceptedAnswers": [
+      "第二級アルコール"
+    ],
+    "explanation": "酸化でケトンを生じることから、第二級アルコールと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0271"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：酸化でケトンを生じる 根拠も説明しなさい。",
+    "modelAnswer": "第二級アルコール。推定される特徴は「第二級アルコール」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「第二級アルコール」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0272"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から最も妥当な構造上の特徴を選びなさい：酸化でアルデヒドを経てカルボン酸になる",
+    "acceptedAnswers": [
+      "第一級アルコール"
+    ],
+    "explanation": "酸化でアルデヒドを経てカルボン酸になることから、第一級アルコールと判断できる。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0273"
+  },
+  {
+    "type": "written",
+    "difficulty": 4,
+    "baseXp": 20,
+    "prompt": "次の実験結果から推定される官能基または構造上の特徴を答えなさい：酸化でアルデヒドを経てカルボン酸になる 根拠も説明しなさい。",
+    "modelAnswer": "第一級アルコール。推定される特徴は「第一級アルコール」。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "推定される特徴は「第一級アルコール」。",
+    "unitWeights": [
+      {
+        "id": "chem_structure_determination",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0274"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "トルエンのニトロ化で主に置換される位置として答えなさい。",
+    "acceptedAnswers": [
+      "o-体とp-体が主"
+    ],
+    "explanation": "o-体とp-体が主。メチル基はo,p-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0275"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "フェノールの臭素化で主に置換される位置として答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6位"
+    ],
+    "explanation": "2,4,6位。ヒドロキシ基は強いo,p-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_phenol",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0276"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "アニリンの臭素化で主に置換される位置として答えなさい。",
+    "acceptedAnswers": [
+      "2,4,6位"
+    ],
+    "explanation": "2,4,6位。アミノ基は強いo,p-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_nitrogen",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0277"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "ニトロベンゼンの追加ニトロ化で主に置換される位置として答えなさい。",
+    "acceptedAnswers": [
+      "m-体が主"
+    ],
+    "explanation": "m-体が主。ニトロ基はm-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0278"
+  },
+  {
+    "type": "short",
+    "difficulty": 4,
+    "baseXp": 18,
+    "prompt": "安息香酸のニトロ化で主に置換される位置として答えなさい。",
+    "acceptedAnswers": [
+      "m-体が主"
+    ],
+    "explanation": "m-体が主。カルボキシ基はm-配向性。",
+    "unitWeights": [
+      {
+        "id": "chem_aromatic_acid",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0279"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エチレン2.0 molにBr₂を完全付加させるのに必要なBr₂を求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0280"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "アセチレン1.0 molをエタンまで水素化するのに必要なH₂を求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0281"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール4.0 molとNaを反応させたときのH₂を求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0282"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "酢酸3.0 molとエタノール2.0 molが完全反応するときの酢酸エチル最大生成量を求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0283"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "油脂2.0 molの完全けん化に必要なNaOHを求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "6.0 mol。反応式の係数比から 6.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 6.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0284"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "メタン2.0 molの完全燃焼で生じるCO₂を求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "2.0 mol。反応式の係数比から 2.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 2.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0285"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "プロパン2.0 molの完全燃焼で生じるH₂Oを求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "8.0 mol。反応式の係数比から 8.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 8.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0286"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 18,
+    "prompt": "エタノール2.0 molの完全燃焼に必要なO₂を求めなさい。 計算過程も示しなさい。",
+    "modelAnswer": "6.0 mol。反応式の係数比から 6.0 mol。",
+    "criteria": [
+      "係数比または計算過程が正しい",
+      "数値が正しい",
+      "単位が正しい"
+    ],
+    "explanation": "反応式の係数比から 6.0 mol。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に計算記述形式へ再構成",
+    "id": "orga_0287"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンを重合して得られる高分子を答えなさい。",
+    "acceptedAnswers": [
+      "ポリエチレン"
+    ],
+    "explanation": "エチレンは付加重合してポリエチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0288"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ポリエチレンの単量体を答えなさい。",
+    "acceptedAnswers": [
+      "エチレン"
+    ],
+    "explanation": "ポリエチレンの単量体はエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0289"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "プロピレンを重合して得られる高分子を答えなさい。",
+    "acceptedAnswers": [
+      "ポリプロピレン"
+    ],
+    "explanation": "プロピレンは付加重合してポリプロピレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0290"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ポリプロピレンの単量体を答えなさい。",
+    "acceptedAnswers": [
+      "プロピレン"
+    ],
+    "explanation": "ポリプロピレンの単量体はプロピレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0291"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "スチレンを重合して得られる高分子を答えなさい。",
+    "acceptedAnswers": [
+      "ポリスチレン"
+    ],
+    "explanation": "スチレンは付加重合してポリスチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0292"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ポリスチレンの単量体を答えなさい。",
+    "acceptedAnswers": [
+      "スチレン"
+    ],
+    "explanation": "ポリスチレンの単量体はスチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_benzene",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0293"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "塩化ビニルを重合して得られる高分子を答えなさい。",
+    "acceptedAnswers": [
+      "ポリ塩化ビニル"
+    ],
+    "explanation": "塩化ビニルは付加重合してポリ塩化ビニルになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0294"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ポリ塩化ビニルの単量体を答えなさい。",
+    "acceptedAnswers": [
+      "塩化ビニル"
+    ],
+    "explanation": "ポリ塩化ビニルの単量体は塩化ビニル。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0295"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "テトラフルオロエチレンを重合して得られる高分子を答えなさい。",
+    "acceptedAnswers": [
+      "ポリテトラフルオロエチレン"
+    ],
+    "explanation": "テトラフルオロエチレンは付加重合してポリテトラフルオロエチレンになる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0296"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "ポリテトラフルオロエチレンの単量体を答えなさい。",
+    "acceptedAnswers": [
+      "テトラフルオロエチレン"
+    ],
+    "explanation": "ポリテトラフルオロエチレンの単量体はテトラフルオロエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0297"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンに「水和」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "エタノール"
+    ],
+    "explanation": "エチレンに水和を行うとエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0298"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンからエタノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "水和"
+    ],
+    "explanation": "エチレンからエタノールを得るには水和を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0299"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "エチレンに水和を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "エタノール。主生成物はエタノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0300"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エタノールに「酸化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "アセトアルデヒド"
+    ],
+    "explanation": "エタノールに酸化を行うとアセトアルデヒドが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0301"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エタノールからアセトアルデヒドを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "酸化"
+    ],
+    "explanation": "エタノールからアセトアルデヒドを得るには酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0302"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "エタノールに酸化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "アセトアルデヒド。主生成物はアセトアルデヒド。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はアセトアルデヒド。",
+    "unitWeights": [
+      {
+        "id": "chem_alcohol_ether",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0303"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセトアルデヒドに「酸化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸"
+    ],
+    "explanation": "アセトアルデヒドに酸化を行うと酢酸が得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0304"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセトアルデヒドから酢酸を得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "酸化"
+    ],
+    "explanation": "アセトアルデヒドから酢酸を得るには酸化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0305"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アセトアルデヒドに酸化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸。主生成物は酢酸。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸。",
+    "unitWeights": [
+      {
+        "id": "chem_aldehyde_ketone",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0306"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸に「エタノールとのエステル化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸エチル"
+    ],
+    "explanation": "酢酸にエタノールとのエステル化を行うと酢酸エチルが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0307"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸から酢酸エチルを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "エタノールとのエステル化"
+    ],
+    "explanation": "酢酸から酢酸エチルを得るにはエタノールとのエステル化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0308"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "酢酸にエタノールとのエステル化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸エチル。主生成物は酢酸エチル。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸エチル。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0309"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルに「酸性加水分解」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸とエタノール"
+    ],
+    "explanation": "酢酸エチルに酸性加水分解を行うと酢酸とエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0310"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルから酢酸とエタノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "酸性加水分解"
+    ],
+    "explanation": "酢酸エチルから酢酸とエタノールを得るには酸性加水分解を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0311"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "酢酸エチルに酸性加水分解を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸とエタノール。主生成物は酢酸とエタノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸とエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0312"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルに「けん化」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "酢酸ナトリウムとエタノール"
+    ],
+    "explanation": "酢酸エチルにけん化を行うと酢酸ナトリウムとエタノールが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0313"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "酢酸エチルから酢酸ナトリウムとエタノールを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "けん化"
+    ],
+    "explanation": "酢酸エチルから酢酸ナトリウムとエタノールを得るにはけん化を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0314"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "酢酸エチルにけん化を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "酢酸ナトリウムとエタノール。主生成物は酢酸ナトリウムとエタノール。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物は酢酸ナトリウムとエタノール。",
+    "unitWeights": [
+      {
+        "id": "chem_carboxylic_ester",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0315"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセチレンに「水素付加」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "エチレン"
+    ],
+    "explanation": "アセチレンに水素付加を行うとエチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0316"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "アセチレンからエチレンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "水素付加"
+    ],
+    "explanation": "アセチレンからエチレンを得るには水素付加を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0317"
+  },
+  {
+    "type": "written",
+    "difficulty": 3,
+    "baseXp": 16,
+    "prompt": "アセチレンに水素付加を行ったときの主生成物を答えなさい。 根拠も説明しなさい。",
+    "modelAnswer": "エチレン。主生成物はエチレン。",
+    "criteria": [
+      "答えが正しい",
+      "根拠が説明されている",
+      "用語が適切"
+    ],
+    "explanation": "主生成物はエチレン。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に記述形式へ再構成",
+    "id": "orga_0318"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンに「付加重合」を行ったときの主生成物を答えなさい。",
+    "acceptedAnswers": [
+      "ポリエチレン"
+    ],
+    "explanation": "エチレンに付加重合を行うとポリエチレンが得られる。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0319"
+  },
+  {
+    "type": "short",
+    "difficulty": 3,
+    "baseXp": 14,
+    "prompt": "エチレンからポリエチレンを得る反応操作として答えなさい。",
+    "acceptedAnswers": [
+      "付加重合"
+    ],
+    "explanation": "エチレンからポリエチレンを得るには付加重合を行う。",
+    "unitWeights": [
+      {
+        "id": "chem_hydrocarbon",
+        "weight": 1.0
+      }
+    ],
+    "sourceLabel": "有機化学PDF教材を基に短答形式へ再構成",
+    "id": "orga_0320"
   }
 ];

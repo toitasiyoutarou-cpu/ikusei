@@ -895,6 +895,8 @@
         ${companionMarkup(q)}
         <article class="question-card">
           <h2>${chemText(q.prompt)}</h2>
+          ${q.image ? `<button class="question-page-image-button" data-action="open-question-image" aria-label="問題画像を拡大"><img class="question-page-image" src="${q.image}" alt="${escapeHtml(q.imageAlt || '問題資料')}"><span>画像をタップして拡大</span></button>` : ""}
+          ${q.sourceLabel ? `<p class="question-source">出典資料：${escapeHtml(q.sourceLabel)}</p>` : ""}
           ${inputNote}
           <div id="answer-zone">${answerMarkup(q)}</div>
           <div id="feedback-zone"></div>
@@ -929,6 +931,11 @@
       const val = Function(`"use strict"; return (${normalized})`)();
       return Number.isFinite(val) ? Math.round(val * 1e10) / 1e10 : null;
     } catch { return null; }
+  }
+  function openQuestionImage(src, alt) {
+    const modal = document.getElementById("modal");
+    modal.classList.remove("hidden");
+    modal.innerHTML = `<div class="modal-box question-image-modal"><button class="icon-btn" data-action="close-modal" aria-label="閉じる">×</button><img src="${src}" alt="${escapeHtml(alt || "問題資料")}"></div>`;
   }
   function handleCalc(action, key) {
     const display = document.getElementById("calc-display");
@@ -1130,6 +1137,7 @@
     else if(action==="open-reaction")openReactionPopup(button.dataset.atomic, button.dataset.reaction);
     else if(action==="back-element")openElementDetail(button.dataset.atomic);
     else if(action==="close-modal")closeModal();
+    else if (action === "open-question-image") { const q=session?.items?.[session.index]; if(q?.image) openQuestionImage(q.image,q.imageAlt); }
     else if(action==="select-profile-character"){
       if(button.dataset.type==="hero")save.selectedHeroId=button.dataset.id;else save.selectedPetId=button.dataset.id;
       persist(); renderPartners(); showToast("学習パートナーを変更しました");
